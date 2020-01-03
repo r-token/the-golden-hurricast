@@ -1,11 +1,13 @@
 import React from "react"
 import { graphql, Link } from 'gatsby'
+import NavigationBar from '../components/NavigationBar'
 import Header from '../components/Header'
 
 const Layout = ({data}) => {
     const { edges } = data.allMarkdownRemark
     return (
       <div>
+        <NavigationBar />
         <Header />
         <div
           style={{

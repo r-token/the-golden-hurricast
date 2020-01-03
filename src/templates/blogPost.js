@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
+import NavigationBar from '../components/NavigationBar'
 
 const Template = ({data, pageContext}) => {
     const { next, prev } = pageContext
@@ -9,6 +10,7 @@ const Template = ({data, pageContext}) => {
     const html = markdownRemark.html
     return (
       <div>
+        <NavigationBar />
         <h1 style={{ fontFamily: "avenir" }}>{title}</h1>
         <div
           className="blogpost"
