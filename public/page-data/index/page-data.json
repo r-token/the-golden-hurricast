@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"My second post","path":"/second-post","date":"2020-01-03"}}},{"node":{"frontmatter":{"title":"My first post","path":"/first-post","date":"2020-01-02"}}}]}},"pageContext":{"isCreatedByStatefulCreatePages":true}}}
