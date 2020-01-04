@@ -1,5 +1,7 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 import NavigationBar from '../components/NavigationBar'
 
 const Template = ({data, pageContext}) => {
@@ -11,21 +13,40 @@ const Template = ({data, pageContext}) => {
     return (
       <div>
         <NavigationBar />
-        <h1 style={{ fontFamily: "avenir" }}>{title}</h1>
+        <h2
+          style={{
+            marginTop: "30px",
+            marginLeft: "30px",
+            marginRight: "30px",
+            fontFamily: "Helvetica Neue"
+          }}
+        >
+          {title}
+        </h2>
+        <br />
         <div
           className="blogpost"
           dangerouslySetInnerHTML={{ __html: html }}
           style={{
-            fontFamily: "avenir"
+            marginLeft: "30px",
+            marginRight: "30px",
+            fontFamily: "Avenir"
           }}
         />
 
-        <div style={{ marginBottom: "1rem", fontFamily: "avenir" }}>
-          {next && <Link to={next.frontmatter.path}>Next</Link>}
-        </div>
-
-        <div style={{ fontFamily: "avenir" }}>
-          {prev && <Link to={prev.frontmatter.path}>Previous</Link>}
+        {/*footer*/}
+        <div>
+          <Navbar fixed="bottom" expand="lg" bg="light" variant="light">
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="mr-auto">
+                {prev && <Link to={prev.frontmatter.path}>Previous</Link>}
+              </Nav>
+              <Nav className="ml-auto">
+                {next && <Link to={next.frontmatter.path}>Next</Link>}
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
         </div>
       </div>
     );

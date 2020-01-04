@@ -2,11 +2,6 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import NavItem from "react-bootstrap/NavItem";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Form from "react-bootstrap/Form";
-import FormControl from "react-bootstrap/FormControl";
-import Button from "react-bootstrap/Button";
 
 const NavigationBar = () => {
   return (
@@ -18,6 +13,7 @@ const NavigationBar = () => {
             src={require("../../static/logo-navbar.png")}
             height="48"
             width="50"
+            alt="The Golden Hurricast logo"
             className="img-responsive"
           />
           The Golden Hurricast
@@ -34,7 +30,6 @@ const NavigationBar = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <br />
     </div>
   );
 };

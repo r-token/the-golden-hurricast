@@ -8,7 +8,7 @@ module.exports = {
   /* site config */
   siteMetadata: {
     title: `The Golden Hurricast`,
-    description: `A new blog covering Golden Hurricane athletics at The University of Tulsa`
+    description: `A new podcast and blog covering Golden Hurricane athletics at The University of Tulsa`
   },
   
   plugins: [
