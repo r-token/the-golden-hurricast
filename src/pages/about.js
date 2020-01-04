@@ -11,6 +11,7 @@ const AboutLayout = () => {
           marginTop: "30px",
           marginLeft: "30px",
           marginRight: "30px",
+          marginBottom: "30px",
           flexDirection: "column",
           alignItems: "center",
           fontFamily: "Helvetica Neue"
@@ -105,8 +106,7 @@ const AboutLayout = () => {
           Email:{" "}
           <a href="mailto:thegoldenhurricast@gmail.com">
             TheGoldenHurricast@gmail.com
-          </a>
-          <br />
+          </a> 
         </p>
       </div>
     </div>
