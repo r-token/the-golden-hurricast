@@ -23,11 +23,11 @@ const Layout = ({data}) => {
             <meta charSet="utf-8" />
             <title>The Golden Hurricast</title>
           </Helmet>
-          
+
           <h2>Blog</h2>
           <br />
           <p>
-            Affectionately known as Herc's Corner, our blog is named after our
+            Affectionately known as Herc's Corner, our blog is named after TU's
             former mascot Herc the Hurricane. Our goal with this blog is to dive
             deeper into stats, explore TU history, and write about interesting
             milestones as Tulsa athletics continues to progress.
