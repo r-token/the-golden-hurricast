@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -12,6 +13,11 @@ const Template = ({data, pageContext}) => {
     const html = markdownRemark.html
     return (
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>{title}</title>
+        </Helmet>
+
         <NavigationBar />
         <h2
           style={{
@@ -37,15 +43,12 @@ const Template = ({data, pageContext}) => {
         {/*footer*/}
         <div>
           <Navbar fixed="bottom" expand="lg" bg="light" variant="light">
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="mr-auto">
-                {prev && <Link to={prev.frontmatter.path}>Previous</Link>}
-              </Nav>
-              <Nav className="ml-auto">
-                {next && <Link to={next.frontmatter.path}>Next</Link>}
-              </Nav>
-            </Navbar.Collapse>
+            <Nav className="mr-auto">
+              {prev && <Link to={prev.frontmatter.path}>Previous</Link>}
+            </Nav>
+            <Nav className="ml-auto">
+              {next && <Link to={next.frontmatter.path}>Next</Link>}
+            </Nav>
           </Navbar>
         </div>
       </div>

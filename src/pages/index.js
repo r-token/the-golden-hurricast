@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { graphql, Link } from 'gatsby'
 import NavigationBar from '../components/NavigationBar'
 import HeroUnit from '../components/HeroUnit'
@@ -18,6 +19,11 @@ const Layout = ({data}) => {
             fontFamily: "Helvetica Neue"
           }}
         >
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>The Golden Hurricast</title>
+          </Helmet>
+          
           <h2>Blog</h2>
           <br />
           <p>

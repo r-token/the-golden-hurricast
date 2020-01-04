@@ -1,5 +1,5 @@
-import React from "react";
-import { StaticQuery, graphql } from "gatsby";
+import React from "react"
+import { StaticQuery, graphql } from "gatsby"
 
 const TitleAndDescription = ({ data }) => {
   const title = data.site.siteMetadata.title;

@@ -1,5 +1,6 @@
-import React from "react";
-import NavigationBar from "../components/NavigationBar";
+import React from "react"
+import { Helmet } from "react-helmet"
+import NavigationBar from "../components/NavigationBar"
 
 const AboutLayout = () => {
   return (
@@ -15,6 +16,11 @@ const AboutLayout = () => {
           fontFamily: "Helvetica Neue"
         }}
       >
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>About</title>
+        </Helmet>
+
         <h2>About Us</h2>
         <br />
         <p>
@@ -102,7 +108,6 @@ const AboutLayout = () => {
           </a>
           <br />
         </p>
-        
       </div>
     </div>
   );

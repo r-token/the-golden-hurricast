@@ -1,8 +1,8 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import { ButtonToolbar } from "react-bootstrap";
-import { SocialIcon } from 'react-social-icons';
+import React from "react"
+import "bootstrap/dist/css/bootstrap.min.css"
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import { ButtonToolbar } from "react-bootstrap"
+import { SocialIcon } from 'react-social-icons'
 
 const HeroUnit = () => {
     return (
