@@ -48,6 +48,8 @@ const SupportLayout = () => {
           of any amount via PayPal.
         </p>
 
+        <br />
+
         <p>
           <b>Way #2:</b> Sign up for a recurring monthly donation. You can do that by clicking{" "}
           <a

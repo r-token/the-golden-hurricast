@@ -62,8 +62,7 @@ const AboutLayout = () => {
           blog. A WordPress site was created, and Herc's Corner was officially
           born on September 19th, 2019. Matt (former Sports Editor for The
           Collegian) kicked things off by writing a couple stat-focused
-          articles, and Ryan joined in with what is still our most popular blog
-          post {""}
+          articles, and Ryan joined in with {""}
           <a
             rel="noopener noreferrer"
             target="_blank"
@@ -71,7 +70,7 @@ const AboutLayout = () => {
           >
             "Tulsa vs Everybody: Picking New Rivals"
           </a>
-          .
+          . It's been a joint effort ever since.
         </p>
 
         <p>
