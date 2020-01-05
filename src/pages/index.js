@@ -14,6 +14,7 @@ const Layout = ({data}) => {
           style={{
             marginLeft: "30px",
             marginRight: "30px",
+            marginBottom: "30px",
             flexDirection: "column",
             alignItems: "center",
             fontFamily: "Helvetica Neue"

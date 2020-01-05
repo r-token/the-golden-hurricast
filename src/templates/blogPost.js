@@ -36,6 +36,7 @@ const Template = ({data, pageContext}) => {
           style={{
             marginLeft: "30px",
             marginRight: "30px",
+            marginBottom: "30px",
             fontFamily: "Avenir"
           }}
         />
