@@ -23,10 +23,15 @@ const NavigationBar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link href="/">Blog</Nav.Link>
-            <Nav.Link target="_blank" href="https://anchor.fm/thegoldenhurricast">
+            <Nav.Link
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://anchor.fm/thegoldenhurricast"
+            >
               Podcast
             </Nav.Link>
             <Nav.Link href="../about">About</Nav.Link>
+            <Nav.Link href="../support">Support</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

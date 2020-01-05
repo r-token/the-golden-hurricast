@@ -37,7 +37,7 @@ const AboutLayout = () => {
 
         <br />
 
-        <h5> Podcast </h5>
+        <h5> Our Podcast </h5>
         <hr />
         <p>
           Inspired by the past success of the late Reign Cane Sports podcast,
@@ -55,7 +55,7 @@ const AboutLayout = () => {
 
         <br />
 
-        <h5> Blog </h5>
+        <h5> Our Blog </h5>
         <hr />
         <p>
           In the fall of 2019, we decided to up our game a bit and create a
@@ -65,6 +65,7 @@ const AboutLayout = () => {
           articles, and Ryan joined in with what is still our most popular blog
           post {""}
           <a
+            rel="noopener noreferrer"
             target="_blank"
             href="https://hercscorner.home.blog/2019/10/05/tulsa-vs-everybody-picking-new-rivals/"
           >
@@ -85,28 +86,40 @@ const AboutLayout = () => {
 
         <br />
 
-        <h5> Contact </h5>
+        <h5> Contact Us </h5>
         <hr />
         <p>
           Twitter:{" "}
-          <a target="_blank" href="https://twitter.com/goldenhurricast">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://twitter.com/goldenhurricast"
+          >
             @GoldenHurricast
           </a>
           <br />
           Instagram:{" "}
-          <a target="_blank" href="https://instagram.com/goldenhurricast">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://instagram.com/goldenhurricast"
+          >
             @GoldenHurricast
           </a>
           <br />
           Anchor:{" "}
-          <a target="_blank" href="https://anchor.fm/thegoldenhurricast">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://anchor.fm/thegoldenhurricast"
+          >
             anchor.fm/TheGoldenHurricast
           </a>
           <br />
           Email:{" "}
           <a href="mailto:thegoldenhurricast@gmail.com">
             TheGoldenHurricast@gmail.com
-          </a> 
+          </a>
         </p>
       </div>
     </div>
