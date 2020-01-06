@@ -4,10 +4,13 @@ Our long awaited reaction to Tulsa being selected as the tenth best team in the 
 
 ## Pat
 I’m not surprised the media picked us tenth in the conference. We finished seventh last year despite having the most talented player in program history since Paul Pressey and a preseason 2nd team All-Conference point guard. If you add in Curran Scott, we lost three of the four best shooters on the team—Jeriah Horne is the only one returning.
+----
 Frank Haith has brought in a lot of talent, especially from the transfer market. We haven’t had someone with size like Emmanuel Ugboh since “Big E” (Emmanuel Ezichinonso), but Ugboh can actually play basketball, which is important. Isaiah Hill is the best high school recruit Tulsa has had in a long time and Brandon Rachal looks like a solid wing player, but it’s hard to have much faith in this team with Frank Haith at the helm. 
+----
 Haith has given us no reason to believe in his five years in charge—or really at any of his other stops—that he can develop talent and get them to mold together as a cohesive unit. He hasn’t won 20 games at TU without Shaq Harrison and James Woodard, aka Danny Manning’s recruits, but that could change this year with our god awful non-conference schedule. 
+----
 I get why TU fans are so critical of Montgomery, but Frank Haith is a much worse coach and TU basketball will always be in the bottom half of the sixth best conference in America with Frank in charge. 
-﻿
+----
 ## Ryan
 I agree with Pat in that I’m not surprised the coaches picked us to finish tenth in the conference. I’m more than used to the #disrespect this point. However, just because I’m not surprised doesn’t mean I agree. Tulsa will finish better than tenth this year, and Frank Haith will continue his good-but-bad streak of always finishing higher than where his teams are picked in the preseason standings.
 ﻿ We lost a lot of talent last year with DaQuan Jeffries to the NBA, Sterling Taplin to Apollon Limassol in Cyprus, and Curran Scott to Clemson, but the big shoes that were left seem to have been filled. Jeriah Horne broke out in a big way last year and looks to take the reigns that DaQuan left him, Martins Igbanu and newcomer Emmanuel Ugboh make for a big, powerful front-court, and a mixture of Elijah Joiner, Brandon Rachal, highly touted freshman Isaiah Hill, and Darien Jackson creates an underrated and deceptively talented back-court. I think our back-court will actually be considerably improved this year compared to last year. Add in relative unknowns Josh Earley, Reggie Jones, and a potential breakout star in LSU transfer Brandon Rachal, and you’ve got what could actually be a surprisingly strong team.
