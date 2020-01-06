@@ -6,8 +6,6 @@ tags: ['football', 'hype']
 excerpt: "A preview of my first post"
 ---
 
-
-# Tulsa vs Everybody: Picking New Rivals
 One of the great things about sports is that they provide an opportunity to irrationally get angry at people for having different opinions as you in a way that is still acceptable in society. I am of course referring to rivalries. With the recent decision by the American Athletic Conference to get rid of divisions starting next football season, the concern came up about maintaining some natural rivalries between schools because of the new rotating schedule. One possible solution people have suggested was the creation of two new permanent rivals for every school that you would play each year while the rest of the schedule rotates. 
 This creates the exciting question of just who those rivals would be for Tulsa. There are a lot of options, but there are four in particular that we think make the most sense. So to have a little fun, Ryan and I broke down our takes on why Houston, SMU, Memphis, and Tulane make the most sense as the new Golden Hurricane rivals.
 ## Houston
@@ -18,6 +16,7 @@ This creates the exciting question of just who those rivals would be for Tulsa. 
 - Biggest Loss: 100–6 (1968)
 - Shared Conferences: CUSA (8), MVC (9)
 ### Opinions:
+
 #### Matt
 I don’t think there is a more perfect team in the American better suited to be our rival than the Houston Cougars. The matchup has got everything you could ask for: history, (general) proximity, old grudges and more. Tulsa is Houston’s most played opponent in their history and Houston is our 4th most played, technically the second highest in the conference after Wichita State, but highest with an active football program. 
 We’ve been in the same conference for almost 25 years spanning the Missouri Valley and Conference USA, but even when we were independents we played almost every year. Not only are we Houston’s most played opponent, but we’re the only team in the top-5 that isn’t from Texas. The team from Tulsa, OK was the first college team to win a game in the Astrodome for goodness’ sake! What more could you ask for? 
@@ -27,7 +26,6 @@ Even in recent history, as Tulsa has struggled to maintain football consistency 
 Though Houston is further away than both SMU and Memphis, it’s still the third closest football school in our conference. It’s a reasonable travel destination and the city itself is massive and has loads of fun stuff to do and see. Plus it’s got the oil connection. Tulsa’s bread and butter industry is oil. Tons of energy companies started in or around the Tulsa area. Houston’s biggest market is oil as well (although they might be a wee bit bigger of a market). I think the only school that would even be on the same level as Houston would be SMU just because it’s the easiest school to travel to.  
 
 Potential rivalry name: Crude Control
-
 #### Ryan
 Matt makes a compelling case for Houston here, and it’s hard for me to add anything meaningful to his argument. However, as you’ll read next, I list SMU as my favorite rivalry candidate. So Houston isn’t my first choice, and I’m likely going to stoke the fire a bit when I say this, but Houston wouldn’t even be my second choice for a rivalry opponent. 
 I have a deep level of respect for our history with Houston, and would be thrilled if we did get to play them every year, but I think there are two other options in this list that would be even better. Since I can’t add more for why Houston would make for a great rivalry on top of what Matt’s already said, I’ll argue for why they shouldn’t be our rival:
