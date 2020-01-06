@@ -1,3 +1,11 @@
+---
+path: "/Rivalries"
+date: "10/05/2019"
+title: "Tulsa vs Everybody: Picking New Rivals"
+tags: ['football', 'hype']
+excerpt: "A preview of my first post"
+---
+
 
 # Tulsa vs Everybody: Picking New Rivals
 One of the great things about sports is that they provide an opportunity to irrationally get angry at people for having different opinions as you in a way that is still acceptable in society. I am of course referring to rivalries. With the recent decision by the American Athletic Conference to get rid of divisions starting next football season, the concern came up about maintaining some natural rivalries between schools because of the new rotating schedule. One possible solution people have suggested was the creation of two new permanent rivals for every school that you would play each year while the rest of the schedule rotates. 
