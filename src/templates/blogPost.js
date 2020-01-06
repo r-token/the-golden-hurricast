@@ -32,13 +32,14 @@ const Template = ({data, pageContext}) => {
         <br />
         <div
           className="blogpost"
-          dangerouslySetInnerHTML={{ __html: html }}
           style={{
             marginLeft: "30px",
             marginRight: "30px",
             marginBottom: "30px",
+            paddingBottom: "30px",
             fontFamily: "Avenir"
           }}
+          dangerouslySetInnerHTML={{ __html: html }}
         />
 
         {/*footer*/}

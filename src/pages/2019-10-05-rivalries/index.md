@@ -170,17 +170,3 @@ As opposed to Matt, my opinions have not been swayed by the chatter of the masse
 4. Memphis - 20+ or Bust
 
 Do you agree with our rankings? Send us your personal rankings on Twitter or Instagram @GoldenHurricast or send us an email at thegoldenhurricast@gmail.com. Thanks for reading and remember, Stay Golden!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
