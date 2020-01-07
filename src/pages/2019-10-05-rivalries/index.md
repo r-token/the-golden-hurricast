@@ -66,6 +66,7 @@ TU apparently came up with this rivalry name in 2015, but, for reasons still unk
 The first reference: December 29, 2015
 
 The second and final reference: February 9, 2016
+
 Only two references ever, but I was hooked from the beginning. Why did they get rid of it? I have no idea. Please bring this back, @TulsaHurricane.
 
 Second, we are two very similar schools. Of the four options we’re discussing here, SMU’s 6,500 undergraduates are the closest to Tulsa’s 3,200. TU loves to tout that it’s the smallest D-I FBS school, and having a bona-fide rivalry with a school this close in size simply makes sense. 
