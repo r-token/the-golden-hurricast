@@ -17,7 +17,7 @@ This creates the exciting question of just who those rivals would be for Tulsa. 
 - Shared Conferences: CUSA (8), MVC (9)
 
 ### Opinions:
-
+----
 #### Matt
 I don’t think there is a more perfect team in the American better suited to be our rival than the Houston Cougars. The matchup has got everything you could ask for: history, (general) proximity, old grudges and more. Tulsa is Houston’s most played opponent in their history and Houston is our 4th most played, technically the second highest in the conference after Wichita State, but highest with an active football program. 
 We’ve been in the same conference for almost 25 years spanning the Missouri Valley and Conference USA, but even when we were independents we played almost every year. Not only are we Houston’s most played opponent, but we’re the only team in the top-5 that isn’t from Texas. The team from Tulsa, OK was the first college team to win a game in the Astrodome for goodness’ sake! What more could you ask for? 
@@ -52,7 +52,7 @@ Potential rivalry name: I really love Matt’s idea here, so I’ll echo Crude C
 - Shared Conferences: CUSA (8), WAC (9)
 
 ### Opinions:
-
+----
 #### Ryan
 SMU is my favorite potential rival for several reasons.
 First, if you listen to the podcast, you know that I am a staunch proponent of the rivalry formerly known as The Boomtown Showdown. Though it has its critic, stares at Pat, I will stand behind this beautiful rivalry name until I die. It’s unique, fun, and *historically accurate*—Tulsa and Dallas are even mentioned in the same sentence in an article about historic oil boomtowns from The Encyclopedia of the Great Plains: 
@@ -100,7 +100,7 @@ Already existing rivalry name: Boomtown Showdown
 - Shared Conferences: CUSA (8), MVC (5)
 
 ### Opinions:
-
+----
 #### Ryan
 Perhaps controversially, I would put Memphis down as my fourth choice for a team to have a permanent rivalry game with. This is almost definitely due to recency bias. I went to TU from 2013–2017. Since 2013, Tulsa has played Memphis five times and lost four of them. Though our one win over them was nearly a 30-point win, the four losses were all by 20 points or more. 
 
@@ -136,7 +136,7 @@ Potential rivalry name: Walking in Memphis on Tulsa Time
 - Shared Conferences: CUSA (9)
 
 ### Opinions:
-
+----
 #### Matt
 Tulane might just be the perfect rival for Tulsa. I mean they literally abbreviate their school as TU. If you are a fan of TU, this should really grind your gears. How dare they be TU. We’re TU. That should be enough to fuel a rivalry for generations, but I’m told that’s not a good enough reason. So here’s some facts about our schools I guess.
 
