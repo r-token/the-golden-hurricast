@@ -65,7 +65,7 @@ TU apparently came up with this rivalry name in 2015, but, for reasons still unk
 
 The first reference: December 29, 2015
 
-![Tweet One](rivalries-tweet-1.png)
+![Tweet One](/blog_images/rivalries-tweet-1.png)
 
 The second and final reference: February 9, 2016
 
