@@ -43,7 +43,7 @@ const SupportLayout = () => {
             target="_blank"
             href="https://paypal.me/thegoldenhurricast"
           >
-            one time donation
+            one-time donation
           </a>{" "}
           of any amount via PayPal.
         </p>
