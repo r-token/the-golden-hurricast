@@ -14,7 +14,7 @@ const SupportLayout = () => {
           marginBottom: "30px",
           flexDirection: "column",
           alignItems: "center",
-          fontFamily: "Helvetica Neue"
+          fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'"
         }}
       >
         <Helmet>
@@ -51,7 +51,8 @@ const SupportLayout = () => {
         <br />
 
         <p>
-          <b>Way #2:</b> Sign up for a recurring monthly donation. You can do that by clicking{" "}
+          <b>Way #2:</b> Sign up for a recurring monthly donation. You can do
+          that by clicking{" "}
           <a
             rel="noopener noreferrer"
             target="_blank"

@@ -22,9 +22,11 @@ const Template = ({data, pageContext}) => {
         <h2
           style={{
             marginTop: "30px",
-            marginLeft: "30px",
-            marginRight: "30px",
-            fontFamily: "Helvetica Neue"
+            marginLeft: "8%",
+            marginRight: "8%",
+            fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'",
+            fontSize: "40px",
+            fontWeight: "bold"
           }}
         >
           {title}
@@ -33,11 +35,12 @@ const Template = ({data, pageContext}) => {
         <div
           className="blogpost"
           style={{
-            marginLeft: "30px",
-            marginRight: "30px",
+            marginLeft: "8%",
+            marginRight: "8%",
             marginBottom: "30px",
             paddingBottom: "30px",
-            fontFamily: "Avenir"
+            fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'",
+            fontSize: "18px"
           }}
           dangerouslySetInnerHTML={{ __html: html }}
         />

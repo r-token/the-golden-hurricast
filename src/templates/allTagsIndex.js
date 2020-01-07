@@ -14,15 +14,14 @@ const AllTagsTemplate = ({pageContext}) => {
             marginRight: "30px",
             flexDirection: "column",
             alignItems: "center",
-            fontFamily: "Helvetica Neue"
+            fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'"
           }}
         >
-
           <h2>Tags</h2>
           <br />
           <p>
-            Click on any of the tags below to see all the posts we've written about
-            that category.
+            Click on any of the tags below to see all the posts we've written
+            about that category.
           </p>
 
           <hr />
@@ -33,9 +32,10 @@ const AllTagsTemplate = ({pageContext}) => {
                 <li key={index}>
                   <Link
                     style={{
-                      fontFamily: "Helvetica Neue",
+                      fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'",
                       fontSize: "18px"
-                    }} to={`tags/${tagName}`}
+                    }}
+                    to={`tags/${tagName}`}
                   >
                     {tagName}
                   </Link>
@@ -44,7 +44,6 @@ const AllTagsTemplate = ({pageContext}) => {
             })}
           </ul>
         </div>
-
       </div>
     );
 }

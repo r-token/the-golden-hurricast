@@ -17,7 +17,7 @@ const Layout = ({data}) => {
             marginBottom: "30px",
             flexDirection: "column",
             alignItems: "center",
-            fontFamily: "Helvetica Neue"
+            fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'"
           }}
         >
           <Helmet>
@@ -34,8 +34,8 @@ const Layout = ({data}) => {
             milestones as Tulsa athletics continues to progress.
           </p>
           <p>
-            You can <Link to="/tags">browse posts by tag</Link>, or view all
-            of our posts below.
+            You can <Link to="/tags">browse posts by tag</Link>, or view all of
+            our posts below.
           </p>
 
           <br />
@@ -48,7 +48,7 @@ const Layout = ({data}) => {
               <div key={frontmatter.path} style={{ marginBottom: "1rem" }}>
                 <Link
                   style={{
-                    fontFamily: "Helvetica Neue",
+                    fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'",
                     fontSize: "18px"
                   }}
                   to={frontmatter.path}

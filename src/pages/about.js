@@ -14,7 +14,7 @@ const AboutLayout = () => {
           marginBottom: "30px",
           flexDirection: "column",
           alignItems: "center",
-          fontFamily: "Helvetica Neue"
+          fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'"
         }}
       >
         <Helmet>

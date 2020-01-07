@@ -14,13 +14,14 @@ const SingleTagTemplate = ({ pageContext }) => {
           marginRight: "30px",
           flexDirection: "column",
           alignItems: "center",
-          fontFamily: "Helvetica Neue"
+          fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'"
         }}
       >
         <h2>Posts about {`${tagName}`}</h2>
         <br />
         <p>
-          These are all of the posts we've ever written that relate to {`${tagName}`}:
+          These are all of the posts we've ever written that relate to{" "}
+          {`${tagName}`}:
         </p>
 
         <hr />
@@ -33,7 +34,8 @@ const SingleTagTemplate = ({ pageContext }) => {
                   style={{
                     fontFamily: "Helvetica Neue",
                     fontSize: "18px"
-                  }} to={post.frontmatter.path}
+                  }}
+                  to={post.frontmatter.path}
                 >
                   {post.frontmatter.title}
                 </Link>
