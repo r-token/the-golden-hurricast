@@ -15,6 +15,7 @@ This creates the exciting question of just who those rivals would be for Tulsa. 
 - Biggest Win: 56–7 (2007)
 - Biggest Loss: 100–6 (1968)
 - Shared Conferences: CUSA (8), MVC (9)
+
 ### Opinions:
 
 #### Matt
@@ -26,15 +27,22 @@ Even in recent history, as Tulsa has struggled to maintain football consistency 
 Though Houston is further away than both SMU and Memphis, it’s still the third closest football school in our conference. It’s a reasonable travel destination and the city itself is massive and has loads of fun stuff to do and see. Plus it’s got the oil connection. Tulsa’s bread and butter industry is oil. Tons of energy companies started in or around the Tulsa area. Houston’s biggest market is oil as well (although they might be a wee bit bigger of a market). I think the only school that would even be on the same level as Houston would be SMU just because it’s the easiest school to travel to.  
 
 Potential rivalry name: Crude Control
+
 #### Ryan
 Matt makes a compelling case for Houston here, and it’s hard for me to add anything meaningful to his argument. However, as you’ll read next, I list SMU as my favorite rivalry candidate. So Houston isn’t my first choice, and I’m likely going to stoke the fire a bit when I say this, but Houston wouldn’t even be my second choice for a rivalry opponent. 
+
 I have a deep level of respect for our history with Houston, and would be thrilled if we did get to play them every year, but I think there are two other options in this list that would be even better. Since I can’t add more for why Houston would make for a great rivalry on top of what Matt’s already said, I’ll argue for why they shouldn’t be our rival:
+
 Once given the opportunity, it is clear that Houston will jump to leave the AAC for a Power Five conference. They are spending Power Five dollars on coaches for both basketball (retaining Kelvin Sampson) and football (pulling Dana Holgorsen from P5 West Virginia). They are spending Power Five dollars on facilities (appx. $275 million since 2014). And they have a Power Five-like booster in Tilman Fertitta, who ponies up the money they need for projects like this. 
+
 When the Big 12 was doing their whole open-tryout for joining the conference in 2016, Houston was at the top of nearly everyone’s list as a potential team to get the call. Their AD at the time, Hunter Yuracheck, said that Houston is ready to do “whatever we have to do” to join the Big 12. Yuracheck is now the AD at Arkansas, but their philosophy remains the same. The current university president, Renu Khator, is on the Big 12 warpath. There’s even a clause in head football coach Dana Holgorsen’s contract that states if UH is invited to join a Power Five conference at any time during his contract, he will receive a $1 million bonus and unspecified salary increase. 
+
 So make no mistake, this is what Houston wants, and it would be very disappointing to lose a rival to another conference. Part of me says to myself, “well, we should enjoy it while we have it, then”. But if Houston is just waiting to get out of this conference, they’re not going to be as excited to play us, and I want a rivalry game that has both teams excited to play each other  every year. Because of this, I’m looking to the future and would rather create a rivalry with a newer, improving foe with which we share many commonalities.
+
 My other argument against Houston is purely a selfish one. I like to travel, and will very likely be traveling to these rivalry games whenever they’re away. Considering the fact that my #1 vote went to SMU, I’d rather our second permanent opponent not also be in the state of Texas simply for the purposes of travel diversity. A bit silly, and certainly selfish, but I’d definitely enjoy it more if one of our rivalry games was in Texas and the other was in Memphis or New Orleans.  
 
 Potential rivalry name: I really love Matt’s idea here, so I’ll echo Crude Control
+
 ## Southern Methodist
 - First Game: 1935
 - Number of Matchups: 25 (9th)
@@ -42,23 +50,34 @@ Potential rivalry name: I really love Matt’s idea here, so I’ll echo Crude C
 - Biggest Win: 38–7 (2011)
 - Biggest Loss: 33–3 (1998)
 - Shared Conferences: CUSA (8), WAC (9)
+
 ### Opinions:
+
 #### Ryan
 SMU is my favorite potential rival for several reasons.
 First, if you listen to the podcast, you know that I am a staunch proponent of the rivalry formerly known as The Boomtown Showdown. Though it has its critic, stares at Pat, I will stand behind this beautiful rivalry name until I die. It’s unique, fun, and *historically accurate*—Tulsa and Dallas are even mentioned in the same sentence in an article about historic oil boomtowns from The Encyclopedia of the Great Plains: 
+
 > “At the eastern margins of the Great Plains, two major management and finance centers–Dallas, Texas, and Tulsa, Oklahoma– became the hometowns of wealthy oil investors who founded their own corporations...”
 > 
 > The Encyclopedia of the Great Plains
 
 TU apparently came up with this rivalry name in 2015, but, for reasons still unknown, quickly abandoned the moniker after the 2016 football season. As far as I know, the below screenshots are the only two tweets from TU that ever reference this name.
+
 The first reference: December 29, 2015
+
 The second and final reference: February 9, 2016
 Only two references ever, but I was hooked from the beginning. Why did they get rid of it? I have no idea. Please bring this back, @TulsaHurricane.
+
 Second, we are two very similar schools. Of the four options we’re discussing here, SMU’s 6,500 undergraduates are the closest to Tulsa’s 3,200. TU loves to tout that it’s the smallest D-I FBS school, and having a bona-fide rivalry with a school this close in size simply makes sense. 
+
 Tulsa and SMU are similar in several ways beyond just student population as well. We are both private universities who have a basis in Protestant Christianity (Tulsa: Presbyterian, SMU: Methodist), we both have endowments of over one billion dollars, we both have blue and red in our colors, we’re both in the northeastern corner of our respective states, etc. I could go on, but I’ll stop there for all of your sakes. Bottom line: we’re similar schools, and that adds to a fun rivalry.
+
 Third, and most obviously, we’re close by. Except for Wichita State—who doesn’t play football—SMU is the closest school to us in the conference; and it’s easy to get there. If you leave straight from TU, just take 75-South for about 255 miles and you’ll pretty much be on SMU’s campus. If you want a good rivalry game, make it easy for fans to travel to the opposing school. It doesn’t get much easier than that.
+
 And finally, we have a lot of history. As noted above, we first played in 1935—much earlier than all of the other options we have here. However, we are behind both Houston and Memphis in number of total matchups. Regardless, games against SMU always seem to be good, hard-fought battles. Just last year, SMU was a 5-win team, and a 2–9 Tulsa team beat them in the last game of the season to keep them out of a bowl game. 
+
 Further, there hasn’t been a game decided by more than ten points since 2011 when we beat SMU 38–7. It’s almost always a good game, and you can’t ask for more than that. We also have a fantastic history in basketball. The most notable recent basketball games that come to mind include the 2015-2016 season when Tulsa beat #16 SMU on the road to break their 15-game home winning streak, and in 2014 when James Woodard set a conference record, hitting ten three-pointers against SMU in a loss in the American Conference tournament.
+
 Should the conference choose to go with two permanent rivalry games for each team starting next season, SMU needs to be one of those two teams.
   
 
@@ -66,6 +85,7 @@ Potential rivalry name: The Boomtown Showdown (of course)
 
 #### Matt
 Ryan pretty much nailed it on the head here. SMU makes a ton of sense as a rival and after coming into these rankings with my mind made up one way, I am now in complete shambles because all four of these schools are great options and Ryan’s take on SMU was one the most convincing cases I’ve seen. 
+
 Here’s my line of thinking; on one hand, Dallas is super close, one of my best friends lives in Fort Worth, and I hate SMU which all make this rivalry make sense. But, on the other hand… you know what I am actually struggling to come up with some reasons against SMU. I guess their fans annoyed me one time in college and people from Texas have that superiority complex where they believe Texas is better than everything else. Sigh, which honestly makes me want this rivalry more. Pony Down Dallas.
   
 
@@ -78,7 +98,9 @@ Already existing rivalry name: Boomtown Showdown
 - Biggest Win: 48–7 (2010)
 - Biggest Loss: 48–12 (1961)
 - Shared Conferences: CUSA (8), MVC (5)
+
 ### Opinions:
+
 #### Ryan
 Perhaps controversially, I would put Memphis down as my fourth choice for a team to have a permanent rivalry game with. This is almost definitely due to recency bias. I went to TU from 2013–2017. Since 2013, Tulsa has played Memphis five times and lost four of them. Though our one win over them was nearly a 30-point win, the four losses were all by 20 points or more. 
 
@@ -112,7 +134,9 @@ Potential rivalry name: Walking in Memphis on Tulsa Time
 - Biggest Win: 56–7 (2008)
 - Biggest Loss: 62–28 (2017)
 - Shared Conferences: CUSA (9)
+
 ### Opinions:
+
 #### Matt
 Tulane might just be the perfect rival for Tulsa. I mean they literally abbreviate their school as TU. If you are a fan of TU, this should really grind your gears. How dare they be TU. We’re TU. That should be enough to fuel a rivalry for generations, but I’m told that’s not a good enough reason. So here’s some facts about our schools I guess.
 
@@ -137,15 +161,11 @@ The most important factor here has got to be the similarity in university name a
 
 Next is a superficial, but still important, factor. The single best uniform in college football belongs to Tulane. Look at these beauties:
 
-![]()
 The color combination is one thing, but the colors alone don’t set this uniform apart from the rest of college football. The mascot on the helmet WITH this color combination is what does it. The mascot in question here is the Angry Wave, and it is the stuff of legends.
 
-![]()
 That, dear reader, is a fantastic mascot. Tulane originally came up with this in 1963. However, in the worst decision that university has ever made, they ditched it in 1998. Fast forward to 2016, and Tulane brings it back with a vengeance. 
 
 The Angry Wave is on midfield, and a huge, 3D Angry Wave lives on top of their video board. Or at least it did at some point, I can’t confirm whether it’s still there or not. Just imagine if Tulsa brought back Herc, our cute little popcorn/cloud mascot. We could have the duel of the century. I can see it now.
-
-![]()
 
 Enough on the uniforms and mascots, though. Another reason Tulane would make for a great rival is the fact that they’re in the wonderful city of New Orleans. If you hang out in New Orleans for the day, you’ll have a huge variety of unique things to do. Take a walk through the French Quarter? Easy. Go on a swamp tour in a kayak? Piece of cake. Practice some casual voodoo? Not a problem. New Orleans is a great city that’s incredibly different than Tulsa. This allows for a really nice, different experience than what we’d find elsewhere in the conference, and I think the fans would enjoy that. 
 
@@ -154,6 +174,7 @@ Finally, Tulane is an exciting, up-and-coming team. They were nowhere to be foun
 No doubt rivalry name: The Battle of the Color-Based Water Phenomenons
 
 ## Final Rankings
+
 ### Matt
 I’m not going to lie, when we came up with this article idea I had two teams set in stone in my mind. Even when I started writing this I had a clear hierarchy, but after working on this with Ryan my original rankings have fallen by the wayside and I don’t know what’s true anymore. So here’s my new ranking.
 
@@ -161,6 +182,7 @@ I’m not going to lie, when we came up with this article idea I had two teams s
 2. (2A) Memphis - Walking in Memphis on Tulsa Time
 3. (2B) SMU - Boomtown Showdown
 4. Houston - Crude Control
+
 ### Ryan
 As opposed to Matt, my opinions have not been swayed by the chatter of the masses. While doing research for this article, I was pretty sure my #1 was going to be either Houston or SMU, but I also knew that they wouldn’t both be in my top 2. After further research, I decided on SMU as my #1 for the reasons listed above - the other three fall into place for the reasons detailed in the article.
 
