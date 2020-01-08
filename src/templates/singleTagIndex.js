@@ -1,6 +1,7 @@
 import React from "react";
 import NavigationBar from "../components/NavigationBar";
 import { Link } from "gatsby";
+import "../styles/style.css";
 
 const SingleTagTemplate = ({ pageContext }) => {
     const { posts, tagName } = pageContext
@@ -14,7 +15,6 @@ const SingleTagTemplate = ({ pageContext }) => {
           marginRight: "30px",
           flexDirection: "column",
           alignItems: "center",
-          fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'"
         }}
       >
         <h2>Posts about {`${tagName}`}</h2>
@@ -32,7 +32,6 @@ const SingleTagTemplate = ({ pageContext }) => {
               <li key={index}>
                 <Link
                   style={{
-                    fontFamily: "Helvetica Neue",
                     fontSize: "18px"
                   }}
                   to={post.frontmatter.path}

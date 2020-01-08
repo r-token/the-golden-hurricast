@@ -1,0 +1,31 @@
+/* basically anything bigger than a smartphone */
+@media screen and (min-width: 680px) {
+    .blogpost {
+        width: 650px;
+    }
+
+    #blogAlignment {
+        text-align: center;
+    }
+}
+
+/* smartphone size and up */
+@media screen and (max-width: 680px) {
+    .blogpost {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #blogAlignment {
+        text-align: left;
+    }
+}
+
+.blogpost {
+    display: inline-block;
+    text-align: left;
+}
+
+body {
+    font-family: "Helvetica Neue", "Helvetica", "Arial";
+}

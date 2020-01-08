@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet"
 import { graphql, Link } from 'gatsby'
 import NavigationBar from '../components/NavigationBar'
 import HeroUnit from '../components/HeroUnit'
+import "../styles/style.css";
 
 const Layout = ({data}) => {
     const { edges } = data.allMarkdownRemark
@@ -17,7 +18,6 @@ const Layout = ({data}) => {
             marginBottom: "30px",
             flexDirection: "column",
             alignItems: "center",
-            fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'"
           }}
         >
           <Helmet>
@@ -48,7 +48,6 @@ const Layout = ({data}) => {
               <div key={frontmatter.path} style={{ marginBottom: "1rem" }}>
                 <Link
                   style={{
-                    fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'",
                     fontSize: "18px"
                   }}
                   to={frontmatter.path}

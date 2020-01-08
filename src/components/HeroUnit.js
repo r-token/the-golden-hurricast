@@ -33,6 +33,19 @@ const HeroUnit = () => {
               style={{ height: "35px", width: "35px", marginLeft: "20px" }}
               rel="noopener noreferrer"
               target="_blank"
+              url="https://itunes.apple.com/us/podcast/the-golden-hurricast/id1435008302"
+              img
+            />
+            <SocialIcon
+              style={{ height: "35px", width: "35px", marginLeft: "20px" }}
+              rel="noopener noreferrer"
+              target="_blank"
+              url="https://open.spotify.com/show/16ik0AuBrpVBfWn73jlJio"
+            />
+            <SocialIcon
+              style={{ height: "35px", width: "35px", marginLeft: "20px" }}
+              rel="noopener noreferrer"
+              target="_blank"
               url="https://anchor.fm/thegoldenhurricast"
             />
             <SocialIcon

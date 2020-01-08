@@ -1,6 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import NavigationBar from "../components/NavigationBar"
+import "../styles/style.css";
 
 const AboutLayout = () => {
   return (
@@ -13,8 +14,7 @@ const AboutLayout = () => {
           marginRight: "30px",
           marginBottom: "30px",
           flexDirection: "column",
-          alignItems: "center",
-          fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'"
+          alignItems: "center"
         }}
       >
         <Helmet>
@@ -44,7 +44,7 @@ const AboutLayout = () => {
           The Golden Hurricast took up the mantle and officially debuted in
           August of 2018. Our first podcast episode was titled 'Stay Golden',
           and we still open each episode of our podcast with an audio clip of
-          Dane Evans saying that.
+          Dane Evans saying that at the end of our interview with him.
         </p>
 
         <p>
@@ -66,7 +66,7 @@ const AboutLayout = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://hercscorner.home.blog/2019/10/05/tulsa-vs-everybody-picking-new-rivals/"
+            href="https://www.thegoldenhurricast.com/Rivalries"
           >
             "Tulsa vs Everybody: Picking New Rivals"
           </a>

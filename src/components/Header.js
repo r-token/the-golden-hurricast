@@ -11,7 +11,6 @@ const TitleAndDescription = ({ data }) => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'"
       }}
     >
       <h2 style={{ marginBottom: 0 }}>{title}</h2>

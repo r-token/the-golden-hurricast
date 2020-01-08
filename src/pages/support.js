@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import NavigationBar from "../components/NavigationBar";
+import "../styles/style.css";
 
 const SupportLayout = () => {
   return (
@@ -14,7 +15,6 @@ const SupportLayout = () => {
           marginBottom: "30px",
           flexDirection: "column",
           alignItems: "center",
-          fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'"
         }}
       >
         <Helmet>

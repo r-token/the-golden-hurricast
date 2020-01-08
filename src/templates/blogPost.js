@@ -4,6 +4,7 @@ import { graphql, Link } from 'gatsby'
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavigationBar from '../components/NavigationBar'
+import '../styles/style.css'
 
 const Template = ({data, pageContext}) => {
     const { next, prev } = pageContext
@@ -12,34 +13,31 @@ const Template = ({data, pageContext}) => {
     const title = markdownRemark.frontmatter.title
     const html = markdownRemark.html
     return (
-      <div>
+      <div id = "blogAlignment">
         <Helmet>
           <meta charSet="utf-8" />
           <title>{title}</title>
         </Helmet>
 
         <NavigationBar />
-        <h2
-          style={{
-            marginTop: "30px",
-            marginLeft: "8%",
-            marginRight: "8%",
-            fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'",
-            fontSize: "40px",
-            fontWeight: "bold"
-          }}
-        >
-          {title}
-        </h2>
+
+        <div>
+          <h2
+            className="blogpost"
+            style={{
+              marginTop: "30px",
+              fontSize: "40px",
+              fontWeight: "bold"
+            }}
+          >
+            {title}
+          </h2>
+        </div>
         <br />
         <div
           className="blogpost"
           style={{
-            marginLeft: "8%",
-            marginRight: "8%",
-            marginBottom: "30px",
-            paddingBottom: "30px",
-            fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial'",
+            marginBottom: "60px",
             fontSize: "18px"
           }}
           dangerouslySetInnerHTML={{ __html: html }}
