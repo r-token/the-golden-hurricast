@@ -5,8 +5,8 @@ import Nav from "react-bootstrap/Nav"
 
 const NavigationBar = () => {
   return (
-    <div>
-      <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
+    <div style = {{marginBottom: "75px"}}>
+      <Navbar fixed="top" collapseOnSelect expand="sm" bg="dark" variant="dark">
         <Navbar.Brand href="/">
           <img
             style={{ marginRight: 15 }}

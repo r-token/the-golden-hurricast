@@ -25,7 +25,7 @@ const Template = ({data, pageContext}) => {
           <h2
             className="blogpost"
             style={{
-              marginTop: "30px",
+              marginTop: "25px",
               fontSize: "40px",
               fontWeight: "bold"
             }}
