@@ -42,7 +42,7 @@ const PodcastHeroUnit = () => {
                 <br /><br />
                 <Col>
                     <a rel="noopener noreferrer" target="_blank" href="https://castro.fm/podcast/56521e78-b84b-429b-a580-073bd42d97a7">
-                        <img src={require("../../static/PodcastBadge_Castro.svg")} alt="Listen on Castro" width="144px"/>
+                        <img src={require("../../static/listenOnX/listenOn_Castro.svg")} alt="Listen on Castro" width="144px"/>
                     </a>
                 </Col>
                 <br /><br />
