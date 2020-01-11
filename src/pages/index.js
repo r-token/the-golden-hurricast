@@ -22,7 +22,7 @@ const HomeLayout = () => {
       >
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Podcast</title>
+          <title>The Golden Hurricast</title>
         </Helmet>
 
     
