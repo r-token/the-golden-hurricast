@@ -25,7 +25,7 @@ const PodcastLayout = () => {
       >
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Podcast</title>
+          <title>TGH | Podcast</title>
         </Helmet>
 
         <p>

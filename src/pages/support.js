@@ -19,7 +19,7 @@ const SupportLayout = () => {
       >
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Support</title>
+          <title>TGH | Support Us</title>
         </Helmet>
 
         <h2>Support Us</h2>

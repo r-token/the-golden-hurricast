@@ -19,7 +19,7 @@ const AboutLayout = () => {
       >
         <Helmet>
           <meta charSet="utf-8" />
-          <title>About</title>
+          <title>TGH | About</title>
         </Helmet>
 
         <h2>About Us</h2>

@@ -22,7 +22,7 @@ const BlogLayout = ({data}) => {
         >
           <Helmet>
             <meta charSet="utf-8" />
-            <title>The Golden Hurricast</title>
+            <title>TGH | Blog</title>
           </Helmet>
 
           <br />
