@@ -11,7 +11,7 @@ const HomeHeroUnit = () => {
           <h1>The Golden Hurricast</h1>
           <p style={{ fontSize: "18px" }}>
             The leading independent podcast and blog covering Golden Hurricane
-            athletics at The University of Tulsa
+            athletics at The University of Tulsa.
           </p>
           <ButtonToolbar>
             <SocialIcon

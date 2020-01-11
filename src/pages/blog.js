@@ -25,7 +25,6 @@ const BlogLayout = ({data}) => {
             <title>TGH | Blog</title>
           </Helmet>
 
-          <br />
           <h5> All Posts </h5>
 
           <hr />
