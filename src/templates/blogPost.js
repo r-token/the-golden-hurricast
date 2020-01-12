@@ -11,9 +11,10 @@ const Template = ({data, pageContext}) => {
 
     const {markdownRemark} = data
     const title = markdownRemark.frontmatter.title
+    const authors = markdownRemark.frontmatter.authors
     const html = markdownRemark.html
     return (
-      <div id = "blogAlignment">
+      <div id="blogAlignment">
         <Helmet>
           <meta charSet="utf-8" />
           <title>{title}</title>
@@ -21,19 +22,18 @@ const Template = ({data, pageContext}) => {
 
         <NavigationBar />
 
-        <div>
-          <h2
-            className="blogpost"
-            style={{
-              marginTop: "25px",
-              fontSize: "40px",
-              fontWeight: "bold"
-            }}
-          >
-            {title}
-          </h2>
+        <div
+          className="blogpost"
+          style={{
+            marginTop: "25px"
+          }}
+        >
+          <h2 style={{ fontSize: "40px", fontWeight: "bold" }}>{title}</h2>
+          <p style={{ color: "grey" }}>Written by: {authors}</p>
         </div>
+
         <br />
+        
         <div
           className="blogpost"
           style={{
@@ -64,6 +64,7 @@ export const query = graphql `
             html
             frontmatter {
                 title
+                authors
             }
         }
     }

@@ -3,8 +3,8 @@ path: "/Spartan Recap"
 date: "09/13/2019"
 sortDate: "2019/09/13"
 title: "Golden Hurristats: A Spartan Recap"
-tags: ['football', 'stats']
-excerpt: "Stats recapping the Michigan State game"
+authors: "Matt Rechtien"
+tags: ['football', 'stats', 'golden hurristats']
 ---
 
 Welcome to the first edition of The Golden Hurristats! This is a weekly column where I’ll focus on some stats that I think are having an impact on Tulsa’s football season.
@@ -15,32 +15,59 @@ The first two weeks of college football are over and the Golden Hurricane sit at
 
 Just a note before we get started, two games is a very small sample size so results may vary going forward. With that said, let’s dive in.
 
-## Three Key Factors
 <br />
+
+## Three Key Factors
+
+<br />
+
 If you listened to our [season preview](https://anchor.fm/thegoldenhurricast/episodes/2-3-Meet-the-Spartans-e54kh2) (36:35) episode before the Michigan State game you may remember that Pat, Ryan and I each picked a stat that we think will be the key to our success or lack thereof this season. If you forgot, or didn’t get a chance to listen here’s a refresher:
 
 - **Pat:** Yards Per Passing Attempt. (YDs / Att) Zach Smith is strong on the deep ball, so him throwing deep more often than we did last year is essential to our success.
+<br /> <br />
 - **Ryan:** Total Quarterback Rating. (QBR) 29.4 QBR rating last season, and our quarterback play is a big contributor to how our offense is rolling.
+<br /> <br />
 - **Matt:** Average Third Down Distance. We were shooting ourselves in the foot by not having successful first and second down plays, making it harder overall to convert and also taking away potential options for play-calling.
 
 After the quarterback search that Tulsa went through after the 2016 season it might not be a surprise that these three are all connected how well Zach Smith plays. We at the Golden Hurricast have a lot of confidence in the skill of our football team and if the QB plays well then our view is that the overall success of the team will follow.
 
 Let’s take a look at how these stats played out over the first two weeks.
 
-## Ryan
-I agree with Pat in that I’m not surprised the coaches picked us to finish tenth in the conference. I’m more than used to the #disrespect this point. However, just because I’m not surprised doesn’t mean I agree. Tulsa will finish better than tenth this year, and Frank Haith will continue his good-but-bad streak of always finishing higher than where his teams are picked in the preseason standings.
+![Success Factors](../../blog_images/spartan-recap/spartan-recap-table1.jpg)
 
-We lost a lot of talent last year with DaQuan Jeffries to the NBA, Sterling Taplin to Apollon Limassol in Cyprus, and Curran Scott to Clemson, but the big shoes that were left seem to have been filled. Jeriah Horne broke out in a big way last year and looks to take the reigns that DaQuan left him, Martins Igbanu and newcomer Emmanuel Ugboh make for a big, powerful front-court, and a mixture of Elijah Joiner, Brandon Rachal, highly touted freshman Isaiah Hill, and Darien Jackson creates an underrated and deceptively talented back-court. I think our back-court will actually be considerably improved this year compared to last year. Add in relative unknowns Josh Earley, Reggie Jones, and a potential breakout star in LSU transfer Brandon Rachal, and you’ve got what could actually be a surprisingly strong team.
+The stark contrast between these numbers shouldn’t come as a surprise if you watched these games. Tulsa was dominated by MSU’s top-ranked defense, but was a lot more successful at forcing their will against San Jose State. Zach Smith looked incredibly sharp against San Jose and was able to hit receivers anywhere on the field with great success. His performance made the entire offense stronger because it forced San Jose’s defense to spread out instead of stacking the box. This made it easier for the Shamari Brooks and TK Wilkerson to find open running lanes and they took advantage of the opportunity.
 
-Additionally, we have even more talent on the bench that won’t be suiting up at all until next year. It sounds like Georgia Tech transfer Curtis Haywood is redshirting this season, and former four-star recruit and Arkansas transfer Keyshawn Embery-Simpson’s waiver to play this year was denied by the NCAA for undisclosed reasons. Both of those guys have an opportunity to improve during this season and add to an even better, senior-laden team next year.
+My belief is that going forward these stats will be closer to San Jose State than Michigan State. Our offense found the identity that works for it against San Jose State, and as long as Zach Smith and the offense can remain consistent I see it working for us through the season as well. The biggest concern, that I will address in the next section, is that our offensive line will need to improve its play because the defenses we play in the conference this year, while not Michigan State strong, are better than San Jose State’s.
 
-The teams picked to finish before us in the conference standings include a Temple team with a brand new head coach, an SMU team that has gotten worse essentially every year under Jankovich, a UCF team that is basically starting from scratch after losing their entire roster, and a UConn team that we continue to beat on a yearly basis. I’d say our ceiling this year is fifth place, but it’s more likely that we’ll end up at eighth ahead of SMU, UCF, ECU, and Tulane.
+<br />
 
-## Matt
-I’m not going to sugarcoat anything. I don’t really have high expectations for Tulsa this season. The American has become an arms race in the last couple of years, and I don’t think Tulsa has been keeping pace with a lot of teams in the conference. Memphis hired Penny Hardaway two years ago and he has made Memphis the top recruiter in the conference for the foreseeable future, Houston is coming off one of their best seasons ever and have back-to-back AAC coach of the year in Kelvin Sampson at the helm and Cincinnati had some addition by subtraction when Mick Cronin left for UCLA and they replaced him with Northern Kentucky’s John Brannen.
+## Run Blocking
+<br />
+The offensive line has been the weakest part of our offense so far this season. Against Michigan State they struggled to generate both run and pass protection resulting in the “negative” 73 rushing yards that everyone and their neighbor loved mentioning for the entire week after the game.
 
-Those are just the top teams in the conference but the key thing with those three and throughout the conference is I believe most of the teams have better coaches than Tulsa’s Frank Haith. I know that we are bringing in a ton of new players this season, and some of them look to be incredibly talented, but Haith hasn’t proven that he can win at a high-level with any talent that he has brought in here. There were too many games last season where he was clearly out-coached and I don’t know if the talent we have makes up for that—especially because there are a lot of guys playing together for the first time.
+They showed vast improvement against San Jose State, best seen by the the inncredible decrease in tackles for loss (TFL) and sacks. Against Michigan State they allowed 13 TFLs and 5 sacks. Against San Jose State they gave up only five TFLs and zero sacks.
 
-So maybe my previous paragraphs don’t really justify this, but I do believe that we are better than the tenth best team in the conference. Kenpom has Tulsa listed as the ninth best team in the conference, so we’re already trending upwards! Tulane is moving in the right direction with Ron Hunter but they won’t be great this year, East Carolina has some good players but is still clearly the second weakest team in the conference, like Ryan said Central Florida will have a new look entirely after their successful season last year, and (benefit of writing just before publishing) Sunday saw the awful news that USF’s Alexis Yetna will miss the season because of a knee injury, and Southern Methodist will beat us head-to-head like normal, but Jankovich has increased their losses every season. Tulsa can be better than at least three of those teams (and maybe UConn because they #suck), so I think we will finish no worse than ninth in the conference with a chance for seventh. That’s technically positive, but I mean, barely right?
+It’s nice to see improvement, there is still room for more, particularly when it comes to run-blocking. Again, the line was markedly better in this regard against San Jose State than they were against Michigan State, reflected most obviously in the -73 vs 256 net rushing yards. No question that is great progress, but the raw numbers aren’t the whole story. Through two weeks of the season the offensive lines has struggled to generate open lanes and is putting more of the onus on the running backs. Let’s take a closer look.
 
-<br>
+[Football Outsiders](https://www.footballoutsiders.com/stats/ncaaol/2019) is one resource I use and has a lot of great stats for college football. It is without a doubt the best resource I’ve found to get statistical breakdowns of offensive line play. Using their data, I want to focus on four run-blocking stats in particular.
+
+- ***Line Yards*** – The number of yards that the offensive line can be credited with per carry. The line gets credited with 100-percent of yards for 0–3 yards, 50-percent for yards 4–8, and none for yards after 8 (max of six yards per carry). Lost yardage counts for 125-percent.
+<br /> <br />
+
+- ***Opportunity Rate*** – The percentage of carries that get four yards (when four yards are available).
+Stuff Rate – The percentage of carries that are stopped at or behind the line of scrimmage.
+<br /> <br />
+
+- ***Power Success Rate*** – The percentage of runs on third and fourth down, when you needed two or fewer yards, that resulted in either a first down or touchdown.
+
+Through week two, here’s where Tulsa stands:
+
+![Success Factors](../../blog_images/spartan-recap/spartan-recap-table2.jpg)
+
+Even with our improved rushing game in the San Jose State game, our underlying run-blocking numbers are still in the bottom 25-percent nationally. Though I’m not able to isolate the week 1 numbers, I’m still confident that there was a big jump from week 1 to week 2, but that doesn’t mean there isn’t anything to be concerned about going forward. If we want to sustain the strong rushing game we put on display against San Jose State, then our offensive line is going to have to continue to trend up, and alleviate the pressure for Brooks, Wilkerson, and Corey Taylor to create their own rushing yards. Opening lanes up for the running backs will prevent them from getting worn down over the course of the season and keep our rushing game strong throughout the year.
+
+It’s not all doom and gloom though. For one, the Power Success Rate was in the top third nationally and shows that as long as we can keep the distance short on 3rd or 4th down, then we have a strong chance to convert. And second, our offensive line is very young. Two linemen—Dante Bivens and Gerard Wheeler—made their first career starts against San Jose State! I believe that as this unit gets more experience and more confidence we will see the run blocking stats continue to improve and the offense will get even better than it is currently.
+
+This breakdown is a small percentage of the stats behind Tulsa’s season so far, and I’m excited to get a chance to explore more as we march through the season.
+
+Stay Golden!

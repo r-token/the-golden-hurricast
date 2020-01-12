@@ -9,11 +9,15 @@
     }
 }
 
-/* smartphone size and up */
+/* smartphone size and down */
 @media screen and (max-width: 680px) {
     .blogpost {
         margin-left: 30px;
         margin-right: 30px;
+    }
+
+    .blogpost img {
+        width: 375px;
     }
 
     #blogAlignment {

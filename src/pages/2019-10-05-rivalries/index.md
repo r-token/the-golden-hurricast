@@ -3,8 +3,8 @@ path: "/Rivalries"
 date: "10/05/2019"
 sortDate: "2019/10/05"
 title: "Tulsa vs Everybody: Picking New Rivals"
+authors: "Matt Rechtien, Ryan Token"
 tags: ['football', 'hype']
-excerpt: "A preview of my first post"
 ---
 
 One of the great things about sports is that they provide an opportunity to irrationally get angry at people for having different opinions as you in a way that is still acceptable in society. I am of course referring to rivalries. With the recent decision by the American Athletic Conference to get rid of divisions starting next football season, the concern came up about maintaining some natural rivalries between schools because of the new rotating schedule. One possible solution people have suggested was the creation of two new permanent rivals for every school that you would play each year while the rest of the schedule rotates. 
@@ -66,11 +66,11 @@ TU apparently came up with this rivalry name in 2015, but, for reasons still unk
 
 The first reference: December 29, 2015
 
-![Tweet One](../../blog_images/rivalries-tweet-1.png)
+![Tweet One](../../blog_images/rivalries/rivalries-tweet-1.png)
 
 The second and final reference: February 9, 2016
 
-![Tweet Two](../../blog_images/rivalries-tweet-2.png)
+![Tweet Two](../../blog_images/rivalries/rivalries-tweet-2.png)
 
 Only two references ever, but I was hooked from the beginning. Why did they get rid of it? I have no idea. Please bring this back, @TulsaHurricane.
 
@@ -167,17 +167,17 @@ The most important factor here has got to be the similarity in university name a
 
 Next is a superficial, but still important, factor. The single best uniform in college football belongs to Tulane. Look at these beauties:
 
-![Tulane Uniforms](../../blog_images/rivalries-tulane-unis.png)
+![Tulane Uniforms](../../blog_images/rivalries/rivalries-tulane-unis.png)
 
 The color combination is one thing, but the colors alone don’t set this uniform apart from the rest of college football. The mascot on the helmet WITH this color combination is what does it. The mascot in question here is the Angry Wave, and it is the stuff of legends.
 
-![Angry Wave](../../blog_images/rivalries-angry-wave.png)
+![Angry Wave](../../blog_images/rivalries/rivalries-angry-wave.png)
 
 That, dear reader, is a fantastic mascot. Tulane originally came up with this in 1963. However, in the worst decision that university has ever made, they ditched it in 1998. Fast forward to 2016, and Tulane brings it back with a vengeance. 
 
 The Angry Wave is on midfield, and a huge, 3D Angry Wave lives on top of their video board. Or at least it did at some point, I can’t confirm whether it’s still there or not. Just imagine if Tulsa brought back Herc, our cute little popcorn/cloud mascot. We could have the duel of the century. I can see it now.
 
-![Battle](../../blog_images/rivalries-battle.jpeg)
+![Battle](../../blog_images/rivalries/rivalries-battle.jpeg)
 
 Enough on the uniforms and mascots, though. Another reason Tulane would make for a great rival is the fact that they’re in the wonderful city of New Orleans. If you hang out in New Orleans for the day, you’ll have a huge variety of unique things to do. Take a walk through the French Quarter? Easy. Go on a swamp tour in a kayak? Piece of cake. Practice some casual voodoo? Not a problem. New Orleans is a great city that’s incredibly different than Tulsa. This allows for a really nice, different experience than what we’d find elsewhere in the conference, and I think the fans would enjoy that. 
 

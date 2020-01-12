@@ -3,8 +3,8 @@ path: "/Basketball Reactions"
 date: "11/05/2019"
 sortDate: "2019/11/05"
 title: "Tenth Place Reactions"
+authors: "Pat Fox, Matt Rechtien, Ryan Token"
 tags: ['basketball', 'hype']
-excerpt: "A preview of my first post"
 ---
 
 Our long awaited reaction to Tulsa being selected as the tenth best team in the American Athletic Conference at Media Days in mid-October. Pat, Ryan, and Matt explain why they agree or disagree with those results.
