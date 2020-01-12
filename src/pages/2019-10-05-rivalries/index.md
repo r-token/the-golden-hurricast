@@ -1,6 +1,7 @@
 ---
 path: "/Rivalries"
 date: "10/05/2019"
+sortDate: "2019/10/05"
 title: "Tulsa vs Everybody: Picking New Rivals"
 tags: ['football', 'hype']
 excerpt: "A preview of my first post"

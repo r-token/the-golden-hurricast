@@ -32,6 +32,7 @@ const BlogLayout = ({data}) => {
             const { frontmatter } = edge.node;
             return (
               <div key={frontmatter.path} style={{ marginBottom: "1rem" }}>
+                
                 <Link
                   style={{
                     fontSize: "18px"
@@ -49,9 +50,9 @@ const BlogLayout = ({data}) => {
 }
 
 export const query = graphql`
-         query HomepageQuery {
+         query BlogQuery {
            allMarkdownRemark(
-             sort: { order: DESC, fields: [frontmatter___date] }
+             sort: { order: DESC, fields: [frontmatter___sortDate] }
            ) {
              edges {
                node {
@@ -59,6 +60,7 @@ export const query = graphql`
                    title
                    path
                    date
+                   sortDate
                  }
                }
              }

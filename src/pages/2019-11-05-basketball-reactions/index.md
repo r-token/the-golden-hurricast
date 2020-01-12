@@ -1,6 +1,7 @@
 ---
 path: "/Basketball Reactions"
 date: "11/05/2019"
+sortDate: "2019/11/05"
 title: "Tenth Place Reactions"
 tags: ['basketball', 'hype']
 excerpt: "A preview of my first post"
