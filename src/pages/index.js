@@ -54,7 +54,9 @@ const HomeLayout = () => {
                   alt="the golden hurricast logo"
                 />
               </Row>
+
               <br />
+
               <Row>
                 <h5>Blog</h5>
               </Row>
@@ -69,6 +71,7 @@ const HomeLayout = () => {
                 <p>
                   <a href="/blog">Read it here</a>.
                 </p>
+                <br /> <br /> <br />
               </Row>
             </Col>
 

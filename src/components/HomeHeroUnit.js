@@ -2,7 +2,6 @@ import React from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import { ButtonToolbar } from "react-bootstrap"
-import { SocialIcon } from 'react-social-icons'
 
 const HomeHeroUnit = () => {
     return (
@@ -77,13 +76,17 @@ const HomeHeroUnit = () => {
               />
             </a>
 
-            <SocialIcon
-              style={{ height: "35px", width: "35px", marginLeft: "20px" }}
+            <a
               rel="noopener noreferrer"
               target="_blank"
-              alt="Email the golden hurricast"
-              url="mailto:thegoldenhurricast@gmail.com"
-            />
+              href="mailto:thegoldenhurricast@gmail.com"
+            >
+              <img
+                style={{ height: "40px", width: "40px", marginLeft: "20px" }}
+                alt="Email the golden hurricast"
+                src={require("../../static/brand_icons/mail.png")}
+              />
+            </a>
           </ButtonToolbar>
         </Jumbotron>
       </div>
