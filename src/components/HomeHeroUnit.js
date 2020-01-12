@@ -82,9 +82,9 @@ const HomeHeroUnit = () => {
               href="mailto:thegoldenhurricast@gmail.com"
             >
               <img
-                style={{ height: "40px", width: "40px", marginLeft: "20px" }}
+                style={{ height: "35px", width: "35px", marginLeft: "20px" }}
                 alt="Email the golden hurricast"
-                src={require("../../static/brand_icons/mail.png")}
+                src={require("../../static/brand_icons/email.png")}
               />
             </a>
           </ButtonToolbar>
