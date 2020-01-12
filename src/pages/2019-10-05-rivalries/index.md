@@ -70,6 +70,8 @@ The first reference: December 29, 2015
 
 The second and final reference: February 9, 2016
 
+![Tweet Two](../../blog_images/rivalries-tweet-2.png)
+
 Only two references ever, but I was hooked from the beginning. Why did they get rid of it? I have no idea. Please bring this back, @TulsaHurricane.
 
 Second, we are two very similar schools. Of the four options we’re discussing here, SMU’s 6,500 undergraduates are the closest to Tulsa’s 3,200. TU loves to tout that it’s the smallest D-I FBS school, and having a bona-fide rivalry with a school this close in size simply makes sense. 
@@ -165,11 +167,17 @@ The most important factor here has got to be the similarity in university name a
 
 Next is a superficial, but still important, factor. The single best uniform in college football belongs to Tulane. Look at these beauties:
 
+![Tulane Uniforms](../../blog_images/rivalries-tulane-unis.png)
+
 The color combination is one thing, but the colors alone don’t set this uniform apart from the rest of college football. The mascot on the helmet WITH this color combination is what does it. The mascot in question here is the Angry Wave, and it is the stuff of legends.
+
+![Angry Wave](../../blog_images/rivalries-angry-wave.png)
 
 That, dear reader, is a fantastic mascot. Tulane originally came up with this in 1963. However, in the worst decision that university has ever made, they ditched it in 1998. Fast forward to 2016, and Tulane brings it back with a vengeance. 
 
 The Angry Wave is on midfield, and a huge, 3D Angry Wave lives on top of their video board. Or at least it did at some point, I can’t confirm whether it’s still there or not. Just imagine if Tulsa brought back Herc, our cute little popcorn/cloud mascot. We could have the duel of the century. I can see it now.
+
+![Battle](../../blog_images/rivalries-battle.jpeg)
 
 Enough on the uniforms and mascots, though. Another reason Tulane would make for a great rival is the fact that they’re in the wonderful city of New Orleans. If you hang out in New Orleans for the day, you’ll have a huge variety of unique things to do. Take a walk through the French Quarter? Easy. Go on a swamp tour in a kayak? Piece of cake. Practice some casual voodoo? Not a problem. New Orleans is a great city that’s incredibly different than Tulsa. This allows for a really nice, different experience than what we’d find elsewhere in the conference, and I think the fans would enjoy that. 
 
