@@ -37,7 +37,7 @@ const AboutLayout = () => {
 
         <br />
 
-        <h5> Our Podcast </h5>
+        <h4> Our Podcast </h4>
         <hr />
         <p>
           Inspired by the past success of the late Reign Cane Sports podcast,
@@ -55,7 +55,7 @@ const AboutLayout = () => {
 
         <br />
 
-        <h5> Our Blog </h5>
+        <h4> Our Blog </h4>
         <hr />
         <p>
           In the fall of 2019, we decided to up our game a bit and create a
@@ -82,7 +82,7 @@ const AboutLayout = () => {
 
         <br />
 
-        <h5> Contact Us </h5>
+        <h4> Contact Us </h4>
         <hr />
         <p>
           Twitter:{" "}

@@ -33,7 +33,7 @@ const HomeLayout = () => {
           <Row>
             <Col md={6}>
               <Row>
-                <h5>Podcast</h5>
+                <h4>Podcast</h4>
               </Row>
               <hr />
               <Row>
@@ -60,7 +60,7 @@ const HomeLayout = () => {
               <br />
 
               <Row>
-                <h5>Blog</h5>
+                <h4>Blog</h4>
               </Row>
               <hr />
               <Row>
@@ -79,7 +79,7 @@ const HomeLayout = () => {
 
             <Col md={{ span: 5, offset: 1 }}>
               <Row>
-                <h5>Twitter</h5>
+                <h4>Twitter</h4>
               </Row>
               <hr />
               <Row>

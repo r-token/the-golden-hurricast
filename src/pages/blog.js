@@ -25,7 +25,7 @@ const BlogLayout = ({data}) => {
             <title>TGH | Blog</title>
           </Helmet>
 
-          <h5> All Posts </h5>
+          <h4> All Posts </h4>
 
           <hr />
           {edges.map(edge => {

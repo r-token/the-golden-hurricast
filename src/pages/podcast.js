@@ -45,7 +45,7 @@ const PodcastLayout = () => {
           Hurricast".
         </p>
         <br />
-        <h5> Latest Episode </h5>
+        <h4> Latest Episode </h4>
         <hr />
         <Container>
           <Row>
@@ -62,7 +62,7 @@ const PodcastLayout = () => {
           </Row>
         </Container>
         <br /> <br /> <br />
-        <h5> Previous 4 Episodes </h5>
+        <h4> Previous 4 Episodes </h4>
         <hr />
         <Container>
           <Row>

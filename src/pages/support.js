@@ -33,7 +33,7 @@ const SupportLayout = () => {
 
         <br />
 
-        <h5> How to Support Us </h5>
+        <h4> How to Support Us </h4>
         <hr />
         <p>
           {" "}
