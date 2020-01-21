@@ -4,6 +4,7 @@ date: "01/01/2020"
 sortDate: "2020/01/01"
 title: "A Farewell to Seniors"
 authors: "Matt Rechtien, Ryan Token"
+excerpt: "Tulsa football lost a lot of talent after the 2019 season. We bid them farewell, and take a look back at some of their highlights throughout their time at TU."
 tags: ['football', 'seniors', 'stats']
 ---
 

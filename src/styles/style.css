@@ -1,6 +1,6 @@
 /* basically anything bigger than a smartphone */
 @media screen and (min-width: 680px) {
-    .blogpost {
+    .blogpost, #blogedge {
         width: 650px;
     }
 

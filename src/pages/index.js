@@ -39,8 +39,10 @@ const HomeLayout = () => {
               <Row>
                 <p>
                   The Golden Hurricast is a weekly podcast covering Golden
-                  Hurricane athletics at The University of Tulsa.{" "}
-                  <a href="/podcast">Check it out</a>.
+                  Hurricane athletics at The University of Tulsa.
+                </p>
+                <p>
+                  <a href="/podcast">Listen to our podcast.</a>
                 </p>
               </Row>
               <Row>
@@ -69,7 +71,7 @@ const HomeLayout = () => {
                   progress.
                 </p>
                 <p>
-                  <a href="/blog">Read it here</a>.
+                  <a href="/blog">Read our blog.</a>
                 </p>
                 <br /> <br /> <br />
               </Row>

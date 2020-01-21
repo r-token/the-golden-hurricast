@@ -4,6 +4,7 @@ date: "11/05/2019"
 sortDate: "2019/11/05"
 title: "Tenth Place Reactions"
 authors: "Pat Fox, Matt Rechtien, Ryan Token"
+excerpt: "We react to Tulsa being picked to finish tenth in AAC basketball for the 2019-2020 season."
 tags: ['basketball', 'hype']
 ---
 

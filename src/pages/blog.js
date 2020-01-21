@@ -31,17 +31,48 @@ const BlogLayout = ({data}) => {
           {edges.map(edge => {
             const { frontmatter } = edge.node;
             return (
-              <div key={frontmatter.path} style={{ marginBottom: "1rem" }}>
-                
-                <Link
+              <Link
+                style={{
+                  textDecoration: "none"
+                }}
+                to={frontmatter.path}
+              >
+                <div
+                  key={frontmatter.path}
+                  id="blogedge"
                   style={{
-                    fontSize: "18px"
+                    marginBottom: "1rem",
+                    borderStyle: "solid",
+                    borderWidth: "1px",
+                    borderColor: "lightgrey",
+                    borderRadius: "5px",
+                    padding: "5px"
                   }}
-                  to={frontmatter.path}
                 >
-                  {frontmatter.title} — {frontmatter.date}
-                </Link>
-              </div>
+                  <p
+                    style={{
+                      fontSize: "18px",
+                      fontWeight: "bold",
+                      marginBottom: "0px"
+                    }}
+                  >
+                    {frontmatter.title}
+                  </p>
+
+                  <p
+                    style={{
+                      fontSize: "15px",
+                      color: "grey",
+                      marginBottom: "0px",
+                      paddingTop: "10px"
+                    }}
+                  >
+                    {frontmatter.date}
+                    <br />
+                    {frontmatter.excerpt}
+                  </p>
+                </div>
+              </Link>
             );
           })}
         </div>
@@ -61,6 +92,7 @@ export const query = graphql`
                    path
                    date
                    sortDate
+                   excerpt
                  }
                }
              }

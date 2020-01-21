@@ -69,6 +69,7 @@ const PodcastLayout = () => {
             <Col>
               <iframe
                 src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-19-Conference-Chaos-ea0ngk"
+                title="Conference Chaos"
                 height="102px"
                 width="300px"
                 frameborder="0"

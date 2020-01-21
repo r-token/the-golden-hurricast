@@ -4,6 +4,7 @@ date: "10/05/2019"
 sortDate: "2019/10/05"
 title: "Tulsa vs Everybody: Picking New Rivals"
 authors: "Matt Rechtien, Ryan Token"
+excerpt: "Pontificating on who our permanent rivals would be in a rotating, divisionless AAC football schedule."
 tags: ['football', 'hype']
 ---
 
