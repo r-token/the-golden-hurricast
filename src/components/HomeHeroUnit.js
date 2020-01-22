@@ -43,7 +43,7 @@ const HomeHeroUnit = () => {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://itunes.apple.com/us/podcast/the-golden-hurricast/id1435008302"
+              href="https://podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?mt=2"
             >
               <img
                 style={{ height: "35px", width: "35px", marginLeft: "20px" }}

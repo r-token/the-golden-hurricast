@@ -31,48 +31,57 @@ const BlogLayout = ({data}) => {
           {edges.map(edge => {
             const { frontmatter } = edge.node;
             return (
-              <Link
-                style={{
-                  textDecoration: "none"
-                }}
-                to={frontmatter.path}
-              >
-                <div
-                  key={frontmatter.path}
-                  id="blogedge"
+              <div id="blogedge">
+                <Link
                   style={{
-                    marginBottom: "1rem",
-                    borderStyle: "solid",
-                    borderWidth: "1px",
-                    borderColor: "lightgrey",
-                    borderRadius: "5px",
-                    padding: "5px"
+                    textDecoration: "none"
                   }}
+                  to={frontmatter.path}
                 >
-                  <p
+                  <div
+                    key={frontmatter.path}
                     style={{
-                      fontSize: "18px",
-                      fontWeight: "bold",
-                      marginBottom: "0px"
+                      marginBottom: "1rem",
+                      borderStyle: "solid",
+                      borderWidth: "1px",
+                      borderColor: "lightgrey",
+                      borderRadius: "5px",
+                      padding: "5px"
                     }}
                   >
-                    {frontmatter.title}
-                  </p>
+                    <p
+                      style={{
+                        fontSize: "18px",
+                        fontWeight: "bold",
+                        marginBottom: "0px"
+                      }}
+                    >
+                      {frontmatter.title}
+                    </p>
 
-                  <p
-                    style={{
-                      fontSize: "15px",
-                      color: "grey",
-                      marginBottom: "0px",
-                      paddingTop: "10px"
-                    }}
-                  >
-                    {frontmatter.date}
-                    <br />
-                    {frontmatter.excerpt}
-                  </p>
-                </div>
-              </Link>
+                    <p
+                      style={{
+                        fontSize: "15px",
+                        color: "grey",
+                        marginBottom: "0px",
+                        paddingTop: "10px"
+                      }}
+                    >
+                      {frontmatter.date}
+                    </p>
+                    <p
+                      style={{
+                        fontSize: "15px",
+                        color: "grey",
+                        marginBottom: "0px",
+                        paddingTop: "10px"
+                      }}
+                    >
+                      {frontmatter.excerpt}
+                    </p>
+                  </div>
+                </Link>
+              </div>
             );
           })}
         </div>
