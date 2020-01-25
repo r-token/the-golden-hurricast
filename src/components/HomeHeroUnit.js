@@ -14,78 +14,75 @@ const HomeHeroUnit = () => {
           </p>
           <ButtonToolbar>
             <a
+              style={{marginRight: "15px"}}
               rel="noopener noreferrer"
               target="_blank"
               href="https://twitter.com/goldenhurricast"
             >
-              <img
-                style={{
-                  height: "35px",
-                  width: "35px"
-                }}
-                alt="Twitter icon"
-                src={require("../../static/brand_icons/twitter.webp")}
-              />
+              <picture>
+                <source type="image/webp" srcSet={require("../../static/brand_icons/twitter.webp")} style={{ height: "35px", width: "35px" }} />
+                <img src={require("../../static/brand_icons/twitter.png")} alt="Twitter icon" style={{ height: "35px", width: "35px" }} />
+              </picture>
             </a>
 
             <a
+              style={{ marginRight: "15px" }}
               rel="noopener noreferrer"
               target="_blank"
               href="https://instagram.com/goldenhurricast"
             >
-              <img
-                style={{ height: "35px", width: "35px", marginLeft: "20px" }}
-                alt="Instagram icon"
-                src={require("../../static/brand_icons/instagram.webp")}
-              />
+              <picture>
+                <source type="image/webp" srcSet={require("../../static/brand_icons/instagram.webp")} style={{ height: "35px", width: "35px" }} />
+                <img src={require("../../static/brand_icons/instagram.png")} alt="Instagram icon" style={{ height: "35px", width: "35px" }} />
+              </picture>
             </a>
 
             <a
+              style={{ marginRight: "15px" }}
               rel="noopener noreferrer"
               target="_blank"
               href="https://podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?mt=2"
             >
-              <img
-                style={{ height: "35px", width: "35px", marginLeft: "20px" }}
-                alt="Apple Podcasts icon"
-                src={require("../../static/brand_icons/applePodcasts.webp")}
-              />
+              <picture>
+                <source type="image/webp" srcSet={require("../../static/brand_icons/applePodcasts.webp")} style={{ height: "35px", width: "35px" }} />
+                <img src={require("../../static/brand_icons/applePodcasts.png")} alt="Apple Podcasts icon" style={{ height: "35px", width: "35px" }} />
+              </picture>
             </a>
 
             <a
+              style={{ marginRight: "15px" }}
               rel="noopener noreferrer"
               target="_blank"
               href="https://open.spotify.com/show/16ik0AuBrpVBfWn73jlJio"
             >
-              <img
-                style={{ height: "35px", width: "35px", marginLeft: "20px" }}
-                alt="Spotify icon"
-                src={require("../../static/brand_icons/spotify.webp")}
-              />
+              <picture>
+                <source type="image/webp" srcSet={require("../../static/brand_icons/spotify.webp")} style={{ height: "35px", width: "35px" }} />
+                <img src={require("../../static/brand_icons/spotify.png")} alt="Spotify icon" style={{ height: "35px", width: "35px" }} />
+              </picture>
             </a>
 
             <a
+              style={{ marginRight: "15px" }}
               rel="noopener noreferrer"
               target="_blank"
               href="https://anchor.fm/thegoldenhurricast"
             >
-              <img
-                style={{ height: "35px", width: "35px", marginLeft: "20px" }}
-                alt="Anchor icon"
-                src={require("../../static/brand_icons/anchor.webp")}
-              />
+              <picture>
+                <source type="image/webp" srcSet={require("../../static/brand_icons/anchor.webp")} style={{ height: "35px", width: "35px" }} />
+                <img src={require("../../static/brand_icons/anchor.png")} alt="Anchor icon" style={{ height: "35px", width: "35px" }} />
+              </picture>
             </a>
 
             <a
+              style={{ marginRight: "15px" }}
               rel="noopener noreferrer"
               target="_blank"
               href="mailto:thegoldenhurricast@gmail.com"
             >
-              <img
-                style={{ height: "35px", width: "35px", marginLeft: "20px" }}
-                alt="Email the golden hurricast"
-                src={require("../../static/brand_icons/email.webp")}
-              />
+              <picture>
+                <source type="image/webp" srcSet={require("../../static/brand_icons/email.webp")} style={{ height: "35px", width: "35px" }} />
+                <img src={require("../../static/brand_icons/email.png")} alt="Email icon" style={{ height: "35px", width: "35px" }} />
+              </picture>
             </a>
           </ButtonToolbar>
         </Jumbotron>

@@ -46,15 +46,10 @@ const HomeLayout = () => {
                 </p>
               </Row>
               <Row>
-                <img
-                  style={{
-                    display: "inline-block",
-                    height: "200px",
-                    width: "200px"
-                  }}
-                  src={require("../../static/logo-500px.webp")}
-                  alt="the golden hurricast logo"
-                />
+                <picture>
+                  <source type="image/webp" srcSet={require("../../static/logo-500px.webp")} style={{ height: "200px", width: "200px" }} />
+                  <img src={require("../../static/logo-500px.png")} alt="The Golden Hurricast logo" style={{ height: "200px", width: "200px" }} />
+                </picture>
               </Row>
 
               <br />

@@ -8,14 +8,10 @@ const NavigationBar = () => {
     <div style={{ marginBottom: "75px" }}>
       <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
         <Navbar.Brand href="/">
-          <img
-            style={{ marginRight: 15 }}
-            src={require("../../static/logo-navbar.webp")}
-            height="48"
-            width="50"
-            alt="The Golden Hurricast logo"
-            className="img-responsive"
-          />
+          <picture>
+            <source type="image/webp" srcSet={require("../../static/logo-navbar.webp")} style={{ marginRight: 15, height: "48px", width: "50px" }} />
+            <img src={require("../../static/logo-navbar.png")} alt="The Golden Hurricast logo" style={{ marginRight: 15, height: "48px", width: "50px" }} />
+          </picture>
           The Golden Hurricast
         </Navbar.Brand>
 

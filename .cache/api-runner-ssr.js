@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/home/Dev/Web/Production/thegoldenhurricast/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"GatsbyJS","short_name":"GatsbyJS","start_url":"/","background_color":"#002D72","theme_color":"#002D72","display":"standalone","icon":"static/apple-touch-icon-180x180.png","crossOrigin":"use-credentials"},
+      options: {"plugins":[],"name":"GatsbyJS","short_name":"GatsbyJS","start_url":"/","background_color":"#002D72","theme_color":"#002D72","display":"standalone","icon":"static/apple-touch-icon-180x180.webp","crossOrigin":"use-credentials"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
