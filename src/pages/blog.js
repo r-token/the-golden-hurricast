@@ -3,84 +3,91 @@ import { Helmet } from "react-helmet"
 import { graphql, Link } from 'gatsby'
 import NavigationBar from '../components/NavigationBar'
 import BlogHeroUnit from '../components/BlogHeroUnit'
+import Container from 'react-bootstrap/Container'
 import "../styles/style.css";
 
 const BlogLayout = ({data}) => {
     const { edges } = data.allMarkdownRemark
     return (
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>TGH | Blog</title>
+        </Helmet>
+
         <NavigationBar />
         <BlogHeroUnit />
+
         <div
           style={{
             marginLeft: "30px",
             marginRight: "30px",
             marginBottom: "30px",
-            flexDirection: "column",
-            alignItems: "center",
           }}
         >
-          <Helmet>
-            <meta charSet="utf-8" />
-            <title>TGH | Blog</title>
-          </Helmet>
 
-          <h4> All Posts </h4>
+          <div style={{display: "flex", alignItems: "center"}}>
+            <Container className="blogedge">
+              <h4>All Posts</h4>
+              <hr style={{width: "100%"}} />
+            </Container>
+          </div>
 
-          <hr />
           {edges.map(edge => {
             const { frontmatter } = edge.node;
             return (
-              <div id="blogedge">
-                <Link
-                  style={{
-                    textDecoration: "none"
-                  }}
-                  to={frontmatter.path}
-                >
-                  <div
-                    key={frontmatter.path}
-                    style={{
-                      marginBottom: "1rem",
-                      borderStyle: "solid",
-                      borderWidth: "1px",
-                      borderColor: "lightgrey",
-                      borderRadius: "5px",
-                      padding: "5px"
-                    }}
-                  >
-                    <p
+              <div style={{display: "flex", alignItems: "center"}}>
+                <Container className="blogedge">
+                    <Link
                       style={{
-                        fontSize: "18px",
-                        fontWeight: "bold",
-                        marginBottom: "0px"
+                        textDecoration: "none"
                       }}
+                      to={frontmatter.path}
                     >
-                      {frontmatter.title}
-                    </p>
+                      <div
+                        key={frontmatter.path}
+                        style={{
+                          marginBottom: "1rem",
+                          borderStyle: "solid",
+                          borderWidth: "1px",
+                          borderColor: "lightgrey",
+                          borderRadius: "5px",
+                          padding: "5px"
+                        }}
+                      >
+                        <p
+                          style={{
+                            fontSize: "18px",
+                            fontWeight: "bold",
+                            marginBottom: "0px"
+                          }}
+                        >
+                          {frontmatter.title}
+                        </p>
 
-                    <p
-                      style={{
-                        fontSize: "15px",
-                        color: "grey",
-                        marginBottom: "0px",
-                        paddingTop: "10px"
-                      }}
-                    >
-                      {frontmatter.date}
-                    </p>
-                    <p
-                      style={{
-                        fontSize: "15px",
-                        color: "grey",
-                        marginBottom: "0px",
-                        paddingTop: "10px"
-                      }}
-                    >
-                      {frontmatter.excerpt}
-                    </p>
-                  </div>
-                </Link>
+                        <p
+                          style={{
+                            fontSize: "15px",
+                            color: "grey",
+                            marginBottom: "0px",
+                            paddingTop: "10px"
+                          }}
+                        >
+                          {frontmatter.date}
+                        </p>
+                        <p
+                          style={{
+                            fontSize: "15px",
+                            color: "grey",
+                            marginBottom: "0px",
+                            paddingTop: "10px"
+                          }}
+                        >
+                          {frontmatter.excerpt}
+                        </p>
+                      </div>
+                    </Link>
+                </Container>
               </div>
             );
           })}

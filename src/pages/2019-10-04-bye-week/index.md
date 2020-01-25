@@ -4,7 +4,7 @@ date: "10/04/2019"
 sortDate: "2019/10/04"
 title: "Golden Hurristats: Through the Bye Week"
 authors: "Matt Rechtien"
-excerpt: "A look at some of our stats on the season so far."
+excerpt: "A look at some of TU's stats on the football season so far."
 tags: ['football', 'stats', 'golden hurristats']
 ---
 

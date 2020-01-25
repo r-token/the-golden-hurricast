@@ -4,7 +4,7 @@ date: "09/13/2019"
 sortDate: "2019/09/13"
 title: "Golden Hurristats: A Spartan Recap"
 authors: "Matt Rechtien"
-excerpt: "A statistical recap of the Tulsa vs Michigan State football game."
+excerpt: "A statistical recap of the Tulsa's football games against Michigan State and San Jose State."
 tags: ['football', 'stats', 'golden hurristats']
 ---
 

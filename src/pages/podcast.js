@@ -19,7 +19,6 @@ const PodcastLayout = () => {
           marginLeft: "30px",
           marginRight: "30px",
           marginBottom: "30px",
-          flexDirection: "column",
           alignItems: "center"
         }}
       >
@@ -72,7 +71,7 @@ const PodcastLayout = () => {
                 title="Threes are the Bees Knees"
                 height="102px"
                 width="300px"
-                frameborder="0"
+                frameBorder="0"
                 scrolling="no"
               ></iframe>
             </Col>
@@ -82,7 +81,7 @@ const PodcastLayout = () => {
                 title="Conference Chaos"
                 height="102px"
                 width="300px"
-                frameborder="0"
+                frameBorder="0"
                 scrolling="no"
               ></iframe>
             </Col>

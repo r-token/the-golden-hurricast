@@ -52,7 +52,7 @@ const HomeLayout = () => {
                     height: "200px",
                     width: "200px"
                   }}
-                  src={require("../../static/logo-full.png")}
+                  src={require("../../static/logo-500px.webp")}
                   alt="the golden hurricast logo"
                 />
               </Row>

@@ -6,11 +6,11 @@ import Nav from "react-bootstrap/Nav"
 const NavigationBar = () => {
   return (
     <div style={{ marginBottom: "75px" }}>
-      <Navbar fixed="top" collapseOnSelect expand="sm" bg="dark" variant="dark">
+      <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
         <Navbar.Brand href="/">
           <img
             style={{ marginRight: 15 }}
-            src={require("../../static/logo-navbar.png")}
+            src={require("../../static/logo-navbar.webp")}
             height="48"
             width="50"
             alt="The Golden Hurricast logo"

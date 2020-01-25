@@ -24,7 +24,7 @@ const HomeHeroUnit = () => {
                   width: "35px"
                 }}
                 alt="Twitter icon"
-                src={require("../../static/brand_icons/twitter.png")}
+                src={require("../../static/brand_icons/twitter.webp")}
               />
             </a>
 
@@ -36,7 +36,7 @@ const HomeHeroUnit = () => {
               <img
                 style={{ height: "35px", width: "35px", marginLeft: "20px" }}
                 alt="Instagram icon"
-                src={require("../../static/brand_icons/instagram.png")}
+                src={require("../../static/brand_icons/instagram.webp")}
               />
             </a>
 
@@ -48,7 +48,7 @@ const HomeHeroUnit = () => {
               <img
                 style={{ height: "35px", width: "35px", marginLeft: "20px" }}
                 alt="Apple Podcasts icon"
-                src={require("../../static/brand_icons/applePodcasts.png")}
+                src={require("../../static/brand_icons/applePodcasts.webp")}
               />
             </a>
 
@@ -60,7 +60,7 @@ const HomeHeroUnit = () => {
               <img
                 style={{ height: "35px", width: "35px", marginLeft: "20px" }}
                 alt="Spotify icon"
-                src={require("../../static/brand_icons/spotify.png")}
+                src={require("../../static/brand_icons/spotify.webp")}
               />
             </a>
 
@@ -72,7 +72,7 @@ const HomeHeroUnit = () => {
               <img
                 style={{ height: "35px", width: "35px", marginLeft: "20px" }}
                 alt="Anchor icon"
-                src={require("../../static/brand_icons/anchor.png")}
+                src={require("../../static/brand_icons/anchor.webp")}
               />
             </a>
 
@@ -84,7 +84,7 @@ const HomeHeroUnit = () => {
               <img
                 style={{ height: "35px", width: "35px", marginLeft: "20px" }}
                 alt="Email the golden hurricast"
-                src={require("../../static/brand_icons/email.png")}
+                src={require("../../static/brand_icons/email.webp")}
               />
             </a>
           </ButtonToolbar>

@@ -1,11 +1,23 @@
 /* basically anything bigger than a smartphone */
 @media screen and (min-width: 680px) {
-    .blogpost, #blogedge {
+    .blogpost {
         width: 650px;
+    }
+
+    .blogedge {
+        width: 75%;
     }
 
     #blogAlignment {
         text-align: center;
+    }
+
+    #aboutus {
+        width: 75%;
+    }
+
+    #supportus {
+        width: 75%;
     }
 }
 
