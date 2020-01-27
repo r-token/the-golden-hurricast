@@ -10,7 +10,7 @@ const AllTagsTemplate = ({pageContext}) => {
         <NavigationBar />
         <div
           style={{
-            marginTop: "100px",
+            marginTop: "130px",
             marginLeft: "30px",
             marginRight: "30px",
             flexDirection: "column",

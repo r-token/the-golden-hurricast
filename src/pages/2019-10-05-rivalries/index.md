@@ -57,11 +57,11 @@ Potential rivalry name: I really love Matt’s idea here, so I’ll echo Crude C
 ----
 #### Ryan
 SMU is my favorite potential rival for several reasons.
-First, if you listen to the podcast, you know that I am a staunch proponent of the rivalry formerly known as The Boomtown Showdown. Though it has its critic, stares at Pat, I will stand behind this beautiful rivalry name until I die. It’s unique, fun, and *historically accurate*—Tulsa and Dallas are even mentioned in the same sentence in an article about historic oil boomtowns from The Encyclopedia of the Great Plains: 
+First, if you listen to the podcast, you know that I am a staunch proponent of the rivalry formerly known as The Boomtown Showdown. Though it has its critic (*stares at Pat*) I will stand behind this beautiful rivalry name until I die. It’s unique, fun, and *historically accurate*—Tulsa and Dallas are even mentioned in the same sentence in an article about historic oil boomtowns from The Encyclopedia of the Great Plains: 
 
 > “At the eastern margins of the Great Plains, two major management and finance centers–Dallas, Texas, and Tulsa, Oklahoma– became the hometowns of wealthy oil investors who founded their own corporations...”
 > 
-> The Encyclopedia of the Great Plains
+> *The Encyclopedia of the Great Plains*
 
 TU apparently came up with this rivalry name in 2015, but, for reasons still unknown, quickly abandoned the moniker after the 2016 football season. As far as I know, the below screenshots are the only two tweets from TU that ever reference this name.
 

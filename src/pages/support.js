@@ -16,7 +16,7 @@ const SupportLayout = () => {
 
       <div
         style={{
-          marginTop: "100px",
+          marginTop: "130px",
           marginBottom: "30px",
           display: "flex",
           alignItems: "center"
