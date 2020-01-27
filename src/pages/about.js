@@ -50,7 +50,7 @@ const AboutLayout = () => {
         </p>
 
           <p>
-            You can find our podcast on <b>10 different platforms</b>, including
+            You can find our podcast on <b>9 different platforms</b>, including
             Apple Podcasts, Spotify, Google Podcasts, Stitcher, Overcast, Breaker,
             PocketCasts, and more. Just search for "The Golden Hurricast".
         </p>
@@ -75,7 +75,7 @@ const AboutLayout = () => {
           <p>
             The blog was going well, but we became unhappy with the WordPress URL
             (hercscorner.home.blog) and some of the other WordPress limitations.
-            Fortunately, Ryan works as an application developer and decided to
+            Fortunately, Ryan works as a software developer and decided to
           build us our own custom website! Thus,{" "}
             <a href="https://thegoldenhurricast.com">TheGoldenHurricast.com</a>{" "}
             was born. We have high hopes for the website, so let us know if
