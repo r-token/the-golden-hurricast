@@ -46,7 +46,7 @@ const PodcastLayout = () => {
         <div style={{ display: "flex", alignItems: "center" }}>
           <Container className="podstyle">
             <p>
-              You can also find our podcast on <b>9 different platforms</b>: Apple Podcasts, Spotify, Google Podcasts, Overcast, Stitcher, Breaker, Castbox, Pocket Casts, and RadioPublic. Just search for "The Golden Hurricast".
+              You can also find our podcast on <b>10 different platforms</b>: Apple Podcasts, Spotify, Google Podcasts, Overcast, Castro, Stitcher, Breaker, Castbox, Pocket Casts, and RadioPublic. Just search for "The Golden Hurricast".
           </p>
           </Container>
         </div>

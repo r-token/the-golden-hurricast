@@ -50,8 +50,8 @@ const AboutLayout = () => {
         </p>
 
           <p>
-            You can find our podcast on <b>9 different platforms</b>, including
-            Apple Podcasts, Spotify, Google Podcasts, Stitcher, Overcast, Breaker,
+            You can find our podcast on <b>10 different platforms</b>, including
+            Apple Podcasts, Spotify, Google Podcasts, Stitcher, Overcast, Castro, Breaker,
             PocketCasts, and more. Just search for "The Golden Hurricast".
         </p>
 
