@@ -39,7 +39,6 @@ const PodcastLayout = () => {
               >
                 Anchor.fm
           </a>
-              .
         </p>
           </Container>
         </div>
