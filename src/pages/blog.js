@@ -48,34 +48,14 @@ const BlogLayout = ({data}) => {
                         key={frontmatter.path}
                         className="floating_still_blog"
                       >
-                        <p
-                          style={{
-                            fontSize: "18px",
-                            fontWeight: "bold",
-                            marginBottom: "0px"
-                          }}
-                        >
+                        <p className="blog_title">
                           {frontmatter.title}
                         </p>
 
-                        <p
-                          style={{
-                            fontSize: "15px",
-                            color: "grey",
-                            marginBottom: "0px",
-                            paddingTop: "10px"
-                          }}
-                        >
+                        <p className="blog_bylines">
                           {frontmatter.date}
                         </p>
-                        <p
-                          style={{
-                            fontSize: "15px",
-                            color: "grey",
-                            marginBottom: "0px",
-                            paddingTop: "10px"
-                          }}
-                        >
+                        <p className="blog_bylines">
                           {frontmatter.excerpt}
                         </p>
                       </div>
