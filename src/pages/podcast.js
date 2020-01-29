@@ -64,7 +64,8 @@ const PodcastLayout = () => {
           <Container className="podstyle">
             <Row>
               <Col>
-                <iframe
+                <iframe 
+                  className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed"
                   title="latest episode"
                   height="102px"
@@ -90,15 +91,18 @@ const PodcastLayout = () => {
             <Row>
               <Col>
                 <iframe 
-                src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-21-1-in-the-AAC-eab0rq" 
-                title="#1 in the AAC" 
-                height="102px" 
-                width="300px" 
-                frameBorder="0" 
-                scrolling="no"></iframe>
+                  className="floating_still_podcast"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-21-1-in-the-AAC-eab0rq" 
+                  title="#1 in the AAC" 
+                  height="102px" 
+                  width="300px" 
+                  frameBorder="0" 
+                  scrolling="no"
+                ></iframe>
               </Col>
               <Col>
                 <iframe
+                  className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-20-Threes-are-the-Bees-Knees-ft--The-Sports-Objective-Podcast-ea5t1l"
                   title="Threes are the Bees Knees"
                   height="102px"
@@ -112,6 +116,7 @@ const PodcastLayout = () => {
             <Row>
               <Col>
                 <iframe
+                  className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-19-Conference-Chaos-ea0ngk"
                   title="Conference Chaos"
                   height="102px"
@@ -122,6 +127,7 @@ const PodcastLayout = () => {
               </Col>
               <Col>
                 <iframe
+                  className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-18-The-Good--the-Bad--and-the-Ugly-e9j1ct"
                   title="thegood, thebad, and theugly"
                   height="102px"

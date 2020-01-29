@@ -46,14 +46,7 @@ const BlogLayout = ({data}) => {
                     >
                       <div
                         key={frontmatter.path}
-                        style={{
-                          marginBottom: "1rem",
-                          borderStyle: "solid",
-                          borderWidth: "1px",
-                          borderColor: "lightgrey",
-                          borderRadius: "5px",
-                          padding: "5px"
-                        }}
+                        className="floating_still_blog"
                       >
                         <p
                           style={{

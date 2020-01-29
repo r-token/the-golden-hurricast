@@ -46,7 +46,7 @@ const HomeLayout = () => {
                 </p>
               </Row>
               <Row>
-                <picture>
+                <picture className="floating_still_image">
                   <source type="image/webp" srcSet={require("../../static/logo-500px.webp")} style={{ height: "200px", width: "200px" }} />
                   <img src={require("../../static/logo-500px.png")} alt="The Golden Hurricast logo" style={{ height: "200px", width: "200px" }} />
                 </picture>
@@ -82,18 +82,11 @@ const HomeLayout = () => {
               </Row>
               <br />
               <Row>
-                <div
-                  style={{
-                    borderStyle: "solid",
-                    borderWidth: "1px",
-                    borderColor: "lightgrey",
-                    borderRadius: "5px"
-                  }}
-                >
+                <div className="floating_still_object">
                   <TwitterTimelineEmbed
                     sourceType="profile"
                     screenName="GoldenHurricast"
-                    options={{ height: 400, width: 400 }}
+                    options={{ height: 500, width: 400 }}
                   />
                 </div>
               </Row>
