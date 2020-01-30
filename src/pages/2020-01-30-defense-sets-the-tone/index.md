@@ -73,6 +73,10 @@ There’s almost too much to talk about our defense, I didn’t even get a chanc
 
 To wrap this up, let’s go back to where we started. Three point defense can be a  gamble because there is a lot that you can’t control so it does end up being a big game of chance. Gambles can be worth the risk though, this one in particular can push our ceiling high enough to blow out ranked teams by 40-points. And maybe the risks aren’t as risky as we think since every other part of our defense is strong enough to keep our floor high enough to stay competitive in every game we play for the rest of the season.
 
+---
 
+What are your takes on Tulsa's defense this season? Send us your thoughts on Twitter or Instagram @GoldenHurricast or send us an email at thegoldenhurricast@gmail.com. Thanks for reading and remember, Stay Golden!
+
+</br>
 
 
