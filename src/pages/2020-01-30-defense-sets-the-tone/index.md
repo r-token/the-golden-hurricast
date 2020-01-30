@@ -18,7 +18,7 @@ The obvious expectation when the rule was implemented to change the distance to 
 
 The NCAA actually tested the new distance for three-pointers during the last couple of NITs. The drop-off in both three-point percentage and three-points made per game that occurred during those tournaments is what rightfully drove the idea that three-point percentage would drop off across the board once the line was moved back for the entire regular season. Take a look at the following chart, which has the stats from those two tournaments.
 
-![]()
+![NIT](../../blog_images/bye-week/NIT Stats.jpg)
 
 And for the most part the decline witnessed there has been seen across the board, although it hasn’t been as severe as was maybe expected. As of the end of last week when I ran the numbers (so they won’t be spot on to where they’re at today, but they’ll be pretty darn close), the national average for three-point percentage dropped from 34.5-percent down to the 33.6-percent that I mentioned earlier.
 
@@ -32,7 +32,7 @@ This year has been different though. Teams are still taking a lot of three point
 
 Let’s look at Tulsa’s data on College Basketball Reference, the 2019–2020 season is easily the worst three-point percentage for Tulsa’s opponents in the last 12 years at 28.2-percent. Not since the 2008–2009 season, when opponents shot just 27.7-percent against Tulsa, have they had a season under 30-percent. Here’s a better look at just how drastically different this season is compared to the last decade.
 
-![]()
+![Threes](../../blog_images/bye-week/Three Point Chart.png)
 
 Tulsa has taken advantage of bad opponent shooting this season en route to their 14–6 record. For most of the season, they’ve held their opponents to under their season average, but the games in which that hasn’t been the case shows the potential fallout when threes start to fall again. Going back to the Arkansas State game a few months back, five teams have shot better than their season average when they played the Golden Hurricane. I’m guessing it’s no surprise to hear that those teams were: Arkansas State, Arkansas, Colorado State, Kansas State and Cincinnati. The connection between all those games is that they ended up as losses. Every game that Tulsa has won since Arkansas State they were able to capitalize on their opponents’ poor shooting performance, but that can’t be something that they can rely on for the rest of the season.
 
