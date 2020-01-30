@@ -8,7 +8,6 @@ excerpt: "A breakdown of why Tulsa's defense has been so good so far this season
 tags: ['basketball', 'stats']
 ---
 
-# Tulsa Defense Sets the Tone
 This has been a very exciting couple of weeks in Tulsa basketball. Honestly, I haven’t been this excited about the team since they made that improbable NCAA appearance five years ago. A few weeks back Tulsa was handed a lopsided loss on the road at Cincinnati, but has bounced back with successive wins against Houston, at East Carolina and at Tulane, the throttling of Memphis, and outlasted UConn on the road in overtime last weekend. Not only has this made our preseason projection of finishing 10th in the conference laughable, but also has vaulted us to the top of the American conference standings at this point. We’re now receiving votes in the AP poll and ESPN has us in their current bracketology prediction because we are in pole position for the American’s automatic bid.
 
 It appears that on this latest winning streak—and in flashes even before the last three weeks—Tulsa has found their identity as a team: a stifling defense with enough offensive firepower to batter their opponents over a full 40 minutes of play. As Pat said on the podcast this past week it’s death by a thousand cuts. 
