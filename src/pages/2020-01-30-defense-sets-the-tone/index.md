@@ -5,7 +5,7 @@ sortDate: "2020/01/30"
 title: "Tulsa's Defense Sets the Tone"
 authors: "Matt Rechtien"
 excerpt: "A breakdown of why Tulsa's defense has been so good so far this season, and why it will be what drives their success going forward."
-tags: ['basketball', 'stats]
+tags: ['basketball', 'stats']
 ---
 
 # Tulsa Defense Sets the Tone
