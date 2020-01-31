@@ -30,10 +30,7 @@ const AllTagsTemplate = ({pageContext}) => {
             {tags.map((tagName, index) => {
               return (
                 <li key={index}>
-                  <Link
-                    style={{
-                      fontSize: "18px"
-                    }}
+                  <Link style={{ textDecoration: "none" }} className="blog_title"
                     to={`tags/${tagName}`}
                   >
                     {tagName}

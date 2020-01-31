@@ -36,12 +36,13 @@ const BlogLayout = ({data}) => {
           {edges.map(edge => {
             const { frontmatter } = edge.node;
             return (
-              <div style={{display: "flex", alignItems: "center"}}>
+              <div key={Math.random()} style={{display: "flex", alignItems: "center"}}>
                 <Container className="blogedge">
                     <Link
                       style={{
                         textDecoration: "none"
                       }}
+                      
                       to={frontmatter.path}
                     >
                       <div

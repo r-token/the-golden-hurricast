@@ -30,10 +30,7 @@ const SingleTagTemplate = ({ pageContext }) => {
           {posts.map((post, index) => {
             return (
               <li key={index}>
-                <Link
-                  style={{
-                    fontSize: "18px"
-                  }}
+                <Link style={{textDecoration: "none"}} className="blog_title"
                   to={post.frontmatter.path}
                 >
                   {post.frontmatter.title}
