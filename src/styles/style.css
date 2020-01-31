@@ -4,6 +4,10 @@
         width: 650px;
     }
 
+    .blogpost img {
+        max-width: 650px;
+    }
+
     .blogedge, .container_style {
         width: 75%;
     }
@@ -33,7 +37,7 @@
     }
 
     .blogpost img {
-        width: 250px;
+        max-width: 375px;
     }
 
     #blogAlignment {
