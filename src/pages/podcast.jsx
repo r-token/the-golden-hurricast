@@ -92,6 +92,16 @@ const PodcastLayout = () => {
               <Col>
                 <iframe 
                   className="floating_still_podcast"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-22-We-Cant-Be-Stopped-eaemk4" 
+                  height="102px" 
+                  width="300px" 
+                  frameborder="0" 
+                  scrolling="no">
+                </iframe>
+              </Col>
+              <Col>
+                <iframe 
+                  className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-21-1-in-the-AAC-eab0rq" 
                   title="#1 in the AAC" 
                   height="102px" 
@@ -100,6 +110,9 @@ const PodcastLayout = () => {
                   scrolling="no"
                 ></iframe>
               </Col>
+            </Row>
+            <br />
+            <Row>
               <Col>
                 <iframe
                   className="floating_still_podcast"
@@ -111,25 +124,11 @@ const PodcastLayout = () => {
                   scrolling="no"
                 ></iframe>
               </Col>
-            </Row>
-            <br />
-            <Row>
               <Col>
                 <iframe
                   className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-19-Conference-Chaos-ea0ngk"
                   title="Conference Chaos"
-                  height="102px"
-                  width="300px"
-                  frameBorder="0"
-                  scrolling="no"
-                ></iframe>
-              </Col>
-              <Col>
-                <iframe
-                  className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-18-The-Good--the-Bad--and-the-Ugly-e9j1ct"
-                  title="thegood, thebad, and theugly"
                   height="102px"
                   width="300px"
                   frameBorder="0"
