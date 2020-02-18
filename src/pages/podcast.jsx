@@ -90,6 +90,16 @@ const PodcastLayout = () => {
           <Container className="podstyle">
             <Row>
               <Col>
+                <iframe
+                  className="floating_still_podcast" 
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-23-TU-and-the-No-Good--Very-Bad-Three-Point-Defense-Week-eao4s3" 
+                  height="102px" 
+                  width="300px" 
+                  frameborder="0" 
+                  scrolling="no">
+                </iframe>
+              </Col>
+              <Col>
                 <iframe 
                   className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-22-We-Cant-Be-Stopped-eaemk4" 
@@ -99,6 +109,9 @@ const PodcastLayout = () => {
                   scrolling="no">
                 </iframe>
               </Col>
+            </Row>
+            <br />
+            <Row>
               <Col>
                 <iframe 
                   className="floating_still_podcast"
@@ -110,25 +123,11 @@ const PodcastLayout = () => {
                   scrolling="no"
                 ></iframe>
               </Col>
-            </Row>
-            <br />
-            <Row>
               <Col>
                 <iframe
                   className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-20-Threes-are-the-Bees-Knees-ft--The-Sports-Objective-Podcast-ea5t1l"
                   title="Threes are the Bees Knees"
-                  height="102px"
-                  width="300px"
-                  frameBorder="0"
-                  scrolling="no"
-                ></iframe>
-              </Col>
-              <Col>
-                <iframe
-                  className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-19-Conference-Chaos-ea0ngk"
-                  title="Conference Chaos"
                   height="102px"
                   width="300px"
                   frameBorder="0"
