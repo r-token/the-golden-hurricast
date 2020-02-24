@@ -90,19 +90,19 @@ const PodcastLayout = () => {
           <Container className="podstyle">
             <Row>
               <Col>
+              <iframe 
+                className="floating_still_podcast"
+                src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-24-Race-4-the-AAC-eatl9e" 
+                height="102px" 
+                width="300px" 
+                frameborder="0" 
+                scrolling="no">
+              </iframe>
+              </Col>
+              <Col>
                 <iframe
                   className="floating_still_podcast" 
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-23-TU-and-the-No-Good--Very-Bad-Three-Point-Defense-Week-eao4s3" 
-                  height="102px" 
-                  width="300px" 
-                  frameborder="0" 
-                  scrolling="no">
-                </iframe>
-              </Col>
-              <Col>
-                <iframe 
-                  className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-22-We-Cant-Be-Stopped-eaemk4" 
                   height="102px" 
                   width="300px" 
                   frameborder="0" 
@@ -115,22 +115,21 @@ const PodcastLayout = () => {
               <Col>
                 <iframe 
                   className="floating_still_podcast"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-22-We-Cant-Be-Stopped-eaemk4" 
+                  height="102px" 
+                  width="300px" 
+                  frameborder="0" 
+                  scrolling="no">
+                </iframe>
+              </Col>
+              <Col>
+                <iframe 
+                  className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-21-1-in-the-AAC-eab0rq" 
                   title="#1 in the AAC" 
                   height="102px" 
                   width="300px" 
                   frameBorder="0" 
-                  scrolling="no"
-                ></iframe>
-              </Col>
-              <Col>
-                <iframe
-                  className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-20-Threes-are-the-Bees-Knees-ft--The-Sports-Objective-Podcast-ea5t1l"
-                  title="Threes are the Bees Knees"
-                  height="102px"
-                  width="300px"
-                  frameBorder="0"
                   scrolling="no"
                 ></iframe>
               </Col>
