@@ -12,6 +12,7 @@ const Template = ({data, pageContext}) => {
     const {markdownRemark} = data
     const title = markdownRemark.frontmatter.title
     const authors = markdownRemark.frontmatter.authors
+    const date = markdownRemark.frontmatter.date
     const html = markdownRemark.html
     return (
       <div id="blogAlignment">
@@ -29,11 +30,15 @@ const Template = ({data, pageContext}) => {
           }}
         >
           <h2 style={{ fontSize: "40px", fontWeight: "bold" }}>{title}</h2>
-          <p style={{ color: "grey" }}>Written by: {authors}</p>
+          <p style={{ fontSize: "16px", color: "grey" }}>
+            By: {authors} 
+            <br /> 
+            Date: {date}{" "}
+          </p>
         </div>
 
         <br />
-        
+
         <div
           className="blogpost"
           style={{
@@ -65,6 +70,7 @@ export const query = graphql `
             frontmatter {
                 title
                 authors
+                date
             }
         }
     }
