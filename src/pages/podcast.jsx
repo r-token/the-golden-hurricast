@@ -92,6 +92,17 @@ const PodcastLayout = () => {
               <Col>
                 <iframe 
                   className="floating_still_podcast"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-26-Have-Yourself-a-Week-Lawson-eb7dpe" 
+                  title="2-25: Legends"
+                  height="102px" 
+                  width="300px" 
+                  frameborder="0" 
+                  scrolling="no">
+                </iframe>
+              </Col>
+              <Col>
+                <iframe 
+                  className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-25-Legends-ft--Trevis-Gipson-eb1b4s" 
                   title="2-25: Legends"
                   height="102px" 
@@ -100,6 +111,9 @@ const PodcastLayout = () => {
                   scrolling="no">
                 </iframe>
               </Col>
+            </Row>
+            <br />
+            <Row>
               <Col>
                 <iframe 
                   className="floating_still_podcast"
@@ -111,25 +125,11 @@ const PodcastLayout = () => {
                   scrolling="no">
                 </iframe>
               </Col>
-            </Row>
-            <br />
-            <Row>
               <Col>
                 <iframe
                   className="floating_still_podcast" 
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-23-TU-and-the-No-Good--Very-Bad-Three-Point-Defense-Week-eao4s3" 
                   title="2-23: TU and the No Good Very Bad Three Point Defense Week"
-                  height="102px" 
-                  width="300px" 
-                  frameborder="0" 
-                  scrolling="no">
-                </iframe>
-              </Col>
-              <Col>
-                <iframe 
-                  className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-22-We-Cant-Be-Stopped-eaemk4" 
-                  title="2-22: We Can't Be Stopped"
                   height="102px" 
                   width="300px" 
                   frameborder="0" 
