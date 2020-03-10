@@ -46,15 +46,17 @@ Notably, there are none from the American Athletic Conference in which Tulsa res
 
 So where does Tulsa currently stand in the minds of bracketologists?
 
-According to [TeamRankings.com](https://www.teamrankings.com/ncaa-basketball/team/tulsa-golden-hurricane/bracketology), Tulsa currently has a 5.6% chance of making the tournament. That’s a 5.4% chance of receiving the AAC’s auto-bid, plus a **0.2% chance** of making it as an at-large. Those numbers are awfully low, but that’s just one site.
+As of Monday night, Tulsa had a 4.0% chance of making the tournament according to [TeamRankings.com](https://www.teamrankings.com/ncaa-basketball/team/tulsa-golden-hurricane/bracketology). That’s a 3.9% chance of receiving the AAC’s auto-bid, plus a **0.1% chance** of making it as an at-large. Those numbers are awfully low, but that’s just one site.
 
-[Bracket Matrix](http://bracketmatrix.com/) is the holy grail of bracketology. It looks at 100 different brackets, from Joe Lunardi’s on [ESPN](http://www.espn.com/mens-college-basketball/bracketology) to Catch and Shoot’s bracket [here](http://thecatchandshoot.com/bracketology/). I’m writing this late Sunday night, and as of now a large number of Bracket Matrix’s brackets haven’t been updated to reflect Tulsa’s loss to Wichita State. That matters.
+[Bracket Matrix](http://bracketmatrix.com/) is the holy grail of bracketology. It looks at 100 different brackets, from Joe Lunardi’s on [ESPN](http://www.espn.com/mens-college-basketball/bracketology) to Catch and Shoot’s bracket [here](http://thecatchandshoot.com/bracketology/).
 
-TU's loss on Sunday evening dropped them from #1 in the AAC to #3, and that will have a significant effect on Tulsa’s bracketology projections. By default, many sites give the conference’s auto-bid to whoever is currently in first place. That was Tulsa before 5:00pm on Sunday, but that is not the case anymore.
+TU's loss on Sunday evening dropped them from #1 in the AAC to #3, and that, as you'll see, had a significant effect on Tulsa’s bracketology projections. By default, many sites give the conference’s auto-bid to whoever is currently in first place. That was Tulsa before 5:00pm on Sunday, but that is not the case anymore.
 
-As of Sunday night, before many brackets had been updated with Tulsa’s loss, Bracket Matrix still had us IN 32 out of 100 brackets, with all but one of those putting us in as the twelve seed.
+As of Sunday night, before many brackets had been updated with Tulsa’s loss to Wichita State, Bracket Matrix still had us IN 32 out of 100 brackets. All but one of those put us in as the twelve seed, and all 32 of those had us in there as the American's auto-bid.
 
-_* I will update this post on Monday night with where we stand once Bracket Matrix is fully up-to-date *_
+As of Monday night, now that Tulsa is no longer projected as the auto-bid, NONE of the brackets that had been updated on March 9th had Tulsa in the tournament. Something to note, though, is that we *are* considered part of the "Next Four Out" according to Joe Lunardi over at ESPN.
+
+So do *we* think Tulsa can earn an at-large bid?
 
 <br />
 

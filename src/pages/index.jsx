@@ -46,10 +46,14 @@ const HomeLayout = () => {
                 </p>
               </Row>
               <Row>
+                
                 <picture className="floating_still_image">
+                <a href="/podcast">
                   <source type="image/webp" srcSet={require("../../static/logo-500px.webp")} style={{ height: "200px", width: "200px" }} />
                   <img src={require("../../static/logo-500px.png")} alt="The Golden Hurricast logo" style={{ height: "200px", width: "200px" }} />
+                </a>
                 </picture>
+                
               </Row>
 
               <br />
