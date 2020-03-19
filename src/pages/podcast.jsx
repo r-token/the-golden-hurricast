@@ -90,10 +90,10 @@ const PodcastLayout = () => {
           <Container className="podstyle">
             <Row>
               <Col>
-                <iframe 
+                <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-26-Have-Yourself-a-Week-Lawson-eb7dpe" 
-                  title="2-25: Legends"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-27-Conference-Champs--Postseason-Predictions-ebd5sj" 
+                  title="2-27: Conference Champs and Postseason Predictions"
                   height="102px" 
                   width="300px" 
                   frameborder="0" 
@@ -103,8 +103,8 @@ const PodcastLayout = () => {
               <Col>
                 <iframe 
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-25-Legends-ft--Trevis-Gipson-eb1b4s" 
-                  title="2-25: Legends"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-26-Have-Yourself-a-Week-Lawson-eb7dpe" 
+                  title="2-26: Have Yourself a Week, Lawson"
                   height="102px" 
                   width="300px" 
                   frameborder="0" 
@@ -117,8 +117,8 @@ const PodcastLayout = () => {
               <Col>
                 <iframe 
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-24-Race-4-the-AAC-eatl9e" 
-                  title="2-24: Race 4 the AAC"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-25-Legends-ft--Trevis-Gipson-eb1b4s" 
+                  title="2-25: Legends"
                   height="102px" 
                   width="300px" 
                   frameborder="0" 
@@ -126,10 +126,10 @@ const PodcastLayout = () => {
                 </iframe>
               </Col>
               <Col>
-                <iframe
-                  className="floating_still_podcast" 
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-23-TU-and-the-No-Good--Very-Bad-Three-Point-Defense-Week-eao4s3" 
-                  title="2-23: TU and the No Good Very Bad Three Point Defense Week"
+                <iframe 
+                  className="floating_still_podcast"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-24-Race-4-the-AAC-eatl9e" 
+                  title="2-24: Race 4 the AAC"
                   height="102px" 
                   width="300px" 
                   frameborder="0" 
