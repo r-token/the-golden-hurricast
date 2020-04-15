@@ -10,7 +10,7 @@
 
 Source code for https://thegoldenhurricast.com
 
-_Development by Ryan Token, blog and pocast contributions from Pat Fox, Matt Rechtien, and Ryan Token_
+_Development by Ryan Token, blog and podcast contributions from Pat Fox, Matt Rechtien, and Ryan Token_
 
 ## 🚀 Build Details
 
