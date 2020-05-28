@@ -96,7 +96,7 @@ const PodcastLayout = () => {
                   title="2-27: Conference Champs and Postseason Predictions"
                   height="102px" 
                   width="300px" 
-                  frameborder="0" 
+                  frameBorder="0" 
                   scrolling="no">
                 </iframe>
               </Col>
@@ -107,7 +107,7 @@ const PodcastLayout = () => {
                   title="2-26: Have Yourself a Week, Lawson"
                   height="102px" 
                   width="300px" 
-                  frameborder="0" 
+                  frameBorder="0" 
                   scrolling="no">
                 </iframe>
               </Col>
@@ -121,7 +121,7 @@ const PodcastLayout = () => {
                   title="2-25: Legends"
                   height="102px" 
                   width="300px" 
-                  frameborder="0" 
+                  frameBorder="0" 
                   scrolling="no">
                 </iframe>
               </Col>
@@ -132,7 +132,7 @@ const PodcastLayout = () => {
                   title="2-24: Race 4 the AAC"
                   height="102px" 
                   width="300px" 
-                  frameborder="0" 
+                  frameBorder="0" 
                   scrolling="no">
                 </iframe>
               </Col>
