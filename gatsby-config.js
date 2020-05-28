@@ -24,8 +24,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "GatsbyJS",
-        short_name: "GatsbyJS",
+        name: "The Golden Hurricast",
+        short_name: "TGH",
         start_url: "/",
         background_color: "#002D72",
         theme_color: "#002D72",

@@ -1,11 +1,11 @@
 {
-  "name": "The Golden Hurricast",
+  "name": "thegoldenhurricast",
   "private": true,
   "description": "The leading independent podcast and blog covering Golden Hurricane athletics at The University of Tulsa",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
@@ -31,9 +31,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/r-token/thegoldenhurricast"
   }
 }
