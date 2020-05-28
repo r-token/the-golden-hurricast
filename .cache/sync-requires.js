@@ -5,7 +5,6 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/rtoken/Dev/Web/Projects/thegoldenhurricast/.cache/dev-404-page.js"))),
   "component---src-pages-about-jsx": hot(preferDefault(require("/Users/rtoken/Dev/Web/Projects/thegoldenhurricast/src/pages/about.jsx"))),
   "component---src-pages-blog-jsx": hot(preferDefault(require("/Users/rtoken/Dev/Web/Projects/thegoldenhurricast/src/pages/blog.jsx"))),
   "component---src-pages-index-jsx": hot(preferDefault(require("/Users/rtoken/Dev/Web/Projects/thegoldenhurricast/src/pages/index.jsx"))),

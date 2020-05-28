@@ -15,6 +15,6 @@ _Development by Ryan Token, blog and podcast contributions from Pat Fox, Matt Re
 ## 🚀 Build Details
 
 - **Hosted on Netlify**
-- Built with React and Gatsby
+- Built with React, Gatsby, and GraphQL
 - **Commits to Master will trigger a 'Gatsby Build' command on Netlify, and Netlify will serve up the results**
 - goldenhurricast.com redirects to thegoldenhurricast.com
