@@ -88,8 +88,8 @@ const PodcastLayout = () => {
 
         <div style={{ display: "flex", alignItems: "center" }}>
           <Container className="podstyle">
-            <Row>
-              <Col>
+            <Row md={12}>
+              <Col sm={12} lg={6} style={{marginBottom: '20px'}}>
                 <iframe
                   className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-27-Conference-Champs--Postseason-Predictions-ebd5sj" 
@@ -100,7 +100,7 @@ const PodcastLayout = () => {
                   scrolling="no">
                 </iframe>
               </Col>
-              <Col>
+              <Col sm={12} lg={6}>
                 <iframe 
                   className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-26-Have-Yourself-a-Week-Lawson-eb7dpe" 
@@ -114,7 +114,7 @@ const PodcastLayout = () => {
             </Row>
             <br />
             <Row>
-              <Col>
+              <Col sm={12} lg={6} style={{marginBottom: '20px'}}>
                 <iframe 
                   className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-25-Legends-ft--Trevis-Gipson-eb1b4s" 
@@ -125,7 +125,7 @@ const PodcastLayout = () => {
                   scrolling="no">
                 </iframe>
               </Col>
-              <Col>
+              <Col sm={12} lg={6}>
                 <iframe 
                   className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-24-Race-4-the-AAC-eatl9e" 
