@@ -4,7 +4,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 import { ButtonToolbar } from "react-bootstrap"
 
-const HomeHeroUnit = () => {
+const HomeJumbotron = () => {
     return (
       <div>
         <Jumbotron>
@@ -93,4 +93,4 @@ const HomeHeroUnit = () => {
     );
 }
 
-export default HomeHeroUnit;
+export default HomeJumbotron;

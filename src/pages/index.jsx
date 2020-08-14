@@ -1,19 +1,21 @@
 import React from "react"
-import "bootstrap/dist/css/bootstrap.min.css"
+import Button from 'react-bootstrap/Button'
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Helmet } from "react-helmet"
 import NavigationBar from "../components/NavigationBar"
-import HomeHeroUnit from "../components/HomeHeroUnit"
+import HomeJumbotron from "../components/HomeJumbotron"
+import { Helmet } from "react-helmet"
 import { TwitterTimelineEmbed, TwitterFollowButton } from "react-twitter-embed";
+
+import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/style.css";
 
 const HomeLayout = () => {
   return (
     <div>
       <NavigationBar />
-      <HomeHeroUnit />
+      <HomeJumbotron />
       <div
         style={{
           marginTop: "30px",
@@ -41,22 +43,23 @@ const HomeLayout = () => {
                   The Golden Hurricast is a weekly podcast covering Golden
                   Hurricane athletics at The University of Tulsa.
                 </p>
-                <p>
-                  <a href="/podcast">Listen to our podcast.</a>
-                </p>
               </Row>
               <Row>
-                
-                <picture className="floating_still_image">
-                <a href="/podcast">
-                  <source type="image/webp" srcSet={require("../../static/logo-500px.webp")} style={{ height: "200px", width: "200px" }} />
-                  <img src={require("../../static/logo-500px.png")} alt="The Golden Hurricast logo" style={{ height: "200px", width: "200px" }} />
-                </a>
-                </picture>
-                
+                <p>
+                    <Button variant="outline-primary" href="/podcast" rel="noopener noreferrer" target="_blank">Listen to our podcast</Button>
+                </p>
               </Row>
 
-              <br />
+              <Row>
+                <picture className="floating_still_image">
+                  <a href="/podcast" rel="noopener noreferrer" target="_blank">
+                    <source type="image/webp" srcSet={require("../../static/logo-500px.webp")} style={{ height: "200px", width: "200px" }} />
+                    <img src={require("../../static/logo-500px.png")} alt="The Golden Hurricast logo" style={{ height: "200px", width: "200px" }} />
+                  </a>
+                </picture>
+              </Row>
+
+              <br /> <br />
 
               <Row>
                 <h4>Blog</h4>
@@ -69,8 +72,10 @@ const HomeLayout = () => {
                   about interesting milestones as Tulsa athletics continues to
                   progress.
                 </p>
+              </Row>
+              <Row>
                 <p>
-                  <a href="/blog">Read our blog.</a>
+                  <Button variant="outline-primary" href="/blog" rel="noopener noreferrer" target="_blank">Read our blog</Button>
                 </p>
                 <br /> <br /> <br />
               </Row>

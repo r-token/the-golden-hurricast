@@ -4,7 +4,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 import { Link } from 'gatsby'
 
-const BlogHeroUnit = () => {
+const BlogJumbotron = () => {
     return (
       <div>
         <Jumbotron>
@@ -21,4 +21,4 @@ const BlogHeroUnit = () => {
     );
 }
 
-export default BlogHeroUnit;
+export default BlogJumbotron;

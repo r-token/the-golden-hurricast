@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-const PodcastHeroUnit = () => {
+const PodcastJumbotron = () => {
     return (
       <div>
         <Jumbotron>
@@ -58,4 +58,4 @@ const PodcastHeroUnit = () => {
     );
 }
 
-export default PodcastHeroUnit;
+export default PodcastJumbotron;

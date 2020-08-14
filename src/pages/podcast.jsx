@@ -5,8 +5,9 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { Helmet } from "react-helmet"
 import NavigationBar from "../components/NavigationBar"
-import PodcastHeroUnit from "../components/PodcastHeroUnit"
+import PodcastJumbotron from "../components/PodcastJumbotron"
 import "../styles/style.css";
+import LatestEpisode from "../components/LatestEpisode"
 
 const PodcastLayout = () => {
   return (
@@ -17,7 +18,7 @@ const PodcastLayout = () => {
       </Helmet>
 
       <NavigationBar />
-      <PodcastHeroUnit />
+      <PodcastJumbotron />
 
       <div
         style={{
@@ -38,8 +39,8 @@ const PodcastLayout = () => {
                 href="https://anchor.fm/thegoldenhurricast"
               >
                 Anchor.fm
-          </a>
-        </p>
+              </a>
+            </p>
           </Container>
         </div>
 
@@ -52,31 +53,15 @@ const PodcastLayout = () => {
         </div>
 
         <br />
-
         <div style={{ display: "flex", alignItems: "center" }}>
-          <Container className="podstyle">
+            <Container className="podstyle">
             <h4>Latest Episode</h4>
             <hr style={{ width: "100%" }} />
-          </Container>
+            </Container>
         </div>
 
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <Container className="podstyle">
-            <Row>
-              <Col>
-                <iframe 
-                  className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed"
-                  title="latest episode"
-                  height="102px"
-                  width="300px"
-                  frameBorder="0"
-                  scrolling="no"
-                ></iframe>
-              </Col>
-            </Row>
-          </Container>
-        </div>
+        <LatestEpisode />
+        
         <br /> <br /> <br />
         
         <div style={{ display: "flex", alignItems: "center" }}>

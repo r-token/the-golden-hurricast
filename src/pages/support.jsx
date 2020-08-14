@@ -1,7 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import NavigationBar from "../components/NavigationBar";
-import Container from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container';
+import SupportJumbotron from '../components/SupportJumbotron'
 import "../styles/style.css";
 
 const SupportLayout = () => {
@@ -13,26 +14,19 @@ const SupportLayout = () => {
       </Helmet>
 
       <NavigationBar />
+      <SupportJumbotron />
 
       <div
         style={{
           marginTop: "130px",
           marginBottom: "30px",
+          marginLeft: "30px",
+          marginRight: "30px",
           display: "flex",
           alignItems: "center"
         }}
       >
-        <Container id="supportus">
-          <h2>Support Us</h2>
-          <br />
-          <p>
-            We do all of this for free and for the love of TU athletics. If you
-            have the means to do so, there are two ways to support the podcast and
-            the blog.
-        </p>
-          <p></p>
-
-          <br />
+        <Container id="supportus" style={{marginTop: '-75px'}}>
 
           <h4> How to Support Us </h4>
           <hr />

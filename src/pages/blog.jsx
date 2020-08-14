@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { graphql, Link } from 'gatsby'
 import NavigationBar from '../components/NavigationBar'
-import BlogHeroUnit from '../components/BlogHeroUnit'
+import BlogJumbotron from '../components/BlogJumbotron'
 import Container from 'react-bootstrap/Container'
 import "../styles/style.css";
 
@@ -16,7 +16,7 @@ const BlogLayout = ({data}) => {
         </Helmet>
 
         <NavigationBar />
-        <BlogHeroUnit />
+        <BlogJumbotron />
 
         <div
           style={{
