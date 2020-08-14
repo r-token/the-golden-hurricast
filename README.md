@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.thegoldenhurricast.com">
-    <img alt="Gatsby" src="/static/logo-500px.png" width="60" />
+    <img alt="The Golden Hurricast Logo" src="/static/logo-500px.png" height="200" width="200" />
   </a>
 </p>
 <h1 align="center">
