@@ -46,13 +46,13 @@ const HomeLayout = () => {
               </Row>
               <Row>
                 <p>
-                    <Button variant="outline-primary" href="/podcast" rel="noopener noreferrer" target="_blank">Listen to our podcast</Button>
+                    <Button variant="outline-primary" href="/podcast">Listen to our podcast</Button>
                 </p>
               </Row>
 
               <Row>
                 <picture className="floating_still_image">
-                  <a href="/podcast" rel="noopener noreferrer" target="_blank">
+                  <a href="/podcast">
                     <source type="image/webp" srcSet={require("../../static/logo-500px.webp")} style={{ height: "200px", width: "200px" }} />
                     <img src={require("../../static/logo-500px.png")} alt="The Golden Hurricast logo" style={{ height: "200px", width: "200px" }} />
                   </a>
@@ -75,7 +75,7 @@ const HomeLayout = () => {
               </Row>
               <Row>
                 <p>
-                  <Button variant="outline-primary" href="/blog" rel="noopener noreferrer" target="_blank">Read our blog</Button>
+                  <Button variant="outline-primary" href="/blog">Read our blog</Button>
                 </p>
                 <br /> <br /> <br />
               </Row>

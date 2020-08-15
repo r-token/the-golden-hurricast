@@ -35,7 +35,7 @@ const AboutLayout = () => {
         </p>
 
           <p>
-            You can find our <a rel="noopener noreferrer" target="_blank" href="/podcast">podcast</a> on <b>10 different platforms</b>, including
+            You can find our <a href="/podcast">podcast</a> on <b>10 different platforms</b>, including
             Apple Podcasts, Spotify, Google Podcasts, Stitcher, Overcast, Castro, Breaker,
             PocketCasts, and more. Just search for "The Golden Hurricast".
         </p>
@@ -45,11 +45,11 @@ const AboutLayout = () => {
           <h4> Our Blog </h4>
           <hr />
           <p>
-            In the fall of 2019, we decided to up our game a bit and create a <a rel="noopener noreferrer" target="_blank" href="/blog">blog</a>. Affectionately known as Herc's Corner, our blog was officially born on September 19, 2019. The name Herc's Corner comes from TU's former mascot Herc the Hurricane (also known as Huffy, but we prefer Herc).
+            In the fall of 2019, we decided to up our game a bit and create a <a href="/blog">blog</a>. Affectionately known as Herc's Corner, our blog was officially born on September 19, 2019. The name Herc's Corner comes from TU's former mascot Herc the Hurricane (also known as Huffy, but we prefer Herc).
           </p>
           <p>
             Our goal with this blog is to dive deeper into stats, explore TU history, and write about interesting milestones as Tulsa athletics continues to progress. Matt (former Sports Editor for The Collegian) kicked things off by writing a couple stat-focused articles, and Ryan joined in with {""}
-            <a rel="noopener noreferrer" target="_blank" href="https://www.thegoldenhurricast.com/Rivalries">
+            <a href="https://www.thegoldenhurricast.com/Rivalries">
               "Tulsa vs Everybody: Picking New Rivals"
           </a>
             . It's been a joint effort ever since.
@@ -60,7 +60,7 @@ const AboutLayout = () => {
             (hercscorner.home.blog) and some of the other WordPress limitations.
             Fortunately, Ryan works as a software developer and decided to
           build us a custom website! Thus,{" "}
-            <a rel="noopener noreferrer" target="_blank" href="https://thegoldenhurricast.com">TheGoldenHurricast.com</a>{" "}
+            <a href="https://thegoldenhurricast.com">TheGoldenHurricast.com</a>{" "}
             was born. We have high hopes for the website, so let us know if
             there's anything you'd like us to add in the future.
         </p>
