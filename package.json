@@ -17,6 +17,7 @@
     "@babel/core": "^7.10.1",
     "bootstrap": "^4.4.1",
     "gatsby": "^2.18.12",
+    "gatsby-cli": "^2.12.87",
     "gatsby-plugin-manifest": "^2.2.34",
     "gatsby-plugin-react-helmet": "^3.1.18",
     "gatsby-source-filesystem": "^2.1.43",
