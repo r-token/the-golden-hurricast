@@ -23,7 +23,7 @@ const HomeLayout = () => {
           marginRight: "30px",
           marginBottom: "30px",
           flexDirection: "column",
-          alignItems: "center"
+          alignItems: "center",
         }}
       >
         <Helmet>
@@ -46,21 +46,28 @@ const HomeLayout = () => {
               </Row>
               <Row>
                 <p>
-                    <Button variant="outline-primary" href="/podcast">Listen to our podcast</Button>
+                  <Button variant="outline-primary" href="/podcast">
+                    Listen to our podcast
+                  </Button>
                 </p>
               </Row>
-
               <Row>
                 <picture className="floating_still_image">
                   <a href="/podcast">
-                    <source type="image/webp" srcSet={require("../../static/logo-500px.webp")} style={{ height: "200px", width: "200px" }} />
-                    <img src={require("../../static/logo-500px.png")} alt="The Golden Hurricast logo" style={{ height: "200px", width: "200px" }} />
+                    <source
+                      type="image/webp"
+                      srcSet={require("../../static/logo-500px.webp")}
+                      style={{ height: "200px", width: "200px" }}
+                    />
+                    <img
+                      src={require("../../static/logo-500px.png")}
+                      alt="The Golden Hurricast logo"
+                      style={{ height: "200px", width: "200px" }}
+                    />
                   </a>
                 </picture>
               </Row>
-
               <br /> <br />
-
               <Row>
                 <h4>Blog</h4>
               </Row>
@@ -75,7 +82,9 @@ const HomeLayout = () => {
               </Row>
               <Row>
                 <p>
-                  <Button variant="outline-primary" href="/blog">Read our blog</Button>
+                  <Button variant="outline-primary" href="/blog">
+                    Read our blog
+                  </Button>
                 </p>
                 <br /> <br /> <br />
               </Row>
@@ -103,6 +112,11 @@ const HomeLayout = () => {
           </Row>
         </Container>
       </div>
+      <script
+        id="dsq-count-scr"
+        src="//thegoldenhurricast.disqus.com/count.js"
+        async
+      ></script>
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
+import { DiscussionEmbed } from 'disqus-react'
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavigationBar from '../components/NavigationBar'
@@ -9,11 +10,17 @@ import '../styles/style.css'
 const Template = ({data, pageContext}) => {
     const { next, prev } = pageContext
 
-    const {markdownRemark} = data
+    const { markdownRemark } = data
     const title = markdownRemark.frontmatter.title
     const authors = markdownRemark.frontmatter.authors
     const date = markdownRemark.frontmatter.date
     const html = markdownRemark.html
+
+    const disqusConfig = {
+      shortname: "thegoldenhurricast",
+      config: { identifier: title },
+    };
+
     return (
       <div id="blogAlignment">
         <Helmet>
@@ -26,13 +33,13 @@ const Template = ({data, pageContext}) => {
         <div
           className="blogpost"
           style={{
-            marginTop: "55px"
+            marginTop: "55px",
           }}
         >
           <h2 style={{ fontSize: "40px", fontWeight: "bold" }}>{title}</h2>
           <p style={{ fontSize: "16px", color: "grey" }}>
-            By: {authors} 
-            <br /> 
+            By: {authors}
+            <br />
             Date: {date}{" "}
           </p>
         </div>
@@ -43,10 +50,14 @@ const Template = ({data, pageContext}) => {
           className="blogpost"
           style={{
             marginBottom: "60px",
-            fontSize: "18px"
+            fontSize: "18px",
           }}
           dangerouslySetInnerHTML={{ __html: html }}
         />
+
+        <div style={{padding: '15px', marginBottom: '25px'}}>
+          <DiscussionEmbed {...disqusConfig} />
+        </div>
 
         {/*footer*/}
         <div>

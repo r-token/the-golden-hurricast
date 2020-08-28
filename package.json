@@ -16,6 +16,7 @@
   "dependencies": {
     "@babel/core": "^7.10.1",
     "bootstrap": "^4.4.1",
+    "disqus-react": "^1.0.9",
     "gatsby": "^2.18.12",
     "gatsby-cli": "^2.12.87",
     "gatsby-plugin-manifest": "^2.2.34",

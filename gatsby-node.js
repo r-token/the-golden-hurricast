@@ -1,4 +1,5 @@
 const path = require('path')
+const { createFilePath } = require('gatsby-source-filesystem')
 
 const createTagPages = (createPage, posts) => {
     const allTagsIndexTemplate = path.resolve('src/templates/allTagsIndex.jsx')

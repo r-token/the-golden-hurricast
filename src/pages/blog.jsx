@@ -43,7 +43,7 @@ const BlogLayout = ({data}) => {
                         textDecoration: "none"
                       }}
                       
-                      to={frontmatter.path}
+                      to={`${frontmatter.path}`}
                     >
                       <div
                         key={frontmatter.path}

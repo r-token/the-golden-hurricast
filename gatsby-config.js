@@ -7,6 +7,7 @@
 module.exports = {
   /* site config */
   siteMetadata: {
+    siteUrl: 'https://www.thegoldenhurricast.com',
     title: `The Golden Hurricast`,
     description: `The leading podcast and blog covering Golden Hurricane athletics at The University of Tulsa`
   },
