@@ -9,8 +9,8 @@ const NavigationBar = () => {
       <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
         <Navbar.Brand href="/">
           <picture>
-            <source type="image/webp" srcSet={require("../../static/logo-navbar.webp")} style={{ marginRight: 15, height: "48px", width: "50px" }} />
-            <img src={require("../../static/logo-navbar.png")} alt="The Golden Hurricast logo" style={{ marginRight: 15, height: "48px", width: "50px" }} />
+            <source type="image/webp" srcSet={require("../../static/logo-navbar-white.png")} style={{ marginRight: 15, height: "48px", width: "50px" }} />
+            <img src={require("../../static/logo-navbar-white.png")} alt="The Golden Hurricast logo" style={{ marginRight: 15, height: "48px", width: "50px" }} />
           </picture>
           The Golden Hurricast
         </Navbar.Brand>
