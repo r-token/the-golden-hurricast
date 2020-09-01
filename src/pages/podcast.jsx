@@ -74,25 +74,25 @@ const PodcastLayout = () => {
         <div style={{ display: "flex", alignItems: "center" }}>
           <Container className="podstyle">
             <Row md={12}>
-              <Col sm={12} lg={6} style={{marginBottom: '20px'}}>
+              <Col sm={12} lg={6} style={{ marginBottom: '20px' }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-27-Conference-Champs--Postseason-Predictions-ebd5sj" 
-                  title="2-27: Conference Champs and Postseason Predictions"
-                  height="102px" 
-                  width="300px" 
-                  frameBorder="0" 
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-28-Not-the-End-We-Wanted-ebkh55"
+                  title="2-28: Not the End We Wanted"
+                  height="102px"
+                  width="300px"
+                  frameBorder="0"
                   scrolling="no">
                 </iframe>
               </Col>
-              <Col sm={12} lg={6}>
-                <iframe 
+              <Col sm={12} lg={6} style={{ marginBottom: '20px' }}>
+                <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-26-Have-Yourself-a-Week-Lawson-eb7dpe" 
-                  title="2-26: Have Yourself a Week, Lawson"
-                  height="102px" 
-                  width="300px" 
-                  frameBorder="0" 
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-27-Conference-Champs--Postseason-Predictions-ebd5sj"
+                  title="2-27: Conference Champs and Postseason Predictions"
+                  height="102px"
+                  width="300px"
+                  frameBorder="0"
                   scrolling="no">
                 </iframe>
               </Col>
@@ -100,21 +100,21 @@ const PodcastLayout = () => {
             <br />
             <Row>
               <Col sm={12} lg={6} style={{marginBottom: '20px'}}>
+                <iframe
+                  className="floating_still_podcast"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-26-Have-Yourself-a-Week-Lawson-eb7dpe"
+                  title="2-26: Have Yourself a Week, Lawson"
+                  height="102px"
+                  width="300px"
+                  frameBorder="0"
+                  scrolling="no">
+                </iframe>
+              </Col>
+              <Col sm={12} lg={6} style={{marginBottom: '20px'}}>
                 <iframe 
                   className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-25-Legends-ft--Trevis-Gipson-eb1b4s" 
                   title="2-25: Legends"
-                  height="102px" 
-                  width="300px" 
-                  frameBorder="0" 
-                  scrolling="no">
-                </iframe>
-              </Col>
-              <Col sm={12} lg={6}>
-                <iframe 
-                  className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-24-Race-4-the-AAC-eatl9e" 
-                  title="2-24: Race 4 the AAC"
                   height="102px" 
                   width="300px" 
                   frameBorder="0" 

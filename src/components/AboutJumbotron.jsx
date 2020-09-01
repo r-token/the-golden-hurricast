@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 const AboutJumbotron = () => {
     const mattRyanPat = require("../../static/MattRyanPat.jpeg");
     return (
-        <Jumbotron style={{color: "white", backgroundImage: `url(${mattRyanPat})`, backgroundPosition: "center top", backgroundRepeat: "no-repeat", height: '63vh', marginTop: "-5px"}}>
+        <Jumbotron style={{color: "white", backgroundImage: `url(${mattRyanPat})`, backgroundPosition: "center top", backgroundRepeat: "no-repeat", height: '63vh', maxHeight: '580px', marginTop: "-5px"}}>
           <Container className="container_style" style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', borderRadius: '15px', padding: '15px'}}>
             <h1>About Us</h1>
             <p style={{ fontSize: "18px" }}>
