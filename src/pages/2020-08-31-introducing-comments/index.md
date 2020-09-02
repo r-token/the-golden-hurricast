@@ -23,11 +23,11 @@ We're using [Disqus](https://disqus.com) for our comments system. We chose Disqu
 - It's fast. Adding this functionality won’t negatively impact the load time of our posts.
 - It fits in nicely with how we've already built the site.
 
-There are some things you should know before you get started commenting:
+There are some things you should know before you get started with commenting:
 
 <br />
 
-#### How to create a Disqus account
+#### Create a Disqus Account
 
 <br />
 
