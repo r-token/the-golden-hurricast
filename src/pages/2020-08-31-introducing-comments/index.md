@@ -1,6 +1,6 @@
 ---
 path: "/introducing-comments"
-date: "08/31/2020"
+date: "09/01/2020"
 sortDate: "2020/08/31"
 title: "Introducing Comments"
 authors: "Ryan Token"
