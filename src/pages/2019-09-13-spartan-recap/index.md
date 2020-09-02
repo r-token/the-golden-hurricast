@@ -1,5 +1,5 @@
 ---
-path: "/Spartan Recap"
+path: "/a-spartan-recap"
 date: "09/13/2019"
 sortDate: "2019/09/13"
 title: "Golden Hurristats: A Spartan Recap"

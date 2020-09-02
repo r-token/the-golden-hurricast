@@ -1,5 +1,5 @@
 ---
-path: "/Farewell to Seniors"
+path: "/a-farewell-to-seniors"
 date: "01/01/2020"
 sortDate: "2020/01/01"
 title: "A Farewell to Seniors"

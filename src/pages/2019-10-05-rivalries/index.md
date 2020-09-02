@@ -1,5 +1,5 @@
 ---
-path: "/Rivalries"
+path: "/picking-new-rivals"
 date: "10/05/2019"
 sortDate: "2019/10/05"
 title: "Tulsa vs Everybody: Picking New Rivals"
@@ -10,7 +10,11 @@ tags: ['football', 'hype']
 
 One of the great things about sports is that they provide an opportunity to irrationally get angry at people for having different opinions as you in a way that is still acceptable in society. I am of course referring to rivalries. With the recent decision by the American Athletic Conference to get rid of divisions starting next football season, the concern came up about maintaining some natural rivalries between schools because of the new rotating schedule. One possible solution people have suggested was the creation of two new permanent rivals for every school that you would play each year while the rest of the schedule rotates. 
 This creates the exciting question of just who those rivals would be for Tulsa. There are a lot of options, but there are four in particular that we think make the most sense. So to have a little fun, Ryan and I broke down our takes on why Houston, SMU, Memphis, and Tulane make the most sense as the new Golden Hurricane rivals.
+
 ## Houston
+
+<br />
+
 - First Game: 1950
 - Number of Matchups: 43 (4th)
 - Historical Record: 19–24–0
@@ -18,7 +22,10 @@ This creates the exciting question of just who those rivals would be for Tulsa. 
 - Biggest Loss: 100–6 (1968)
 - Shared Conferences: CUSA (8), MVC (9)
 
+<br />
+
 ### Opinions:
+
 ----
 #### Matt
 I don’t think there is a more perfect team in the American better suited to be our rival than the Houston Cougars. The matchup has got everything you could ask for: history, (general) proximity, old grudges and more. Tulsa is Houston’s most played opponent in their history and Houston is our 4th most played, technically the second highest in the conference after Wichita State, but highest with an active football program. 
@@ -45,7 +52,12 @@ My other argument against Houston is purely a selfish one. I like to travel, and
 
 Potential rivalry name: I really love Matt’s idea here, so I’ll echo Crude Control
 
+<br />
+
 ## Southern Methodist
+
+<br />
+
 - First Game: 1935
 - Number of Matchups: 25 (9th)
 - Historical Record: 11–14–0
@@ -53,7 +65,10 @@ Potential rivalry name: I really love Matt’s idea here, so I’ll echo Crude C
 - Biggest Loss: 33–3 (1998)
 - Shared Conferences: CUSA (8), WAC (9)
 
+<br />
+
 ### Opinions:
+
 ----
 #### Ryan
 SMU is my favorite potential rival for several reasons.
@@ -98,7 +113,12 @@ Here’s my line of thinking; on one hand, Dallas is super close, one of my best
 
 Already existing rivalry name: Boomtown Showdown
 
+<br />
+
 ## Memphis
+
+<br />
+
 - First Game: 1961
 - Number of Matchups: 29 (6th)
 - Historical Record: 11–18–0
@@ -106,7 +126,10 @@ Already existing rivalry name: Boomtown Showdown
 - Biggest Loss: 48–12 (1961)
 - Shared Conferences: CUSA (8), MVC (5)
 
+<br />
+
 ### Opinions:
+
 ----
 #### Ryan
 Perhaps controversially, I would put Memphis down as my fourth choice for a team to have a permanent rivalry game with. This is almost definitely due to recency bias. I went to TU from 2013–2017. Since 2013, Tulsa has played Memphis five times and lost four of them. Though our one win over them was nearly a 30-point win, the four losses were all by 20 points or more. 
@@ -134,7 +157,12 @@ Memphis also isn’t as big a threat to jump from the conference because; a) the
 
 Potential rivalry name: Walking in Memphis on Tulsa Time
 
+<br />
+
 ## Tulane
+
+<br />
+
 - First Game: 1968
 - Number of Matchups: 15 (20th)
 - Historical Record: 11–4–0
@@ -142,7 +170,10 @@ Potential rivalry name: Walking in Memphis on Tulsa Time
 - Biggest Loss: 62–28 (2017)
 - Shared Conferences: CUSA (9)
 
+<br />
+
 ### Opinions:
+
 ----
 #### Matt
 Tulane might just be the perfect rival for Tulsa. I mean they literally abbreviate their school as TU. If you are a fan of TU, this should really grind your gears. How dare they be TU. We’re TU. That should be enough to fuel a rivalry for generations, but I’m told that’s not a good enough reason. So here’s some facts about our schools I guess.
@@ -186,7 +217,11 @@ Finally, Tulane is an exciting, up-and-coming team. They were nowhere to be foun
 
 No doubt rivalry name: The Battle of the Color-Based Water Phenomenons
 
+<br />
+
 ## Final Rankings
+
+<br />
 
 ### Matt
 I’m not going to lie, when we came up with this article idea I had two teams set in stone in my mind. Even when I started writing this I had a clear hierarchy, but after working on this with Ryan my original rankings have fallen by the wayside and I don’t know what’s true anymore. So here’s my new ranking.

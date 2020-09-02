@@ -1,5 +1,5 @@
 ---
-path: "/Defense Sets the Tone"
+path: "/defense-sets-the-tone"
 date: "01/30/2020"
 sortDate: "2020/01/30"
 title: "Tulsa's Defense Sets the Tone"

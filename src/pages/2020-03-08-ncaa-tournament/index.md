@@ -1,5 +1,5 @@
 ---
-path: "/TU's-Tournament-Chances"
+path: "/tus-tournament-chances"
 date: "03/09/2020"
 sortDate: "2020/03/09"
 title: "Tulsa's At-Large NCAA Tournament Chances"

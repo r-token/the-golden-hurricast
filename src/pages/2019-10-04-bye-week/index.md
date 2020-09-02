@@ -1,5 +1,5 @@
 ---
-path: "/Bye Week"
+path: "/through-the-bye-week"
 date: "10/04/2019"
 sortDate: "2019/10/04"
 title: "Golden Hurristats: Through the Bye Week"

@@ -1,11 +1,11 @@
 ---
-path: "/Basketball Reactions"
+path: "/basketball-tenth-place-reactions-2019"
 date: "11/05/2019"
 sortDate: "2019/11/05"
 title: "Tenth Place Reactions"
 authors: "Pat Fox, Matt Rechtien, Ryan Token"
 excerpt: "We react to Tulsa being picked to finish tenth in AAC basketball for the 2019-2020 season."
-tags: ['basketball', 'hype']
+tags: ['basketball', 'hype', 'reactions']
 ---
 
 Our long awaited reaction to Tulsa being selected as the tenth best team in the American Athletic Conference at Media Days in mid-October. Pat, Ryan, and Matt explain why they agree or disagree with those results.
