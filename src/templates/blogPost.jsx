@@ -28,7 +28,7 @@ const Template = ({data, pageContext}) => {
           title={title}
           description={markdownRemark.frontmatter.excerpt || markdownRemark.frontmatter.description || ''}
           image={markdownRemark.frontmatter.image}
-          pathname={pageContext.frontmatter.path}
+          pathname={markdownRemark.frontmatter.path}
           article
         />
         <Helmet>
