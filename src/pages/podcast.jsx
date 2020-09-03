@@ -6,12 +6,18 @@ import Col from 'react-bootstrap/Col'
 import { Helmet } from "react-helmet"
 import NavigationBar from "../components/NavigationBar"
 import PodcastJumbotron from "../components/PodcastJumbotron"
-import "../styles/style.css";
 import LatestEpisode from "../components/LatestEpisode"
+import SEO from '../components/seo'
+import "../styles/style.css";
 
 const PodcastLayout = () => {
   return (
     <div>
+      <SEO
+        title={"The Golden Hurricast"}
+        description={"The leading independent podcast and blog covering Golden Hurricane athletics at The University of Tulsa"}
+        image={"/logo-white.jpg"}
+      />
       <Helmet>
         <meta charSet="utf-8" />
         <title>TGH | Podcast</title>

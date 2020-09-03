@@ -10,7 +10,7 @@ module.exports = {
     siteUrl: 'https://www.thegoldenhurricast.com',
     url: 'https://www.thegoldenhurricast.com',
     title: `The Golden Hurricast`,
-    description: `The leading podcast and blog covering Golden Hurricane athletics at The University of Tulsa`,
+    description: `The leading independent podcast and blog covering Golden Hurricane athletics at The University of Tulsa`,
     image: "./static/logo-white.jpg",
     twitterUsername: "@GoldenHurricast",
   },

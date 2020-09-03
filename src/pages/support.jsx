@@ -3,11 +3,17 @@ import { Helmet } from "react-helmet";
 import NavigationBar from "../components/NavigationBar";
 import Container from 'react-bootstrap/Container';
 import SupportJumbotron from '../components/SupportJumbotron'
+import SEO from '../components/seo'
 import "../styles/style.css";
 
 const SupportLayout = () => {
   return (
     <div>
+      <SEO
+        title={"The Golden Hurricast"}
+        description={"The leading independent podcast and blog covering Golden Hurricane athletics at The University of Tulsa"}
+        image={"/logo-white.jpg"}
+      />
       <Helmet>
         <meta charSet="utf-8" />
         <title>TGH | Support Us</title>

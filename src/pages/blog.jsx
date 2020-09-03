@@ -4,12 +4,18 @@ import { graphql, Link } from 'gatsby'
 import NavigationBar from '../components/NavigationBar'
 import BlogJumbotron from '../components/BlogJumbotron'
 import Container from 'react-bootstrap/Container'
+import SEO from '../components/seo'
 import "../styles/style.css";
 
 const BlogLayout = ({data}) => {
     const { edges } = data.allMarkdownRemark
     return (
       <div>
+        <SEO
+        title={"The Golden Hurricast"}
+        description={"The leading independent podcast and blog covering Golden Hurricane athletics at The University of Tulsa"}
+        image={"/logo-white.jpg"}
+      />
         <Helmet>
           <meta charSet="utf-8" />
           <title>TGH | Blog</title>

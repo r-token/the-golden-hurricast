@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import NavigationBar from "../components/NavigationBar"
 import HomeJumbotron from "../components/HomeJumbotron"
+import SEO from '../components/seo'
 import { Helmet } from "react-helmet"
 import { TwitterTimelineEmbed, TwitterFollowButton } from "react-twitter-embed";
 
@@ -14,6 +15,11 @@ import "../styles/style.css";
 const HomeLayout = () => {
   return (
     <div>
+      <SEO
+        title={"The Golden Hurricast"}
+        description={"The leading independent podcast and blog covering Golden Hurricane athletics at The University of Tulsa"}
+        image={"/logo-white.jpg"}
+      />
       <NavigationBar />
       <HomeJumbotron />
       <div
