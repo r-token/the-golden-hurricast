@@ -5,7 +5,7 @@ import { DiscussionEmbed } from 'disqus-react'
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavigationBar from '../components/NavigationBar'
-import SEO from '../components/SEO';
+import SEO from '../components/seo'
 import '../styles/style.css'
 
 const Template = ({data, pageContext}) => {
