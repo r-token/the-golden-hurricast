@@ -10,8 +10,8 @@ const AboutLayout = () => {
   return (
     <div>
       <SEO
-        title={"The Golden Hurricast"}
-        description={"The leading independent podcast and blog covering Golden Hurricane athletics at The University of Tulsa"}
+        title={"About The Golden Hurricast"}
+        description={"We're an independent podcast and blog that covers all things Golden Hurricane athletics"}
         image={"/logo-white.jpg"}
       />
       <Helmet>

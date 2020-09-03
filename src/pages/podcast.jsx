@@ -14,8 +14,8 @@ const PodcastLayout = () => {
   return (
     <div>
       <SEO
-        title={"The Golden Hurricast"}
-        description={"The leading independent podcast and blog covering Golden Hurricane athletics at The University of Tulsa"}
+        title={"The Golden Hurricast – Podcast"}
+        description={"A weekly podcast covering Golden Hurricane athletics at The University of Tulsa"}
         image={"/logo-white.jpg"}
       />
       <Helmet>

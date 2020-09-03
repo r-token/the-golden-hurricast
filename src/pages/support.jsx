@@ -10,8 +10,8 @@ const SupportLayout = () => {
   return (
     <div>
       <SEO
-        title={"The Golden Hurricast"}
-        description={"The leading independent podcast and blog covering Golden Hurricane athletics at The University of Tulsa"}
+        title={"Support The Golden Hurricast"}
+        description={"We do all of this for free and for the love of TU athletics"}
         image={"/logo-white.jpg"}
       />
       <Helmet>
