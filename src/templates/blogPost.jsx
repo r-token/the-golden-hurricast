@@ -5,6 +5,7 @@ import { DiscussionEmbed } from 'disqus-react'
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavigationBar from '../components/NavigationBar'
+import SEO from '../components/seo';
 import '../styles/style.css'
 
 const Template = ({data, pageContext}) => {
@@ -23,6 +24,13 @@ const Template = ({data, pageContext}) => {
 
     return (
       <div id="blogAlignment">
+        <SEO
+          title={title}
+          description={markdownRemark.frontmatter.excerpt || markdownRemark.frontmatter.description || ''}
+          image={markdownRemark.frontmatter.image}
+          pathname={pageContext.frontmatter.path}
+          article
+        />
         <Helmet>
           <meta charSet="utf-8" />
           <title>{title}</title>
