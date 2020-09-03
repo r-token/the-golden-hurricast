@@ -70,7 +70,7 @@ Should Tulsa not win the conference tournament, the only somewhat feasible way w
 
 For reference, the conference tournament field is officially set. Here’s the full bracket:
 
-![AAC Conference Tournament Bracket](../../blog_images/AAC-Tournament.png)
+![AAC Conference Tournament Bracket](/blog_images/AAC-Tournament.png)
 
 Tulsa is the #3 seed, which means we get a first-round bye. The Golden Hurricane will play the winner of (11) ECU and (6) Memphis on Friday, March 13th. Another 40-point win over Memphis in the quarterfinals would certainly help the cause.
 

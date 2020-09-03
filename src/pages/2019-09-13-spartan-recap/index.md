@@ -34,7 +34,7 @@ After the quarterback search that Tulsa went through after the 2016 season it mi
 
 Let’s take a look at how these stats played out over the first two weeks.
 
-![Success Factors](../../blog_images/spartan-recap/spartan-recap-table1.jpg)
+![Success Factors](/blog_images/spartan-recap/spartan-recap-table1.jpg)
 
 The stark contrast between these numbers shouldn’t come as a surprise if you watched these games. Tulsa was dominated by MSU’s top-ranked defense, but was a lot more successful at forcing their will against San Jose State. Zach Smith looked incredibly sharp against San Jose and was able to hit receivers anywhere on the field with great success. His performance made the entire offense stronger because it forced San Jose’s defense to spread out instead of stacking the box. This made it easier for the Shamari Brooks and TK Wilkerson to find open running lanes and they took advantage of the opportunity.
 
@@ -63,7 +63,7 @@ Stuff Rate – The percentage of carries that are stopped at or behind the line 
 
 Through week two, here’s where Tulsa stands:
 
-![Success Factors](../../blog_images/spartan-recap/spartan-recap-table2.jpg)
+![Success Factors](/blog_images/spartan-recap/spartan-recap-table2.jpg)
 
 Even with our improved rushing game in the San Jose State game, our underlying run-blocking numbers are still in the bottom 25-percent nationally. Though I’m not able to isolate the week 1 numbers, I’m still confident that there was a big jump from week 1 to week 2, but that doesn’t mean there isn’t anything to be concerned about going forward. If we want to sustain the strong rushing game we put on display against San Jose State, then our offensive line is going to have to continue to trend up, and alleviate the pressure for Brooks, Wilkerson, and Corey Taylor to create their own rushing yards. Opening lanes up for the running backs will prevent them from getting worn down over the course of the season and keep our rushing game strong throughout the year.
 

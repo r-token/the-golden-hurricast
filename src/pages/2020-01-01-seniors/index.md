@@ -29,7 +29,7 @@ As the calendar moves from 2019 into 2020, everyone is already thinking about th
 <br /> <br />
 - Best Game (10/7/19): 131 yards on 6 receptions in loss to Tulane – 21.8 yards / reception
 
-![Keenen Johnson](../../blog_images/farewell-seniors/Keenen.jpeg)
+![Keenen Johnson](/blog_images/farewell-seniors/Keenen.jpeg)
 
 TOE! Man, what a career it’s been for the kid from Alto, TX. We’ve given him several nicknames throughout the podcast, but Coach Monty and the rest of the team simply call him Toe in reference to his hometown.
 
@@ -50,7 +50,7 @@ Keenen’s been that dude for us for four years straight. Our go-to guy when we 
 <br /> <br />
 - Finishes as number two in American for punting yards per punt for career. Best season was 2018 when he finished second in the NCAA with 46.6 yards per punt.
 
-![Thomas Bennett](../../blog_images/farewell-seniors/Bennett.jpeg)
+![Thomas Bennett](/blog_images/farewell-seniors/Bennett.jpeg)
 
 The kid from Carlsbad, CA is arguably the best punter in Tulsa history.
 
@@ -66,7 +66,7 @@ Also, did you know Thomas’s dad was an NFL punter?????
 
 **Chris Ivy Jr.**
 
-![Chris Ivy Jr.](../../blog_images/farewell-seniors/Ivy.jpg)
+![Chris Ivy Jr.](/blog_images/farewell-seniors/Ivy.jpg)
 
 I’ll be honest with you, it’s much harder to find stats/write about offensive linemen than essentially every other position.
 
@@ -83,14 +83,14 @@ Chris led a very young group consisting of new centers Gerard Wheeler and Dylan 
 <br /> <br />
 - Best Game (11/17/18): 65 yards on 5 receptions in loss to Navy
 
-![Jarion Anderson](../../blog_images/farewell-seniors/Jarion.jpg)
+![Jarion Anderson](/blog_images/farewell-seniors/Jarion.jpg)
 
 Jarion came to TU in 2015 and redshirted his freshman year. In 2016, he played in several games, primarily as a punt returner, but didn’t notch any really significant plays. After not playing at all in 2017, he finally became a name TU fans knew during the 2018 season.
 
 
 In 2018, he played in every game, handling nearly all of our punt return duties. The 2018 season alone, he returned 11 punts for 139 yards. That’s good enough for 12.6 yards per punt return. Those are great numbers for a returner. I believe that should have been good enough for the 15th best in college football in 2018, but he doesn’t make [Sports-Reference.com](https://www.sports-reference.com/cfb/years/2018-leaders.html)’s list for some reason.
 
-![Jarion Anderson Punt Return Stats](../../blog_images/farewell-seniors/Jarion-stats.png)
+![Jarion Anderson Punt Return Stats](/blog_images/farewell-seniors/Jarion-stats.png)
 
 To add to that fantastic average, he had a 55-yard return against Tulane. In 2019, though, his play time declined significantly. He only played in one game, and it resulted in one punt return for -2 yards. A lot of the decline in time on the field can likely be attributed to the emergence of all-around playmaker Keylon Stokes.
 
@@ -101,7 +101,7 @@ Jarion’s had an up-and-down career, but has had more than enough big plays thr
 **Danny Donley**
 - Years Played: 1, Games: 1, XPM:1
 
-![Danny Donley](../../blog_images/farewell-seniors/Danny.jpg)
+![Danny Donley](/blog_images/farewell-seniors/Danny.jpg)
 
 Why Danny didn’t play this year, I have no idea. He was a grad transfer from Drake University, where he went 9/9 on field goals and 34/37 on PATs in his senior year. He recorded several awards over the years with Drake, including Pioneer League Special Teams Player of the Week, Honorable Mention all-conference in 2017, and more. Danny also played his high school ball for Jenks High School here in Tulsa.
 
@@ -116,7 +116,7 @@ We’ll see how this all plays out next year between Rainey and Tipton, but I do
 **Andrew McKinnis**
 - Years Played: 2, Games: 2
 
-![Andrew McKinnis](../../blog_images/farewell-seniors/Andrew.jpg)
+![Andrew McKinnis](/blog_images/farewell-seniors/Andrew.jpg)
 
 Unfortunately, Andrew didn’t have any noteworthy stats during his time on TU’s campus. He walked on, and spent most of his time on special teams.
 
@@ -124,7 +124,7 @@ Unfortunately, Andrew didn’t have any noteworthy stats during his time on TU�
 
 **Jordan Rodriguez**
 
-![Andrew McKinnis](../../blog_images/farewell-seniors/Jordan-Rod.jpg)
+![Andrew McKinnis](/blog_images/farewell-seniors/Jordan-Rod.jpg)
 
 Jordan literally didn’t start playing football until 2018. Back in 2015, he was a basketball player for DII Montevallo, who then transferred to Dodge City Community College to play football. Jordan didn’t play at Dodge City, and then transferred to Tulsa to play tight end.
 
@@ -134,7 +134,7 @@ Sadly, we didn’t get to see Jordan on the field this year. He’s listed as a 
 
 **Judge Hartin**
 
-![Judge Hartin](../../blog_images/farewell-seniors/Judge.jpg)
+![Judge Hartin](/blog_images/farewell-seniors/Judge.jpg)
 
 Judge transferred to Tulsa from Northeastern Oklahoma A&M Community College in 2018, but didn’t see much time on the field for the Golden Hurricane.
 
@@ -153,7 +153,7 @@ Judge transferred to Tulsa from Northeastern Oklahoma A&M Community College in 2
 - <br /> <br />
 - Best Career Game (11/24/18): Had 7 total tackles, including 3.5 for loss and 2.0 sacks. Led Tulsa to a win over Southern Methodist to end the 2018 season on a high note.
 
-![Trevis Gipson](../../blog_images/farewell-seniors/Gipson.jpeg)
+![Trevis Gipson](/blog_images/farewell-seniors/Gipson.jpeg)
 
 Gipson has been an absolute animal coming off the edge.
 
@@ -176,7 +176,7 @@ NFL teams: Take notice. This guy will give you his all and then some.
 <br /> <br />
 - Best Career Game (9/21/19): Had 9 total tackles (6 solo) but most importantly forced a fumble on the goal line to seal the win for the Golden Hurricane over Wyoming.
 
-![Cooper Edmiston](../../blog_images/farewell-seniors/Coop.jpeg)
+![Cooper Edmiston](/blog_images/farewell-seniors/Coop.jpeg)
 
 Dear reader, I’ve got two words for you: MR. PRIMETIME.
 
@@ -201,7 +201,7 @@ Tulsa has quietly been churning out big-time playmakers at linebacker for a long
 <br /> <br />
 - Best Career Game (9/9/17): Had 13 total tackles (8 solo) and an interception in a win against Louisiana.
 
-![Manny Bunch](../../blog_images/farewell-seniors/Manny.jpeg)
+![Manny Bunch](/blog_images/farewell-seniors/Manny.jpeg)
 
 From an hour and a half down the road in Roland, OK, Manny Bunch is a guy who’s gotten better for us each and every year he’s been on campus.
 
@@ -222,7 +222,7 @@ Bunch has good size at 6’1’’, 201 lbs, and has been fun to watch for four 
 <br /> <br />
 - Best Career Game (11/8/19): Had five tackles, three passes deflected and an interception that he returned for 24 yards in the win over Central Florida.
 
-![Reggie Robinson III](../../blog_images/farewell-seniors/Reg.jpg)
+![Reggie Robinson III](/blog_images/farewell-seniors/Reg.jpg)
 
 REG ROBBBBBBBBBB!
 
@@ -245,7 +245,7 @@ Reggie certainly left his mark on The University of Tulsa. The 2019 season was u
 <br /> <br />
 - Best Career Game (9/9/17): Only had four tackles, but two of them were for a loss and deflected a pass in a win against Louisiana
 
-![Diamon Cannon](../../blog_images/farewell-seniors/Diamon.jpg)
+![Diamon Cannon](/blog_images/farewell-seniors/Diamon.jpg)
 
 Diamon was the third cog in the powerful Tulsa linebacking machine this year.
 
@@ -264,7 +264,7 @@ We’ll miss Diamon and all of his production over the years. Best of luck to hi
 <br /> <br />
 - Best Career Game (9/15/18): Had eight tackles, a tackle for a loss, and a fumble recovery in a loss against Arkansas State
 
-![Shemarr Robinson](../../blog_images/farewell-seniors/Shemarr.jpg)
+![Shemarr Robinson](/blog_images/farewell-seniors/Shemarr.jpg)
 
 From right here in Tulsa, Shemarr has played big-time minutes on the D-Line for four years now. He’s been a solid impactor for years, and we’ll miss his production.
 
@@ -283,7 +283,7 @@ His senior year was undoubtedly his best year. He started every game in 2019, ta
 <br /> <br />
 - Best Career Game (10/5/19): Had nine solo tackles, 12 total tackles and deflected a pass in the spiritually crushing loss to Southern Methodist
 
-![Brandon Johnson](../../blog_images/farewell-seniors/BJ.jpg)
+![Brandon Johnson](/blog_images/farewell-seniors/BJ.jpg)
 
 Brandon has been a consistent and solid presence for us this year.
 
@@ -302,7 +302,7 @@ Brandon primarily filled McKinley Whitfield’s very large shoes at the safety s
 <br /> <br />
 - Best Career Game (9/17/16): Returned four punts for 105 yards (26.3 average!) and recorded two tackles in Tulsa’s blowout win over North Carolina A&T.
 
-![Keidrien Wadley](../../blog_images/farewell-seniors/Keidrien.jpg)
+![Keidrien Wadley](/blog_images/farewell-seniors/Keidrien.jpg)
 
 Unfortunately, much of Keidrian’s career was marred by injury. After redshirting in 2015, Keidrian saw game time in 2016 and 2017.
 

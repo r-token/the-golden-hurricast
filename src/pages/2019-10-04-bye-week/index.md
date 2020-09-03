@@ -20,23 +20,23 @@ Tulsa has wrapped up their out of conference schedule and sit where most people 
 
 Just like the previous Hurristats post, I want to start with the three key factors and dive into their importance to games we’ve played so far. First up let’s take a look at average yards per attempt.
 
-![Average Yards per Attempt](../../blog_images/bye-week/bye-week-ypa.jpg)
+![Average Yards per Attempt](/blog_images/bye-week/bye-week-ypa.jpg)
 
 After struggling in the first game against Michigan State and their defense, Zach Smith bounced back with a great performance against San Jose State and two solid games against OSU and Wyoming. His season average sits at 7.5 yards per attempt. Two important comparisons with that stat: one, that puts Tulsa at 64th in the country, and two, it is 0.9 yards per attempt higher than Tulsa’s 2018 ensemble performance. That 0.9 is more impressive when you look at how much more reliant Tulsa is on the passing game this season. Take a look at this table:
 
-![Passing Stats](../../blog_images/bye-week/bye-week-passing.jpg)
+![Passing Stats](/blog_images/bye-week/bye-week-passing.jpg)
 
 This season Tulsa is averaging more plays per game, a larger percentage of which are passing plays, leading to more passing attempts per game. And still with such a large increase in volume, Zach Smith has a higher completion percentage which, in turn, is leading to that higher yards per attempt. These numbers show that Zach Smith has been a good quarterback for Tulsa so far this season.
 
 Continuing on that point here is Smith’s Total Quarterback Rating through four games so far:
 
-![QBR](../../blog_images/bye-week/bye-week-qbr.jpg)
+![QBR](/blog_images/bye-week/bye-week-qbr.jpg)
 
 ESPN has this strange issue where Zach Smith is listed at 38th with a 71.7 QBR /and/ at 79th with a 51.5. Not sure why this is the case, but the 51.5 is the correct rating through four games. The single biggest negative factor in his rating is the expected points lost from sacks which sits at -11.0. Now that’s not all on Smith, but in tandem with the offensive line. To be fair, though the rate at which Tulsa’s quarterback is being sacked isn’t all that different from last season. In fact it’s gone down from 10.4 to 10.3! That being said it’s still 115th in the country and being better than last year isn’t the highest bar to cross. If the line can get the pass protection down, then we would expect Smith’s QBR to trend upward through the remainder of the season.
 
 Finally let’s look at the average distance on third down.
 
-![QBR](../../blog_images/bye-week/bye-week-3rd-down.jpg)
+![QBR](/blog_images/bye-week/bye-week-3rd-down.jpg)
 
 After a rough start against Michigan State, this seems to be trending in the right direction. But the overall average of 7.7 yards is still too high. There are a couple of reasons in my mind why that number is closer to ten yards than it is to five.
 
@@ -57,7 +57,7 @@ But, because I’m a big math nerd and like to do statistical breakdowns, I’m 
 
 I chose to group it that way to because those distances are what separate the kind of play the offense is most likely to run (at least in my mind). 1–2 yards are running downs, 3–5 could be a run or a pass, 6–10 yards are standard passing downs, and anything greater than 10 is a long passing down. So having explained that, let’s take a look at our success in each particular category:
 
-![QBR](../../blog_images/bye-week/bye-week-3rd-down-2.jpg)
+![QBR](/blog_images/bye-week/bye-week-3rd-down-2.jpg)
 
 Unsurprisingly, our success rate between 1–10 yards is drastically better than our success rate for anything greater than 10 yards. Unfortunately, a whopping 21-percent of our third down plays have been 3rd and > 10. This is due to a combination of tackles-for-losses, sacks, and penalties. In an ideal world, when you start 1st and 10, you shouldn’t be in a situation where you need more than 10 yards on third down. That’s the wrong direction for goodness’ sake!
 

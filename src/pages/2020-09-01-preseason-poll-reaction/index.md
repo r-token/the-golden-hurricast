@@ -20,7 +20,7 @@ Also, this is the first full post since we've enabled ***comments*** on the blog
 
 The American Athletic Conference released its 2020 Preseason Media Poll today. Here's what they've got for us this year:
 
-![AAC Football 2020 Preseason Poll](../../blog_images/2020-football-preseason-poll/AAC-preseason-poll.png)
+![AAC Football 2020 Preseason Poll](/blog_images/2020-football-preseason-poll/AAC-preseason-poll.png)
 
 Remember that with the departure of UConn back in July, the American decided to stick with eleven teams, dump divisions, and go with a best-team-wins divisionless format.
 
@@ -120,7 +120,7 @@ Also, that defense was terrible. Ceding nearly 500 yards per game in total offen
 
 In summary:
 
-![Tulsa vs ECU 2019](../../blog_images/2020-football-preseason-poll/tu-vs-ecu.png)
+![Tulsa vs ECU 2019](/blog_images/2020-football-preseason-poll/tu-vs-ecu.png)
 
 <br />
 
