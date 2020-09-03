@@ -27,7 +27,7 @@ const Template = ({data, pageContext}) => {
         <SEO
           title={title}
           description={markdownRemark.frontmatter.excerpt || markdownRemark.frontmatter.description || ''}
-          image={markdownRemark.frontmatter.image}
+          image="../../static/logo-white.jpg"
           pathname={markdownRemark.frontmatter.path}
           article
         />
