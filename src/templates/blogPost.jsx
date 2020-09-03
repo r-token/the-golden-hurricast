@@ -29,7 +29,7 @@ const Template = ({data, pageContext}) => {
         <SEO
           title={title}
           description={excerpt || ''}
-          image={"../../static/logo-white.jpg"}
+          image={"../../public/logo-white.jpg"}
           pathname={path}
           article
         />
