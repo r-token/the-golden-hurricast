@@ -7,8 +7,6 @@ exports.StaticQueryStore = exports.PageQueryStore = void 0;
 
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 
-var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
-
 var _react = _interopRequireDefault(require("react"));
 
 var _gatsby = require("gatsby");
@@ -28,11 +26,13 @@ const getPathFromProps = props => props.pageResources && props.pageResources.pag
 class PageQueryStore extends _react.default.Component {
   constructor(props) {
     super(props);
-    (0, _defineProperty2.default)(this, "handleMittEvent", () => {
+
+    this.handleMittEvent = () => {
       this.setState({
         pageQueryData: (0, _socketIo.getPageQueryData)()
       });
-    });
+    };
+
     this.state = {
       pageQueryData: (0, _socketIo.getPageQueryData)(),
       path: null
@@ -79,7 +79,7 @@ class PageQueryStore extends _react.default.Component {
       return /*#__PURE__*/_react.default.createElement("div", null);
     }
 
-    return /*#__PURE__*/_react.default.createElement(_pageRenderer.default, (0, _extends2.default)({}, this.props, data));
+    return /*#__PURE__*/_react.default.createElement(_pageRenderer.default, (0, _extends2.default)({}, this.props, data.result));
   }
 
 }
@@ -89,11 +89,13 @@ exports.PageQueryStore = PageQueryStore;
 class StaticQueryStore extends _react.default.Component {
   constructor(props) {
     super(props);
-    (0, _defineProperty2.default)(this, "handleMittEvent", () => {
+
+    this.handleMittEvent = () => {
       this.setState({
         staticQueryData: (0, _socketIo.getStaticQueryData)()
       });
-    });
+    };
+
     this.state = {
       staticQueryData: (0, _socketIo.getStaticQueryData)()
     };

@@ -67,6 +67,12 @@ function socketIo() {
           if (msg.type && msg.payload) {
             ___emitter.emit(msg.type, msg.payload);
           }
+        }); // Prevents certain browsers spamming XHR 'ERR_CONNECTION_REFUSED'
+        // errors within the console, such as when exiting the develop process.
+
+        socket.on(`disconnect`, () => {
+          console.warn(`[socket.io] Disconnected from dev server.`);
+          socket.close();
         });
       } catch (err) {
         console.error(`Could not connect to socket.io on dev server.`);

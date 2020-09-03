@@ -16,6 +16,8 @@ const Template = ({data, pageContext}) => {
     const authors = markdownRemark.frontmatter.authors
     const date = markdownRemark.frontmatter.date
     const html = markdownRemark.html
+    const excerpt = markdownRemark.frontmatter.excerpt
+    const path = markdownRemark.frontmatter.path
 
     const disqusConfig = {
       shortname: "thegoldenhurricast",
@@ -26,9 +28,9 @@ const Template = ({data, pageContext}) => {
       <div id="blogAlignment">
         <SEO
           title={title}
-          description={markdownRemark.frontmatter.excerpt || markdownRemark.frontmatter.description || ''}
+          description={excerpt || ''}
           image="../../static/logo-white.jpg"
-          pathname={markdownRemark.frontmatter.path}
+          pathname={path}
           article
         />
         <Helmet>
@@ -88,6 +90,7 @@ export const query = graphql `
             html
             frontmatter {
                 title
+                excerpt
                 authors
                 date
             }

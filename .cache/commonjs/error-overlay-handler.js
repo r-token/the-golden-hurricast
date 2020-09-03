@@ -5,7 +5,7 @@ var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWild
 exports.__esModule = true;
 exports.errorMap = exports.reportError = exports.clearError = void 0;
 
-var ReactRefreshErrorOverlay = _interopRequireWildcard(require("@pmmmwh/react-refresh-webpack-plugin/src/overlay"));
+var ReactRefreshErrorOverlay = _interopRequireWildcard(require("@pmmmwh/react-refresh-webpack-plugin/overlay"));
 
 var ReactErrorOverlay = _interopRequireWildcard(require("react-error-overlay"));
 

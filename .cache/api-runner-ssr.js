@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/rtoken/Dev/Web/Projects/thegoldenhurricast/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"The Golden Hurricast","short_name":"TGH","start_url":"/","background_color":"#002D72","theme_color":"#002D72","display":"standalone","icon":"static/apple-touch-icon.webp","crossOrigin":"use-credentials","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"d3e177534fde1bc657c7596f8256d43c"},
+      options: {"plugins":[],"name":"The Golden Hurricast","short_name":"TGH","start_url":"/","background_color":"#002D72","theme_color":"#002D72","display":"standalone","icon":"static/apple-touch-icon.webp","crossOrigin":"use-credentials","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"25536b73763a79fd4857f010bced2939"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

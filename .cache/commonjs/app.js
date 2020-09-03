@@ -20,9 +20,9 @@ var _loader = require("./loader");
 
 var _devLoader = _interopRequireDefault(require("./dev-loader"));
 
-var _syncRequires = _interopRequireDefault(require("./sync-requires"));
+var _syncRequires = _interopRequireDefault(require("$virtual/sync-requires"));
 
-var _matchPaths = _interopRequireDefault(require("./match-paths.json"));
+var _matchPaths = _interopRequireDefault(require("$virtual/match-paths.json"));
 
 // Generated during bootstrap
 window.___emitter = _emitter.default;
@@ -43,7 +43,7 @@ window.___loader = _loader.publicLoader; // Let the site/plugins run code very e
 
   fetch(`/___services`).then(res => res.json()).then(services => {
     if (services.developstatusserver) {
-      const parentSocket = (0, _socket.default)(`${window.location.protocol}//${window.location.hostname}:${services.developstatusserver.port}`);
+      const parentSocket = (0, _socket.default)(`http://${window.location.hostname}:${services.developstatusserver.port}`);
       parentSocket.on(`develop:needs-restart`, msg => {
         if (window.confirm(`The develop process needs to be restarted for the changes to ${msg.dirtyFile} to be applied.\nDo you want to restart the develop process now?`)) {
           parentSocket.once(`develop:is-starting`, msg => {
@@ -54,6 +54,12 @@ window.___loader = _loader.publicLoader; // Let the site/plugins run code very e
           });
           parentSocket.emit(`develop:restart`);
         }
+      }); // Prevents certain browsers spamming XHR 'ERR_CONNECTION_REFUSED'
+      // errors within the console, such as when exiting the develop process.
+
+      parentSocket.on(`disconnect`, () => {
+        console.warn(`[socket.io] Disconnected. Unable to perform health-check.`);
+        parentSocket.close();
       });
     }
   });
