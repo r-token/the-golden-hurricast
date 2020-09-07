@@ -16,7 +16,7 @@ const AboutLayout = () => {
       />
       <Helmet>
         <meta charSet="utf-8" />
-        <title>TGH | About</title>
+        <title>TGH | About Us</title>
       </Helmet>
 
       <NavigationBar />
@@ -38,13 +38,13 @@ const AboutLayout = () => {
             Inspired by the past success of the late Reign Cane Sports podcast,
             The Golden Hurricast took up the mantle and officially debuted in
             August of 2018. We've been lucky enough to chat with several TU legends, including Dane Evans, Bruce Howard, and Trevis Gipson.
-        </p>
+          </p>
 
           <p>
-            You can find our <a href="/podcast">podcast</a> on <b>10 different platforms</b>, including
-            Apple Podcasts, Spotify, Google Podcasts, Stitcher, Overcast, Castro, Breaker,
-            PocketCasts, and more. Just search for "The Golden Hurricast".
-        </p>
+              You can find our <a href="/podcast">podcast</a> on <b>10 different platforms</b>, including
+              Apple Podcasts, Spotify, Google Podcasts, Stitcher, Overcast, Castro, Breaker,
+              PocketCasts, and more. Just search for "The Golden Hurricast".
+          </p>
 
           <br />
 
@@ -57,19 +57,19 @@ const AboutLayout = () => {
             Our goal with this blog is to dive deeper into stats, explore TU history, and write about interesting milestones as Tulsa athletics continues to progress. Matt (former Sports Editor for The Collegian) kicked things off by writing a couple stat-focused articles, and Ryan joined in with {""}
             <a href="https://www.thegoldenhurricast.com/Rivalries">
               "Tulsa vs Everybody: Picking New Rivals"
-          </a>
-            . It's been a joint effort ever since.
-        </p>
+            </a>
+              . It's been a joint effort ever since.
+          </p>
 
           <p>
             The blog was going well, but we became unhappy with the WordPress URL
             (hercscorner.home.blog) and some of the other WordPress limitations.
             Fortunately, Ryan works as a software developer and decided to
-          build us a custom website! Thus,{" "}
+            build us a custom website! Thus,{" "}
             <a href="https://thegoldenhurricast.com">TheGoldenHurricast.com</a>{" "}
             was born. We have high hopes for the website, so let us know if
             there's anything you'd like us to add in the future.
-        </p>
+          </p>
 
           <br />
 
@@ -102,10 +102,10 @@ const AboutLayout = () => {
             >
               anchor.fm/TheGoldenHurricast
           </a>
-            <br />
-            Email:{" "}
-            <a href="mailto:thegoldenhurricast@gmail.com">
-              TheGoldenHurricast@gmail.com
+          <br />
+          Email:{" "}
+          <a href="mailto:thegoldenhurricast@gmail.com">
+            TheGoldenHurricast@gmail.com
           </a>
           </p>
         </Container>
