@@ -15,7 +15,9 @@ const PodcastLayout = () => {
     <div>
       <SEO
         title={"The Golden Hurricast – Podcast"}
-        description={"A weekly podcast covering Golden Hurricane athletics at The University of Tulsa"}
+        description={
+          "A weekly podcast covering Golden Hurricane athletics at The University of Tulsa"
+        }
         image={"/logo-white.jpg"}
       />
       <Helmet>
@@ -34,7 +36,6 @@ const PodcastLayout = () => {
           marginBottom: "30px",
         }}
       >
-
         <div style={{ display: "flex", alignItems: "center" }}>
           <Container className="podstyle">
             <p>
@@ -49,38 +50,46 @@ const PodcastLayout = () => {
             </p>
           </Container>
         </div>
-
         <div style={{ display: "flex", alignItems: "center" }}>
           <Container className="podstyle">
             <p>
-              You can also find our podcast on <b>10 different platforms</b>: Apple Podcasts, Spotify, Google Podcasts, Overcast, Castro, Stitcher, Breaker, Castbox, Pocket Casts, and RadioPublic. Just search for "The Golden Hurricast".
-          </p>
+              You can also find our podcast on <b>10 different platforms</b>:
+              Apple Podcasts, Spotify, Google Podcasts, Overcast, Castro,
+              Stitcher, Breaker, Castbox, Pocket Casts, and RadioPublic. Just
+              search for "The Golden Hurricast".
+            </p>
           </Container>
         </div>
-
         <br />
         <div style={{ display: "flex", alignItems: "center" }}>
-            <Container className="podstyle">
+          <Container className="podstyle">
             <h4>Latest Episode</h4>
             <hr style={{ width: "100%" }} />
-            </Container>
+          </Container>
         </div>
-
         <LatestEpisode />
-        
         <br /> <br /> <br />
-        
         <div style={{ display: "flex", alignItems: "center" }}>
           <Container className="podstyle">
             <h4>Previous 4 Episodes</h4>
             <hr style={{ width: "100%" }} />
           </Container>
         </div>
-
         <div style={{ display: "flex", alignItems: "center" }}>
           <Container className="podstyle">
             <Row md={12}>
-              <Col sm={12} lg={6} style={{ marginBottom: '20px' }}>
+              <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
+                <iframe
+                  className="floating_still_podcast"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-1-Return-of-the-Hurricast-ft--Bruce-Howard-eit044"
+                  title="3-1: Return of the Hurricast (ft. Bruce Howard)"
+                  height="102px"
+                  width="300px"
+                  frameBorder="0"
+                  scrolling="no"
+                ></iframe>
+              </Col>
+              <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-28-Not-the-End-We-Wanted-ebkh55"
@@ -88,10 +97,13 @@ const PodcastLayout = () => {
                   height="102px"
                   width="300px"
                   frameBorder="0"
-                  scrolling="no">
-                </iframe>
+                  scrolling="no"
+                ></iframe>
               </Col>
-              <Col sm={12} lg={6} style={{ marginBottom: '20px' }}>
+            </Row>
+            <br />
+            <Row>
+              <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-27-Conference-Champs--Postseason-Predictions-ebd5sj"
@@ -99,13 +111,10 @@ const PodcastLayout = () => {
                   height="102px"
                   width="300px"
                   frameBorder="0"
-                  scrolling="no">
-                </iframe>
+                  scrolling="no"
+                ></iframe>
               </Col>
-            </Row>
-            <br />
-            <Row>
-              <Col sm={12} lg={6} style={{marginBottom: '20px'}}>
+              <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
                   src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-26-Have-Yourself-a-Week-Lawson-eb7dpe"
@@ -113,19 +122,8 @@ const PodcastLayout = () => {
                   height="102px"
                   width="300px"
                   frameBorder="0"
-                  scrolling="no">
-                </iframe>
-              </Col>
-              <Col sm={12} lg={6} style={{marginBottom: '20px'}}>
-                <iframe 
-                  className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-25-Legends-ft--Trevis-Gipson-eb1b4s" 
-                  title="2-25: Legends"
-                  height="102px" 
-                  width="300px" 
-                  frameBorder="0" 
-                  scrolling="no">
-                </iframe>
+                  scrolling="no"
+                ></iframe>
               </Col>
             </Row>
           </Container>
