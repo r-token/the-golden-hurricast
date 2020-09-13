@@ -146,19 +146,19 @@ I also [tweeted](https://twitter.com/goldenhurricast/status/1300816220791476226?
 
 I love modern Tulane football. I'm a huge Willie Fritz fan, they have the best uniform/mascot combination in football, and Hall Ball gets me psyched for college football in general.
 
-However, after starting last year 5-1, they went 2-5 the rest of the year and finished at 7-6. 7-6 with a team that was honestly kind of loaded.
+However, after starting last year 5-1, they went 2-5 the rest of the year and finished at 7-6 with a team that was honestly kind of loaded.
 
 Offensively, Justin McMillan was an inaccurate but electric quarterback, they had a dominant stable of running backs in Darius Bradwell, Corey Dauphine, and Amare Jones, and don't forget WR Darnell Mooney who is now playing alongside our own Trevis Gipson for the Bears.
 
 Their defense was also solid overall with headliners in P.J. Hall, Patrick Johnson, and Thakarius "Bo Pete" Keyes – who was drafted by the Chiefs.
 
-The problem here is that of those eight players I mentioned, only Darius Bradwell, Amare Jones, and Patrick Johnson are returning. Those are some absolute ballers though.
+The problem here is that of those eight players I mentioned, only Amare Jones and Patrick Johnson are returning. Those are some absolute ballers though.
 
 We'll see a new face at quarterback with Keon Howard expected to win the starting QB job after transferring from Southern Miss and backing up McMillan last year.
 
-The receiver position is wide open. With Darnell Mooney gone, no returning receivers had more than one receiving touchdown last year. While Tulane rushes much more often than they pass, the receiving game is still very important for them. Someone will need to step up big time to fill Mooney's absence. My money's on OU transfer Mykel Jones, but he alone won't be enough.
+The receiver position is wide open. With Darnell Mooney and Jalen McCleskey gone, no returning receivers had more than one receiving touchdown last year. While Tulane rushes much more often than they pass, the receiving game is still very important for them. Someone will need to step up big time to fill the absence left by Mooney and McCleskey. My money's on OU transfer Mykel Jones, but he alone won't be enough.
 
-At running back, they lose Darius Bradwell but retain Corey Dauphine and Amare Jones. That's scary. I am worried.
+At running back, they lose Darius Bradwell but retain Amare Jones. They would have retained senior back Corey Dauphine as well, but he tore his achilles tendon in early July and that unfortunately brings his college career to an end. Jones will be joined by Tyjae Spears and Cameron Carroll in what should still be a strong backfield.
 
 Defensively, I think they'll be fine. They lose some big talents but return key members as well. I don't think there's a big drop-off on that side of the ball this year.
 
