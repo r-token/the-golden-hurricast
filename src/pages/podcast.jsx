@@ -81,8 +81,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-2-The-Season-Preview-Must-Go-On-ejar26"
-                  title="3-2: The Season Preview Must Go On"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-3-OSU-Preview-ft--Phillip-Slavin-ejd83b"
+                  title="3-3: OSU Preview (ft. Phillip Slavin)"
                   height="102px"
                   width="300px"
                   frameBorder="0"
@@ -92,8 +92,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-1-Return-of-the-Hurricast-ft--Bruce-Howard-eit044"
-                  title="3-1: Return of the Hurricast (ft. Bruce Howard)"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-2-The-Season-Preview-Must-Go-On-ejar26"
+                  title="3-2: The Season Preview Must Go On"
                   height="102px"
                   width="300px"
                   frameBorder="0"
@@ -106,8 +106,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-28-Not-the-End-We-Wanted-ebkh55"
-                  title="2-28: Not the End We Wanted"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-1-Return-of-the-Hurricast-ft--Bruce-Howard-eit044"
+                  title="3-1: Return of the Hurricast (ft. Bruce Howard)"
                   height="102px"
                   width="300px"
                   frameBorder="0"
@@ -117,8 +117,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-27-Conference-Champs--Postseason-Predictions-ebd5sj"
-                  title="2-27: Conference Champs and Postseason Predictions"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/2-28-Not-the-End-We-Wanted-ebkh55"
+                  title="2-28: Not the End We Wanted"
                   height="102px"
                   width="300px"
                   frameBorder="0"
