@@ -4,7 +4,7 @@ date: "09/19/2020"
 sortDate: "2020/09/19"
 title: "Mama (Monty), We Made It"
 authors: "Ryan Token"
-excerpt: "The 2020 football season is finally upon us. Here's a look at how we got here."
+excerpt: "The 2020 football season has dawned for Tulsa. Here's a look back at how we got here."
 tags: ['football', 'hype']
 ---
 
