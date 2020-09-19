@@ -8,7 +8,7 @@ excerpt: "The 2020 football season has dawned for Tulsa. Here's a look back at h
 tags: ['football', 'hype']
 ---
 
-It is officially game day for Tulsa football as I'm posting this (09/19/2020, 12:01am), and friends, I could not be more excited.
+It is officially game day for Tulsa football as I'm posting this (09/19/2020, 12:01am), and friends, I could *not* be more excited.
 
 This is not a game preview or a prediction post. For that, listen to our [OSU Preview](https://podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?i=1000490787886) podcast episode featuring Phillip Slavin. This post is more of a look back at the hurdles that Tulsa's football team has surmounted since March, along with a tiny look forward to today's game.
 
@@ -16,7 +16,7 @@ This is not a game preview or a prediction post. For that, listen to our [OSU Pr
 
 #### It's Been 84 (51) Years
 
-<br />
+<br /> <br />
 
 ![Either way, it's been too long](https://media.giphy.com/media/NAm9sDr92fksw/giphy.gif)
 
