@@ -16,9 +16,11 @@ This is not a game preview or a prediction post. For that, listen to our [OSU Pr
 
 #### It's Been 84 (51) Years
 
-<br /> <br />
+<br />
 
 ![Either way, it's been too long](https://media.giphy.com/media/NAm9sDr92fksw/giphy.gif)
+
+<br />
 
 It has been far too long since we last saw live Tulsa sports. This year's September 19th opener is the latest season opening date for Tulsa football since the 1969 season. Fifty-one years ago!
 
