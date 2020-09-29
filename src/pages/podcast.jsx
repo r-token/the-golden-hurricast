@@ -81,8 +81,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-4-J-J-s-No-Sports-Zone-ft--J-J--Cody-ejj35h"
-                  title="3-4: J.J.'s No Sports Zone (ft. J.J. Cody)"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-5-Philip-Montpenalty-ek00j2"
+                  title="3-5: Philip Montpenalty"
                   height="102px"
                   width="300px"
                   frameBorder="0"
@@ -92,8 +92,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-3-OSU-Preview-ft--Phillip-Slavin-ejd83b"
-                  title="3-3: OSU Preview (ft. Phillip Slavin)"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-4-J-J-s-No-Sports-Zone-ft--J-J--Cody-ejj35h"
+                  title="3-4: J.J.'s No Sports Zone (ft. J.J. Cody)"
                   height="102px"
                   width="300px"
                   frameBorder="0"
@@ -106,8 +106,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-2-The-Season-Preview-Must-Go-On-ejar26"
-                  title="3-2: The Season Preview Must Go On"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-3-OSU-Preview-ft--Phillip-Slavin-ejd83b"
+                  title="3-3: OSU Preview (ft. Phillip Slavin)"
                   height="102px"
                   width="300px"
                   frameBorder="0"
@@ -117,8 +117,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-1-Return-of-the-Hurricast-ft--Bruce-Howard-eit044"
-                  title="3-1: Return of the Hurricast (ft. Bruce Howard)"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-2-The-Season-Preview-Must-Go-On-ejar26"
+                  title="3-2: The Season Preview Must Go On"
                   height="102px"
                   width="300px"
                   frameBorder="0"
