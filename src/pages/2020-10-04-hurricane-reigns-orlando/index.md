@@ -5,7 +5,7 @@ sortDate: "2020/10/04"
 title: "The Hurricane Reigns in Orlando"
 authors: "Ryan Token"
 excerpt: "The Golden Hurricane beat the #11 UCF Knights in Orlando and got their first true road ranked win since 1976."
-tags: ['football', 'hype']
+tags: ['football', 'hype', 'reactions']
 ---
 
 <br />
