@@ -31,7 +31,7 @@ const AllTagsTemplate = ({pageContext}) => {
               return (
                 <li key={index}>
                   <Link style={{ textDecoration: "none" }} className="blog_title"
-                    to={`tags/${tagName}`}
+                    to={`${tagName}`}
                   >
                     {tagName}
                   </Link>
