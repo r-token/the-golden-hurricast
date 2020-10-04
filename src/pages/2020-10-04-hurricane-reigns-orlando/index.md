@@ -28,13 +28,13 @@ After beating UCF in Tulsa last year, The Hurricane went and did it in Orlando. 
 
 <br />
 
-* Before yesterday, UCF had the second-longest active home winning streak at twenty-one games straight (Clemson has the longest). UCF's last home loss? Way back in 2016, *to Tulsa*, when the Golden Hurricane came to Orlando and beat them by 15.
+* Before yesterday, UCF had the second-longest active home winning streak at twenty-one straight games (Clemson has the longest). UCF's last home loss? Way back in 2016, *to Tulsa*, when the Golden Hurricane came to town and beat them by 15.
 
 * Tulsa's defense held UCF's offense to fewer than thirty points for just the third time in their last forty-three games.
 
 * TU has now beaten UCF four straight times, including eight of their last nine matchups. Tulsa leads the all time series nine to three.
 
-* This was Tulsa's first win against an AP top-15 team since 1991, and as previously mentioned, our first true road ranked win since beating #12 Arkansas in 1976.
+* This was Tulsa's first win against an AP top-15 team since 1991 and, as previously mentioned, our first true road ranked win since beating #12 Arkansas in 1976.
 
 It is truly a time for celebration.
 
@@ -66,7 +66,7 @@ UCF, as they usually do, came out lightning fast. Big plays by  the likes of Dil
 
 However, with the offense finding new and creative ways to disappoint and embarrass themselves in the first quarter, the defense was the only reason the game was within reach at all early on.
 
-Zaven Collins was an animal once again. No one will be able to contain that man. He was everywhere. Ten tackles, three and a half for loss, two pass breakups, an interception, and a forced safety? Against #11 UCF? To beat the Knights, Tulsa would need another standout game from him, and he absolutely answered the bell.
+Zaven Collins was an animal once again. No one will be able to contain that man. He was everywhere. Ten tackles, three and a half for loss, two pass breakups, an interception, and a forced safety? Against #11 UCF? To beat the Knights, Tulsa was going to need another standout game from him, and he absolutely answered the bell.
 
 I started this paragraph by listing the defensive players who had great games, but the list honestly was going to cover everyone. They played lights out. Twenty-three of the twenty-six points allowed were in the first half, and most of those points were caused by offensive missteps.
 
@@ -98,9 +98,9 @@ Zach Smith got off to a VERY rough start. However, after only completing one pas
 
 Keylon Stokes, after being nearly invisible in the first half, finally broke out and wound up with six catches for ninety-five yards and a touchdown. Sam Crawford and Josh Johnson also made huge impacts. Each of them scored with thirty-four and forty-eight yard TD receptions, respectively.
 
-On the rushing side, it was mostly the T.K. Wilkerson show. And I'm not mad about it. The man has proved himself to be a powerful runner once again and is as deserving of the lead-back title as anyone. He rushed twenty-two times for eighty-six yards and a touchdown. Additionally, Corey Taylor had eleven carries for sixty yards and Deneric Prince had eight carries for forty-one yards.
+On the rushing side, it was mostly the T.K. Wilkerson show. And I'm not mad about it. The man proved himself to be a powerful runner once again and is as deserving of the lead-back title as anyone. He rushed twenty-two times for eighty-six yards and a touchdown. Additionally, Corey Taylor had eleven carries for sixty yards and Deneric Prince had eight carries for forty-one yards.
 
-All three of those guys are big, bruising backs. Wilkerson goes 6'2'', 229 pounds, Taylor's at 5'10'', 215 pounds, and Prince runs 6'1'', 214 pounds. It's easy to wear a defense down when every rushing attempt you have a 214+ pound guy running right at you. And often, these guys are looking for contact.
+All three of those guys are big, bruising backs. Wilkerson goes 6'2'', 229 pounds, Taylor's at 5'10'', 215 pounds, and Prince runs 6'1'', 214 pounds. It's easy to wear a defense down when with every rushing attempt you have a 214+ pound guy running right at you. And often, these guys are looking for contact.
 
 <br />
 
@@ -110,7 +110,7 @@ All three of those guys are big, bruising backs. Wilkerson goes 6'2'', 229 pound
 
 For reasons we (or at least I) still don't know, freshman scholarship kicker Tyler Tipton didn't make the trip to Orlando.  So the kicking duties fell to senior walk-on Zack Long, and he handled the responsibilities (mostly) admirably. He did miss an extra point, which was particularly untimely as that would have tied the game at twenty-six all.
 
-BUT he was two for two on field goals, the second of which was a thirty-four yarder that put Tulsa up by eight with a minute and a half to go. That kick all but guaranteed Tulsa would not lose in regulation. That's nerve-wracking for anyone, and he knocked it through. Also, Long had [literally never played football before walking on to the team](https://tulsahurricane.com/sports/football/roster/zack-long/9532). Shout out to that dude.
+BUT he was two for two on field goals, the second of which was a nice thirty-four yarder that put Tulsa up by eight with a minute and a half to go. That kick all but guaranteed Tulsa would not lose in regulation. That's nerve-wracking for anyone, and he knocked it through. Also, Long had [literally never played football before walking on to the team](https://tulsahurricane.com/sports/football/roster/zack-long/9532). Shout out to that dude.
 
 But the place kicking wasn't even the big story of special teams. Lachlan Wilson is college football's new favorite punter.
 
