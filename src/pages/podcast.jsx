@@ -81,8 +81,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-7-We-Were-Bouncin-ekm6gf"
-                  title="3-7: We Were Bouncin"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-8-Cincinnati-Preview-ft--Clayton-Trutor-ekvnu5"
+                  title="3-8: Cincinnati Preview (ft. Clayton Trutor)"
                   height="102px"
                   width="300px"
                   frameBorder="0"
@@ -92,8 +92,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-6-UCF-Preview-ft--Roger-Phipps-ekasdp"
-                  title="3-6: UCF Preview (ft. Roger Phipps)"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-7-We-Were-Bouncin-ekm6gf"
+                  title="3-7: We Were Bouncin"
                   height="102px"
                   width="300px"
                   frameBorder="0"
@@ -106,8 +106,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-5-Philip-Montpenalty-ek00j2"
-                  title="3-5: Philip Montpenalty"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-6-UCF-Preview-ft--Roger-Phipps-ekasdp"
+                  title="3-6: UCF Preview (ft. Roger Phipps)"
                   height="102px"
                   width="300px"
                   frameBorder="0"
@@ -117,8 +117,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-4-J-J-s-No-Sports-Zone-ft--J-J--Cody-ejj35h"
-                  title="3-4: J.J.'s No Sports Zone (ft. J.J. Cody)"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-5-Philip-Montpenalty-ek00j2"
+                  title="3-5: Philip Montpenalty"
                   height="102px"
                   width="300px"
                   frameBorder="0"
