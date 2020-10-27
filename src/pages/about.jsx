@@ -55,7 +55,7 @@ const AboutLayout = () => {
           </p>
           <p>
             Our goal with this blog is to dive deeper into stats, explore TU history, and write about interesting milestones as Tulsa athletics continues to progress. Matt (former Sports Editor for The Collegian) kicked things off by writing a couple stat-focused articles, and Ryan joined in with {""}
-            <a href="https://www.thegoldenhurricast.com/Rivalries">
+            <a href="https://www.thegoldenhurricast.com/picking-new-rivals">
               "Tulsa vs Everybody: Picking New Rivals"
             </a>
               . It's been a joint effort ever since.

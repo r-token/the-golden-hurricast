@@ -4,7 +4,7 @@
         width: 650px;
     }
 
-    .blogpost img {
+    .blogpost img, video {
         max-width: 650px;
     }
 
@@ -36,7 +36,7 @@
         margin-right: 30px;
     }
 
-    .blogpost img {
+    .blogpost img, video {
         max-width: 315px;
     }
 
