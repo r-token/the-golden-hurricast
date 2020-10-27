@@ -1,7 +1,7 @@
 ---
 path: "/tulsas-next-all-american"
-date: "10/26/2020"
-sortDate: "2020/10/26"
+date: "10/27/2020"
+sortDate: "2020/10/27"
 title: "Tulsa's Next All-American?"
 authors: "Pat Fox"
 excerpt: "He can do it all, America."
