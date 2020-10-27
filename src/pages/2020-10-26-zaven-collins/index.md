@@ -8,7 +8,7 @@ excerpt: "He can do it all, America."
 tags: ['football', 'hype', 'stats']
 ---
 
-According to Sports Reference, Tulsa Football has only had [two consensus All-Americans](https://www.sports-reference.com/cfb/schools/tulsa/all-america.html) in its long history: Howard Twilley and Jerry Ostroski. This year could bring them their third. Zaven Collins, the early favorite for AAC Defensive Player of the year, might be the best linebacker in the country and the best defensive player in the history of Tulsa football.
+According to Sports Reference, Tulsa Football has only had [two consensus All-Americans](https://www.sports-reference.com/cfb/schools/tulsa/all-america.html) in its long history: Howard Twilley and Jerry Ostroski. This year could bring them their third. Zaven Collins, the early favorite for AAC Defensive Player of the Year, might just be the best linebacker in the country and the best defensive player in the history of Tulsa football.
 
 <br />
 
