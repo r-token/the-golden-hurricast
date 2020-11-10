@@ -81,8 +81,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-10-Welcome-Home-ft--Jared-Shafit-elm9d9"
-                  title="3-10: Welcome Home (ft. Jared Shafit)"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-11-The-Monkeys-Paw-elujiv"
+                  title="3-11: The Monkey's Paw"
                   height="102px"
                   width="300px"
                   frameBorder="0"
@@ -92,8 +92,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-9-Bulls-on-Parade-ft--Robert-Steeg-elantt"
-                  title="3-9: Bulls on Parade (ft. Robert Steeg)"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-10-Welcome-Home-ft--Jared-Shafit-elm9d9"
+                  title="3-10: Welcome Home (ft. Jared Shafit)"
                   height="102px"
                   width="300px"
                   frameBorder="0"
@@ -106,8 +106,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-8-Cincinnati-Preview-ft--Clayton-Trutor-ekvnu5"
-                  title="3-8: Cincinnati Preview (ft. Clayton Trutor)"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-9-Bulls-on-Parade-ft--Robert-Steeg-elantt"
+                  title="3-9: Bulls on Parade (ft. Robert Steeg)"
                   height="102px"
                   width="300px"
                   frameBorder="0"
@@ -117,8 +117,8 @@ const PodcastLayout = () => {
               <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
                 <iframe
                   className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-7-We-Were-Bouncin-ekm6gf"
-                  title="3-7: We Were Bouncin"
+                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-8-Cincinnati-Preview-ft--Clayton-Trutor-ekvnu5"
+                  title="3-8: Cincinnati Preview (ft. Clayton Trutor)"
                   height="102px"
                   width="300px"
                   frameBorder="0"
