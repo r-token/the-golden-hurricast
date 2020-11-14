@@ -76,24 +76,22 @@ const BlogLayout = ({data}) => {
     );
 }
 
-export const query = graphql`
-         query BlogQuery {
-           allMarkdownRemark(
-             sort: { order: DESC, fields: [frontmatter___sortDate] }
-           ) {
-             edges {
-               node {
-                 frontmatter {
-                   title
-                   path
-                   date
-                   sortDate
-                   excerpt
-                 }
-               }
-             }
-           }
-         }
-       `;
-
-export default BlogLayout
+export const allPostsQuery = graphql`
+  query BlogQuery {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___sortDate] }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            path
+            date
+            sortDate
+            excerpt
+          }
+        }
+      }
+    }
+  }
+`;
