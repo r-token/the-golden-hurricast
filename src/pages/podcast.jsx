@@ -1,12 +1,9 @@
 import React from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 import { Helmet } from "react-helmet"
 import NavigationBar from "../components/NavigationBar"
 import PodcastJumbotron from "../components/PodcastJumbotron"
-import LatestEpisode from "../components/LatestEpisode"
 import SEO from '../components/seo'
 import "../styles/style.css";
 
@@ -61,71 +58,10 @@ const PodcastLayout = () => {
           </Container>
         </div>
         <br />
-        <div style={{ display: "flex", alignItems: "center" }}>
+        <div>
           <Container className="podstyle">
-            <h4>Latest Episode</h4>
-            <hr style={{ width: "100%" }} />
-          </Container>
-        </div>
-        <LatestEpisode />
-        <br /> <br /> <br />
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <Container className="podstyle">
-            <h4>Previous 4 Episodes</h4>
-            <hr style={{ width: "100%" }} />
-          </Container>
-        </div>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <Container className="podstyle">
-            <Row md={12}>
-              <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
-                <iframe
-                  className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-11-The-Monkeys-Paw-elujiv"
-                  title="3-11: The Monkey's Paw"
-                  height="102px"
-                  width="300px"
-                  frameBorder="0"
-                  scrolling="no"
-                ></iframe>
-              </Col>
-              <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
-                <iframe
-                  className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-10-Welcome-Home-ft--Jared-Shafit-elm9d9"
-                  title="3-10: Welcome Home (ft. Jared Shafit)"
-                  height="102px"
-                  width="300px"
-                  frameBorder="0"
-                  scrolling="no"
-                ></iframe>
-              </Col>
-            </Row>
-            <br />
-            <Row>
-              <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
-                <iframe
-                  className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-9-Bulls-on-Parade-ft--Robert-Steeg-elantt"
-                  title="3-9: Bulls on Parade (ft. Robert Steeg)"
-                  height="102px"
-                  width="300px"
-                  frameBorder="0"
-                  scrolling="no"
-                ></iframe>
-              </Col>
-              <Col sm={12} lg={6} style={{ marginBottom: "20px" }}>
-                <iframe
-                  className="floating_still_podcast"
-                  src="https://anchor.fm/thegoldenhurricast/embed/episodes/3-8-Cincinnati-Preview-ft--Clayton-Trutor-ekvnu5"
-                  title="3-8: Cincinnati Preview (ft. Clayton Trutor)"
-                  height="102px"
-                  width="300px"
-                  frameBorder="0"
-                  scrolling="no"
-                ></iframe>
-              </Col>
-            </Row>
+            <h4>Listen to the Show</h4>
+            <iframe src="https://embed.podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?itsct=podcast_box&amp;itscg=30200" height="450px" title="apple-embedded-player" frameBorder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style={{width: "100%", maxWidth: "660px", overflow: "hidden", borderTopLeftRadius: "10px", borderTopRightRadius: "10px", borderBottomRightRadius: "10px", borderBottomLeftRadius: "10px", backgroundColor: "transparent", backgroundPosition: "initial initial", backgroundRepeat: "initial initial"}}></iframe>
           </Container>
         </div>
         <br />
