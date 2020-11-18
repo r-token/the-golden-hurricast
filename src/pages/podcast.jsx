@@ -61,8 +61,9 @@ const PodcastLayout = () => {
         <div>
           <Container className="podstyle">
             <h4>Listen to the Show</h4>
-            <iframe src="https://embed.podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?itsct=podcast_box&amp;itscg=30200" height="450px" title="apple-embedded-player" frameBorder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style={{width: "100%", maxWidth: "660px", overflow: "hidden", borderTopLeftRadius: "10px", borderTopRightRadius: "10px", borderBottomRightRadius: "10px", borderBottomLeftRadius: "10px", backgroundColor: "transparent", backgroundPosition: "initial initial", backgroundRepeat: "initial initial"}}></iframe>
           </Container>
+          <br />
+          <iframe src="https://embed.podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?itsct=podcast_box&amp;itscg=30200" height="450px" title="apple-embedded-player" frameBorder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style={{display: "flex", marginLeft: "auto", marginRight: "auto", width: "100%", maxWidth: "825px", overflow: "hidden", borderTopLeftRadius: "10px", borderTopRightRadius: "10px", borderBottomRightRadius: "10px", borderBottomLeftRadius: "10px", backgroundColor: "transparent", backgroundPosition: "initial initial", backgroundRepeat: "initial initial"}}></iframe>
         </div>
         <br />
       </div>
