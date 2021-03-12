@@ -90,7 +90,7 @@ Here's how Haith's KenPom results stack up against former Tulsa coaches going ba
 
 ![KenPom Results](/blog_images/frank-haith/kenpom-results.jpeg)
 
-*Chart from <a href="https://twitter.com/tulsahop/status/1370140824588095488?s=21" target="_blank">@TulsaHop</a>*
+*Chart from <a href="https://twitter.com/tulsahop/status/1370140824588095488?s=21" target="_blank">@TulsaHop</a> - lower is better*
 
 <br />
 
