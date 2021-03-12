@@ -84,7 +84,7 @@ Tulsa has proven it can achieve that level of success. Frank Haith has not prove
 
 Here's how Haith's KenPom results stack up against former Tulsa coaches going back to 1997, courtesy of <a href="https://twitter.com/tulsahop/status/1370140824588095488?s=21" target="_blank">Tulsa Hop</a>. I added the final numbers at each point in the chart.
 
-** Insert image of KenPom Results here **
+![A Bad Sequence](/blog_images/frank-haith/kenpom-results.jpeg)
 
 The first thing you might notice from Haith's KenPom numbers is that there's no steady trend. It's a wild ride with no consistent line up or down. That's not the case for any of the other coaches in this chart.
 
