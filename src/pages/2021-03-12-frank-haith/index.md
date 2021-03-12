@@ -106,7 +106,7 @@ Looking at his Tulsa career as a whole, though, we've been consistently poor in 
 
 <br />
 
-#### Looking Forward
+#### Looking Ahead
 
 <br />
 
@@ -156,6 +156,7 @@ Middling success marked by a lack of fan interest does not equal a successful he
 
 - 2019-2020 regular season AAC co-champions
 - 2019-2020 AAC Coach of the Year
+- Two postseason appearances (three if you count last year's would-be NIT bid)
 - An established, stable head coach when things are less than stable at TU
 - Runs the program with class
 - Agreed to take a pay cut
@@ -169,7 +170,8 @@ Middling success marked by a lack of fan interest does not equal a successful he
 - Only one NCAA Tournament bid
 - Zero NCAA Tournament wins
 - Zero top-100 teams in points per game; four in the 200s
-- Declining home attendance
+- Awful home attendance numbers
+- Two losing seasons
 - 104 average KenPom ranking
 
 <br />
@@ -182,7 +184,7 @@ So what does Rick Dickson do?
 
 Does he fire the coach who just last season led TU to a share of the conference championship and won AAC Coach of the Year?
 
-Does he retain the coach who just has one (fortunate) NCAA Tournament appearance and who has otherwise been a middling coach with one good blip in the last five years?
+Does he retain the coach who has only one (fortunate) NCAA Tournament appearance and who has otherwise been a middling coach with one good blip in the last five years?
 
 Does he fire a good man who willingly took a pay cut when Tulsa needed it and who has run a clean program?
 
@@ -190,7 +192,7 @@ Does he retain the coach who severely underperformed this year and who doesn't s
 
 <b>We are at a tipping point.</b>
 
-If we extend Frank Haith again, I'm legitimately worried about a consistent decline in the program. Do we think Haith is going to be the one to return Tulsa to its former glory? Can he get us to the NCAA Tournament in any kind of consistent manner?
+If we extend Frank Haith again, I'm legitimately worried about a consistent decline in the program. Do we think Haith is going to be the one to return Tulsa to its former glory? Can he get us back to the NCAA Tournament in any kind of consistent manner?
 
 I think fans have answered those questions with their attendance numbers, and Haith has not performed well enough to overcome that significant shortcoming.
 
@@ -206,6 +208,6 @@ The program needs a reboot. Frank Haith is a good man, but it's time to find a n
 
 <br />
 
-Discussing a head coaching change is always polarizing. I've given some of my perspective here, but I'm just me. There are surely nuances - good and bad - that I've missed. I want to know what you think.
+Discussing a head coaching change is polarizing. I've given some of my perspective here, but I'm just me. There are surely nuances - good and bad - that I've missed. I want to know what you think.
 
 Leave your comments below, or get in touch with us on <a href="https://twitter.com/GoldenHurricast" target="_blank">Twitter</a> or through <a href="mailto:thegoldenhurricast@gmail.com">email</a>.
