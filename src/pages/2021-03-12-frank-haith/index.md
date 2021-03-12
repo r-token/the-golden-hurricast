@@ -157,6 +157,7 @@ Middling success marked by a lack of fan interest does not equal a successful he
 - 2019-2020 regular season AAC co-champions
 - 2019-2020 AAC Coach of the Year
 - Two postseason appearances (three if you count last year's would-be NIT bid)
+- Several big wins (Houston, Wichita State, OSU, etc)
 - An established, stable head coach when things are less than stable at TU
 - Runs the program with class
 - Agreed to take a pay cut
@@ -196,7 +197,7 @@ If we extend Frank Haith again, I'm legitimately worried about a consistent decl
 
 I think fans have answered those questions with their attendance numbers, and Haith has not performed well enough to overcome that significant shortcoming.
 
-People just don't care about Tulsa basketball right now.
+People just don't care about Tulsa basketball right now. Maybe Haith can turn it around seven+ years in, but I'd be surprised.
 
 Last season alone should not save his job.
 
