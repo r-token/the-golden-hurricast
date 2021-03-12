@@ -157,7 +157,7 @@ Middling success marked by a lack of fan interest does not equal a successful he
 - 2019-2020 regular season AAC co-champions
 - 2019-2020 AAC Coach of the Year
 - Two postseason appearances (three if you count last year's would-be NIT bid)
-- Several big wins (Houston, Wichita State, OSU, etc)
+- Several big wins over the years (Houston, Wichita State, OSU, etc)
 - An established, stable head coach when things are less than stable at TU
 - Runs the program with class
 - Agreed to take a pay cut
@@ -172,6 +172,7 @@ Middling success marked by a lack of fan interest does not equal a successful he
 - Zero NCAA Tournament wins
 - Zero top-100 teams in points per game; four in the 200s
 - Awful home attendance numbers
+- Below-average recruiting
 - Two losing seasons
 - 104 average KenPom ranking
 
