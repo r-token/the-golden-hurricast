@@ -98,7 +98,7 @@ The first thing you might notice from Haith's KenPom numbers is that there's no 
 
 Two of his three best years were with guys he didn't recruit: James Woodard, Shaq Harrison, D'Andre Wright, Pat Birt, Rashad Ray/Smith, etc. If we remove those years from his resume, his average KenPom ranking drops to 115 with two losing seasons.
 
-Last season was clearly a high point for Haith. A regular season AAC co-championship, a first-team all-conference player in Martins Igbanu, and Haith named the AAC Coach of the Year after being picked to finish 10th in the league preseason.
+Last season was clearly a high point for Haith. A regular season AAC co-championship, a first-team all-conference player in Martins Igbanu, and Haith himself named the AAC Coach of the Year after being picked to finish 10th in the league preseason.
 
 It also would have resulted in postseason play, though likely the NIT seeing as no brackets had us in the NCAA tournament as an at-large bid. And we had just suffered a 22-point blowout loss at the hands of Wichita State. The postseason was canceled altogether due to COVID-19.
 
