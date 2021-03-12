@@ -102,6 +102,8 @@ Last season was clearly a high point for Haith. A regular season AAC co-champion
 
 It also would have resulted in postseason play, though likely the NIT seeing as no brackets had us in the NCAA tournament as an at-large bid. And we had just suffered a 22-point blowout loss at the hands of Wichita State. The postseason was canceled altogether due to COVID-19.
 
+Looking at his Tulsa career as a whole, though, we've been consistently poor in 3-point percentage, free throw percentage, points per game, blocks, and offensive rebounding.
+
 <br />
 
 #### Looking Forward
