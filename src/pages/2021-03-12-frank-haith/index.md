@@ -82,9 +82,14 @@ From 1994-2000, Tulsa made the NCAA tournament six out of seven years. Half were
 
 Tulsa has proven it can achieve that level of success. Frank Haith has not proven that he can be the man to get us back there.
 
-Here's how Haith's KenPom results stack up against former Tulsa coaches going back to 1997, courtesy of <a href="https://twitter.com/tulsahop/status/1370140824588095488?s=21" target="_blank">Tulsa Hop</a>. I added the final numbers at each point in the chart.
+Here's how Haith's KenPom results stack up against former Tulsa coaches going back to 1997, courtesy of <a href="https://twitter.com/tulsahop/status/1370140824588095488?s=21" target="_blank">@TulsaHop</a>. I edited the image slightly to include the final numbers at each point in the chart.
+
+<br />
 
 ![A Bad Sequence](/blog_images/frank-haith/kenpom-results.jpeg)
+*Chart from <a href="https://twitter.com/tulsahop/status/1370140824588095488?s=21" target="_blank">@TulsaHop</a>*
+
+<br />
 
 The first thing you might notice from Haith's KenPom numbers is that there's no steady trend. It's a wild ride with no consistent line up or down. That's not the case for any of the other coaches in this chart.
 
