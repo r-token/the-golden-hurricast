@@ -2,7 +2,7 @@
 path: "/Recaps-for-dayz"
 date: "01/16/2022"
 sortDate: "2022/01/16"
-title: "Recap 2021"
+title: "Recap 2021 v4"
 authors: "Matt Rechtien"
 excerpt: "Deep football recap"
 tags: ['football', 'stats', 'golden hurristats']
@@ -53,7 +53,7 @@ The upside from the table is that our returning EPA was larger than our usage in
 
 The most dramatic is the difference between our returning passing EPA and usage. The combination of Davis Brin and a little bit of Seth Boomer accounted for only fourteen percent of our total passes in 2020, with all but one taking place in the second half of the Tulane game. But, in that limited usage Davis Brin accounted for ***twenty four percent*** of Tulsa's total passing EPA. For the entire season. His total EPA for the season was fifth on the team behind just Keylon Stokes, Smith, J.C. Santana and Josh Johnson. With only ***31*** passes. This is obviously an incredibly small sample size, but nonetheless it left a lot of Tulsa fans incredibly optimistic coming into 2021 with Brin at the helm. I mean, just look at this comparison among QBs in the conference last season.
 
-![There is a general trend that as usage increases, PPA / Play increases because those are the good QBs. And then there is Davis Brin in the corner hanging out as an extreme outlier. For reference, Zach Smith is the red and blue circle near (0.2, 0.5) and the black circle with the highest PPA / Play is Dillon Gabriel. Table from CFB. [Table Link](https://collegefootballdata.com/ppa/usage)](images/Brin.png "AAC QBs in 2020")
+![There is a general trend that as usage increases, PPA / Play increases because those are the good QBs. And then there is Davis Brin in the corner hanging out as an extreme outlier. For reference, Zach Smith is the red and blue circle near (0.2, 0.5) and the black circle with the highest PPA / Play is Dillon Gabriel. Table from CFB. [Table Link](https://collegefootballdata.com/ppa/usage)](blog_images/2021-deep-dive/Brin.png)
 
 An important qualification for EPA regarding rushing [Rushing caveat]
 
@@ -62,6 +62,8 @@ On the running side of the ball Corey Taylor had some big shoes to fill, but the
 [Flesh out more information about running back as a position just being hampered on EPA]
 
 Finally, all of our top receivers in Johnson, Santana, Sam Crawford, and Stokes were returning, giving Brin a lot of returning targets. [Only 24 passes caught in 2020 were not back on the team]
+
+![Rushing Passing Split](blog_images/2021-deep-dive/unamed-chunk-2-1.png)
 
 []
 
