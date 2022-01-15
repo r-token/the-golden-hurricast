@@ -1,43 +1,13 @@
 import React from "react"
-import { Router, Location, BaseContext } from "@reach/router"
+import { Router, Location, BaseContext } from "@gatsbyjs/reach-router"
 import { ScrollContext } from "gatsby-react-router-scroll"
 
-import {
-  shouldUpdateScroll,
-  init as navigationInit,
-  RouteUpdates,
-} from "./navigation"
+import { shouldUpdateScroll, RouteUpdates } from "./navigation"
 import { apiRunner } from "./api-runner-browser"
 import loader from "./loader"
 import { PageQueryStore, StaticQueryStore } from "./query-result-store"
 import EnsureResources from "./ensure-resources"
 import FastRefreshOverlay from "./fast-refresh-overlay"
-import { reportError, clearError } from "./error-overlay-handler"
-import { LoadingIndicatorEventHandler } from "./loading-indicator"
-
-// TODO: Remove entire block when we make fast-refresh the default
-// In fast-refresh, this logic is all moved into the `error-overlay-handler`
-if (
-  window.__webpack_hot_middleware_reporter__ !== undefined &&
-  process.env.GATSBY_HOT_LOADER !== `fast-refresh`
-) {
-  const overlayErrorID = `webpack`
-  // Report build errors
-  window.__webpack_hot_middleware_reporter__.useCustomOverlay({
-    showProblems(type, obj) {
-      if (type !== `errors`) {
-        clearError(overlayErrorID)
-        return
-      }
-      reportError(overlayErrorID, obj[0])
-    },
-    clear() {
-      clearError(overlayErrorID)
-    },
-  })
-}
-
-navigationInit()
 
 // In gatsby v2 if Router is used in page using matchPaths
 // paths need to contain full path.
@@ -62,7 +32,7 @@ class LocationHandler extends React.Component {
   render() {
     const { location } = this.props
 
-    if (!loader.isPageNotFound(location.pathname)) {
+    if (!loader.isPageNotFound(location.pathname + location.search)) {
       return (
         <EnsureResources location={location}>
           {locationAndPageResources => (
@@ -78,8 +48,10 @@ class LocationHandler extends React.Component {
                 >
                   <RouteHandler
                     path={encodeURI(
-                      locationAndPageResources.pageResources.page.matchPath ||
+                      (
+                        locationAndPageResources.pageResources.page.matchPath ||
                         locationAndPageResources.pageResources.page.path
+                      ).split(`?`)[0]
                     )}
                     {...this.props}
                     {...locationAndPageResources}
@@ -127,7 +99,7 @@ const Root = () => (
 )
 
 // Let site, plugins wrap the site e.g. for Redux.
-const WrappedRoot = apiRunner(
+const rootWrappedWithWrapRootElement = apiRunner(
   `wrapRootElement`,
   { element: <Root /> },
   <Root />,
@@ -136,16 +108,12 @@ const WrappedRoot = apiRunner(
   }
 ).pop()
 
-const ConditionalFastRefreshOverlay = ({ children }) => {
-  if (process.env.GATSBY_HOT_LOADER === `fast-refresh`) {
-    return <FastRefreshOverlay>{children}</FastRefreshOverlay>
-  }
-
-  return <React.Fragment>{children}</React.Fragment>
+function RootWrappedWithOverlayAndProvider() {
+  return (
+    <FastRefreshOverlay>
+      <StaticQueryStore>{rootWrappedWithWrapRootElement}</StaticQueryStore>
+    </FastRefreshOverlay>
+  )
 }
 
-export default () => (
-  <ConditionalFastRefreshOverlay>
-    <StaticQueryStore>{WrappedRoot}</StaticQueryStore>
-  </ConditionalFastRefreshOverlay>
-)
+export default RootWrappedWithOverlayAndProvider

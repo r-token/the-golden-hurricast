@@ -1,3 +1,15 @@
+body {
+    font-family: "Helvetica Neue", "Helvetica", "Arial" !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+hr {
+  color: grey !important;
+}
+
 /* basically anything bigger than a smartphone */
 @media screen and (min-width: 680px) {
     .blogpost {
@@ -9,11 +21,11 @@
     }
 
     .blogedge, .container_style {
-        width: 75%;
+        width: 75% !important;
     }
 
     .podstyle {
-        width: 75%;
+        width: 75% !important;
     }
 
     #blogAlignment {
@@ -21,11 +33,11 @@
     }
 
     #aboutus {
-        width: 75%;
+        width: 75% !important;
     }
 
     #supportus {
-        width: 75%;
+        width: 75% !important;
     }
 }
 
@@ -50,10 +62,6 @@
     text-align: left;
 }
 
-body {
-    font-family: "Helvetica Neue", "Helvetica", "Arial";
-}
-
 .blog_title {
     font-size: 18px;
     font-weight: bold;
@@ -68,7 +76,7 @@ body {
 }
 
 .floating_still_image {
-    box-sizing: border-box;
+  box-sizing: border-box;
 	border-radius: 15px;
 	overflow: hidden;
 	box-shadow: 0 5px 15px -2px rgba(0,0,0,0.6);
@@ -100,5 +108,11 @@ body {
     padding-bottom: 2px;
     margin-bottom: 1rem;
     padding: 10px;
+}
 
+.jumbotron {
+  padding: 3rem 2rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
 }

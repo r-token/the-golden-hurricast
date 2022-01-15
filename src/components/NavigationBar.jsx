@@ -6,18 +6,18 @@ import Nav from "react-bootstrap/Nav"
 const NavigationBar = () => {
   return (
     <div style={{ marginBottom: "75px" }}>
-      <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
+      <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark" style={{ padding: '10px' }}>
         <Navbar.Brand href="/">
           <picture>
-            <source type="image/webp" srcSet={require("../../static/logo-navbar-white.png")} style={{ marginRight: 15, height: "48px", width: "50px" }} />
-            <img src={require("../../static/logo-navbar-white.png")} alt="The Golden Hurricast logo" style={{ marginRight: 15, height: "48px", width: "50px" }} />
+            <source type="image/webp" srcSet="/logo-navbar-white.png" style={{ marginRight: 15, height: "48px", width: "50px" }} />
+            <img src="/logo-navbar-white.png" alt="The Golden Hurricast logo" style={{ marginRight: 15, height: "48px", width: "50px" }} />
           </picture>
           The Golden Hurricast
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto">
+        <Navbar.Collapse id="responsive-navbar-nav ">
+          <Nav className="ms-auto">
             <Nav.Link href="../podcast">Podcast</Nav.Link>
             <Nav.Link href="../blog">Blog</Nav.Link>
             <Nav.Link href="../about">About Us</Nav.Link>

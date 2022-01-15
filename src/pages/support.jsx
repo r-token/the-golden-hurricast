@@ -3,13 +3,12 @@ import { Helmet } from "react-helmet";
 import NavigationBar from "../components/NavigationBar";
 import Container from 'react-bootstrap/Container';
 import SupportJumbotron from '../components/SupportJumbotron'
-import SEO from '../components/seo'
-import "../styles/style.css";
+import Seo from '../components/seo'
 
 const SupportLayout = () => {
   return (
     <div>
-      <SEO
+      <Seo
         title={"Support The Golden Hurricast"}
         description={"We do all of this for free and for the love of TU athletics"}
         image={"/logo-white.jpg"}
