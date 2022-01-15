@@ -18,13 +18,13 @@ const PodcastJumbotron = () => {
                 <Row md={12}>
                     <Col xs={6} xl={2}>
                         <a rel="noopener noreferrer" target="_blank" href="https://podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?mt=2">
-                            <img src={require("../../static/listenOnX/listenOn_Apple.svg")} alt="Listen on Apple Podcasts" height="34px"/>
+                            <img src={require("../../static/listenOnX/listenOn_Apple.svg")} alt="Listen on Apple Podcasts" width="139px"/>
                         </a>
                     </Col>
                     <br /><br />
                     <Col xs={6} xl={2}>
                         <a rel="noopener noreferrer" target="_blank" href="https://open.spotify.com/show/16ik0AuBrpVBfWn73jlJio">
-                            <img src={require("../../static/listenOnX/listenOn_Spotify.svg")} alt="Listen on Spotify" height="34px"/>
+                            <img src={require("../../static/listenOnX/listenOn_Spotify.svg")} alt="Listen on Spotify" width="139px"/>
                         </a>
                     </Col>
                     <br /> <br />
