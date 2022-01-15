@@ -1,7 +1,6 @@
 import React from "react";
 import NavigationBar from "../components/NavigationBar";
 import { Link } from "gatsby";
-import "../styles/style.css";
 
 const SingleTagTemplate = ({ pageContext }) => {
     const { posts, tagName } = pageContext

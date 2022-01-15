@@ -4,13 +4,12 @@ import Container from 'react-bootstrap/Container'
 import { Helmet } from "react-helmet"
 import NavigationBar from "../components/NavigationBar"
 import PodcastJumbotron from "../components/PodcastJumbotron"
-import SEO from '../components/seo'
-import "../styles/style.css";
+import Seo from '../components/seo'
 
 const PodcastLayout = () => {
   return (
     <div>
-      <SEO
+      <Seo
         title={"The Golden Hurricast – Podcast"}
         description={
           "A weekly podcast covering Golden Hurricane athletics at The University of Tulsa"

@@ -3,13 +3,12 @@ import { Helmet } from "react-helmet"
 import NavigationBar from "../components/NavigationBar"
 import AboutJumbotron from '../components/AboutJumbotron'
 import Container from 'react-bootstrap/Container'
-import SEO from '../components/seo'
-import "../styles/style.css";
+import Seo from '../components/seo'
 
 const AboutLayout = () => {
   return (
     <div>
-      <SEO
+      <Seo
         title={"About The Golden Hurricast"}
         description={"We're an independent podcast and blog that covers all things Golden Hurricane athletics"}
         image={"/logo-white.jpg"}

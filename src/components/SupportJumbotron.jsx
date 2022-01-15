@@ -1,12 +1,11 @@
 import React from "react"
-import "bootstrap/dist/css/bootstrap.min.css"
-import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
+
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const SupportJumbotron = () => {
     return (
-      <div>
-        <Jumbotron>
+      <div className="jumbotron">
           <Container className="container_style">
             <h1>Support Us</h1>
             <p style={{ fontSize: "18px" }}>
@@ -15,7 +14,6 @@ const SupportJumbotron = () => {
                 the blog.
             </p>
           </Container>
-        </Jumbotron>
       </div>
     );
 }

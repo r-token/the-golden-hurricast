@@ -5,8 +5,7 @@ import { DiscussionEmbed } from 'disqus-react'
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavigationBar from '../components/NavigationBar'
-import SEO from '../components/seo'
-import '../styles/style.css'
+import Seo from '../components/seo'
 
 const Template = ({data, pageContext}) => {
     const { next, prev } = pageContext
@@ -26,7 +25,7 @@ const Template = ({data, pageContext}) => {
 
     return (
       <div>
-        <SEO
+        <Seo
           title={title}
           description={excerpt || ''}
           image={"/logo-white.jpg"}

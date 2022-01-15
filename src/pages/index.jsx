@@ -5,17 +5,16 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import NavigationBar from "../components/NavigationBar"
 import HomeJumbotron from "../components/HomeJumbotron"
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import { Helmet } from "react-helmet"
 import { TwitterTimelineEmbed, TwitterFollowButton } from "react-twitter-embed";
 
 import "bootstrap/dist/css/bootstrap.min.css"
-import "../styles/style.css";
 
 const HomeLayout = () => {
   return (
     <div>
-      <SEO
+      <Seo
         title={"The Golden Hurricast"}
         description={"The leading independent podcast and blog covering Golden Hurricane athletics at The University of Tulsa"}
         image={"/logo-white.jpg"}
@@ -57,16 +56,16 @@ const HomeLayout = () => {
                   </Button>
                 </p>
               </Row>
-              <Row>
+              <Row style={{ width: '220px', margin: '0px'}}>
                 <picture style={{padding: '10px'}} className="floating_still_image">
                   <a href="/podcast">
                     <source
                       type="image/webp"
-                      srcSet={require("../../static/logo-300px.webp")}
+                      srcSet='/logo-300px.webp'
                       style={{ height: "200px", width: "200px" }}
                     />
                     <img
-                      src={require("../../static/logo-300px.png")}
+                      src='/logo-300px.webp'
                       alt="The Golden Hurricast logo"
                       style={{ height: "200px", width: "200px" }}
                     />
@@ -105,7 +104,7 @@ const HomeLayout = () => {
                 <TwitterFollowButton screenName={"GoldenHurricast"} />
               </Row>
               <br />
-              <Row>
+              <Row style={{ margin: '0px'}}>
                 <div className="floating_still_object">
                   <TwitterTimelineEmbed
                     sourceType="profile"

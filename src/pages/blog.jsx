@@ -4,14 +4,13 @@ import { graphql, Link } from 'gatsby'
 import NavigationBar from '../components/NavigationBar'
 import BlogJumbotron from '../components/BlogJumbotron'
 import Container from 'react-bootstrap/Container'
-import SEO from '../components/seo'
-import "../styles/style.css";
+import Seo from '../components/seo'
 
 const BlogLayout = ({data}) => {
     const { edges } = data.allMarkdownRemark
     return (
       <div>
-        <SEO
+        <Seo
         title={"The Golden Hurricast – Blog"}
         description={"Herc's Corner. The Golden Hurriblog. Whatever you want to call it, we'll use this to dive deeper into stats, explore TU history, and more"}
         image={"/logo-white.jpg"}
