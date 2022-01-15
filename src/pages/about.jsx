@@ -25,6 +25,8 @@ const AboutLayout = () => {
         style={{
           marginTop: "130px",
           marginBottom: "30px",
+          marginLeft: "30px",
+          marginRight: "30px",
           display: "flex",
           alignItems: "center"
         }}
