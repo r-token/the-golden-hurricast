@@ -15,30 +15,6 @@ const HomeJumbotron = () => {
             </p>
             <ButtonToolbar>
               <a
-                style={{marginRight: "15px"}}
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://twitter.com/goldenhurricast"
-              >
-                <picture>
-                  <source type="image/webp" srcSet="/brand_icons/twitter.webp" style={{ height: "35px", width: "35px" }} />
-                  <img src="/brand_icons/twitter.png" alt="Twitter icon" style={{ height: "35px", width: "35px" }} />
-                </picture>
-              </a>
-    
-              <a
-                style={{ marginRight: "15px" }}
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://instagram.com/goldenhurricast"
-              >
-                <picture>
-                  <source type="image/webp" srcSet="/brand_icons/instagram.webp" style={{ height: "35px", width: "35px" }} />
-                  <img src="/brand_icons/instagram.png" alt="Instagram icon" style={{ height: "35px", width: "35px" }} />
-                </picture>
-              </a>
-    
-              <a
                 style={{ marginRight: "15px" }}
                 rel="noopener noreferrer"
                 target="_blank"
@@ -73,6 +49,18 @@ const HomeJumbotron = () => {
                   <img src="/brand_icons/overcast.png" alt="Overcast icon" style={{ height: "35px", width: "35px" }} />
                 </picture>
               </a>
+              
+              <a
+                  style={{marginRight: "15px"}}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://twitter.com/goldenhurricast"
+                >
+                  <picture>
+                    <source type="image/webp" srcSet="/brand_icons/twitter.webp" style={{ height: "35px", width: "35px" }} />
+                    <img src="/brand_icons/twitter.png" alt="Twitter icon" style={{ height: "35px", width: "35px" }} />
+                  </picture>
+                </a>
     
               <a
                 style={{ marginRight: "15px" }}
