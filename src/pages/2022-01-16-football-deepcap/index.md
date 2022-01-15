@@ -53,6 +53,8 @@ The upside from the table is that our returning EPA was larger than our usage in
 
 The most dramatic is the difference between our returning passing EPA and usage. The combination of Davis Brin and a little bit of Seth Boomer accounted for only fourteen percent of our total passes in 2020, with all but one taking place in the second half of the Tulane game. But, in that limited usage Davis Brin accounted for ***twenty four percent*** of Tulsa's total passing EPA. For the entire season. His total EPA for the season was fifth on the team behind just Keylon Stokes, Smith, J.C. Santana and Josh Johnson. With only ***31*** passes. This is obviously an incredibly small sample size, but nonetheless it left a lot of Tulsa fans incredibly optimistic coming into 2021 with Brin at the helm. I mean, just look at this comparison among QBs in the conference last season.
 
+![There is a general trend that as usage increases, PPA / Play increases because those are the good QBs. And then there is Davis Brin in the corner hanging out as an extreme outlier. For reference, Zach Smith is the red and blue circle near (0.2, 0.5) and the black circle with the highest PPA / Play is Dillon Gabriel. Table from CFB. [Table Link](https://collegefootballdata.com/ppa/usage)](images/Brin.png "AAC QBs in 2020")
+
 An important qualification for EPA regarding rushing [Rushing caveat]
 
 On the running side of the ball Corey Taylor had some big shoes to fill, but the return of Shamri Brooks from injury and Deneric Prince's strong debut season looked promising. A veteran offense line, with a Freshman All-American in Tyler Smith only increased expectations.
