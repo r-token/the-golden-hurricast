@@ -35,15 +35,15 @@ const AboutLayout = () => {
           <h4> Our Podcast </h4>
           <hr />
           <p>
-            Inspired by the past success of the late Reign Cane Sports podcast,
+            Inspired by the past success of the Reign Cane Sports podcast,
             The Golden Hurricast took up the mantle and officially debuted in
-            August of 2018. We've been lucky enough to chat with several TU legends, including Dane Evans, Bruce Howard, and Trevis Gipson.
+            August of 2018. Since then, we've been lucky enough to chat with several TU legends and Tulsa media personalities including <b>Dane Evans</b>, <b>Bruce Howard</b>, <b>Steve Gage</b>, <b>Kelly Hines</b>, <b>Trevis Gipson</b>, <b>Cayden McFarland</b>, and more.
           </p>
 
           <p>
               You can find our <a href="/podcast">podcast</a> on <b>10 different platforms</b>, including
               Apple Podcasts, Spotify, Google Podcasts, Stitcher, Overcast, Castro, Breaker,
-              PocketCasts, and more. Just search for "The Golden Hurricast".
+              PocketCasts, and more. Just search for 'The Golden Hurricast'.
           </p>
 
           <br />
@@ -62,10 +62,9 @@ const AboutLayout = () => {
           </p>
 
           <p>
-            The blog was going well, but we became unhappy with the WordPress URL
+            The blog was going well, but we were unhappy with the WordPress URL
             (hercscorner.home.blog) and some of the other WordPress limitations.
-            Fortunately, Ryan works as a software developer and decided to
-            build us a custom website! Thus,{" "}
+            Ryan decided to build us a custom website and {" "}
             <a href="https://thegoldenhurricast.com">TheGoldenHurricast.com</a>{" "}
             was born. We have high hopes for the website, so let us know if
             there's anything you'd like us to add in the future.

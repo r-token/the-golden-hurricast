@@ -47,12 +47,27 @@ const SupportLayout = () => {
               one-time donation
           </a>{" "}
             of any amount via PayPal.
-        </p>
+          </p>
 
           <br />
-
+          
           <p>
-            <b>Way #2:</b> Sign up for a recurring monthly donation. You can do
+            {" "}
+            <b>Way #2:</b> Leave a{" "}
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://twitter.com/goldenhurricast"
+            >
+              tip on Twitter
+          </a>
+          . Just tap the dollar bills at the top of our profile (mobile devices only).
+          </p>
+          
+          <br />
+          
+          <p>
+            <b>Way #3:</b> Sign up for a recurring monthly donation. You can do
           that by clicking{" "}
             <a
               rel="noopener noreferrer"
@@ -63,7 +78,8 @@ const SupportLayout = () => {
           </a>{" "}
             and then clicking the 'Support' button. From there, you can choose to
             contribute $0.99/month, $4.99/month, or $9.99/month.
-        </p>
+          </p>
+          
         </Container>
       </div>
     </div>

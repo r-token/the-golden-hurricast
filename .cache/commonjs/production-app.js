@@ -64,7 +64,7 @@ window.___loader = _loader.publicLoader;
     }
   }, /*#__PURE__*/_react.default.createElement(_pageRenderer.default, props));
 
-  const DataContext = _react.default.createContext({});
+  const DataContext = /*#__PURE__*/_react.default.createContext({});
 
   class GatsbyRoot extends _react.default.Component {
     render() {

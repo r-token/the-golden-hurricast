@@ -13,6 +13,8 @@ _Development by Ryan Token, blog and podcast contributions from Pat Fox, Matt Re
 
 ## 🚀 Build Details
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2ade9082-ccc8-41ed-b7ff-9964c6be1706/deploy-status)](https://app.netlify.com/sites/thegoldenhurricast/deploys)
+
 - **Hosted on Netlify**
 - Built with React, Gatsby, and GraphQL
 - **Commits to Master will trigger a 'Gatsby Build' command on Netlify, and Netlify will serve up the results**

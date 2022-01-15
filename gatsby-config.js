@@ -12,7 +12,7 @@ module.exports = {
     title: `The Golden Hurricast`,
     description: `The leading independent podcast and blog covering Golden Hurricane athletics at The University of Tulsa`,
     image: "./static/logo-white.jpg",
-    twitterUsername: "@GoldenHurricast",
+    twitterUsername: "@GoldenHurricast"
   },
 
   plugins: [
@@ -32,7 +32,6 @@ module.exports = {
         short_name: "TGH",
         start_url: "/",
         background_color: "#002D72",
-        theme_color: "#002D72",
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: "standalone",

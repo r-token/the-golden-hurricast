@@ -2,7 +2,7 @@
   "name": "thegoldenhurricast",
   "private": true,
   "description": "The leading independent podcast and blog covering Golden Hurricane athletics at The University of Tulsa",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build",
@@ -18,7 +18,7 @@
     "bootstrap": "^4.5.2",
     "disqus-react": "^1.0.10",
     "gatsby": "^2.24.54",
-    "gatsby-cli": "^2.12.92",
+    "gatsby-cli": "^2.5.15",
     "gatsby-plugin-manifest": "^2.4.28",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-source-filesystem": "^2.3.28",

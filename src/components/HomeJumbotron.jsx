@@ -67,11 +67,11 @@ const HomeJumbotron = () => {
                 style={{ marginRight: "15px" }}
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://anchor.fm/thegoldenhurricast"
+                href="https://overcast.fm/itunes1435008302/the-golden-hurricast"
               >
                 <picture>
-                  <source type="image/webp" srcSet={require("../../static/brand_icons/anchor.webp")} style={{ height: "35px", width: "35px" }} />
-                  <img src={require("../../static/brand_icons/anchor.png")} alt="Anchor icon" style={{ height: "35px", width: "35px" }} />
+                  <source type="image/webp" srcSet={require("../../static/brand_icons/overcast.webp")} style={{ height: "35px", width: "35px" }} />
+                  <img src={require("../../static/brand_icons/overcast.png")} alt="Overcast icon" style={{ height: "35px", width: "35px" }} />
                 </picture>
               </a>
 
