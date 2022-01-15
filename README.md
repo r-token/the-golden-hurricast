@@ -13,10 +13,10 @@ _Development by Ryan Token, blog and podcast contributions from Pat Fox, Matt Re
 
 ## Publishing Blog Posts
 * Ensure you have [Homebrew](https://brew.sh/), [Node](https://nodejs.org/en/download/), and the [GitHub CLI](https://github.com/cli/cli) installed
-* Clone the GitHub repo down locally: `gh repo clone r-token/the-golden-hurricast`
-* From terminal, switch to the hurricast folder you just cloned down
-* Run `npm i` from the terminal
-* Create a new GitHub branch named 'blog' and switch to that branch: `git branch blog && git checkout blog`
+* Clone the GitHub repo down locally. From the terminal, run: `gh repo clone r-token/the-golden-hurricast`
+* From the terminal, switch to the hurricast folder you just cloned down. Run `cd path/to/the-golden-hurricast`
+* From the terminal, run `npm i`
+* From the terminal, create a new GitHub branch named 'blog' and switch to that branch: `git branch blog && git checkout blog`
 * Create a new folder within `src/pages` - name it according to the pattern of the existing posts
 * Create a new file named `index.md` within that new folder
 * Add metadata to the top of the `index.md` file
