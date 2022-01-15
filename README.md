@@ -12,6 +12,7 @@ Source code for https://thegoldenhurricast.com
 _Development by Ryan Token, blog and podcast contributions from Pat Fox, Matt Rechtien, and Ryan Token_
 
 ## Publishing Blog Posts
+* Ensure you have [Homebrew](https://brew.sh/), [Node](https://nodejs.org/en/download/), and the [GitHub CLI](https://github.com/cli/cli) installed
 * Clone the GitHub repo down locally: `gh repo clone r-token/the-golden-hurricast`
 * From terminal, switch to the hurricast folder you just cloned down
 * Run `npm i` from the terminal
