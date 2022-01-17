@@ -4,6 +4,10 @@ import Container from 'react-bootstrap/Container';
 import Seo from '../components/seo'
 import { loadStripe } from "@stripe/stripe-js"
 
+require("dotenv").config({
+	 path: `.env.${process.env.NODE_ENV}`,
+ })
+
 const buttonStyles = {
 	fontSize: "13px",
 	textAlign: "center",
@@ -21,7 +25,6 @@ const buttonDisabledStyles = {
 }
 
 const stage = 'dev'
-const publishableKey = stage === 'prod' ? 'pk_live_51KIlYhKV7C6ZMsrxAbwd904E7WJaVphKqjP7mAWtE6ehYcnbzWVbuMNOuy4bzg7L8K7qtzkUnlQAEftCYEsYZIw40086Hhf6xw' : 'pk_test_51KIlYhKV7C6ZMsrxi6qre3gN5vz4WRn124n3ObzmZDcZoqMwOoJUYIh1go2uDgBu82vSxq0eHLAxohkOTojfqyPV00dH3petEK'
 
 const successUrl = stage === 'prod' ? 'https://thegoldenhurricast.com/merch/success' : 'http://localhost:8000/merch/success'
 const cancelUrl = stage === 'prod' ? 'https://thegoldenhurricast.com/merch/failure' : 'http://localhost:8000/merch/failure'
@@ -29,7 +32,7 @@ const cancelUrl = stage === 'prod' ? 'https://thegoldenhurricast.com/merch/failu
 let stripePromise
 const getStripe = () => {
 	if (!stripePromise) {
-		stripePromise = loadStripe(publishableKey)
+		stripePromise = loadStripe(process.env.STRIPE_PUBLISHABLE_KEY)
 	}
 	return stripePromise
 }

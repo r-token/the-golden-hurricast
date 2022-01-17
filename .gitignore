@@ -4,6 +4,11 @@
 logs
 *.log
 
+# dotenv environment variables files
+.env
+.env.development
+.env.production
+
 # Runtime data
 pids
 *.pid
