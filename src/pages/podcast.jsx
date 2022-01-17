@@ -1,10 +1,9 @@
 import React from "react"
-import "bootstrap/dist/css/bootstrap.min.css"
 import Container from 'react-bootstrap/Container'
-import { Helmet } from "react-helmet"
 import NavigationBar from "../components/NavigationBar"
 import PodcastJumbotron from "../components/PodcastJumbotron"
 import Seo from '../components/seo'
+import { Helmet } from "react-helmet"
 
 const PodcastLayout = () => {
   return (

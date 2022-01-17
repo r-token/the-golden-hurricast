@@ -1,10 +1,10 @@
 import React from "react"
-import { Helmet } from "react-helmet"
-import { graphql, Link } from 'gatsby'
 import NavigationBar from '../components/NavigationBar'
 import BlogJumbotron from '../components/BlogJumbotron'
 import Container from 'react-bootstrap/Container'
 import Seo from '../components/seo'
+import { Helmet } from "react-helmet"
+import { graphql, Link } from 'gatsby'
 
 const BlogLayout = ({data}) => {
     const { edges } = data.allMarkdownRemark
