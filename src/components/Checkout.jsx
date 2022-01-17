@@ -1,12 +1,7 @@
 import React, { useState } from "react"
 import NavigationBar from "../components/NavigationBar";
-import Container from 'react-bootstrap/Container';
 import Seo from '../components/seo'
 import { loadStripe } from "@stripe/stripe-js"
-
-require("dotenv").config({
-	 path: `.env.${process.env.NODE_ENV}`,
- })
 
 const buttonStyles = {
 	fontSize: "13px",
