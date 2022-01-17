@@ -15,7 +15,7 @@ const NavigationBar = () => {
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav ">
+        <Navbar.Collapse id="responsive-navbar-nav" style={{ marginLeft: "17px" }}>
           <Nav className="ms-auto">
             <Nav.Link href="../podcast">Podcast</Nav.Link>
             <Nav.Link href="../blog">Blog</Nav.Link>

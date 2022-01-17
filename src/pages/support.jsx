@@ -37,7 +37,18 @@ const SupportLayout = () => {
           <hr />
           <p>
             {" "}
-            <b>Way #1:</b> Make a{" "}
+            <b>Way #1:</b> Buy our{" "}
+            <a href="/merch">
+              merchandise
+          </a>
+            !
+          </p>
+          
+          <br />
+          
+          <p>
+            {" "}
+            <b>Way #2:</b> Make a{" "}
             <a
               rel="noopener noreferrer"
               target="_blank"
@@ -52,7 +63,7 @@ const SupportLayout = () => {
           
           <p>
             {" "}
-            <b>Way #2:</b> Leave a{" "}
+            <b>Way #3:</b> Leave a{" "}
             <a
               rel="noopener noreferrer"
               target="_blank"
@@ -66,7 +77,15 @@ const SupportLayout = () => {
           <br />
           
           <p>
-            <b>Way #3:</b> Sign up for a recurring monthly donation. You can do
+            <b>Way #4:</b> Sign up for a {" "}
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://anchor.fm/thegoldenhurricast"
+              >
+                recurring monthly donation
+            </a>
+            . You can do
           that by clicking{" "}
             <a
               rel="noopener noreferrer"
