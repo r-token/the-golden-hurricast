@@ -6,23 +6,30 @@ const cardStyles = {
 	flexDirection: "column",
 	justifyContent: "space-around",
 	alignItems: "flex-start",
-	padding: "1rem",
+	padding: "10px",
 	marginBottom: "1rem",
-	boxShadow: "5px 5px 25px 0 rgba(46,61,73,.2)",
+	boxShadow: "0 5px 15px -7px rgba(0,0,0,0.6)",
 	backgroundColor: "#fff",
-	borderRadius: "6px",
+	borderRadius: "5px",
 	maxWidth: "300px",
+	boxSizing: "border-box",
+	border: "1px lightgrey solid",
+	overflow: "hidden",
+	paddingBottom: "12px"
 }
+
 const buttonStyles = {
 	display: "block",
 	fontSize: "13px",
 	textAlign: "center",
-	color: "#000",
+	color: "white",
 	padding: "12px",
 	boxShadow: "2px 5px 10px rgba(0,0,0,.1)",
-	backgroundColor: "rgb(255, 178, 56)",
-	borderRadius: "6px",
+	backgroundColor: "#0275d8",
+	border: "1px lightgrey solid",
+	borderRadius: "5px",
 	letterSpacing: "1.5px",
+	marginTop: "15px"
 }
 
 const buttonDisabledStyles = {
@@ -66,12 +73,26 @@ const ProductCard = ({ product }) => {
 		<div style={cardStyles}>
 			<form onSubmit={handleSubmit}>
 				<fieldset style={{ border: "none" }}>
-					<legend>
-						<h4>{product.name}</h4>
+					<legend style={{ marginBottom: "15px" }}>
+						<h4 style={{marginBottom: "15px"}}>{product.name}</h4>
+						
+						<picture style={{padding: '10px', marginLeft: '25px'}}>
+							<source
+								type="image/webp"
+								srcSet={product.images[0]}
+								style={{ height: "200px", width: "200px", border: "0px" }}
+							/>
+							<img
+								src={product.images[0]}
+								alt={product.description}
+								style={{ height: "200px", width: "200px" }}
+								className="floating_merch_image"
+							/>
+						</picture>
 					</legend>
-					<label>
-						Price{" "}
-						<select name="priceSelect">
+					<label style={{ width: "100%" }}>
+						<b>Price</b>: {" "}
+						<select style={{ width: "75%" }} name="priceSelect">
 							{product.prices.map(price => (
 								<option key={price.id} value={price.id}>
 									{formatPrice(price.unit_amount, price.currency)}
@@ -88,7 +109,7 @@ const ProductCard = ({ product }) => {
 							: buttonStyles
 					}
 				>
-					BUY ME
+					SEE FULL DETAILS & BUY
 				</button>
 			</form>
 		</div>

@@ -1,7 +1,7 @@
 import React from "react";
 import NavigationBar from "../components/NavigationBar";
 import Container from 'react-bootstrap/Container';
-import SupportJumbotron from '../components/SupportJumbotron'
+import MerchJumbotron from '../components/MerchJumbotron'
 import Seo from '../components/seo'
 import Products from "../components/products/Products"
 import { Helmet } from "react-helmet";
@@ -20,11 +20,11 @@ const MerchLayout = () => {
 			</Helmet>
 
 			<NavigationBar />
-			<SupportJumbotron />
+			<MerchJumbotron />
 
 			<div
 				style={{
-					marginTop: "130px",
+					marginTop: "110px",
 					marginBottom: "30px",
 					marginLeft: "30px",
 					marginRight: "30px",
@@ -34,12 +34,26 @@ const MerchLayout = () => {
 			>
 				<Container id="supportus" style={{marginTop: '-75px'}}>
 
-					<h4> Merch </h4>
+					<p style={{ marginBottom: "30px" }}>
+						We've teamed up with <a href="https://www.mythic.press/" rel="noopener noreferrer"
+						target="_blank">
+						Mythic
+						</a>
+						{" "}
+						here in Tulsa to design and create the clothing. We use <a href="https://stripe.com/" rel="noopener noreferrer"
+						target="_blank">
+						Stripe
+						</a>
+						{" "}
+						to handle payments and orders.
+					</p>
+
+					<h4> Hurricast Merchandise </h4>
 					<hr />
-					<p>
+					<div>
 						{" "}
 						<Products />
-					</p>
+					</div>
 					
 				</Container>
 			</div>

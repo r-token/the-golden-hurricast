@@ -28,6 +28,7 @@ const Products = () => {
 								product {
 									id
 									name
+									images
 								}
 							}
 						}
