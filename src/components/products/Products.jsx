@@ -1,7 +1,16 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
+import ProductCard from "./ProductCard"
 
-export default function Products(props) {
+const containerStyles = {
+	display: "flex",
+	flexDirection: "row",
+	flexWrap: "wrap",
+	justifyContent: "space-between",
+	padding: "1rem 0 1rem 0",
+}
+
+const Products = () => {
 	return (
 		<StaticQuery
 			query={graphql`
@@ -25,13 +34,27 @@ export default function Products(props) {
 					}
 				}
 			`}
-			render={({ prices }) => (
-				<div>
-					{prices.edges.map(({ node: price }) => (
-						<p key={price.id}>{price.product.name}</p>
-					))}
-				</div>
-			)}
+			render={({ prices }) => {
+				// Group prices by product
+				const products = {}
+				for (const { node: price } of prices.edges) {
+					const product = price.product
+					if (!products[product.id]) {
+						products[product.id] = product
+						products[product.id].prices = []
+					}
+					products[product.id].prices.push(price)
+				}
+				return (
+					<div style={containerStyles}>
+						{Object.keys(products).map(key => (
+							<ProductCard key={products[key].id} product={products[key]} />
+						))}
+					</div>
+				)
+			}}
 		/>
 	)
 }
+
+export default Products

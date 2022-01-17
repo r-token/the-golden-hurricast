@@ -3,7 +3,7 @@ import NavigationBar from "../components/NavigationBar";
 import Container from 'react-bootstrap/Container';
 import SupportJumbotron from '../components/SupportJumbotron'
 import Seo from '../components/seo'
-import Checkout from "../components/Checkout"
+import Products from "../components/products/Products"
 import { Helmet } from "react-helmet";
 
 const MerchLayout = () => {
@@ -38,7 +38,7 @@ const MerchLayout = () => {
 					<hr />
 					<p>
 						{" "}
-						<Checkout />
+						<Products />
 					</p>
 					
 				</Container>

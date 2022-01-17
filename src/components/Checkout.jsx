@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import NavigationBar from "../components/NavigationBar";
 import Seo from '../components/seo'
-import { loadStripe } from "@stripe/stripe-js"
+import getStripe from "../utils/stripejs"
 
 const buttonStyles = {
 	fontSize: "13px",
@@ -23,14 +23,6 @@ const stage = 'dev'
 
 const successUrl = stage === 'prod' ? 'https://thegoldenhurricast.com/merch/success' : 'http://localhost:8000/merch/success'
 const cancelUrl = stage === 'prod' ? 'https://thegoldenhurricast.com/merch/failure' : 'http://localhost:8000/merch/failure'
-
-let stripePromise
-const getStripe = () => {
-	if (!stripePromise) {
-		stripePromise = loadStripe(process.env.STRIPE_PUBLISHABLE_KEY)
-	}
-	return stripePromise
-}
 
 const Checkout = () => {
 	const [loading, setLoading] = useState(false)
