@@ -12,7 +12,9 @@ The Haith era at Tulsa is over. As of Saturday, March 12th, 2022 – exactly one
 
 I put my [initial thoughts](https://twitter.com/GoldenHurricast/status/1502821181082189827?s=20&t=h3dZVXECBVYFRNa9aIIMvw) about this on Twitter, but an event like this deserves more thought, perspective, and room to breath.
 
-Let me be clear: Frank Haith was a fantastic representative and leader for TU over his eight years here. There was no drama, no scandals, and no shortage of great memories with him at the helm. He also represented a stable presence for a school that has gone through nonstop instability throughout effectively his entire tenure here.
+Let me be clear: Frank Haith was a fantastic representative and leader for TU over his eight years here. There was no drama, no scandal, and no shortage of great memories with him at the helm. He also represented a rare stable presence for a school that has gone through nonstop instability throughout effectively his entire tenure.
+
+I have a great deal of respect for Coach Haith and wish him well going forward. He ushered TU through an era of tight budgets, leadership turmoil, and COVID-19. Just one of those circumstances makes things difficult for any coach. He rolled with the punches, handled it as best he could, and did it all with humility and grace.
 
 <br />
 
@@ -34,13 +36,13 @@ From the 2016-17 season on, it became a roller coaster. Over the next several ye
 
 ![KenPom Results](/blog_images/frank-haith/kenpom-results.jpeg)
 
-*2022 KenPom results not yet reflected in this chart - we are #172 in KenPom as of publishing*
+*2022 KenPom results not yet reflected in this chart - we are #172 in KenPom as of publishing. Chart originally from [@TulsaHop](https://twitter.com/tulsahop/status/1370140824588095488?s=21)*
 
 <br />
 
 Looking at the chart above, there was just one definitively good season after 2015-16, an average KenPom ranking of 124, consistently declining attendance, and a particularly bad two-year stretch over these most recent seasons.
 
-In Haith's defense, that good 2019-20 season was indeed fantastic. Tulsa was the co-regular season AAC champion, Haith won AAC Coach of the Year, we would've received at least an NIT bid, and one of my single favorite memories from any TU game happened – Joiner hitting a three at the buzzer to take down Wichita State in front of a packed Reynolds Center. Half of the fans were Shocker fans, but that made the buzzer beater even sweeter.
+In Haith's defense, that good 2019-20 season was indeed fantastic. Tulsa was the co-regular season AAC champion, Haith won AAC Coach of the Year, we would've received at least an NIT bid were it not for COVID-19, and one of my single favorite memories from any TU game happened – Joiner hitting a three at the buzzer to take down Wichita State in front of a packed Reynolds Center. Half of the fans were Shocker fans, but that made the buzzer beater even sweeter.
 
 Even during that 2019-20 year, though, the issues at the root of the program were still evident. Namely, attendance. [Bill Haisten noted](https://tulsaworld.com/sports/college/tu/after-a-20-loss-season-and-attendance-issues-tu-s-frank-haith-resigns/article_cc5cb176-a23c-11ec-85c4-1bdef3c69e16.html?utm_medium=social&utm_source=twitter&utm_campaign=user-share) in his article about Haith's resignation that a new program low of 4,043 fans per game was set during that season. It cratered to an average of 2,911 this season.
 
