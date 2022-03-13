@@ -8,7 +8,7 @@ excerpt: "An eight-year tenure comes to a disappointing end."
 tags: ['basketball', 'coaching']
 ---
 
-The Haith era at Tulsa is over. As of Saturday, March 12th, 2022, exactly one year after we wrote a blog post on [The Odd Case of Frank Haith](https://www.thegoldenhurricast.com/odd-case-frank-haith), Frank Haith has resigned and is no longer the head basketball coach at The University of Tulsa.
+The Haith era at Tulsa is over. As of Saturday, March 12th, 2022 – exactly one year after we wrote a blog post on [The Odd Case of Frank Haith](https://www.thegoldenhurricast.com/odd-case-frank-haith) – Frank Haith has resigned and is no longer the head basketball coach at The University of Tulsa.
 
 I put my [initial thoughts](https://twitter.com/GoldenHurricast/status/1502821181082189827?s=20&t=h3dZVXECBVYFRNa9aIIMvw) about this on Twitter, but an event like this deserves more thought, perspective, and room to breath.
 
@@ -34,7 +34,7 @@ From the 2016-17 season on, it became a roller coaster. Over the next several ye
 
 ![KenPom Results](/blog_images/frank-haith/kenpom-results.jpeg)
 
-*2022 KenPom results not yet reflected in this chart*
+*2022 KenPom results not yet reflected in this chart - we are #172 in KenPom as of publishing*
 
 <br />
 
@@ -44,11 +44,11 @@ In Haith's defense, that good 2019-20 season was indeed fantastic. Tulsa was the
 
 Even during that 2019-20 year, though, the issues at the root of the program were still evident. Namely, attendance. [Bill Haisten noted](https://tulsaworld.com/sports/college/tu/after-a-20-loss-season-and-attendance-issues-tu-s-frank-haith-resigns/article_cc5cb176-a23c-11ec-85c4-1bdef3c69e16.html?utm_medium=social&utm_source=twitter&utm_campaign=user-share) in his article about Haith's resignation that a new program low of 4,043 fans per game was set during that season. It cratered to an average of 2,911 this season.
 
-Doug Wojcik was fired for attendance issues almost exactly ten years ago. It matters. Winning aside, would attendance have been better had Frank Haith focused more on Tulsa-area and Oklahoma-area recruits? There has only been *one* Tulsa high school recruit throughout his tenure, and that was this most recent season with freshman standout Anthony Pritchard - who we didn't actually offer until he had already committed to Tennessee Tech.
+Doug Wojcik was fired for attendance issues almost exactly ten years ago. It matters. Winning aside, would attendance have been better had Frank Haith focused more on Tulsa-area and Oklahoma-area recruits? There has only been *one* Tulsa high school recruit throughout his tenure, and that came this most recent season with freshman standout Anthony Pritchard - who we didn't actually offer until he had already committed to Tennessee Tech.
 
-Further, I think fans appreciate when a team has a true identity. Temple football's "Temple TUFF" sounds silly, but it means something to the team and to the fans. It's something they can fall back on even when the wins aren't coming. "Yes this year has been a struggle, but we know we play tough, we play hard, and we won't quit". That has an impact. After Rod Carey destroyed that culture for the Owls, he was gone.
+Further, I think fans appreciate when a team has a true identity. Temple football's "Temple TUFF" sounds silly, but it means something to the team and to the fans. It's something they can fall back on even when the wins aren't coming. "Yes this year has been a struggle, but we know we play tough, we play hard, and we won't quit". That has an impact. After Rod Carey destroyed that culture and identity for the Owls, he was gone.
 
-What do you think of when you think Tulsa basketball? Early in the Haith era, I probably would have said a slow but precise offense paired with an interesting and effective defense. And we had the players to execute it on both ends. Not the most entertaining brand of basketball, but it worked. Over time, the offense has remained at about the same pace but has gotten less precise, and the defense has fallen apart. That results in an unexciting brand of basketball that doesn't work and that fans aren't going to show up for to watch.
+What do you think of when you think Tulsa basketball? Early in the Haith era, I probably would have said a slow but precise offense paired with an interesting and effective defense. And we had the players to execute it on both ends. Not the most entertaining brand of basketball, but it worked. Over time, the offense has remained at about the same pace but has gotten less precise, and the defense has fallen apart. That results in an unexciting brand of basketball that doesn't work and that fans aren't going to show up for.
 
 Attendance and identity problems aside, making the postseason just once over the past six years should not be acceptable. And not coming anywhere close in most of those seasons is worse. This year made a coaching change feel inevitable.
 
@@ -74,7 +74,7 @@ To look back at some of these, I've compiled three of my favorite Haith-era memo
 
 ![Wichita state celebration, Haith with hand in pocket](/blog_images/frank-haith-resigns/haith-pocket.JPG)
 
-*Joiner's three at the buzzer to beat Wichita State. The photo makes it one of my favorite TU memories ever.*
+*Joiner's three at the buzzer to beat Wichita State. The photo makes it one of my favorite TU memories ever*
 
 <br />
 
