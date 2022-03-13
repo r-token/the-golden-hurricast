@@ -54,7 +54,7 @@ I think we all know that Haith is a genuinely good man. I feel sad for him about
 
 <br />
 
-#### Reminiscing
+#### My Favorite Haith-Era Memories
 
 <br />
 
