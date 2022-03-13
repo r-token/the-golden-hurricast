@@ -163,10 +163,7 @@ apiRunnerAsync(`onClientEntry`).then(() => {
   }
 
   publicLoader.loadPage(browserLoc.pathname + browserLoc.search).then(page => {
-    if (
-      page?.page?.webpackCompilationHash &&
-      page.page.webpackCompilationHash !== window.___webpackCompilationHash
-    ) {
+    if (page.page.webpackCompilationHash !== window.___webpackCompilationHash) {
       // Purge plugin-offline cache
       if (
         `serviceWorker` in navigator &&

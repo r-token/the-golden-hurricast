@@ -73,10 +73,10 @@ const Template = ({data, pageContext}) => {
           {/*footer*/}
           <div>
             <Navbar fixed="bottom" expand="lg" bg="light" variant="light">
-              <Nav className="mr-auto">
+              <Nav className="mr-auto" style={{paddingLeft: '10px'}}>
                 {prev && <Link to={prev.frontmatter.path}>Previous</Link>}
               </Nav>
-              <Nav className="ml-auto">
+              <Nav className="ms-auto" style={{paddingRight: '10px'}}>
                 {next && <Link to={next.frontmatter.path}>Next</Link>}
               </Nav>
             </Navbar>
