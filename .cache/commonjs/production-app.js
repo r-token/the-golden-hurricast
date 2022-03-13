@@ -136,9 +136,7 @@ const reloadStorageKey = `gatsby-reload-compilation-hash-match`;
   }
 
   _loader.publicLoader.loadPage(browserLoc.pathname + browserLoc.search).then(page => {
-    var _page$page;
-
-    if (page !== null && page !== void 0 && (_page$page = page.page) !== null && _page$page !== void 0 && _page$page.webpackCompilationHash && page.page.webpackCompilationHash !== window.___webpackCompilationHash) {
+    if (page.page.webpackCompilationHash !== window.___webpackCompilationHash) {
       // Purge plugin-offline cache
       if (`serviceWorker` in navigator && navigator.serviceWorker.controller !== null && navigator.serviceWorker.controller.state === `activated`) {
         navigator.serviceWorker.controller.postMessage({
