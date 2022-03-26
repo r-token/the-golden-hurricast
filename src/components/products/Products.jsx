@@ -27,8 +27,12 @@ const Products = () => {
 								unit_amount
 								product {
 									id
+									active
 									name
 									images
+									metadata {
+										sort_number	
+									}
 								}
 							}
 						}
@@ -38,7 +42,11 @@ const Products = () => {
 			render={({ prices }) => {
 				// Group prices by product
 				const products = {}
-				for (const { node: price } of prices.edges) {
+				var sortedProducts = prices.edges.sort((a, b) => a.node.product.metadata.sort_number.localeCompare(b.node.product.metadata.sort_number))
+				sortedProducts = sortedProducts.filter(function(item) {
+					return item.node.product.active === true
+				})
+				for (const { node: price } of sortedProducts) {
 					const product = price.product
 					if (!products[product.id]) {
 						products[product.id] = product
