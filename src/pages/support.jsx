@@ -40,7 +40,7 @@ const SupportLayout = () => {
             <b>Way #1:</b> Buy our{" "}
             <a href="/merch">
               merchandise
-          </a>
+            </a>
             !
           </p>
           
