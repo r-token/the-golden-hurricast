@@ -2,10 +2,12 @@
 
 require('dotenv').config()
 
-const Stripe = require('stripe')
-const stripe = Stripe(process.env.GATSBY_STRIPE_SECRET_KEY)
+const eventWasWarmup = require('./utils').eventWasWarmup
 
-const getRemainingNumberOfProducts = async (event, context) => {
+const getRemainingItems = async (event, context) => {
+  console.log('event:', JSON.stringify(event, null, 4))
+  if (eventWasWarmup(event)) { return 'Lambda is warm!' }
+  
   const testProductIds = {
     tshirt3xl: 'prod_LOSb5SQ5OZKjjU',
     tshirt2xl: 'prod_LOSaG7vnGTethb',
@@ -25,70 +27,65 @@ const getRemainingNumberOfProducts = async (event, context) => {
   }
   
   try {
-    var allCheckoutSessions = await stripe.checkout.sessions.list()
-    console.log('successfully retrieved all checkout sessions:', JSON.stringify(allCheckoutSessions, null, 2))
+    // get orders from Orders table
   } catch(err) {
-    console.error('error retrieving checkout sessions:', err)
+    console.error('Error getting orders from Orders table:', err)
     context.captureError(err)
     response.statusCode = 500
-    response.body = JSON.stringify({ message: `error retrieving checkout sessions: ${err.message}` })
+    response.body = JSON.stringify({ error: 'error getting orders from Orders table' })
+    return response
   }
-  
-  const checkoutSessions = allCheckoutSessions.data
-  console.log('checkoutSessions:', JSON.stringify(checkoutSessions, null, 2))
-  
-  var checkoutSessionIds = []
-  for (const session of checkoutSessions) {
-    checkoutSessionIds.push(session.id)
-  }
-  
-  console.log('checkoutSessionIds:', JSON.stringify(checkoutSessionIds, null, 2))
   
   var cleanedOrderList = {}
-  for await (const sessionId of checkoutSessionIds) {
-    const lineItems = await stripe.checkout.sessions.listLineItems(sessionId)
-    const lineItemsData = lineItems.data
-    
-    console.log('lineItemsData:', JSON.stringify(lineItemsData, null, 2))
-    
-    for (const lineItem of lineItemsData) {
-      const productId = lineItem.price.product
-      const quantity = lineItem.quantity
-      
-      console.log(JSON.stringify({productId: productId, quantity: quantity}, null, 2))
-      
-      switch(productId) {
-        case testProductIds.tshirt3xl:
-          cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-        case testProductIds.tshirt2xl:
-          cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-        case testProductIds.tshirtXl:
-          cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-        case testProductIds.tshirtLarge:
-          cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-        case testProductIds.tshirtMedium:
-          cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-        case testProductIds.tshirtSmall:
-          cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-        
-        case testProductIds.hoodieXl:
-          cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-        case testProductIds.hoodieLarge:
-          cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-        case testProductIds.hoodieMedium:
-          cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-      }
-    }
-  }
+  // for (const order of orders) {
+  //   const productId = lineItem.price.product
+  //   const quantity = lineItem.quantity
+  //   
+  //   console.log(JSON.stringify({productId: productId, quantity: quantity}, null, 2))
+  //   
+  //   switch(productId) {
+  //     case testProductIds.tshirt3xl:
+  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
+  //     case testProductIds.tshirt2xl:
+  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
+  //     case testProductIds.tshirtXl:
+  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
+  //     case testProductIds.tshirtLarge:
+  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
+  //     case testProductIds.tshirtMedium:
+  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
+  //     case testProductIds.tshirtSmall:
+  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
+  //     
+  //     case testProductIds.hoodieXl:
+  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
+  //     case testProductIds.hoodieLarge:
+  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
+  //     case testProductIds.hoodieMedium:
+  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
+  //   }
+  // }
   
-  console.log('cleanedOrderList:', JSON.stringify(cleanedOrderList, null, 2))
+  // console.log('cleanedOrderList:', JSON.stringify(cleanedOrderList, null, 2))
+  // response.body = JSON.stringify(cleanedOrderList)
   
-  return {
+  return response
+}
+
+const addOrderToTable = (event, context) => {
+  console.log('event:', JSON.stringify(event, null, 4))
+  if (eventWasWarmup(event)) { return 'Lambda is warm!' }
+  
+  var response = {
     statusCode: 200,
-    body: JSON.stringify(cleanedOrderList, null, 2)
+    body: {}
   }
+  
+  response.body = JSON.stringify({ message: 'hi' })
+  
+  return response
 }
 
 module.exports = {
-  getRemainingNumberOfProducts
+  getRemainingItems
 }

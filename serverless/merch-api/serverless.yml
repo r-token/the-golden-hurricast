@@ -6,6 +6,7 @@ service: merch-api
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
 frameworkVersion: '3'
+useDotenv: true
 
 provider:
   name: aws
@@ -26,12 +27,17 @@ provider:
         - Authorization
       allowedMethods:
         - GET
+        - POST
       allowCredentials: true
       exposedResponseHeaders:
         - Special-Response-Header
       maxAge: 6000 # seconds
   
-useDotenv: true
+params:
+  prod:
+    ordersTable: Orders
+  dev:
+    ordersTable: Orders-dev
 
 custom:
   warmup:
@@ -39,19 +45,30 @@ custom:
       enabled: false
       package:
         individually: true
+        patterns:
+          - './**'
+          - '!./node_modules/**'
 
 functions:
   getRemainingNumberOfProducts:
-    handler: handler.getRemainingNumberOfProducts
+    handler: handler.getRemainingItems
     warmup:
       default:
         enabled: prod
     events:
       - httpApi:
-          path: /products/getAllRemaining
-          method: get
-    environment:
-      GATSBY_STRIPE_SECRET_KEY: ${env:GATSBY_STRIPE_SECRET_KEY}
+          method: GET
+          path: /products/remainingItems
+    
+  addOrderToTable:
+    handler: handler.addOrderToTable
+    warmup:
+      default:
+        enabled: prod
+    events:
+      - httpApi:
+          method: POST
+          path: /orders/new/{productId}/{orderId}
   
 package:
   individually: true
@@ -60,3 +77,23 @@ package:
 plugins:
   - serverless-plugin-common-excludes
   - serverless-plugin-warmup
+  
+resources:
+  Resources:
+    SourcesTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${param:ordersTable}
+        AttributeDefinitions:
+          - AttributeName: productId
+            AttributeType: S
+          - AttributeName: orderId
+            AttributeType: S
+        KeySchema:
+          - AttributeName: productId
+            KeyType: HASH
+          - AttributeName: orderId
+            KeyType: RANGE
+        PointInTimeRecoverySpecification:
+          PointInTimeRecoveryEnabled: true
+        BillingMode: PAY_PER_REQUEST
