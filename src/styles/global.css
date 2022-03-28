@@ -124,7 +124,7 @@ hr {
   border-radius: .3rem;
 }
 
-select {
+.hidden-select {
   -webkit-appearance: none;
   -moz-appearance: none;
   text-indent: 1px;

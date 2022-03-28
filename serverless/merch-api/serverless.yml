@@ -1,0 +1,62 @@
+# org and app for use with dashboard.serverless.com
+org: thegoldenhurricast
+app: merch-api
+service: merch-api
+
+# You can pin your service to only deploy with a specific Serverless version
+# Check out our docs for more details
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+  stage: dev
+  region: us-east-2
+  profile: tgh-ryan
+  
+  httpApi:
+    shouldStartNameWithService: true
+    
+    cors:
+      allowedOrigins:
+        - https://thegoldenhurricast.com
+      allowedHeaders:
+        - Content-Type
+        - Authorization
+      allowedMethods:
+        - GET
+      allowCredentials: true
+      exposedResponseHeaders:
+        - Special-Response-Header
+      maxAge: 6000 # seconds
+  
+useDotenv: true
+
+custom:
+  warmup:
+    default:
+      enabled: false
+      package:
+        individually: true
+
+functions:
+  getRemainingNumberOfProducts:
+    handler: handler.getRemainingNumberOfProducts
+    warmup:
+      default:
+        enabled: prod
+    events:
+      - httpApi:
+          path: /products/getAllRemaining
+          method: get
+    environment:
+      GATSBY_STRIPE_SECRET_KEY: ${env:GATSBY_STRIPE_SECRET_KEY}
+  
+package:
+  individually: true
+  excludeDevDependencies: true
+  
+plugins:
+  - serverless-plugin-common-excludes
+  - serverless-plugin-warmup

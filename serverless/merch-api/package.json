@@ -1,0 +1,19 @@
+{
+  "name": "merch-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Token",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "stripe": "^8.212.0"
+  },
+  "devDependencies": {
+    "serverless-plugin-common-excludes": "^4.0.0",
+    "serverless-plugin-warmup": "^7.1.0"
+  }
+}

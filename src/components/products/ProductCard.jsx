@@ -54,13 +54,15 @@ const ProductCard = ({ product }) => {
 		event.preventDefault()
 		setLoading(true)
 
-		const price = new FormData(event.target).get("priceSelect")
+		const productId = product.id
+		const priceId = new FormData(event.target).get("priceSelect")
+		const quantity = new FormData(event.target).get("quantitySelect")
 		const stripe = await getStripe()
 		const { error } = await stripe.redirectToCheckout({
 			mode: "payment",
-			lineItems: [{ price, quantity: 1 }],
-			successUrl: `${window.location.origin}/merch-success`,
-			cancelUrl: `${window.location.origin}/merch`,
+			lineItems: [{ price: priceId, quantity: Number.parseInt(quantity) }],
+			successUrl: `${window.location.origin}/merch-success?productId=${productId}&quantity=${quantity}`,
+			cancelUrl: `${window.location.origin}/merch`
 		})
 
 		if (error) {
@@ -92,7 +94,7 @@ const ProductCard = ({ product }) => {
 					</legend>
 					<label style={{ width: "100%" }}>
 						<b>Price</b>: {" "}
-						<select style={{ width: "75%" }} name="priceSelect">
+						<select className='hidden-select' style={{ width: "75%" }} name="priceSelect">
 							{product.prices.map(price => (
 								<option key={price.id} value={price.id}>
 									{formatPrice(price.unit_amount, price.currency)}
@@ -100,7 +102,17 @@ const ProductCard = ({ product }) => {
 							))}
 						</select>
 					</label>
+					
+					<label style={{ width: "100%", paddingTop: "5px" }}>
+						<b>Quantity</b>: {" "}
+						<select style={{ width: "50%" }} name="quantitySelect">
+							{[1, 2, 3, 4, 5].map(quantity => {
+								return <option value={quantity}>{quantity}</option>
+							})}
+						</select>
+					</label>
 				</fieldset>
+				
 				<button
 					disabled={loading}
 					style={
