@@ -49,7 +49,7 @@ const MerchLayout = () => {
 						to handle payments and orders.
 					</p>
 					
-					<p style={{ marginBottom: "30px" }}> View the <a href="#size-charts">size charts</a> at the bottom of the page. </p>
+					<p style={{ marginBottom: "30px" }}> The t-shirts and hoodies are unisex. View the <a href="#size-charts">size charts</a> at the bottom of the page for specific item dimensions. </p>
 
 					<h4> Hurricast Merchandise </h4>
 					<hr />
@@ -65,7 +65,7 @@ const MerchLayout = () => {
 
 					<div>
 						<h5 id="size-charts">Size Charts</h5>
-						<p style={{ color: 'grey' }}>For reference, I am 6′ 1″ and am wearing a <b>large</b> t-shirt and hoodie in the photos</p>
+						<p style={{ color: 'grey' }}>For reference, Ryan is 6′ 1″ and is wearing a <b>large</b> t-shirt and hoodie in the photos</p>
 						
 						<br />
 						
@@ -85,27 +85,6 @@ const MerchLayout = () => {
 							</thead>
 							<tbody>
 								<tr>
-									<td>Chest</td>
-									<td>
-										18
-									</td>
-									<td>
-										20
-									</td>
-									<td>
-										22
-									</td>
-									<td>
-										24
-									</td>
-									<td>
-										26
-									</td>
-									<td>
-										28
-									</td>
-								</tr>
-								<tr>
 									<td>Body Length From HPS</td>
 									<td>
 										28
@@ -124,6 +103,27 @@ const MerchLayout = () => {
 									</td>
 									<td>
 										33
+									</td>
+								</tr>
+								<tr>
+									<td>Chest Width (Laid Flat)</td>
+									<td>
+										18
+									</td>
+									<td>
+										20
+									</td>
+									<td>
+										22
+									</td>
+									<td>
+										24
+									</td>
+									<td>
+										26
+									</td>
+									<td>
+										28
 									</td>
 								</tr>
 								<tr>
