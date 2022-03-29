@@ -22,6 +22,7 @@ provider:
     cors:
       allowedOrigins:
         - https://thegoldenhurricast.com
+        - https://6243200ae8d6390008551ec7--thegoldenhurricast.netlify.app
       allowedHeaders:
         - Content-Type
         - Authorization
