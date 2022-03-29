@@ -6,9 +6,13 @@ import { Helmet } from "react-helmet"
 import { addOrderToTable } from '../api/merch-api'
 
 const MerchLayout = () => {
-	const params = new Proxy(new URLSearchParams(window.location.search), {
-		get: (searchParams, prop) => searchParams.get(prop),
-	})
+	const isBrowser = () => typeof window !== "undefined"
+	if (isBrowser()) {
+		var params = new Proxy(new URLSearchParams(window.location.search), {
+			get: (searchParams, prop) => searchParams.get(prop),
+		})
+	}
+	
 	let productId = params.productId
 	let orderId = params.orderId
 	let quantity = params.quantity
