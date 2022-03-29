@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.0",
-    "stripe": "^8.212.0"
+    "stripe": "^8.212.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "serverless-plugin-common-excludes": "^4.0.0",

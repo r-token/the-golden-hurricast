@@ -32,6 +32,17 @@ provider:
       exposedResponseHeaders:
         - Special-Response-Header
       maxAge: 6000 # seconds
+      
+  iam:
+    role:
+      statements:
+        - Effect: "Allow"
+          Action:
+            - dynamodb:GetItem
+            - dynamodb:PutItem
+            - dynamodb:Scan
+          Resource:
+            - Fn::GetAtt: [ SourcesTable, Arn ]
   
 params:
   prod:
@@ -68,7 +79,7 @@ functions:
     events:
       - httpApi:
           method: POST
-          path: /orders/new/{productId}/{orderId}
+          path: /orders/new/{productId}/{quantity}
   
 package:
   individually: true

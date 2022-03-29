@@ -67,25 +67,50 @@ const getRemainingItems = async (event, context) => {
   // }
   
   // console.log('cleanedOrderList:', JSON.stringify(cleanedOrderList, null, 2))
-  // response.body = JSON.stringify(cleanedOrderList)
+  response.body = JSON.stringify(response.body, null, 2)
   
   return response
 }
 
-const addOrderToTable = (event, context) => {
+const addOrderToTable = async (event, context) => {
+  const setupBaseVars = require('./utils').setupBaseVars
+  const uploadToDynamo = require('./utils').uploadToDynamo
+  const { v4: uuidv4 } = require('uuid')
+  
   console.log('event:', JSON.stringify(event, null, 4))
   if (eventWasWarmup(event)) { return 'Lambda is warm!' }
+  
+  const { productId, quantity, ordersTable } = setupBaseVars(event)
+  const orderId = uuidv4()
   
   var response = {
     statusCode: 200,
     body: {}
   }
   
-  response.body = JSON.stringify({ message: 'hi' })
+  const orderObject = {
+    "productId": productId,
+    "orderId": orderId,
+    "quantity": quantity
+  }
+  
+  try {
+    await uploadToDynamo(ordersTable, orderObject)
+    console.log('New Order item uploaded to DynamoDB successfully')
+  } catch(err) {
+    console.error('DynamoDB Order upload failed')
+    context.captureError(err)
+    response.statusCode = 500
+    response.body = JSON.stringify({ error: 'error uploading order to the database' })
+    return response
+  }
+  
+  response.body = JSON.stringify({ message: `Successfully uploaded order ${orderId} to the database` }, null, 2)
   
   return response
 }
 
 module.exports = {
-  getRemainingItems
+  getRemainingItems,
+  addOrderToTable
 }
