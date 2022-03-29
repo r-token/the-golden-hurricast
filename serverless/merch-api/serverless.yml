@@ -61,15 +61,15 @@ custom:
           - '!./node_modules/**'
 
 functions:
-  getRemainingNumberOfProducts:
-    handler: handler.getRemainingItems
+  calculateRemainingItems:
+    handler: handler.calculateRemainingItems
     warmup:
       default:
         enabled: prod
     events:
       - httpApi:
           method: GET
-          path: /products/remainingItems
+          path: /products/calculateRemainingItems
     
   addOrderToTable:
     handler: handler.addOrderToTable

@@ -50,6 +50,7 @@ const formatPrice = (amount, currency) => {
 
 const ProductCard = ({ product }) => {
 	const [loading, setLoading] = useState(false)
+	const remainingItems = product.remainingItems
 
 	const handleSubmit = async event => {
 		event.preventDefault()
@@ -74,61 +75,128 @@ const ProductCard = ({ product }) => {
 		}
 	}
 
-	return (
-		<div style={cardStyles}>
-			<form onSubmit={handleSubmit}>
-				<fieldset style={{ border: "none" }}>
-					<legend style={{ marginBottom: "15px" }}>
-						<h4 style={{marginBottom: "15px"}}>{product.name}</h4>
+	if (remainingItems <= 5) {
+		const quantityArray = Array.from({length: remainingItems}, (_, i) => i + 1)
+		return (
+			<div style={cardStyles}>
+				<form onSubmit={handleSubmit}>
+					<fieldset style={{ border: "none" }}>
+						<legend style={{ marginBottom: "15px" }}>
+							<h4 style={{marginBottom: "15px"}}>{product.name}</h4>
+							
+							<picture style={{padding: '10px', marginLeft: '25px'}}>
+								<source
+									type="image/webp"
+									srcSet={product.images[0]}
+									style={{ height: "200px", width: "200px", border: "0px" }}
+								/>
+								<img
+									src={product.images[0]}
+									alt={product.description}
+									style={{ height: "200px", width: "200px" }}
+									className="floating_merch_image"
+								/>
+							</picture>
+						</legend>
+						<label style={{ width: "100%" }}>
+							<b>Price</b>: {" "}
+							<select className='hidden-select' style={{ width: "75%" }} name="priceSelect">
+								{product.prices.map(price => (
+									<option key={price.id} value={price.id}>
+										{formatPrice(price.unit_amount, price.currency)}
+									</option>
+								))}
+							</select>
+						</label>
 						
-						<picture style={{padding: '10px', marginLeft: '25px'}}>
-							<source
-								type="image/webp"
-								srcSet={product.images[0]}
-								style={{ height: "200px", width: "200px", border: "0px" }}
-							/>
-							<img
-								src={product.images[0]}
-								alt={product.description}
-								style={{ height: "200px", width: "200px" }}
-								className="floating_merch_image"
-							/>
-						</picture>
-					</legend>
-					<label style={{ width: "100%" }}>
-						<b>Price</b>: {" "}
-						<select className='hidden-select' style={{ width: "75%" }} name="priceSelect">
-							{product.prices.map(price => (
-								<option key={price.id} value={price.id}>
-									{formatPrice(price.unit_amount, price.currency)}
-								</option>
-							))}
-						</select>
-					</label>
+						<label style={{ width: "100%", marginTop: "10px" }}>
+							<b>Quantity</b>: {" "}
+							<select style={{ width: "50%" }} name="quantitySelect">
+								{quantityArray.map(quantity => {
+									return <option value={quantity}>{quantity}</option>
+								})}
+							</select>
+						</label>
+						
+						<div style={{ width: "100%", paddingTop: "5px", marginBottom: "-15px" }}>
+							<p style={{ color: "red", fontStyle: "italic" }}>Only {remainingItems} left!</p>
+						</div>
+					</fieldset>
 					
-					<label style={{ width: "100%", paddingTop: "5px" }}>
-						<b>Quantity</b>: {" "}
-						<select style={{ width: "50%" }} name="quantitySelect">
-							{[1, 2, 3, 4, 5].map(quantity => {
-								return <option value={quantity}>{quantity}</option>
-							})}
-						</select>
-					</label>
-				</fieldset>
-				
-				<button
-					disabled={loading}
-					style={
-						loading
-							? { ...buttonStyles, ...buttonDisabledStyles }
-							: buttonStyles
-					}
-				>
-					SEE FULL DETAILS & BUY
-				</button>
-			</form>
-		</div>
-	)
+					<button
+						disabled={loading}
+						style={
+							loading
+								? { ...buttonStyles, ...buttonDisabledStyles }
+								: buttonStyles
+						}
+					>
+						SEE DETAILS & CHECKOUT
+					</button>
+				</form>
+			</div>
+		)
+	} else {
+		return (
+			<div style={cardStyles}>
+				<form onSubmit={handleSubmit}>
+					<fieldset style={{ border: "none" }}>
+						<legend style={{ marginBottom: "15px" }}>
+							<h4 style={{marginBottom: "15px"}}>{product.name}</h4>
+							
+							<picture style={{padding: '10px', marginLeft: '25px'}}>
+								<source
+									type="image/webp"
+									srcSet={product.images[0]}
+									style={{ height: "200px", width: "200px", border: "0px" }}
+								/>
+								<img
+									src={product.images[0]}
+									alt={product.description}
+									style={{ height: "200px", width: "200px" }}
+									className="floating_merch_image"
+								/>
+							</picture>
+						</legend>
+						<label style={{ width: "100%" }}>
+							<b>Price</b>: {" "}
+							<select className='hidden-select' style={{ width: "75%" }} name="priceSelect">
+								{product.prices.map(price => (
+									<option key={price.id} value={price.id}>
+										{formatPrice(price.unit_amount, price.currency)}
+									</option>
+								))}
+							</select>
+						</label>
+						
+						<label style={{ width: "100%", marginTop: "10px" }}>
+							<b>Quantity</b>: {" "}
+							<select style={{ width: "50%" }} name="quantitySelect">
+								{[1, 2, 3, 4, 5].map(quantity => {
+									return <option value={quantity}>{quantity}</option>
+								})}
+							</select>
+						</label>
+						
+						<div style={{ width: "100%", paddingTop: "5px", marginBottom: "-15px" }}>
+							<p style={{ color: "white" }}> | </p>
+						</div>
+					</fieldset>
+					
+					<button
+						disabled={loading}
+						style={
+							loading
+								? { ...buttonStyles, ...buttonDisabledStyles }
+								: buttonStyles
+						}
+					>
+						SEE DETAILS & CHECKOUT
+					</button>
+				</form>
+			</div>
+		)	
+	}
 }
 
 export default ProductCard

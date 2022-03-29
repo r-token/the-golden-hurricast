@@ -4,7 +4,7 @@ require('dotenv').config()
 
 const eventWasWarmup = require('./utils').eventWasWarmup
 
-const getRemainingItems = async (event, context) => {
+const calculateRemainingItems = async (event, context) => {
   const setupBaseVarsForGetRemaining = require('./utils').setupBaseVarsForGetRemaining
   const getAllItemsFromTable = require('./utils').getAllItemsFromTable
   
@@ -26,20 +26,7 @@ const getRemainingItems = async (event, context) => {
     'prod_LOSAJMwijaQv1u'     // hoodie medium
   ]
   
-  const testProductIds = {
-    tshirt3xl:    testProductIdsList[0],
-    tshirt2xl:    testProductIdsList[1],
-    tshirtXl:     testProductIdsList[2],
-    tshirtLarge:  testProductIdsList[3],
-    tshirtMedium: testProductIdsList[4],
-    tshirtSmall:  testProductIdsList[5],
-    
-    hoodieXl:     testProductIdsList[6],
-    hoodieLarge:  testProductIdsList[7],
-    hoodieMedium: testProductIdsList[8]
-  }
-  
-  const totalProducts = {
+  const totalProductsEverBought = {
     [testProductIdsList[0]]: 3,   // t-shirt 3xl
     [testProductIdsList[1]]: 6,   // t-shirt 2xl
     [testProductIdsList[2]]: 20,  // t-shirt xl
@@ -107,15 +94,15 @@ const getRemainingItems = async (event, context) => {
   console.log('cleanedOrderList:', JSON.stringify(cleanedOrderList, null, 2))
   
   var remainingItems = {}
-  for (const [key, value] of Object.entries(totalProducts)) {
-    remainingItems[key] = totalProducts[key] - cleanedOrderList[key]
+  for (const [key, value] of Object.entries(totalProductsEverBought)) {
+    remainingItems[key] = totalProductsEverBought[key] - cleanedOrderList[key]
   }
   
   console.log('remainingItems:', JSON.stringify(remainingItems, null, 2))
   
   response.body = remainingItems
   
-  response.body = JSON.stringify(response.body, null, 2)
+  response.body = JSON.stringify(response.body)
   return response
 }
 
@@ -156,6 +143,6 @@ const addOrderToTable = async (event, context) => {
 }
 
 module.exports = {
-  getRemainingItems,
+  calculateRemainingItems,
   addOrderToTable
 }

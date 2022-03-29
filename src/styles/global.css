@@ -12,67 +12,67 @@ hr {
 
 /* basically anything bigger than a smartphone */
 @media screen and (min-width: 680px) {
-    .blogpost {
-        width: 650px;
-    }
+  .blogpost {
+    width: 650px;
+  }
 
-    .blogpost img, video {
-        max-width: 650px;
-    }
+  .blogpost img, video {
+    max-width: 650px;
+  }
 
-    .blogedge, .container_style {
-        width: 75% !important;
-    }
+  .blogedge, .container_style {
+    width: 75% !important;
+  }
 
-    .podstyle {
-        width: 75% !important;
-    }
+  .podstyle {
+    width: 75% !important;
+  }
 
-    #blogAlignment {
-        text-align: center;
-    }
+  #blogAlignment {
+    text-align: center;
+  }
 
-    #aboutus {
-        width: 75% !important;
-    }
+  #aboutus {
+    width: 75% !important;
+  }
 
-    #supportus {
-        width: 75% !important;
-    }
+  #supportus {
+    width: 75% !important;
+  }
 }
 
 /* smartphone size and down */
 @media screen and (max-width: 680px) {
-    .blogpost {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
+  .blogpost {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 
-    .blogpost img, video {
-        max-width: 315px;
-    }
+  .blogpost img, video {
+    max-width: 315px;
+  }
 
-    #blogAlignment {
-        text-align: left;
-    }
+  #blogAlignment {
+    text-align: left;
+  }
 }
 
 .blogpost {
-    display: inline-block;
-    text-align: left;
+  display: inline-block;
+  text-align: left;
 }
 
 .blog_title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0px;
 }
 
 .blog_bylines {
-    font-size: 15px;
-    color: grey;
-    margin-bottom: 0px;
-    padding-top: 10px;
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 0px;
+  padding-top: 10px;
 }
 
 .floating_still_image {
@@ -90,7 +90,7 @@ hr {
 }
 
 .floating_still_object {
-    box-sizing: border-box;
+  box-sizing: border-box;
 	border: 1px lightgrey solid;
 	border-radius: 5px;
 	overflow: hidden;
@@ -98,23 +98,23 @@ hr {
 }
 
 .floating_still_podcast {
-    box-sizing: border-box;
+  box-sizing: border-box;
 	border: 1px white solid;
 	border-radius: 7px;
 	overflow: hidden;
-    box-shadow: 0 5px 15px -2px rgba(0,0,0,0.6);
-    padding-bottom: 2px;
+  box-shadow: 0 5px 15px -2px rgba(0,0,0,0.6);
+  padding-bottom: 2px;
 }
 
 .floating_still_blog {
-    box-sizing: border-box;
+  box-sizing: border-box;
 	border: 1px lightgrey solid;
 	border-radius: 5px;
 	overflow: hidden;
-    box-shadow: 0 5px 15px -7px rgba(0,0,0,0.6);
-    padding-bottom: 2px;
-    margin-bottom: 1rem;
-    padding: 10px;
+  box-shadow: 0 5px 15px -7px rgba(0,0,0,0.6);
+  padding-bottom: 2px;
+  margin-bottom: 1rem;
+  padding: 10px;
 }
 
 .jumbotron {

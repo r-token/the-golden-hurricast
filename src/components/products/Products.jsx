@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { graphql, StaticQuery } from "gatsby"
 import ProductCard from "./ProductCard"
-import { getRemainingItems } from '../../api/merch-api'
+import { calculateRemainingItems } from '../../api/merch-api'
 
 const containerStyles = {
 	display: "flex",
@@ -12,11 +12,11 @@ const containerStyles = {
 }
 
 const Products = () => {
-	const [remainingItems, setRemainingItems] = useState([])
+	const [remainingItems, setRemainingItems] = useState({})
 	
 	useEffect(() => {
 		let mounted = true
-		getRemainingItems()
+		calculateRemainingItems()
 		.then(items => {
 			if(mounted) {
 				setRemainingItems(items)
@@ -53,29 +53,52 @@ const Products = () => {
 					}
 				}
 			`}
+			
+			
 			render={({ prices }) => {
-				// Group prices by product
-				const products = {}
-				var sortedProducts = prices.edges.sort((a, b) => a.node.product.metadata.sort_number.localeCompare(b.node.product.metadata.sort_number))
-				sortedProducts = sortedProducts.filter(function(item) {
-					return item.node.product.active === true
-				})
-				for (const { node: price } of sortedProducts) {
-					const product = price.product
-					if (!products[product.id]) {
-						products[product.id] = product
-						products[product.id].prices = []
+				if(remainingItems !== {}) {
+					// Group prices by product
+					const products = {}
+					var sortedProducts = prices.edges.sort((a, b) => a.node.product.metadata.sort_number.localeCompare(b.node.product.metadata.sort_number))
+					sortedProducts = sortedProducts.filter(function(item) {
+						return item.node.product.active === true
+					})
+					for (const { node: price } of sortedProducts) {
+						const product = price.product
+						
+						if (!products[product.id]) {
+							products[product.id] = product
+							products[product.id].prices = []
+						}
+						products[product.id].prices.push(price)
+						
+						const productId = products[product.id].id
+						products[product.id].remainingItems = remainingItems[productId]
 					}
-					products[product.id].prices.push(price)
+
+					var availableProducts = {}
+					for (const product in products) {
+						if (products[product].remainingItems !== 0) {
+							availableProducts[product] = products[product]
+						}
+					}
+					
+					return (
+						<div style={containerStyles}>
+							{Object.keys(availableProducts).map(key => (
+								<ProductCard key={availableProducts[key].id} product={availableProducts[key]} remainingItems={availableProducts[key].remainingItems} />	
+							))}
+						</div>
+					)
+				} else {
+						return (
+							<div>
+								Loading...
+							</div>
+						)
+					}
 				}
-				return (
-					<div style={containerStyles}>
-						{Object.keys(products).map(key => (
-							<ProductCard key={products[key].id} product={products[key]} />
-						))}
-					</div>
-				)
-			}}
+			}	
 		/>
 	)
 }
