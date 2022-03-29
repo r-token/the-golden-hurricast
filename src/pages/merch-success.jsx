@@ -7,11 +7,13 @@ import { addOrderToTable } from '../api/merch-api'
 
 const MerchLayout = () => {
 	const isBrowser = () => typeof window !== "undefined"
-	if (isBrowser()) {
-		var params = new Proxy(new URLSearchParams(window.location.search), {
-			get: (searchParams, prop) => searchParams.get(prop),
-		})
+	if (!isBrowser()) {
+		return ( <div> Error rendering page </div>)
 	}
+	
+	var params = new Proxy(new URLSearchParams(window.location.search), {
+		get: (searchParams, prop) => searchParams.get(prop),
+	})
 	
 	let productId = params.productId
 	let orderId = params.orderId
@@ -27,9 +29,9 @@ const MerchLayout = () => {
 				<meta charSet="utf-8" />
 				<title>TGH | Merch Success!</title>
 			</Helmet>
-
+	
 			<NavigationBar />
-
+	
 			<div
 				style={{
 					marginTop: "110px",
@@ -74,7 +76,7 @@ const MerchLayout = () => {
 				</Container>
 			</div>
 		</div>
-	);
-};
+	)
+}
 
 export default MerchLayout;
