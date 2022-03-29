@@ -32,7 +32,8 @@
     "react-bootstrap": "^2.1.0",
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
-    "react-twitter-embed": "^3.0.3"
+    "react-twitter-embed": "^3.0.3",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "prettier": "^2.5.1"

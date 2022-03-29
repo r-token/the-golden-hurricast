@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import getStripe from "../../utils/stripejs"
+import { v4 as uuidv4 } from 'uuid'
 
 const cardStyles = {
 	display: "flex",
@@ -55,13 +56,14 @@ const ProductCard = ({ product }) => {
 		setLoading(true)
 
 		const productId = product.id
+		const orderId = uuidv4()
 		const priceId = new FormData(event.target).get("priceSelect")
 		const quantity = new FormData(event.target).get("quantitySelect")
 		const stripe = await getStripe()
 		const { error } = await stripe.redirectToCheckout({
 			mode: "payment",
 			lineItems: [{ price: priceId, quantity: Number.parseInt(quantity) }],
-			successUrl: `${window.location.origin}/merch-success?productId=${productId}&quantity=${quantity}`,
+			successUrl: `${window.location.origin}/merch-success?productId=${productId}&orderId=${orderId}&quantity=${quantity}`,
 			cancelUrl: `${window.location.origin}/merch`
 		})
 

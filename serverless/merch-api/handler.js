@@ -5,20 +5,51 @@ require('dotenv').config()
 const eventWasWarmup = require('./utils').eventWasWarmup
 
 const getRemainingItems = async (event, context) => {
+  const setupBaseVarsForGetRemaining = require('./utils').setupBaseVarsForGetRemaining
+  const getAllItemsFromTable = require('./utils').getAllItemsFromTable
+  
   console.log('event:', JSON.stringify(event, null, 4))
   if (eventWasWarmup(event)) { return 'Lambda is warm!' }
   
-  const testProductIds = {
-    tshirt3xl: 'prod_LOSb5SQ5OZKjjU',
-    tshirt2xl: 'prod_LOSaG7vnGTethb',
-    tshirtXl: 'prod_LOSa6G2h9BbWvv',
-    tshirtLarge: 'prod_LOSZCa8DDzfnQw',
-    tshirtMedium: 'prod_LOSYQEvBHBz8Ql',
-    tshirtSmall: 'prod_LOS9GEK71k4c68',
+  const { stage, ordersTable } = setupBaseVarsForGetRemaining(event)
+  
+  const testProductIdsList = [
+    'prod_LOSb5SQ5OZKjjU',    // t-shirt 3xl
+    'prod_LOSaG7vnGTethb',    // t-shirt 2xl
+    'prod_LOSa6G2h9BbWvv',    // t-shirt xl
+    'prod_LOSZCa8DDzfnQw',    // t-shirt large
+    'prod_LOSYQEvBHBz8Ql',    // t-shirt medium
+    'prod_LOS9GEK71k4c68',    // t-shirt small
     
-    hoodieXl: 'prod_LOSXxWav6ggxVc',
-    hoodieLarge: 'prod_LOSWM41qlf8gIJ',
-    hoodieMedium: 'prod_LOSAJMwijaQv1u'
+    'prod_LOSXxWav6ggxVc',    // hoodie xl
+    'prod_LOSWM41qlf8gIJ',    // hoodie large
+    'prod_LOSAJMwijaQv1u'     // hoodie medium
+  ]
+  
+  const testProductIds = {
+    tshirt3xl:    testProductIdsList[0],
+    tshirt2xl:    testProductIdsList[1],
+    tshirtXl:     testProductIdsList[2],
+    tshirtLarge:  testProductIdsList[3],
+    tshirtMedium: testProductIdsList[4],
+    tshirtSmall:  testProductIdsList[5],
+    
+    hoodieXl:     testProductIdsList[6],
+    hoodieLarge:  testProductIdsList[7],
+    hoodieMedium: testProductIdsList[8]
+  }
+  
+  const totalProducts = {
+    [testProductIdsList[0]]: 3,   // t-shirt 3xl
+    [testProductIdsList[1]]: 6,   // t-shirt 2xl
+    [testProductIdsList[2]]: 20,  // t-shirt xl
+    [testProductIdsList[3]]: 28,  // t-shirt large
+    [testProductIdsList[4]]: 10,  // t-shirt medium
+    [testProductIdsList[5]]: 6,   // t-shirt small
+    
+    [testProductIdsList[6]]: 1,   // hoodie xl
+    [testProductIdsList[7]]: 1,   // hoodie large
+    [testProductIdsList[8]]: 1    // hoodie small
   }
   
   var response = {
@@ -27,7 +58,8 @@ const getRemainingItems = async (event, context) => {
   }
   
   try {
-    // get orders from Orders table
+    var allOrders = await getAllItemsFromTable(ordersTable)
+    console.log('allOrders:', JSON.stringify(allOrders, null, 2))
   } catch(err) {
     console.error('Error getting orders from Orders table:', err)
     context.captureError(err)
@@ -37,51 +69,64 @@ const getRemainingItems = async (event, context) => {
   }
   
   var cleanedOrderList = {}
-  // for (const order of orders) {
-  //   const productId = lineItem.price.product
-  //   const quantity = lineItem.quantity
-  //   
-  //   console.log(JSON.stringify({productId: productId, quantity: quantity}, null, 2))
-  //   
-  //   switch(productId) {
-  //     case testProductIds.tshirt3xl:
-  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-  //     case testProductIds.tshirt2xl:
-  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-  //     case testProductIds.tshirtXl:
-  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-  //     case testProductIds.tshirtLarge:
-  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-  //     case testProductIds.tshirtMedium:
-  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-  //     case testProductIds.tshirtSmall:
-  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-  //     
-  //     case testProductIds.hoodieXl:
-  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-  //     case testProductIds.hoodieLarge:
-  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-  //     case testProductIds.hoodieMedium:
-  //       cleanedOrderList[productId] = cleanedOrderList[productId] + quantity
-  //   }
-  // }
   
-  // console.log('cleanedOrderList:', JSON.stringify(cleanedOrderList, null, 2))
+  for (const order of allOrders) {
+    console.log(`on order ${order.productId}`)
+    for (const testProductId of testProductIdsList) {
+      console.log(`testing productId ${testProductId}`)
+      
+      const currentProductId = order.productId
+      const quantity = order.quantity
+      
+      if (stage === 'prod') {
+        // same as below but for prodProductIds
+        
+      } else {
+        if (currentProductId === testProductId) { // we found a match
+          console.log(`${currentProductId} quantity in object so far: ${cleanedOrderList[currentProductId]}`)
+          
+          if (cleanedOrderList[currentProductId] === undefined) { // this hasn't been counted yet, start at 1
+            cleanedOrderList[currentProductId] = 1
+          } else {
+            cleanedOrderList[currentProductId] = cleanedOrderList[currentProductId] + quantity
+          }
+          
+        } else { // no match, add it to the object starting at 0
+          
+          if (cleanedOrderList[testProductId] === undefined) {
+            cleanedOrderList[testProductId] = 0
+          } else {
+            cleanedOrderList[testProductId] = cleanedOrderList[testProductId]
+          }
+          
+        }
+      } 
+    }
+  }
+  
+  console.log('cleanedOrderList:', JSON.stringify(cleanedOrderList, null, 2))
+  
+  var remainingItems = {}
+  for (const [key, value] of Object.entries(totalProducts)) {
+    remainingItems[key] = totalProducts[key] - cleanedOrderList[key]
+  }
+  
+  console.log('remainingItems:', JSON.stringify(remainingItems, null, 2))
+  
+  response.body = remainingItems
+  
   response.body = JSON.stringify(response.body, null, 2)
-  
   return response
 }
 
 const addOrderToTable = async (event, context) => {
-  const setupBaseVars = require('./utils').setupBaseVars
+  const setupBaseVarsForAddOrder = require('./utils').setupBaseVarsForAddOrder
   const uploadToDynamo = require('./utils').uploadToDynamo
-  const { v4: uuidv4 } = require('uuid')
   
   console.log('event:', JSON.stringify(event, null, 4))
   if (eventWasWarmup(event)) { return 'Lambda is warm!' }
   
-  const { productId, quantity, ordersTable } = setupBaseVars(event)
-  const orderId = uuidv4()
+  const { productId, orderId, quantity, ordersTable } = setupBaseVarsForAddOrder(event)
   
   var response = {
     statusCode: 200,

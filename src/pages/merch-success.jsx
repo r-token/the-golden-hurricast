@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react"
 import Button from 'react-bootstrap/Button'
-import NavigationBar from "../components/NavigationBar";
-import Container from 'react-bootstrap/Container';
-import { Helmet } from "react-helmet";
+import NavigationBar from "../components/NavigationBar"
+import Container from 'react-bootstrap/Container'
+import { Helmet } from "react-helmet"
+import { addOrderToTable } from '../api/merch-api'
 
 const MerchLayout = () => {
+	const params = new Proxy(new URLSearchParams(window.location.search), {
+		get: (searchParams, prop) => searchParams.get(prop),
+	})
+	let productId = params.productId
+	let orderId = params.orderId
+	let quantity = params.quantity
+	
+	useEffect(() => {
+		addOrderToTable(productId, orderId, quantity)
+	}, [productId, orderId, quantity])
+	
 	return (
 		<div>
 			<Helmet>
@@ -29,11 +41,15 @@ const MerchLayout = () => {
 					<hr />
 					<div style={{ marginBottom: "25px" }}>
 						<p style={{ marginBottom: "15px" }}>
-							You should receive an email confirming that your order was received. We'll be in touch about shipping.
+							Thank you!
 						</p>
 						
 						<p style={{ marginBottom: "15px" }}>
-							Thank you for your support!
+							<a href="https://www.mythic.press" target="_blank" rel="noopener noreferrer">Mythic Press</a> will be handling shipping for this first batch of orders. We will send this first batch over to them to ship out around April 6th. After that, we plan to take over shipping ourselves.
+						</p>
+						
+						<p style={{ marginBottom: "15px" }}>
+							<b>Thank you</b> for your support! If you have any questions or concerns about your order, please email us at <a href="mailto:thegoldenhurricast@gmail.com">thegoldenhurricast@gmail.com</a>
 						</p>
 						
 						<p style={{ marginBottom: "15px" }}>

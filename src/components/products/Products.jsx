@@ -1,6 +1,7 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { graphql, StaticQuery } from "gatsby"
 import ProductCard from "./ProductCard"
+import { getRemainingItems } from '../../api/merch-api'
 
 const containerStyles = {
 	display: "flex",
@@ -11,6 +12,19 @@ const containerStyles = {
 }
 
 const Products = () => {
+	const [remainingItems, setRemainingItems] = useState([])
+	
+	useEffect(() => {
+		let mounted = true
+		getRemainingItems()
+		.then(items => {
+			if(mounted) {
+				setRemainingItems(items)
+			}
+		})
+		return () => mounted = false
+	}, [])
+	
 	return (
 		<StaticQuery
 			query={graphql`

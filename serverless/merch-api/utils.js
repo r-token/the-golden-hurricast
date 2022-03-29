@@ -10,18 +10,31 @@ const eventWasWarmup = (event) => {
   }
 }
 
-const setupBaseVars = (event) => {
+const setupBaseVarsForGetRemaining = (event) => {
+	const stage = event.requestContext.apiId === 'TBD' ? 'prod' : 'dev'
+	const ordersTable = stage === 'prod' ? 'Orders' : 'Orders-dev'
+	
+	console.log('stage:', stage)
+	console.log('ordersTable:', ordersTable)
+	
+	return { stage, ordersTable }
+}
+
+const setupBaseVarsForAddOrder = (event) => {
   const productId = event.pathParameters.productId
-  const quantity = event.pathParameters.quantity
+	const orderId = event.pathParameters.orderId
+  const quantityString = event.pathParameters.quantity
+	const quantity = Number.parseInt(quantityString)
   const stage = event.requestContext.apiId === 'TBD' ? 'prod' : 'dev'
   const ordersTable = stage === 'prod' ? 'Orders' : 'Orders-dev'
   
   console.log('productId:', productId)
+	console.log('orderId:', orderId)
   console.log('quantity:', quantity)
   console.log('stage:', stage)
   console.log('ordersTable:', ordersTable)
   
-  return { productId, quantity, ordersTable }
+  return { productId, orderId, quantity, ordersTable }
 }
 
 const uploadToDynamo = async (tableName, itemObject) => {
@@ -37,8 +50,19 @@ const uploadToDynamo = async (tableName, itemObject) => {
   }
 }
 
+const getAllItemsFromTable = async (table) => {
+	const params = {
+	 TableName: table
+	}
+	
+	const allItems = await dynamo.scan(params).promise()
+	return allItems.Items
+}
+
 module.exports = {
 	eventWasWarmup,
-	setupBaseVars,
-	uploadToDynamo
+	setupBaseVarsForGetRemaining,
+	setupBaseVarsForAddOrder,
+	uploadToDynamo,
+	getAllItemsFromTable
 }

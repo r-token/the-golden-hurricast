@@ -79,7 +79,7 @@ functions:
     events:
       - httpApi:
           method: POST
-          path: /orders/new/{productId}/{quantity}
+          path: /orders/new/{productId}/{orderId}/{quantity}
   
 package:
   individually: true
