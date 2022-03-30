@@ -22,6 +22,7 @@ provider:
     cors:
       allowedOrigins:
         - https://thegoldenhurricast.com
+        - https://www.thegoldenhurricast.com
       allowedHeaders:
         - Content-Type
         - Authorization
