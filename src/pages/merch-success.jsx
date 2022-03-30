@@ -55,7 +55,7 @@ const MerchLayout = () => {
 						</p>
 						
 						<p style={{ marginBottom: "15px" }}>
-							If you bought a mug or another item that isn't apparel, we will be handling shipping ourselves. Look for an email from us (thegoldenhurricast@gmail.com) over the next couple of days with the tracking number for your shipment.
+							If you bought a mug or another item that isn't apparel, we will be handling shipping ourselves. Look for an email from us (<a href="mailto:thegoldenhurricast@gmail.com">thegoldenhurricast@gmail.com</a>) over the next couple of days with the tracking number for your shipment.
 						</p>
 						
 						<p style={{ marginBottom: "15px" }}>
