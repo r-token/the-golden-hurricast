@@ -8,7 +8,7 @@ import { addOrderToTable } from '../api/merch-api'
 const MerchLayout = () => {
 	const isBrowser = () => typeof window !== "undefined"
 	if (!isBrowser()) {
-		return ( <div> Error rendering page </div>)
+		return ( <div> </div>)
 	}
 	
 	var params = new Proxy(new URLSearchParams(window.location.search), {
