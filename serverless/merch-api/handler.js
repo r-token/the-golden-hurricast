@@ -90,12 +90,12 @@ const calculateRemainingItems = async (event, context) => {
         const quantity = order.quantity
     
         if (currentProductId === productId) { // we found a match
-          if (cleanedOrderList[currentProductId] === undefined) { // this hasn't been counted yet, start at 1
-            cleanedOrderList[currentProductId] = 1
+          if (cleanedOrderList[currentProductId] === undefined) { // this hasn't been counted yet, start at initial quantity bought
+            cleanedOrderList[currentProductId] = quantity
           } else {
             cleanedOrderList[currentProductId] = cleanedOrderList[currentProductId] + quantity
           }
-        } else { // no match, add it to the object starting at 0
+        } else { // no match, add it to the object starting at 0 or keep it where it's at
           if (cleanedOrderList[productId] === undefined) {
             cleanedOrderList[productId] = 0
           } else {
