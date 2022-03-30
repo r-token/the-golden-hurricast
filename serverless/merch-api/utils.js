@@ -3,15 +3,15 @@ const dynamo = new AWS.DynamoDB.DocumentClient()
 
 const eventWasWarmup = (event) => {
   if (event.source === 'serverless-plugin-warmup') {
-	console.log('WarmUp - Lambda is warm!')
-	return true
+		console.log('WarmUp - Lambda is warm!')
+		return true
   } else {
-	return false
+		return false
   }
 }
 
 const setupBaseVarsForGetRemaining = (event) => {
-	const stage = event.requestContext.apiId === 'TBD' ? 'prod' : 'dev'
+	const stage = event.requestContext.apiId === 'x44hsat4d7' ? 'prod' : 'dev'
 	const ordersTable = stage === 'prod' ? 'Orders' : 'Orders-dev'
 	
 	console.log('stage:', stage)
@@ -25,7 +25,7 @@ const setupBaseVarsForAddOrder = (event) => {
 	const orderId = event.pathParameters.orderId
   const quantityString = event.pathParameters.quantity
 	const quantity = Number.parseInt(quantityString)
-  const stage = event.requestContext.apiId === 'TBD' ? 'prod' : 'dev'
+  const stage = event.requestContext.apiId === 'x44hsat4d7' ? 'prod' : 'dev'
   const ordersTable = stage === 'prod' ? 'Orders' : 'Orders-dev'
   
   console.log('productId:', productId)
@@ -39,14 +39,14 @@ const setupBaseVarsForAddOrder = (event) => {
 
 const uploadToDynamo = async (tableName, itemObject) => {
   const params = {
-	TableName: tableName,
-	Item: itemObject
+		TableName: tableName,
+		Item: itemObject
   }
   
   try {
-	await dynamo.put(params).promise()
+		await dynamo.put(params).promise()
   } catch(err) {
-	throw new Error(err)
+		throw new Error(err)
   }
 }
 

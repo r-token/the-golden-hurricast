@@ -51,7 +51,11 @@ const MerchLayout = () => {
 						</p>
 						
 						<p style={{ marginBottom: "15px" }}>
-							<a href="https://www.mythic.press" target="_blank" rel="noopener noreferrer">Mythic Press</a> will be handling shipping for this first batch of orders. We will send this first batch over to them to ship out around April 6th. After that, we plan to take over shipping ourselves.
+							If you bought a shirt or a hoodie, <a href="https://www.mythic.press" target="_blank" rel="noopener noreferrer">Mythic Press</a> will be handling shipping for this first batch of orders. We will send this first batch over to them to ship out around April 6th. After that, we plan to take over shipping ourselves.
+						</p>
+						
+						<p style={{ marginBottom: "15px" }}>
+							If you bought a mug or another item that isn't apparel, we will be handling shipping ourselves. Look for an email from us (thegoldenhurricast@gmail.com) over the next couple of days with the tracking number for your shipment.
 						</p>
 						
 						<p style={{ marginBottom: "15px" }}>

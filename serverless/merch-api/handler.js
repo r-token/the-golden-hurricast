@@ -13,30 +13,55 @@ const calculateRemainingItems = async (event, context) => {
   
   const { stage, ordersTable } = setupBaseVarsForGetRemaining(event)
   
-  const testProductIdsList = [
-    'prod_LOSb5SQ5OZKjjU',    // t-shirt 3xl
-    'prod_LOSaG7vnGTethb',    // t-shirt 2xl
-    'prod_LOSa6G2h9BbWvv',    // t-shirt xl
-    'prod_LOSZCa8DDzfnQw',    // t-shirt large
-    'prod_LOSYQEvBHBz8Ql',    // t-shirt medium
-    'prod_LOS9GEK71k4c68',    // t-shirt small
-    
-    'prod_LOSXxWav6ggxVc',    // hoodie xl
-    'prod_LOSWM41qlf8gIJ',    // hoodie large
-    'prod_LOSAJMwijaQv1u'     // hoodie medium
-  ]
+  var productIds
+  
+  if (stage === 'prod') {
+    // use the prod product IDs from Stripe
+    productIds = [
+      'prod_LPdRKopEfIEVR5',    // t-shirt 3xl
+      'prod_LPdR9Nox0aEBIE',    // t-shirt 2xl
+      'prod_LPdQGwJQfyqk4j',    // t-shirt xl
+      'prod_LPdQkbU0fqZbuR',    // t-shirt large
+      'prod_LPdQJsFmLSMvA6',    // t-shirt medium
+      'prod_LPdOWN6j9BTVkI',    // t-shirt small
+      
+      'prod_LPdRl5mBH7g7Pj',    // hoodie xl
+      'prod_LPdROFctTRyBZy',    // hoodie large
+      'prod_LPdRj6SAvLwtoT',    // hoodie medium
+      
+      'prod_LPdRoZU8UuhHF5'     // mug
+    ] 
+  } else {
+    // use the test product IDs from Stripe
+    productIds = [
+      'prod_LOSb5SQ5OZKjjU',    // t-shirt 3xl
+      'prod_LOSaG7vnGTethb',    // t-shirt 2xl
+      'prod_LOSa6G2h9BbWvv',    // t-shirt xl
+      'prod_LOSZCa8DDzfnQw',    // t-shirt large
+      'prod_LOSYQEvBHBz8Ql',    // t-shirt medium
+      'prod_LOS9GEK71k4c68',    // t-shirt small
+      
+      'prod_LOSXxWav6ggxVc',    // hoodie xl
+      'prod_LOSWM41qlf8gIJ',    // hoodie large
+      'prod_LOSAJMwijaQv1u',    // hoodie medium
+      
+      'prod_LPdHHLIvgksU1C'     // mug
+    ]
+  }
   
   const totalProductsEverBought = {
-    [testProductIdsList[0]]: 3,   // t-shirt 3xl
-    [testProductIdsList[1]]: 6,   // t-shirt 2xl
-    [testProductIdsList[2]]: 20,  // t-shirt xl
-    [testProductIdsList[3]]: 28,  // t-shirt large
-    [testProductIdsList[4]]: 10,  // t-shirt medium
-    [testProductIdsList[5]]: 6,   // t-shirt small
+    [productIds[0]]: 3,   // t-shirt 3xl
+    [productIds[1]]: 6,   // t-shirt 2xl
+    [productIds[2]]: 20,  // t-shirt xl
+    [productIds[3]]: 28,  // t-shirt large
+    [productIds[4]]: 10,  // t-shirt medium
+    [productIds[5]]: 6,   // t-shirt small
     
-    [testProductIdsList[6]]: 1,   // hoodie xl
-    [testProductIdsList[7]]: 1,   // hoodie large
-    [testProductIdsList[8]]: 1    // hoodie small
+    [productIds[6]]: 1,   // hoodie xl
+    [productIds[7]]: 1,   // hoodie large
+    [productIds[8]]: 1,   // hoodie small
+    
+    [productIds[9]]: 14,   // mug
   }
   
   var response = {
@@ -57,37 +82,34 @@ const calculateRemainingItems = async (event, context) => {
   
   var cleanedOrderList = {}
   
-  for (const order of allOrders) {
-    console.log(`on order ${order.productId}`)
-    for (const testProductId of testProductIdsList) {
-      console.log(`testing productId ${testProductId}`)
-      
-      const currentProductId = order.productId
-      const quantity = order.quantity
-      
-      if (stage === 'prod') {
-        // same as below but for prodProductIds
+  if (allOrders.length > 0) {
+    for (const order of allOrders) {
+      console.log(`on order ${order.productId}`)
+      for (const productId of productIds) {
+        console.log(`testing productId ${productId}`)
         
-      } else {
-        if (currentProductId === testProductId) { // we found a match
+        const currentProductId = order.productId
+        const quantity = order.quantity
+    
+        if (currentProductId === productId) { // we found a match
           console.log(`${currentProductId} quantity in object so far: ${cleanedOrderList[currentProductId]}`)
-          
           if (cleanedOrderList[currentProductId] === undefined) { // this hasn't been counted yet, start at 1
             cleanedOrderList[currentProductId] = 1
           } else {
             cleanedOrderList[currentProductId] = cleanedOrderList[currentProductId] + quantity
           }
-          
         } else { // no match, add it to the object starting at 0
-          
-          if (cleanedOrderList[testProductId] === undefined) {
-            cleanedOrderList[testProductId] = 0
+          if (cleanedOrderList[productId] === undefined) {
+            cleanedOrderList[productId] = 0
           } else {
-            cleanedOrderList[testProductId] = cleanedOrderList[testProductId]
+            cleanedOrderList[productId] = cleanedOrderList[productId]
           }
-          
         }
-      } 
+      }
+    } 
+  } else {
+    for (const productId of productIds) {
+      cleanedOrderList[productId] = 0
     }
   }
   

@@ -22,7 +22,7 @@ provider:
     cors:
       allowedOrigins:
         - https://thegoldenhurricast.com
-        - https://6243523fae835100090dccef--thegoldenhurricast.netlify.app
+        - https://624356b02b30c0000891b46c--thegoldenhurricast.netlify.app
       allowedHeaders:
         - Content-Type
         - Authorization
@@ -43,7 +43,7 @@ provider:
             - dynamodb:PutItem
             - dynamodb:Scan
           Resource:
-            - Fn::GetAtt: [ SourcesTable, Arn ]
+            - Fn::GetAtt: [ OrdersTable, Arn ]
   
 params:
   prod:
@@ -92,7 +92,7 @@ plugins:
   
 resources:
   Resources:
-    SourcesTable:
+    OrdersTable:
       Type: AWS::DynamoDB::Table
       Properties:
         TableName: ${param:ordersTable}
