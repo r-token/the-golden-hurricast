@@ -140,6 +140,7 @@ const ProductCard = ({ product }) => {
 				</form>
 			</div>
 		)
+		
 	} else if (remainingItems <= 5) {
 		const quantityArray = Array.from({length: remainingItems}, (_, i) => i + 1)
 		return (
@@ -176,7 +177,7 @@ const ProductCard = ({ product }) => {
 						
 						<label style={{ width: "100%", marginTop: "10px" }}>
 							<b>Quantity</b>: {" "}
-							<select style={{ width: "50%" }} name="quantitySelect">
+							<select style={{ width: "50%", marginLeft: "5px" }} name="quantitySelect">
 								{quantityArray.map(quantity => {
 									return <option value={quantity}>{quantity}</option>
 								})}
@@ -201,6 +202,7 @@ const ProductCard = ({ product }) => {
 				</form>
 			</div>
 		)
+		
 	} else {
 		return (
 			<div style={cardStyles}>
@@ -236,7 +238,7 @@ const ProductCard = ({ product }) => {
 						
 						<label style={{ width: "100%", marginTop: "10px" }}>
 							<b>Quantity</b>: {" "}
-							<select style={{ width: "50%" }} name="quantitySelect">
+							<select style={{ width: "50%", marginLeft: "5px" }} name="quantitySelect">
 								{[1, 2, 3, 4, 5].map(quantity => {
 									return <option value={quantity}>{quantity}</option>
 								})}

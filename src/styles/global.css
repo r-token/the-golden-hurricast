@@ -131,4 +131,5 @@ hr {
   text-overflow: '';
   border: none;
   pointer-events: none;
+  background: none;
 }
