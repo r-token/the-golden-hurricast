@@ -5,7 +5,7 @@ import MerchJumbotron from '../components/MerchJumbotron'
 import Table from 'react-bootstrap/Table'
 import Seo from '../components/seo'
 import Products from "../components/products/Products"
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet"
 
 const MerchLayout = () => {
 	return (

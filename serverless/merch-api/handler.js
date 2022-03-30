@@ -84,15 +84,12 @@ const calculateRemainingItems = async (event, context) => {
   
   if (allOrders.length > 0) {
     for (const order of allOrders) {
-      console.log(`on order ${order.productId}`)
       for (const productId of productIds) {
-        console.log(`testing productId ${productId}`)
         
         const currentProductId = order.productId
         const quantity = order.quantity
     
         if (currentProductId === productId) { // we found a match
-          console.log(`${currentProductId} quantity in object so far: ${cleanedOrderList[currentProductId]}`)
           if (cleanedOrderList[currentProductId] === undefined) { // this hasn't been counted yet, start at 1
             cleanedOrderList[currentProductId] = 1
           } else {
