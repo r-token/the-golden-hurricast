@@ -46,17 +46,16 @@ const MerchLayout = () => {
 					<h4> Order Successful! </h4>
 					<hr />
 					<div style={{ marginBottom: "25px" }}>
-						<p style={{ marginBottom: "15px" }}>
-							Thank you!
-						</p>
 						
 						<p style={{ marginBottom: "15px" }}>
-							If you bought a shirt or a hoodie, <a href="https://www.mythic.press" target="_blank" rel="noopener noreferrer">Mythic Press</a> will handle shipping for this first batch of orders. Expect it to ship around April 6th.
+							If you bought a shirt or hoodie, <a href="https://www.mythic.press" target="_blank" rel="noopener noreferrer">Mythic Press</a> will handle shipping for this first batch of orders. Expect it to ship around April 7th.
 						</p>
 						
 						<p style={{ marginBottom: "15px" }}>
 							If you bought a non-apparel item, look out for an email from us (<a href="mailto:thegoldenhurricast@gmail.com">thegoldenhurricast@gmail.com</a>) with the tracking number for your shipment.
 						</p>
+						
+						<br />
 						
 						<p style={{ marginBottom: "15px" }}>
 							<b>Thank you</b> for your support! If you have any questions or concerns about your order, please email us at <a href="mailto:thegoldenhurricast@gmail.com">thegoldenhurricast@gmail.com</a>
