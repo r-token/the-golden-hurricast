@@ -48,7 +48,7 @@ const MerchLayout = () => {
 					<div style={{ marginBottom: "25px" }}>
 						
 						<p style={{ marginBottom: "15px" }}>
-							If you bought a shirt or hoodie, <a href="https://www.mythic.press" target="_blank" rel="noopener noreferrer">Mythic Press</a> will handle shipping for this first batch of orders. Expect it to ship around April 7th.
+							If you bought a shirt or hoodie, <a href="https://www.mythic.press" target="_blank" rel="noopener noreferrer">Mythic Press</a> will handle shipping for this first batch of orders. Expect an email from <a href="https://www.stamps.com" target="_blank" rel="noopener noreferrer">stamps.com</a> around April 7th with your order details and shipping information.
 						</p>
 						
 						<p style={{ marginBottom: "15px" }}>
