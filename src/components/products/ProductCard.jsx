@@ -34,8 +34,19 @@ const buttonStyles = {
 }
 
 const buttonDisabledStyles = {
-	opacity: "0.5",
+	opacity: "0.3",
 	cursor: "not-allowed",
+	display: "block",
+	fontSize: "13px",
+	textAlign: "center",
+	color: "white",
+	padding: "12px",
+	boxShadow: "2px 5px 10px rgba(0,0,0,.1)",
+	backgroundColor: "#0275d8",
+	border: "1px lightgrey solid",
+	borderRadius: "5px",
+	letterSpacing: "1.5px",
+	marginTop: "15px"
 }
 
 const formatPrice = (amount, currency) => {
@@ -75,7 +86,61 @@ const ProductCard = ({ product }) => {
 		}
 	}
 
-	if (remainingItems <= 5) {
+	if (remainingItems === 0) {
+		return (
+			<div style={cardStyles}>
+				<form onSubmit={handleSubmit}>
+					<fieldset style={{ border: "none" }}>
+						<legend style={{ marginBottom: "15px" }}>
+							<h4 style={{marginBottom: "15px"}}>{product.name}</h4>
+							
+							<picture style={{padding: '10px', marginLeft: '25px'}}>
+								<source
+									type="image/webp"
+									srcSet={product.images[0]}
+									style={{ height: "200px", width: "200px", border: "0px" }}
+								/>
+								<img
+									src={product.images[0]}
+									alt={product.description}
+									style={{ height: "200px", width: "200px" }}
+									className="floating_merch_image"
+								/>
+							</picture>
+						</legend>
+						<label style={{ width: "100%" }}>
+							<b>Price</b>: {" "}
+							<select className='hidden-select' style={{ width: "75%" }} name="priceSelect">
+								{product.prices.map(price => (
+									<option key={price.id} value={price.id}>
+										{formatPrice(price.unit_amount, price.currency)}
+									</option>
+								))}
+							</select>
+						</label>
+						
+						<div style={{ width: "100%", paddingTop: "5px", marginBottom: "-15px" }}>
+							<p style={{ color: "red", fontStyle: "italic" }}>Sold out</p>
+						</div>
+						
+						<div style={{ width: "100%", paddingTop: "5px" }}>
+							<p style={{ color: "grey", fontStyle: "italic" }}>Please <a href="mailto:thegoldenhurricast@gmail.com">email us</a> if you're interested</p>
+						</div>
+						
+					</fieldset>
+					
+					<button
+						disabled
+						style={
+							buttonDisabledStyles
+						}
+					>
+						SEE DETAILS & CHECKOUT
+					</button>
+				</form>
+			</div>
+		)
+	} else if (remainingItems <= 5) {
 		const quantityArray = Array.from({length: remainingItems}, (_, i) => i + 1)
 		return (
 			<div style={cardStyles}>

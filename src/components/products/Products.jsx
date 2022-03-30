@@ -75,18 +75,11 @@ const Products = () => {
 						const productId = products[product.id].id
 						products[product.id].remainingItems = remainingItems[productId]
 					}
-
-					var availableProducts = {}
-					for (const product in products) {
-						if (products[product].remainingItems !== 0) {
-							availableProducts[product] = products[product]
-						}
-					}
 					
 					return (
 						<div style={containerStyles}>
-							{Object.keys(availableProducts).map(key => (
-								<ProductCard key={availableProducts[key].id} product={availableProducts[key]} remainingItems={availableProducts[key].remainingItems} />	
+							{Object.keys(products).map(key => (
+								<ProductCard key={products[key].id} product={products[key]} remainingItems={products[key].remainingItems} />	
 							))}
 						</div>
 					)
