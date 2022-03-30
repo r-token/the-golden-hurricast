@@ -2,8 +2,6 @@ import React from "react"
 import Container from 'react-bootstrap/Container'
 import { ButtonToolbar } from "react-bootstrap"
 
-import "bootstrap/dist/css/bootstrap.min.css"
-
 const HomeJumbotron = () => {
     return (
       <div className="jumbotron">

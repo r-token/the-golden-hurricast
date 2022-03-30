@@ -1,0 +1,111 @@
+# org and app for use with dashboard.serverless.com
+org: thegoldenhurricast
+app: merch-api
+service: merch-api
+
+# You can pin your service to only deploy with a specific Serverless version
+# Check out our docs for more details
+frameworkVersion: '3'
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+  stage: dev
+  region: us-east-2
+  profile: tgh-ryan
+  
+  httpApi:
+    shouldStartNameWithService: true
+    
+    cors:
+      allowedOrigins:
+        - https://thegoldenhurricast.com
+        - https://deploy-preview-7--thegoldenhurricast.netlify.app
+      allowedHeaders:
+        - Content-Type
+        - Authorization
+      allowedMethods:
+        - GET
+        - POST
+      allowCredentials: true
+      exposedResponseHeaders:
+        - Special-Response-Header
+      maxAge: 6000 # seconds
+      
+  iam:
+    role:
+      statements:
+        - Effect: "Allow"
+          Action:
+            - dynamodb:GetItem
+            - dynamodb:PutItem
+            - dynamodb:Scan
+          Resource:
+            - Fn::GetAtt: [ OrdersTable, Arn ]
+  
+params:
+  prod:
+    ordersTable: Orders
+  dev:
+    ordersTable: Orders-dev
+
+custom:
+  warmup:
+    default:
+      enabled: false
+      package:
+        individually: true
+        patterns:
+          - './**'
+          - '!./node_modules/**'
+
+functions:
+  calculateRemainingItems:
+    handler: handler.calculateRemainingItems
+    warmup:
+      default:
+        enabled: prod
+    events:
+      - httpApi:
+          method: GET
+          path: /products/calculateRemainingItems
+    
+  addOrderToTable:
+    handler: handler.addOrderToTable
+    warmup:
+      default:
+        enabled: prod
+    events:
+      - httpApi:
+          method: POST
+          path: /orders/new/{productId}/{orderId}/{quantity}
+  
+package:
+  individually: true
+  excludeDevDependencies: true
+  
+plugins:
+  - serverless-plugin-common-excludes
+  - serverless-plugin-warmup
+  
+resources:
+  Resources:
+    OrdersTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${param:ordersTable}
+        AttributeDefinitions:
+          - AttributeName: productId
+            AttributeType: S
+          - AttributeName: orderId
+            AttributeType: S
+        KeySchema:
+          - AttributeName: productId
+            KeyType: HASH
+          - AttributeName: orderId
+            KeyType: RANGE
+        PointInTimeRecoverySpecification:
+          PointInTimeRecoveryEnabled: true
+        BillingMode: PAY_PER_REQUEST

@@ -3,6 +3,10 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
+ 
+ require("dotenv").config({
+   path: `.env.${process.env.NODE_ENV}`,
+ })
 
 module.exports = {
   /* site config */
@@ -17,6 +21,14 @@ module.exports = {
 
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-stripe`,
+      options: {
+        objects: ["Price"],
+        secretKey: process.env.GATSBY_STRIPE_SECRET_KEY,
+        downloadFiles: false,
+      },
+    },
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,

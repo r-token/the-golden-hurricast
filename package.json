@@ -15,21 +15,25 @@
   },
   "dependencies": {
     "@babel/core": "^7.16.7",
+    "@stripe/stripe-js": "^1.22.0",
     "bootstrap": "^5.1.3",
     "disqus-react": "^1.1.2",
-    "gatsby": "^4.5.2",
+    "dotenv": "^14.1.0",
+    "gatsby": "^4.5.3",
     "gatsby-cli": "^4.5.1",
     "gatsby-plugin-manifest": "^4.5.1",
     "gatsby-plugin-react-helmet": "^5.5.0",
     "gatsby-plugin-sharp": "^4.5.1",
     "gatsby-remark-images": "^6.5.1",
     "gatsby-source-filesystem": "^4.5.1",
+    "gatsby-source-stripe": "^4.0.0",
     "gatsby-transformer-remark": "^5.5.1",
     "react": "^16.14.0",
     "react-bootstrap": "^2.1.0",
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
-    "react-twitter-embed": "^3.0.3"
+    "react-twitter-embed": "^3.0.3",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "prettier": "^2.5.1"

@@ -1,5 +1,4 @@
 import React from "react"
-import "bootstrap/dist/css/bootstrap.min.css"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 
@@ -16,10 +15,11 @@ const NavigationBar = () => {
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav ">
+        <Navbar.Collapse id="responsive-navbar-nav" style={{ marginLeft: "17px" }}>
           <Nav className="ms-auto">
             <Nav.Link href="../podcast">Podcast</Nav.Link>
             <Nav.Link href="../blog">Blog</Nav.Link>
+            <Nav.Link href="../merch">Merch</Nav.Link>
             <Nav.Link href="../about">About Us</Nav.Link>
             <Nav.Link href="../support">Support Us</Nav.Link>
           </Nav>

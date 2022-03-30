@@ -1,8 +1,6 @@
 import React from "react"
 import Container from 'react-bootstrap/Container'
 
-import "bootstrap/dist/css/bootstrap.min.css"
-
 const SupportJumbotron = () => {
     return (
       <div className="jumbotron">
@@ -10,7 +8,7 @@ const SupportJumbotron = () => {
             <h1>Support Us</h1>
             <p style={{ fontSize: "18px" }}>
                 We do all of this for free and for the love of TU athletics. If you
-                have the means to do so, there are two ways you can support the podcast and
+                have the means to do so, there are several ways you can support the podcast and
                 the blog.
             </p>
           </Container>

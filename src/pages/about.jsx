@@ -1,9 +1,9 @@
 import React from "react"
-import { Helmet } from "react-helmet"
 import NavigationBar from "../components/NavigationBar"
 import AboutJumbotron from '../components/AboutJumbotron'
 import Container from 'react-bootstrap/Container'
 import Seo from '../components/seo'
+import { Helmet } from "react-helmet"
 
 const AboutLayout = () => {
   return (
