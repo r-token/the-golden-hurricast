@@ -8,8 +8,6 @@ var _apiRunnerBrowser = require("./api-runner-browser");
 
 var _react = _interopRequireDefault(require("react"));
 
-var _reactDom = _interopRequireDefault(require("react-dom"));
-
 var _reachRouter = require("@gatsbyjs/reach-router");
 
 var _gatsbyReactRouterScroll = require("gatsby-react-router-scroll");
@@ -32,10 +30,23 @@ var _stripPrefix = _interopRequireDefault(require("./strip-prefix"));
 
 var _matchPaths = _interopRequireDefault(require("$virtual/match-paths.json"));
 
+/* global HAS_REACT_18 */
 // Generated during bootstrap
 const loader = new _loader.ProdLoader(_asyncRequires.default, _matchPaths.default, window.pageData);
 (0, _loader.setLoader)(loader);
 loader.setApiRunner(_apiRunnerBrowser.apiRunner);
+let reactHydrate;
+
+if (HAS_REACT_18) {
+  const reactDomClient = require(`react-dom/client`);
+
+  reactHydrate = (Component, el) => reactDomClient.hydrateRoot(el, Component);
+} else {
+  const reactDomClient = require(`react-dom`);
+
+  reactHydrate = reactDomClient.hydrate;
+}
+
 window.asyncRequires = _asyncRequires.default;
 window.___emitter = _emitter.default;
 window.___loader = _loader.publicLoader;
@@ -133,10 +144,21 @@ const reloadStorageKey = `gatsby-reload-compilation-hash-match`;
     (0, _reachRouter.navigate)(__BASE_PATH__ + pagePath + (!pagePath.includes(`?`) ? browserLoc.search : ``) + browserLoc.hash, {
       replace: true
     });
-  }
+  } // It's possible that sessionStorage can throw an exception if access is not granted, see https://github.com/gatsbyjs/gatsby/issues/34512
+
+
+  const getSessionStorage = () => {
+    try {
+      return sessionStorage;
+    } catch {
+      return null;
+    }
+  };
 
   _loader.publicLoader.loadPage(browserLoc.pathname + browserLoc.search).then(page => {
     var _page$page;
+
+    const sessionStorage = getSessionStorage();
 
     if (page !== null && page !== void 0 && (_page$page = page.page) !== null && _page$page !== void 0 && _page$page.webpackCompilationHash && page.page.webpackCompilationHash !== window.___webpackCompilationHash) {
       // Purge plugin-offline cache
@@ -207,16 +229,11 @@ const reloadStorageKey = `gatsby-reload-compilation-hash-match`;
       return /*#__PURE__*/_react.default.createElement(GatsbyRoot, null, SiteRoot);
     };
 
-    const renderer = (0, _apiRunnerBrowser.apiRunner)(`replaceHydrateFunction`, undefined, _reactDom.default.hydrateRoot ? _reactDom.default.hydrateRoot : _reactDom.default.hydrate)[0];
+    const renderer = (0, _apiRunnerBrowser.apiRunner)(`replaceHydrateFunction`, undefined, reactHydrate)[0];
 
     function runRender() {
       const rootElement = typeof window !== `undefined` ? document.getElementById(`___gatsby`) : null;
-
-      if (renderer === _reactDom.default.hydrateRoot) {
-        renderer(rootElement, /*#__PURE__*/_react.default.createElement(App, null));
-      } else {
-        renderer( /*#__PURE__*/_react.default.createElement(App, null), rootElement);
-      }
+      renderer( /*#__PURE__*/_react.default.createElement(App, null), rootElement);
     } // https://github.com/madrobby/zepto/blob/b5ed8d607f67724788ec9ff492be297f64d47dfc/src/zepto.js#L439-L450
     // TODO remove IE 10 support
 

@@ -9,6 +9,7 @@ exports.sanitizeComponents = void 0;
 
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 
+/* global HAS_REACT_18 */
 const React = require(`react`);
 
 const path = require(`path`);
@@ -314,12 +315,12 @@ async function staticPage({
     if (!bodyHtml) {
       try {
         // react 18 enabled
-        if (renderToPipeableStream) {
+        if (HAS_REACT_18) {
           const writableStream = new WritableAsPromise();
           const {
             pipe
           } = renderToPipeableStream(bodyComponent, {
-            onCompleteAll() {
+            onAllReady() {
               pipe(writableStream);
             },
 

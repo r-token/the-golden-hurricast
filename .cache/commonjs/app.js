@@ -51,13 +51,29 @@ window.___emitter = _emitter.default;
 const loader = new _devLoader.default(_asyncRequires.default, _matchPaths.default);
 (0, _loader.setLoader)(loader);
 loader.setApiRunner(_apiRunnerBrowser.apiRunner);
-window.___loader = _loader.publicLoader; // Do dummy dynamic import so the jsonp __webpack_require__.e is added to the commons.js
+window.___loader = _loader.publicLoader;
+let reactRender;
+let reactHydrate;
+
+if (HAS_REACT_18) {
+  const reactDomClient = require(`react-dom/client`);
+
+  reactRender = (Component, el) => reactDomClient.createRoot(el).render(Component);
+
+  reactHydrate = (Component, el) => reactDomClient.hydrateRoot(el, Component);
+} else {
+  const reactDomClient = require(`react-dom`);
+
+  reactRender = reactDomClient.render;
+  reactHydrate = reactDomClient.hydrate;
+} // Do dummy dynamic import so the jsonp __webpack_require__.e is added to the commons.js
 // bundle. This ensures hot reloading doesn't break when someone first adds
 // a dynamic import.
 //
 // Without this, the runtime breaks with a
 // "TypeError: __webpack_require__.e is not a function"
 // error.
+
 
 function notCalledFunction() {
   return Promise.resolve().then(() => _interopRequireWildcard(require(`./dummy`)));
@@ -118,14 +134,10 @@ function notCalledFunction() {
   const focusEl = document.getElementById(`gatsby-focus-wrapper`); // Client only pages have any empty body so we just do a normal
   // render to avoid React complaining about hydration mis-matches.
 
-  let defaultRenderer = _reactDom.default.render;
+  let defaultRenderer = reactRender;
 
   if (focusEl && focusEl.children.length) {
-    if (_reactDom.default.hydrateRoot) {
-      defaultRenderer = _reactDom.default.hydrateRoot;
-    } else {
-      defaultRenderer = _reactDom.default.hydrate;
-    }
+    defaultRenderer = reactHydrate;
   }
 
   const renderer = (0, _apiRunnerBrowser.apiRunner)(`replaceHydrateFunction`, undefined, defaultRenderer)[0];
@@ -136,8 +148,7 @@ function notCalledFunction() {
     const showIndicatorTimeout = setTimeout(() => {
       indicatorMountElement = document.createElement(`first-render-loading-indicator`);
       document.body.append(indicatorMountElement);
-
-      _reactDom.default.render( /*#__PURE__*/_react.default.createElement(_indicator.Indicator, null), indicatorMountElement);
+      renderer( /*#__PURE__*/_react.default.createElement(_indicator.Indicator, null), indicatorMountElement);
     }, 1000);
 
     dismissLoadingIndicator = () => {
@@ -161,12 +172,7 @@ function notCalledFunction() {
         const indicatorMountElement = document.createElement(`div`);
         indicatorMountElement.setAttribute(`id`, `query-on-demand-indicator-element`);
         document.body.append(indicatorMountElement);
-
-        if (renderer === _reactDom.default.hydrateRoot) {
-          _reactDom.default.createRoot(indicatorMountElement).render( /*#__PURE__*/_react.default.createElement(_loadingIndicator.LoadingIndicatorEventHandler, null));
-        } else {
-          _reactDom.default.render( /*#__PURE__*/_react.default.createElement(_loadingIndicator.LoadingIndicatorEventHandler, null), indicatorMountElement);
-        }
+        renderer( /*#__PURE__*/_react.default.createElement(_loadingIndicator.LoadingIndicatorEventHandler, null), indicatorMountElement);
       }
     }
 
@@ -188,11 +194,7 @@ function notCalledFunction() {
         dismissLoadingIndicator();
       }
 
-      if (renderer === _reactDom.default.hydrateRoot) {
-        renderer(rootElement, /*#__PURE__*/_react.default.createElement(App, null));
-      } else {
-        renderer( /*#__PURE__*/_react.default.createElement(App, null), rootElement);
-      }
+      renderer( /*#__PURE__*/_react.default.createElement(App, null), rootElement);
     } // https://github.com/madrobby/zepto/blob/b5ed8d607f67724788ec9ff492be297f64d47dfc/src/zepto.js#L439-L450
     // TODO remove IE 10 support
 
