@@ -59,7 +59,7 @@ const calculateRemainingItems = async (event, context) => {
     
     [productIds[6]]: 1,   // hoodie xl
     [productIds[7]]: 1,   // hoodie large
-    [productIds[8]]: 1,   // hoodie small
+    [productIds[8]]: 1,   // hoodie medium
     
     [productIds[9]]: 18,   // mug
   }
