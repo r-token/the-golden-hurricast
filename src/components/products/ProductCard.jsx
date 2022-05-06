@@ -27,7 +27,7 @@ const buttonStyles = {
 	padding: "12px",
 	boxShadow: "2px 5px 10px rgba(0,0,0,.1)",
 	backgroundColor: "#0275d8",
-	border: "1px lightgrey solid",
+	border: "#f5f5f5",
 	borderRadius: "5px",
 	letterSpacing: "1.5px",
 	marginTop: "15px"
@@ -204,6 +204,7 @@ const ProductCard = ({ product }) => {
 		)
 		
 	} else {
+		const quantityArray = Array.from({length: remainingItems}, (_, i) => i + 1)
 		return (
 			<div style={cardStyles}>
 				<form onSubmit={handleSubmit}>
@@ -239,8 +240,12 @@ const ProductCard = ({ product }) => {
 						<label style={{ width: "100%", marginTop: "10px" }}>
 							<b>Quantity</b>: {" "}
 							<select style={{ width: "50%", marginLeft: "5px" }} name="quantitySelect">
-								{[1, 2, 3, 4, 5].map(quantity => {
-									return <option value={quantity}>{quantity}</option>
+								{quantityArray.map(quantity => {
+									if (quantity <= 10) {
+										return <option value={quantity}>{quantity}</option>	
+									} else {
+										return <div />
+									}
 								})}
 							</select>
 						</label>

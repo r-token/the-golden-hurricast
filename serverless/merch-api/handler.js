@@ -30,6 +30,8 @@ const calculateRemainingItems = async (event, context) => {
       'prod_LPdRj6SAvLwtoT',    // hoodie medium
       
       'prod_LPdRoZU8UuhHF5'     // mug
+      
+      // prod stickers          // stickers
     ] 
   } else {
     // use the test product IDs from Stripe
@@ -45,7 +47,9 @@ const calculateRemainingItems = async (event, context) => {
       'prod_LOSWM41qlf8gIJ',    // hoodie large
       'prod_LOSAJMwijaQv1u',    // hoodie medium
       
-      'prod_LPdHHLIvgksU1C'     // mug
+      'prod_LPdHHLIvgksU1C',    // mug
+      
+      'prod_LdrsVALUNpfIz4'     // stickers
     ]
   }
   
@@ -61,7 +65,9 @@ const calculateRemainingItems = async (event, context) => {
     [productIds[7]]: 1,   // hoodie large
     [productIds[8]]: 1,   // hoodie medium
     
-    [productIds[9]]: 18,   // mug
+    [productIds[9]]: 18,  // mug
+    
+    [productIds[10]]: 98  // stickers
   }
   
   var response = {
