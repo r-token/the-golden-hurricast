@@ -29,9 +29,9 @@ const calculateRemainingItems = async (event, context) => {
       'prod_LPdROFctTRyBZy',    // hoodie large
       'prod_LPdRj6SAvLwtoT',    // hoodie medium
       
-      'prod_LPdRoZU8UuhHF5'     // mug
+      'prod_LPdRoZU8UuhHF5',    // mug
       
-      // prod stickers          // stickers
+      'prod_LdtEmY4IOlEpaK'     // stickers
     ] 
   } else {
     // use the test product IDs from Stripe
