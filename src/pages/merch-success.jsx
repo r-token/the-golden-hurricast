@@ -47,14 +47,14 @@ const MerchLayout = () => {
 				<Container id="supportus">
 					<h4> Order Successful! </h4>
 					<hr />
-					<div style={{ marginBottom: "25px" }}>
+					<div style={{ marginTop: "25px", marginBottom: "25px" }}>
 						
 						<p style={{ marginBottom: "20px" }}>
-							<b>Thank you</b> for your support! Look out for an email within the next couple of days with details on your shipment.
+							<b>Thank you</b> for your support! Look out for an email from <b>USPS</b> within the next few days with the tracking information for your shipment.
 						</p>
 						
 						<p style={{ marginBottom: "20px" }}>
-							If you have any questions or concerns about your order, please email us at <a href="mailto:thegoldenhurricast@gmail.com">thegoldenhurricast@gmail.com</a>
+							If you have any questions or concerns about your order, please email us at <a href="mailto:thegoldenhurricast@gmail.com">thegoldenhurricast@gmail.com</a>.
 						</p>
 						
 						<p style={{ marginBottom: "20px" }}>
