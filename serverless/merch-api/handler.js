@@ -25,6 +25,7 @@ const calculateRemainingItems = async (event, context) => {
       'prod_LPdQJsFmLSMvA6',    // t-shirt medium
       'prod_LPdOWN6j9BTVkI',    // t-shirt small
       
+      'prod_LgLOepRsUuhoLr',    // hoodie 2xl
       'prod_LPdRl5mBH7g7Pj',    // hoodie xl
       'prod_LPdROFctTRyBZy',    // hoodie large
       'prod_LPdRj6SAvLwtoT',    // hoodie medium
@@ -43,6 +44,7 @@ const calculateRemainingItems = async (event, context) => {
       'prod_LOSYQEvBHBz8Ql',    // t-shirt medium
       'prod_LOS9GEK71k4c68',    // t-shirt small
       
+      'prod_Ldt2fpuFUXfGx8',    // hoodie 2xl
       'prod_LOSXxWav6ggxVc',    // hoodie xl
       'prod_LOSWM41qlf8gIJ',    // hoodie large
       'prod_LOSAJMwijaQv1u',    // hoodie medium
@@ -54,20 +56,21 @@ const calculateRemainingItems = async (event, context) => {
   }
   
   const totalProductsEverBought = {
-    [productIds[0]]: 3,   // t-shirt 3xl
-    [productIds[1]]: 6,   // t-shirt 2xl
-    [productIds[2]]: 20,  // t-shirt xl
-    [productIds[3]]: 28,  // t-shirt large
-    [productIds[4]]: 10,  // t-shirt medium
-    [productIds[5]]: 6,   // t-shirt small
+    [productIds[0]]: 3,    // t-shirt 3xl
+    [productIds[1]]: 6,    // t-shirt 2xl
+    [productIds[2]]: 20,   // t-shirt xl
+    [productIds[3]]: 28,   // t-shirt large
+    [productIds[4]]: 10,   // t-shirt medium
+    [productIds[5]]: 6,    // t-shirt small
     
-    [productIds[6]]: 1,   // hoodie xl
-    [productIds[7]]: 1,   // hoodie large
-    [productIds[8]]: 1,   // hoodie medium
+    [productIds[6]]: 2,    // hoodie 2xl
+    [productIds[7]]: 8,    // hoodie xl
+    [productIds[8]]: 9,    // hoodie large
+    [productIds[9]]: 9,    // hoodie medium
     
-    [productIds[9]]: 18,  // mug
+    [productIds[10]]: 18,  // mug
     
-    [productIds[10]]: 98  // stickers
+    [productIds[11]]: 98   // stickers
   }
   
   var response = {

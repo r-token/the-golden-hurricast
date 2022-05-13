@@ -86,7 +86,7 @@ const ProductCard = ({ product }) => {
 		}
 	}
 
-	if (remainingItems === 0) {
+	if (remainingItems <= 0) {
 		return (
 			<div style={cardStyles}>
 				<form onSubmit={handleSubmit}>
@@ -141,7 +141,7 @@ const ProductCard = ({ product }) => {
 			</div>
 		)
 		
-	} else if (remainingItems <= 5) {
+	} else if (remainingItems <= 5 && remainingItems > 0) {
 		const quantityArray = Array.from({length: remainingItems}, (_, i) => i + 1)
 		return (
 			<div style={cardStyles}>
