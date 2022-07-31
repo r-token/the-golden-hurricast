@@ -3,8 +3,9 @@
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 
 exports.__esModule = true;
+exports.default = exports.ProdLoader = exports.PageResourceStatus = exports.BaseLoader = void 0;
 exports.getStaticQueryResults = getStaticQueryResults;
-exports.default = exports.publicLoader = exports.setLoader = exports.ProdLoader = exports.BaseLoader = exports.PageResourceStatus = void 0;
+exports.setLoader = exports.publicLoader = void 0;
 
 var _prefetch = _interopRequireDefault(require("./prefetch"));
 
@@ -27,8 +28,6 @@ const PageResourceStatus = {
   Success: `success`
 };
 exports.PageResourceStatus = PageResourceStatus;
-
-const preferDefault = m => m && m.default || m;
 
 const stripSurroundingSlashes = s => {
   s = s[0] === `/` ? s.slice(1) : s;
@@ -69,9 +68,12 @@ const doesConnectionSupportPrefetch = () => {
   }
 
   return true;
-};
+}; // Regex that matches common search crawlers
 
-const toPageResources = (pageData, component = null) => {
+
+const BOT_REGEX = /bot|crawler|spider|crawling/i;
+
+const toPageResources = (pageData, component = null, head) => {
   const page = {
     componentChunkName: pageData.componentChunkName,
     path: pageData.path,
@@ -82,6 +84,7 @@ const toPageResources = (pageData, component = null) => {
   };
   return {
     component,
+    head,
     json: pageData.result,
     page
   };
@@ -274,8 +277,13 @@ class BaseLoader {
         componentChunkName,
         staticQueryHashes = []
       } = pageData;
-      const finalResult = {};
-      const componentChunkPromise = this.loadComponent(componentChunkName).then(component => {
+      const finalResult = {}; // In develop we have separate chunks for template and Head components
+      // to enable HMR (fast refresh requires single exports).
+      // In production we have shared chunk with both exports. Double loadComponent here
+      // will be deduped by webpack runtime resulting in single request and single module
+      // being loaded for both `component` and `head`.
+
+      const componentChunkPromise = Promise.all([this.loadComponent(componentChunkName), this.loadComponent(componentChunkName, `head`)]).then(([component, head]) => {
         finalResult.createdAt = new Date();
         let pageResources;
 
@@ -292,7 +300,7 @@ class BaseLoader {
           pageData = Object.assign(pageData, {
             webpackCompilationHash: allData[0] ? allData[0].webpackCompilationHash : ``
           });
-          pageResources = toPageResources(pageData, component);
+          pageResources = toPageResources(pageData, component, head);
         } // undefined if final result is an error
 
 
@@ -396,6 +404,11 @@ class BaseLoader {
   shouldPrefetch(pagePath) {
     // Skip prefetching if we know user is on slow or constrained connection
     if (!doesConnectionSupportPrefetch()) {
+      return false;
+    } // Don't prefetch if this is a crawler bot
+
+
+    if (navigator.userAgent && BOT_REGEX.test(navigator.userAgent)) {
       return false;
     } // Check if the page exists.
 
@@ -574,7 +587,7 @@ class ProdLoader extends BaseLoader {
         throw new Error(`We couldn't find the correct component chunk with the name ${chunkName}`);
       }
 
-      return asyncRequires.components[chunkName]().then(preferDefault) // loader will handle the case when component is error
+      return asyncRequires.components[chunkName]() // loader will handle the case when component is error
       .catch(err => err);
     };
 

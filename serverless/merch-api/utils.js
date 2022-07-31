@@ -1,6 +1,3 @@
-const AWS = require('aws-sdk')
-const dynamo = new AWS.DynamoDB.DocumentClient()
-
 const eventWasWarmup = (event) => {
   if (event.source === 'serverless-plugin-warmup') {
 		console.log('WarmUp - Lambda is warm!')
@@ -38,24 +35,40 @@ const setupBaseVarsForAddOrder = (event) => {
 }
 
 const uploadToDynamo = async (tableName, itemObject) => {
+	const { DynamoDBClient } = require('@aws-sdk/client-dynamodb')
+	const { DynamoDBDocumentClient, PutCommand } = require('@aws-sdk/lib-dynamodb')
+	
+	const client = new DynamoDBClient({})
+	const ddbDocClient = DynamoDBDocumentClient.from(client)
+	
   const params = {
 		TableName: tableName,
 		Item: itemObject
   }
+	
+	const ddbPutCommand = new PutCommand(params)
   
   try {
-		await dynamo.put(params).promise()
+		await ddbDocClient.send(ddbPutCommand)
   } catch(err) {
 		throw new Error(err)
   }
 }
 
 const getAllItemsFromTable = async (table) => {
+	const { DynamoDBClient } = require('@aws-sdk/client-dynamodb')
+	const { DynamoDBDocumentClient, ScanCommand } = require('@aws-sdk/lib-dynamodb')
+	
+	const client = new DynamoDBClient({})
+	const ddbDocClient = DynamoDBDocumentClient.from(client)
+	
 	const params = {
 	 TableName: table
 	}
 	
-	const allItems = await dynamo.scan(params).promise()
+	const ddbScanCommand = new ScanCommand(params)
+	
+	const allItems = await ddbDocClient.send(ddbScanCommand)
 	return allItems.Items
 }
 

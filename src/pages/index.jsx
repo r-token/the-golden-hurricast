@@ -1,5 +1,6 @@
 import React from "react"
 import Button from 'react-bootstrap/Button'
+import { graphql, Link } from 'gatsby'
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -11,7 +12,11 @@ import { TwitterTimelineEmbed, TwitterFollowButton } from "react-twitter-embed";
 
 import "bootstrap/dist/css/bootstrap.min.css"
 
-const HomeLayout = () => {
+const HomeLayout = ({data}) => {
+  const { edges } = data.allMarkdownRemark
+  const latestPost = edges[0]
+  const { frontmatter } = latestPost.node
+  
   return (
     <div>
       <Seo
@@ -56,7 +61,7 @@ const HomeLayout = () => {
                   </Button>
                 </p>
               </Row>
-              <Row style={{ width: '220px', margin: '0px'}}>
+              {/* <Row style={{ width: '220px', margin: '0px'}}>
                 <picture style={{padding: '10px'}} className="floating_still_image">
                   <a href="/podcast">
                     <source
@@ -71,6 +76,9 @@ const HomeLayout = () => {
                     />
                   </a>
                 </picture>
+              </Row> */}
+              <Row>
+                <iframe title="Apple Podcasts Embed" src="https://embed.podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=light" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style={{display: "flex", marginLeft: "auto", marginRight: "auto", width: "100%", maxWidth: "660px", overflow: "hidden", borderRadius: "10px", backgroundColor: "transparent"}}></iframe>
               </Row>
               <br /> <br />
               <Row>
@@ -85,16 +93,53 @@ const HomeLayout = () => {
                   progress.
                 </p>
               </Row>
+              
+              <Row>
+                <h6 style={{marginBottom: "1rem"}}>Latest blog post:</h6>
+              </Row>
+              <Row>
+                <div key={Math.random()} className="pull-left">
+                  <Container style={{padding: '0px'}}>
+                      <Link
+                        style={{
+                          textDecoration: "none"
+                        }}
+                        
+                        to={`${frontmatter.path}`}
+                      >
+                        <div
+                          key={frontmatter.path}
+                          className="floating_still_blog"
+                        >
+                          <p className="blog_title">
+                            {frontmatter.title}
+                          </p>
+            
+                          <p className="blog_bylines">
+                            {frontmatter.date}
+                          </p>
+                          <p className="blog_bylines">
+                            {frontmatter.excerpt}
+                          </p>
+                        </div>
+                      </Link>
+                  </Container>
+                </div>
+              </Row>
+              
+              <br />
+              
               <Row>
                 <p>
                   <Button variant="outline-primary" href="/blog">
-                    Read our blog
+                    See all posts
                   </Button>
                 </p>
-                <br /> <br /> <br />
               </Row>
+              
+              <br /> <br />
             </Col>
-
+            
             <Col md={{ span: 5, offset: 1 }}>
               <Row>
                 <h4>Twitter</h4>
@@ -125,5 +170,24 @@ const HomeLayout = () => {
     </div>
   );
 };
+
+export const query = graphql`
+   query LatestBlogQuery {
+     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___sortDate] }, limit: 1) {
+       edges {
+         node {
+           id
+           frontmatter {
+             title
+             path
+             date
+             sortDate
+             excerpt
+           }
+         }
+       }
+     }
+   }
+ `;
 
 export default HomeLayout;

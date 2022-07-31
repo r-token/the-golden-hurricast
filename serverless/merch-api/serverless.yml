@@ -10,7 +10,7 @@ useDotenv: true
 
 provider:
   name: aws
-  runtime: nodejs14.x
+  runtime: nodejs16.x
 
   stage: dev
   region: us-east-2
@@ -55,11 +55,9 @@ custom:
   warmup:
     default:
       enabled: false
-      package:
-        individually: true
-        patterns:
-          - './**'
-          - '!./node_modules/**'
+  esbuild:
+    bundle: true
+    minify: true
 
 functions:
   calculateRemainingItems:
@@ -89,11 +87,13 @@ package:
 plugins:
   - serverless-plugin-common-excludes
   - serverless-plugin-warmup
+  - serverless-esbuild
   
 resources:
   Resources:
     OrdersTable:
       Type: AWS::DynamoDB::Table
+      DeletionPolicy: Retain
       Properties:
         TableName: ${param:ordersTable}
         AttributeDefinitions:
