@@ -105,14 +105,10 @@ const AboutLayout = () => {
               @GoldenHurricast
           </a>
             <br />
-            Instagram:{" "}
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://instagram.com/goldenhurricast"
-            >
-              @GoldenHurricast
-          </a>
+            Email:{" "}
+            <a href="mailto:thegoldenhurricast@gmail.com">
+              TheGoldenHurricast@gmail.com
+            </a>
             <br />
             Anchor:{" "}
             <a
@@ -121,11 +117,6 @@ const AboutLayout = () => {
               href="https://anchor.fm/thegoldenhurricast"
             >
               anchor.fm/TheGoldenHurricast
-          </a>
-          <br />
-          Email:{" "}
-          <a href="mailto:thegoldenhurricast@gmail.com">
-            TheGoldenHurricast@gmail.com
           </a>
           </p>
         </Container>

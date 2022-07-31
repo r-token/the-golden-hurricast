@@ -136,8 +136,10 @@ const HomeLayout = ({data}) => {
                   </Button>
                 </p>
               </Row>
+              
+              <br /> <br />
             </Col>
-
+            
             <Col md={{ span: 5, offset: 1 }}>
               <Row>
                 <h4>Twitter</h4>
