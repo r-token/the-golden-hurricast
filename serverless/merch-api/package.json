@@ -9,10 +9,14 @@
   "author": "Ryan Token",
   "license": "ISC",
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.137.0",
+    "@aws-sdk/lib-dynamodb": "^3.137.0",
     "dotenv": "^16.0.0",
     "stripe": "^8.212.0"
   },
   "devDependencies": {
+    "esbuild": "^0.14.51",
+    "serverless-esbuild": "^1.32.5",
     "serverless-plugin-common-excludes": "^4.0.0",
     "serverless-plugin-warmup": "^7.1.0"
   }
