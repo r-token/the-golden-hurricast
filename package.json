@@ -24,12 +24,11 @@
     "gatsby-link": "^4.11.1",
     "gatsby-plugin-manifest": "^4.5.1",
     "gatsby-plugin-react-helmet": "^5.5.0",
-    "gatsby-react-router-scroll": "^5.11.0",
     "gatsby-source-filesystem": "^4.5.1",
     "gatsby-source-stripe": "^4.0.0",
     "gatsby-transformer-remark": "^5.11.1",
-    "react": "^18.0.0",
     "react-bootstrap": "^2.1.0",
+    "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
     "react-twitter-embed": "^3.0.3",
     "uuid": "^8.3.2"
