@@ -35,11 +35,31 @@ const AboutLayout = () => {
         <Container id="aboutus" style={{marginTop: '-75px'}}>
           <h4> Our Podcast </h4>
           <hr />
-          <p>
-            Inspired by the past success of the Reign Cane Sports podcast,
+          <div>
+            Inspired by the late Reign Cane Sports podcast,
             The Golden Hurricast took up the mantle and officially debuted in
-            August of 2018. Since then, we've been lucky enough to chat with several TU legends and Tulsa media personalities including <b>Dane Evans</b>, <b>Bruce Howard</b>, <b>Steve Gage</b>, <b>Kelly Hines</b>, <b>Trevis Gipson</b>, <b>Cayden McFarland</b>, and more.
-          </p>
+            August of 2018. <br /> <br /> Since then, we've been lucky enough to chat with several TU players, coaches, and administrators including:
+              <ul style={{marginTop: '0.5rem'}}>
+                <li><b>Eric Konkol</b> - Head Men's Basketball Coach</li>
+                <li><b>Angie Nelp</b> - Head Women's Basketball Coach</li>
+                <li><b>Dane Evans</b> - Former QB</li>
+                <li><b>Steve Gage</b> - Former QB</li>
+                <li><b>Trevis Gipson</b> - Former DE</li>
+                <li><b>Brad Carson</b> - Current President</li>
+                <li><b>Rick Dickson</b> - Current & Former Athletic Director</li>
+              </ul>
+              
+            We've also brought on Tulsa media personalities such as:
+              <ul style={{marginTop: '0.5rem'}}>
+                <li><b>Bruce Howard</b></li>
+                <li><b>Cayden McFarland</b></li>
+                <li><b>Kelly Hines</b></li>
+              </ul>
+            
+            And plenty more.
+          </div>
+          
+          <br />
 
           <p>
               You can find our <a href="/podcast">podcast</a> on <b>10 different platforms</b>, including

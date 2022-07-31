@@ -34,6 +34,10 @@ const PodcastLayout = () => {
         <div style={{ display: "flex", alignItems: "center" }}>
           <Container className="podstyle">
             <p>
+              Tune in as we discuss Tulsa athletics with TU figures including <a href="https://utulsa.edu/president/brad-carson/" target="_blank" rel="noreferrer">Brad Carson</a>, <a href="https://tulsahurricane.com/staff-directory/eric-konkol/2458" target="_blank" rel="noreferrer">Eric Konkol</a>, <a href="https://tulsahurricane.com/sports/womens-basketball/roster/coaches/angie-nelp/1685" target="_blank" rel="noreferrer">Angie Nelp</a>, <a href="https://tulsahurricane.com/sports/football/roster/dane-evans/5365" target="_blank" rel="noreferrer">Dane Evans</a>, and <a href="https://tulsahurricane.com/sports/football/roster/trevis-gipson/8011" target="_blank" rel="noreferrer">Trevis Gipson</a>, media personalities such as <a href="https://tulsahurricane.com/staff-directory/bruce-howard/25" target="_blank" rel="noreferrer">Bruce Howard</a>, <a href="https://www.kjrh.com/cayden-mcfarland" target="_blank" rel="noreferrer">Cayden McFarland</a>, and <a href="https://tulsaworld.com/users/profile/kelly%20hines/" target="_blank" rel="noreferrer">Kelly Hines</a>, and conference foes like Tulane's <a href="https://twitter.com/FearTheWaveBlog" target="_blank" rel="noreferrer">Fear the Wave</a>, Houston's <a href="https://twitter.com/SHPawdcast" target="_blank" rel="noreferrer">Scott & Holman Pawdcast</a>, and ECU's <a href="https://twitter.com/BoneyardPodcast" target="_blank" rel="noreferrer">Boneyard Podcast</a>.
+            </p>
+            
+            <p>
               All of our episodes are available on the web at{" "}
               <a
                 rel="noopener noreferrer"
@@ -60,8 +64,9 @@ const PodcastLayout = () => {
           <Container className="podstyle">
             <h4>Listen to the Show</h4>
             <hr />
+            
+            <iframe title="Apple Podcasts Embed" src="https://embed.podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=auto" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style={{display: "flex", marginLeft: "auto", marginRight: "auto", width: "100%", maxWidth: "auto", overflow: "hidden", borderRadius: "10px", backgroundColor: "transparent"}}></iframe>
           </Container>
-          <iframe src="https://embed.podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?itsct=podcast_box&amp;itscg=30200" height="450px" title="apple-embedded-player" frameBorder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style={{display: "flex", marginLeft: "auto", marginRight: "auto", width: "100%", maxWidth: "825px", overflow: "hidden", borderTopLeftRadius: "10px", borderTopRightRadius: "10px", borderBottomRightRadius: "10px", borderBottomLeftRadius: "10px", backgroundColor: "transparent", backgroundPosition: "initial initial", backgroundRepeat: "initial initial"}}></iframe>
         </div>
         <br />
       </div>
