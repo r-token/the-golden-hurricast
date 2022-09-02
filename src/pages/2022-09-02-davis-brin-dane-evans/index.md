@@ -16,7 +16,11 @@ While a bowl qualifying season is never a bad thing, it was definitely a frustra
 
 But, before I get into that performance I want to quickly explain a stat that I’ll be using somewhat frequently in this post—Expected Points Added (EPA).
 
+<br />
+
 ## EPA - What is it good for?
+
+<br />
 
 What is EPA and why is it a tool worth using? Football box scores have progressed tremendously in regards to the metrics they provide over the years, but the one thing they will never really be able to do is provide the context behind those metrics. Not every play for four yards is worth the same. Down, distance and where you are on the field matters.
 
@@ -30,15 +34,19 @@ Knowing this starting expected value allows us to determine how many added point
 
 I’ll break that into a table which might be a little easier to follow. Note that the expected points are all the same since it’s just based on the starting field position of the drive.
 
+<br />
+
 <center>
 
-| | Expected Points | Acutal Points | EPA |
+| | Expected Points | Actual Points | EPA |
 | :--- | :---: | :---: | :---: |
 | Touchdown | **0.922** | **7.000** | **6.078** |
 | Field Goal | **0.922** | **3.000** | **2.078** |
 | Turnover | **0.922** | **0.000** | **-0.922** |
 
 </center>
+
+<br />
 
 We can take this idea a step further and calculate the EPA for every individual play based on the expected points of the play before and after it occurs. Simply take the expected points from before the play and subtract that value from the expected points after the play. 
 
@@ -63,9 +71,13 @@ In that single quarter, on 31 combined passing and running plays Davis Brin aver
 
 In that single quarter, Davis Brin accounted for **~24%(!)** of Tulsa’s total passing EPA in 2020. The excitement for 2021 was off the charts. But therein lies the problem. We (ok, maybe it might have just been me) were looking at 16 minutes of unforgettable football and extrapolating way too much from that performance to predict how good he was going to be in 2021 - even with the caveat that it wasn’t going to be as good. Those were unrealistic expectations, and not fair to Brin. So, it’s no surprise that the start to last season was a harsh reality check with three losses to start off the season and four in the first five. But that is not to say Brin had a bad year, far from it, and in the next two sections I’ll walk through his ’21 numbers and explain why I think he’s poised to break out this year.
 
+<br />
+
 ## Brin's First Season
 
 To get a general sense of Davis Brin’s 2021 campaign lets just look at his overall stat line:
+
+<br />
 
 <center>
 
@@ -75,11 +87,15 @@ To get a general sense of Davis Brin’s 2021 campaign lets just look at his ove
 
 </center>
 
+<br />
+
 The elephant in the room is the 16 interceptions, which led the nation, and the only thing I have to say about that is that *some* of those went off of receivers hands. And 16 interceptions is the fewest thrown in a normal season–i.e. not 2020–to “lead” the nation in possibly all of college football history (I got bored and stopped looking after 1985). That being said, the biggest obstacle to Davis Brin taking the step I think he’s capable of making is not being able to get the interceptions under control. While watching some film from last year in the process of writing this there were some **bad** throws. The pick-six against South Florida and a handful against Tulane and Houston. Too often he would stare down his receiver, giving the defense and easy chance to step into his passing lanes. 
 
 As far as the other stats go his 3,269 yards were just outside the top-20 and 8.0 yards per attempt were in the top-50 among qualifying quarterbacks. All in all, Brin had a very average-to-slightly-above-average season. And that tracks with our season, it was a slightly above average season that ended 7–6 with a win over a middle of the road C-USA team.
 
 Now let’s look at it his 2021 season in terms of EPA. Over 13 games Brin averaged 0.267 EPA per pass attempt (I’m ignoring rushes for now since we don’t have many designed runs and sack stats create a lot of noise in the underlying data). Over the course of the season that would account for over 100 total expected points added just by his arm. This is the highest EPA in the last five years—and Brin threw fewer passes than Smith did in 2019 (even with an extra game played).
+
+<br />
 
 <center>
 
@@ -90,18 +106,26 @@ Now let’s look at it his 2021 season in terms of EPA. Over 13 games Brin avera
 |**Zach Smith - 2020** | 0.193 | 53.6* |
 |**Skipper / Boomer - 2018** | 0.105 | 36.2 |
 |**President / Skipper - 2017** | 0.072 | 29.2 |
-<br>
+
+<br />
+
 **COVID shortened season*
+
 </center>
-<br>
+
+<br />
 
 The best part about Brin’s numbers is that after a start that featured some extreme highs (Oklahoma State and Ohio State) and bad lows (UC Davis and Houston) he got more consistent as the season wore on and saw his EPA / game trend up. And that passes the gut check when I  think about last season. Down the stretch TU won three straight to get to a bowl game and then dominated Old Dominion in that game as well. Looking at some EPA values across the season you can see the boom and bust nature of the early games and then it levels out a bit towards the back half of the season.
 
 ![Davis Full Season EPA](/blog_images/davis-brin/brin_full_season_epa.png)
 
+<br />
+
 If we split the season up it becomes a little more clear how Brin improved, while also removing some of that boom and bust style. Here's his EPA from the first six games:
 
 ![Davis First Half EPA](/blog_images/davis-brin/brin_first_season_epa.png)
+
+<br />
 
 In those six games he had two (UC Davis and Houston) that with EPA worse than **-15**, meaning he cost us points due to turnovers and/or just not playing very well. And on the flip side, his best game of the season came against Ohio State and he had an EPA just under **15**. Unfortunately that performance wasn't enough since we still ended up losing that one. And as the trendline (the red dashed line) indicates, he was improving over those six games.
 
@@ -109,13 +133,21 @@ Turning our attention to the final seven games, we can see that the lows aren't 
 
 ![Davis Second Half EPA](/blog_images/davis-brin/brin_second_season_epa.png)
 
+<br />
+
 His performances with EPAs under zero -Navy, Cincy and Tulane- combined were barely worse than just the Houston game in terms of total EPA. So his bad games were not as bad–-and we won one of those games with a chance to play spoiler at Cincinatti. Additionally, the trend on the back half shows a much steeper improvement from game seven to thirteen. This gives me confidence that Davis Brin had a very normal 'first-year starter' season and makes me excited to see his progression in year two.
 
 I mean, the last time Tulsa had a first-year starter throw 16+ interceptions, with just over 3,000 yards of offense - it worked out pretty well. 
 
-## Dane Evan's First Season
+<br />
+
+## Dane Evans' First Season
+
+<br />
 
 Of course, I'm talking about Dane Evans. TU quarterback from 2013-2016 who set AAC records and led Tulsa to a 10-3 season in his senior season. Dane Evans is a name that carries a lot of weight around Tulsa because of the success that he and the team had during his tenure. But, what you may not recall right off the bat is that his first full season as a starter wasn't anything special. Let's look at his 2014 stat line.
+
+<br />
 
 <center>
 
@@ -125,9 +157,13 @@ Of course, I'm talking about Dane Evans. TU quarterback from 2013-2016 who set A
 
 </center>
 
+<br />
+
 The only stat Evans lead Brin in was touchdowns with 23 to 18. Now, there is the caveat that 2014 was the final year with Bill Blankenship as head coach and he ran a different style compared to what Montgomery would bring the next season so its not exactly an apples to apples comparison. But that's why I spent so much time explaining EPA--so that I can make some sort of comparison.
 
 Let's take another look at the Averege EPA table, but adding Evans in this time.
+
+<br />
 
 <center>
 
@@ -141,11 +177,16 @@ Let's take another look at the Averege EPA table, but adding Evans in this time.
 |**Dane Evans - 2014** | 0.160 | 73.9 |
 |Skipper / Boomer - 2018 | 0.105 | 36.2 |
 |President / Skipper - 2017 | 0.072 | 29.2 |
-<br>
+
+<br />
+
 **COVID shortened season*
+
 </center>
-<br>
-Evan's 0.160 EPA in 2014 was well below the 0.196 average for all of QBs in college football in 2014. Whereas Brin's 0.267 in 2021 was just above the average of 0.264 for the season. And against a more competitive schedule to boot.
+
+<br />
+
+Evans' 0.160 EPA in 2014 was well below the 0.196 average for all of QBs in college football in 2014. Whereas Brin's 0.267 in 2021 was just above the average of 0.264 for the season. And against a more competitive schedule to boot.
 
 According to Sports Reference's Strength of Schedule (SOS) rating, in 2014 Tulsa had a SOS of -2.56 which was 84th in the country and they finished 3-9. And in 2021 the SOS was -0.29 which was 68th in the country. By that metric, Brin was putting up better numbers against a harder schedule than Evans and finished 7-6. 
 
@@ -155,6 +196,8 @@ The best team Tulsa played in 2014 was an Oklahoma team that came into the seaso
 
 In his second full year as a starter Evans exploded - and set him up to be the all-time leader in passing yards in the American.
 
+<br />
+
 <center>
 
 | **Completions** | **Attempts** | **Percentage** | **Yards** | **Yards / Attempt** | **Touchdowns** | **Interceptions** |
@@ -163,6 +206,8 @@ In his second full year as a starter Evans exploded - and set him up to be the a
 
 </center>
 
+<br />
+
 Most of those stats led the America in 2015 and Tulsa went from scoring 24.7 points a game to 37.2. And that was an exciting year for Tulsa - capped off by a bowl game against Virginia Tech that featured four touchdown within the first three and a half minutes. The momentum from that season carried forward to 2016 as Tulsa set an FBS record with two thousand yard rushers, two thousand yard receivers and a three thousand yard passer. 
 
-When Monty finds ***his*** QB he can win. And comparing Brin's latest season to Evan's first, it looks like he found his man.
+When Monty finds ***his*** QB he can win. And comparing Brin's latest season to Evans' first, it looks like he found his man.
