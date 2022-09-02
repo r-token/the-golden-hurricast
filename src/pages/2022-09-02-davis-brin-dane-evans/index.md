@@ -2,13 +2,13 @@
 path: "/davis-brin"
 date: "09/02/2022"
 sortDate: "2022/09/02"
-title: "Davis Brin and Dane Evans"
+title: "Tulsa's QB Deja Vu"
 authors: "Matt Rechtien"
-excerpt: "Has TU found their next Dane Evans?"
+excerpt: "Has TU found their next great QB?"
 tags: ['football', 'dane-evans', davis-brin]
 ---
 
-Davis Brin is primed to be the next great QB for the Golden Hurricane and I can explain why.
+Davis Brin is primed to be the next great quarterback for the Golden Hurricane and I can explain why.
 
 2021 was an interesting season for the Golden Hurricane. A lot of people (including both Ryan and I) had high expectations for how the team would perform last season. However, as is the norm for Tulsa, it was a way more chaotic year that started with a loss to UC Davis, and ended with a win over Old Dominion in the Myrtle Beach Bowl. 
 
@@ -55,7 +55,7 @@ As you can see these numbers are all pretty small, which is partially a result o
 
 And one last note on EPA. It’s not perfect and different sources of data use different models. So don’t focus on the absolute value of the numbers but more the trends and comparisons that are the most important parts to focus on.
 
-Now, with that incredibly long tangent out of the way, let’s go back to November 19th, 2020. After injuries knocked both Zach Smith and Seth Boomer out of the game, third-string quarterback Davis Brin enters looking at a 14-0 deficit with just over a quarter left to play.
+Now, with that incredibly long tangent out of the way, let’s go back to the night of November 19th, 2020. After injuries knocked both Zach Smith and Seth Boomer out of the game, third-string quarterback Davis Brin enters looking at a 14-0 deficit with just over a quarter left to play.
 
 And he responded with  the type of performance Tulsa hadn’t seen—at least not with any regularity—since the 2016 season. Brin accounted for 266 yards, three touchdowns (including one with his legs) and led Tulsa to a stunning comeback over the Green Wave.
 
@@ -90,26 +90,26 @@ Now let’s look at it his 2021 season in terms of EPA. Over 13 games Brin avera
 |**Zach Smith - 2020** | 0.193 | 53.6* |
 |**Skipper / Boomer - 2018** | 0.105 | 36.2 |
 |**President / Skipper - 2017** | 0.072 | 29.2 |
-
+<br>
 **COVID shortened season*
 </center>
 <br>
 
 The best part about Brin’s numbers is that after a start that featured some extreme highs (Oklahoma State and Ohio State) and bad lows (UC Davis and Houston) he got more consistent as the season wore on and saw his EPA / game trend up. And that passes the gut check when I  think about last season. Down the stretch TU won three straight to get to a bowl game and then dominated Old Dominion in that game as well. Looking at some EPA values across the season you can see the boom and bust nature of the early games and then it levels out a bit towards the back half of the season.
 
-![image alt text](/blog_images/davis-brin/brin-full-season-epa.png)
+![Davis Full Season EPA](/blog_images/davis-brin/brin-full-season-epa.png)
 
 If we split the season up it becomes a little more clear how Brin improved, while also removing some of that boom and bust style. Here's his EPA from the first six games:
 
-![image alt text](/blog_images/davis-brin/brin-first-season-epa.png)
+![Davis First Half EPA](/blog_images/davis-brin/brin-first-season-epa.png)
 
 In those six games he had two (UC Davis and Houston) that with EPA worse than **-15**, meaning he cost us points due to turnovers and/or just not playing very well. And on the flip side, his best game of the season came against Ohio State and he had an EPA just under **15**. Unfortunately that performance wasn't enough since we still ended up losing that one. And as the trendline (the red dashed line) indicates, he was improving over those six games.
 
 Turning our attention to the final seven games, we can see that the lows aren't quite as low and there is more consistency betwen games.
 
-![image alt text](/blog_images/davis-brin/brin-second-season-epa.png)
+![Davis Second Half EPA](/blog_images/davis-brin/brin-second-season-epa.png)
 
-His performances with EPAs under zero -Navy, Cincy and Tulane- combined were barely worse than just the Houston game in terms of total EPA. So his bad games were not as bad–-and we won one of those games with a chance to play spoiler at Cincinatti. AndAdditionally, the trend on the back half shows a much steeper improvement from game seven to thirteen. This gives me confidence that Davis Brin had a very normal 'first-year starter' season and makes me excited to see his progression in year two.
+His performances with EPAs under zero -Navy, Cincy and Tulane- combined were barely worse than just the Houston game in terms of total EPA. So his bad games were not as bad–-and we won one of those games with a chance to play spoiler at Cincinatti. Additionally, the trend on the back half shows a much steeper improvement from game seven to thirteen. This gives me confidence that Davis Brin had a very normal 'first-year starter' season and makes me excited to see his progression in year two.
 
 I mean, the last time Tulsa had a first-year starter throw 16+ interceptions, with just over 3,000 yards of offense - it worked out pretty well. 
 
@@ -141,7 +141,7 @@ Let's take another look at the Averege EPA table, but adding Evans in this time.
 |**Dane Evans - 2014** | 0.160 | 73.9 |
 |Skipper / Boomer - 2018 | 0.105 | 36.2 |
 |President / Skipper - 2017 | 0.072 | 29.2 |
-
+<br>
 **COVID shortened season*
 </center>
 <br>
