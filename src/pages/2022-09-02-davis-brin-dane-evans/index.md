@@ -93,6 +93,7 @@ Now let’s look at it his 2021 season in terms of EPA. Over 13 games Brin avera
 
 **COVID shortened season*
 </center>
+<br>
 
 The best part about Brin’s numbers is that after a start that featured some extreme highs (Oklahoma State and Ohio State) and bad lows (UC Davis and Houston) he got more consistent as the season wore on and saw his EPA / game trend up. And that passes the gut check when I  think about last season. Down the stretch TU won three straight to get to a bowl game and then dominated Old Dominion in that game as well. Looking at some EPA values across the season you can see the boom and bust nature of the early games and then it levels out a bit towards the back half of the season.
 
@@ -143,7 +144,7 @@ Let's take another look at the Averege EPA table, but adding Evans in this time.
 
 **COVID shortened season*
 </center>
-
+<br>
 Evan's 0.160 EPA in 2014 was well below the 0.196 average for all of QBs in college football in 2014. Whereas Brin's 0.267 in 2021 was just above the average of 0.264 for the season. And against a more competitive schedule to boot.
 
 According to Sports Reference's Strength of Schedule (SOS) rating, in 2014 Tulsa had a SOS of -2.56 which was 84th in the country and they finished 3-9. And in 2021 the SOS was -0.29 which was 68th in the country. By that metric, Brin was putting up better numbers against a harder schedule than Evans and finished 7-6. 
