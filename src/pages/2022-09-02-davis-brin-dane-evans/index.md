@@ -97,17 +97,17 @@ Now let’s look at it his 2021 season in terms of EPA. Over 13 games Brin avera
 
 The best part about Brin’s numbers is that after a start that featured some extreme highs (Oklahoma State and Ohio State) and bad lows (UC Davis and Houston) he got more consistent as the season wore on and saw his EPA / game trend up. And that passes the gut check when I  think about last season. Down the stretch TU won three straight to get to a bowl game and then dominated Old Dominion in that game as well. Looking at some EPA values across the season you can see the boom and bust nature of the early games and then it levels out a bit towards the back half of the season.
 
-![Davis Full Season EPA](/blog_images/davis-brin/brin-full-season-epa.png)
+![Davis Full Season EPA](/blog_images/davis-brin/brin_full_season_epa.png)
 
 If we split the season up it becomes a little more clear how Brin improved, while also removing some of that boom and bust style. Here's his EPA from the first six games:
 
-![Davis First Half EPA](/blog_images/davis-brin/brin-first-season-epa.png)
+![Davis First Half EPA](/blog_images/davis-brin/brin_first_season_epa.png)
 
 In those six games he had two (UC Davis and Houston) that with EPA worse than **-15**, meaning he cost us points due to turnovers and/or just not playing very well. And on the flip side, his best game of the season came against Ohio State and he had an EPA just under **15**. Unfortunately that performance wasn't enough since we still ended up losing that one. And as the trendline (the red dashed line) indicates, he was improving over those six games.
 
 Turning our attention to the final seven games, we can see that the lows aren't quite as low and there is more consistency betwen games.
 
-![Davis Second Half EPA](/blog_images/davis-brin/brin-second-season-epa.png)
+![Davis Second Half EPA](/blog_images/davis-brin/brin_second_season_epa.png)
 
 His performances with EPAs under zero -Navy, Cincy and Tulane- combined were barely worse than just the Houston game in terms of total EPA. So his bad games were not as bad–-and we won one of those games with a chance to play spoiler at Cincinatti. Additionally, the trend on the back half shows a much steeper improvement from game seven to thirteen. This gives me confidence that Davis Brin had a very normal 'first-year starter' season and makes me excited to see his progression in year two.
 
