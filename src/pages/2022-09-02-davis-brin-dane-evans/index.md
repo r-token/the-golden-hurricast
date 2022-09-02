@@ -75,6 +75,8 @@ In that single quarter, Davis Brin accounted for **~24%(!)** of Tulsa’s total 
 
 ## Brin's First Season
 
+<br />
+
 To get a general sense of Davis Brin’s 2021 campaign lets just look at his overall stat line:
 
 <br />
