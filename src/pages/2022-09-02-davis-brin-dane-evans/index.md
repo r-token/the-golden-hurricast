@@ -167,7 +167,7 @@ Of course, I'm talking about Dane Evans. The TU quarterback from 2013-2016 who s
 
 <br />
 
-The only stat Evans lead Brin in was touchdowns with 23 to 18. Now, there is the caveat that 2014 was the final year with Bill Blankenship as head coach and he ran a different style compared to what Montgomery would bring the next season so its not exactly an apples to apples comparison. But that's why I spent so much time explaining EPA--so that I can make some sort of comparison.
+The only stat Evans led Brin in was touchdowns with 23 to 18. Now, there is the caveat that 2014 was the final year with Bill Blankenship as head coach and he ran a different style compared to what Montgomery would bring the next season so its not exactly an apples to apples comparison. But that's why I spent so much time explaining EPA--so that I can make some sort of comparison.
 
 Let's take another look at the Average EPA table, but adding Evans in this time.
 
