@@ -56,20 +56,26 @@ Let’s go back to our earlier example:
 - To get the EPA of that 5-yard rush we just take [1.017 - 0.922] and get: **0.095**.
 
 Not all plays that yield positive yards will increase your expected points. Sticking with our example: 
-- if we only got four yards and are now faced with a 2nd and 6 at the 29-yard line, our new EP for this drive:  **0.808**
+- If we only got four yards and are now faced with a 2nd and 6 at the 29-yard line, our new EP for this drive:  **0.808**
 - Rushing for one fewer yard results in a drop in EP by: **0.114** [0.922 - 0.808].
 
-As you can see these numbers are all pretty small, which is partially a result of selecting a relatively easy example. However, the average play in all of college football only averages ~0.21 EPA, so my example isn’t an outlier by any means. The advantage of using this more standardized values is that is levels the playing field in terms of comparisons. It’s a stat that allows you to make comparisons across teams as well as seasons - which is incredibly useful in college football due to the countless number of different systems that have been and still are being used across the sport.
+As you can see these numbers are all pretty small, which is partially a result of selecting a relatively easy example. However, the average play in all of college football only averages ~0.21 EPA, so my example isn’t an outlier by any means. The advantage of using this more standardized value is that it levels the playing field in terms of comparisons. It’s a stat that allows you to make comparisons across teams as well as seasons - which is incredibly useful in college football due to the countless number of different systems that have been and still are being used across the sport.
 
 And one last note on EPA. It’s not perfect and different sources of data use different models. So don’t focus on the absolute value of the numbers but more the trends and comparisons that are the most important parts to focus on.
 
-Now, with that incredibly long tangent out of the way, let’s go back to the night of November 19th, 2020. After injuries knocked both Zach Smith and Seth Boomer out of the game, third-string quarterback Davis Brin enters looking at a 14-0 deficit with just over a quarter left to play.
+<br />
+
+## Back to Brin
+
+<br />
+
+Now, with that incredibly long tangent out of the way, let’s go back to the night of November 19th, 2020 against Tulane. After injuries knocked both Zach Smith and Seth Boomer out of the game, third-string quarterback Davis Brin enters looking at a 14-0 deficit with just over a quarter left to play.
 
 And he responded with  the type of performance Tulsa hadn’t seen—at least not with any regularity—since the 2016 season. Brin accounted for 266 yards, three touchdowns (including one with his legs) and led Tulsa to a stunning comeback over the Green Wave.
 
-In that single quarter, on 31 combined passing and running plays Davis Brin averaged an astronomical 0.561 EPA. In all of college football in 2020 there were only three quarterbacks with a higher EPA average: Dustin Crum (Kent State), Jack Sears (Boise State) and Mac Jones (Alabama). The top two QBs, including the AAC Offensive Player of the Year, Desmond Ridder and Dillon Gabriel were under 0.50.
+In that single quarter, on 31 combined passing and running plays, Davis Brin averaged an astronomical 0.561 EPA. In all of college football in 2020 there were only three quarterbacks with a higher EPA average: Dustin Crum (Kent State), Jack Sears (Boise State) and Mac Jones (Alabama). The top two QBs, including the AAC Offensive Player of the Year, Desmond Ridder and Dillon Gabriel were under 0.50.
 
-In that single quarter, Davis Brin accounted for **~24%(!)** of Tulsa’s total passing EPA in 2020. The excitement for 2021 was off the charts. But therein lies the problem. We (ok, maybe it might have just been me) were looking at 16 minutes of unforgettable football and extrapolating way too much from that performance to predict how good he was going to be in 2021 - even with the caveat that it wasn’t going to be as good. Those were unrealistic expectations, and not fair to Brin. So, it’s no surprise that the start to last season was a harsh reality check with three losses to start off the season and four in the first five. But that is not to say Brin had a bad year, far from it, and in the next two sections I’ll walk through his ’21 numbers and explain why I think he’s poised to break out this year.
+In that single quarter, Davis Brin accounted for **~24%(!)** of Tulsa’s total passing EPA in 2020. The excitement for 2021 was off the charts. But therein lies the problem. We (ok, maybe it might have just been me) were looking at 16 minutes of unforgettable football and extrapolating way too much from that performance to predict how good he was going to be in 2021 - even with the caveat that it wasn’t going to be as good. Those were unrealistic expectations, and not fair to Brin. So, it’s no surprise that the beginning of last season was a harsh reality check with three losses to start off the season and four in the first five games. But that is not to say Brin had a bad year. Far from it. In the next two sections I’ll walk through his ’21 numbers and explain why I think he’s poised to break out this year.
 
 <br />
 
@@ -91,11 +97,11 @@ To get a general sense of Davis Brin’s 2021 campaign lets just look at his ove
 
 <br />
 
-The elephant in the room is the 16 interceptions, which led the nation, and the only thing I have to say about that is that *some* of those went off of receivers hands. And 16 interceptions is the fewest thrown in a normal season–i.e. not 2020–to “lead” the nation in possibly all of college football history (I got bored and stopped looking after 1985). That being said, the biggest obstacle to Davis Brin taking the step I think he’s capable of making is not being able to get the interceptions under control. While watching some film from last year in the process of writing this there were some **bad** throws. The pick-six against South Florida and a handful against Tulane and Houston. Too often he would stare down his receiver, giving the defense and easy chance to step into his passing lanes. 
+The elephant in the room is the 16 interceptions, which led the nation, and the only thing I have to say about that is that *some* of those went off of receivers hands. And 16 interceptions is the fewest thrown in a normal season–i.e. not 2020–to “lead” the nation in possibly all of college football history (I got bored and stopped looking after 1985). That being said, the biggest obstacle to Davis Brin taking the step I think he’s capable of making is not being able to get the interceptions under control. While watching some film from last year in the process of writing this there were some **bad** throws. The pick-six against South Florida and a handful against Tulane and Houston. Too often he would stare down his receiver, giving the defense an easy chance to step into his passing lanes. 
 
-As far as the other stats go his 3,269 yards were just outside the top-20 and 8.0 yards per attempt were in the top-50 among qualifying quarterbacks. All in all, Brin had a very average-to-slightly-above-average season. And that tracks with our season, it was a slightly above average season that ended 7–6 with a win over a middle of the road C-USA team.
+As far as the other stats go, his 3,269 yards were just outside the top-20 and 8.0 yards per attempt were in the top-50 among qualifying quarterbacks. All in all, Brin had a very average-to-slightly-above-average season. And that tracks with our season, it was a slightly above average season that ended 7–6 with a win over a middle of the road C-USA team.
 
-Now let’s look at it his 2021 season in terms of EPA. Over 13 games Brin averaged 0.267 EPA per pass attempt (I’m ignoring rushes for now since we don’t have many designed runs and sack stats create a lot of noise in the underlying data). Over the course of the season that would account for over 100 total expected points added just by his arm. This is the highest EPA in the last five years—and Brin threw fewer passes than Smith did in 2019 (even with an extra game played).
+Now let’s look at it his 2021 season in terms of EPA. Over 13 games Brin averaged 0.267 EPA per pass attempt (I’m ignoring rushes for now since we don’t have many designed QB runs and sack stats create a lot of noise in the underlying data). Over the course of the season that would account for over 100 total expected points added just by his arm. This is the highest EPA in the last five years—and Brin threw fewer passes than Smith did in 2019 (even with an extra game played).
 
 <br />
 
@@ -129,7 +135,7 @@ If we split the season up it becomes a little more clear how Brin improved, whil
 
 <br />
 
-In those six games he had two (UC Davis and Houston) that with EPA worse than **-15**, meaning he cost us points due to turnovers and/or just not playing very well. And on the flip side, his best game of the season came against Ohio State and he had an EPA just under **15**. Unfortunately that performance wasn't enough since we still ended up losing that one. And as the trendline (the red dashed line) indicates, he was improving over those six games.
+Of those six games, he had two (UC Davis and Houston) with an EPA worse than **-15**, meaning he cost us points due to turnovers and/or just not playing very well. And on the flip side, his best game of the season came against Ohio State and he had an EPA just under **15**. Unfortunately that performance wasn't enough since we still ended up losing that one. And as the trendline (the red dashed line) indicates, he was improving over those six games.
 
 Turning our attention to the final seven games, we can see that the lows aren't quite as low and there is more consistency betwen games.
 
@@ -137,7 +143,7 @@ Turning our attention to the final seven games, we can see that the lows aren't 
 
 <br />
 
-His performances with EPAs under zero -Navy, Cincy and Tulane- combined were barely worse than just the Houston game in terms of total EPA. So his bad games were not as bad–-and we won one of those games with a chance to play spoiler at Cincinatti. Additionally, the trend on the back half shows a much steeper improvement from game seven to thirteen. This gives me confidence that Davis Brin had a very normal 'first-year starter' season and makes me excited to see his progression in year two.
+His performances with EPAs under zero (Navy, Cincy and Tulane) combined were barely worse than just the Houston game in terms of total EPA. So his bad games were not as bad–-and we won one of those games with a chance to play spoiler at Cincinatti. Additionally, the trend on the back half shows a much steeper improvement from game seven to thirteen. This gives me confidence that Davis Brin had a very normal 'first-year starter' season and makes me excited to see his progression in year two.
 
 I mean, the last time Tulsa had a first-year starter throw 16+ interceptions, with just over 3,000 yards of offense - it worked out pretty well. 
 
@@ -147,7 +153,7 @@ I mean, the last time Tulsa had a first-year starter throw 16+ interceptions, wi
 
 <br />
 
-Of course, I'm talking about Dane Evans. TU quarterback from 2013-2016 who set AAC records and led Tulsa to a 10-3 season in his senior season. Dane Evans is a name that carries a lot of weight around Tulsa because of the success that he and the team had during his tenure. But, what you may not recall right off the bat is that his first full season as a starter wasn't anything special. Let's look at his 2014 stat line.
+Of course, I'm talking about Dane Evans. The TU quarterback from 2013-2016 who set AAC records and led Tulsa to a 10-3 season in his senior season. Dane Evans is a name that carries a lot of weight around Tulsa because of the success that he and the team had during his tenure. But, what you may not recall right off the bat is that his first full season as a starter wasn't anything special. Let's look at his 2014 stat line.
 
 <br />
 
@@ -163,7 +169,7 @@ Of course, I'm talking about Dane Evans. TU quarterback from 2013-2016 who set A
 
 The only stat Evans lead Brin in was touchdowns with 23 to 18. Now, there is the caveat that 2014 was the final year with Bill Blankenship as head coach and he ran a different style compared to what Montgomery would bring the next season so its not exactly an apples to apples comparison. But that's why I spent so much time explaining EPA--so that I can make some sort of comparison.
 
-Let's take another look at the Averege EPA table, but adding Evans in this time.
+Let's take another look at the Average EPA table, but adding Evans in this time.
 
 <br />
 
@@ -188,15 +194,15 @@ Let's take another look at the Averege EPA table, but adding Evans in this time.
 
 <br />
 
-Evans' 0.160 EPA in 2014 was well below the 0.196 average for all of QBs in college football in 2014. Whereas Brin's 0.267 in 2021 was just above the average of 0.264 for the season. And against a more competitive schedule to boot.
+Evans' 0.160 EPA in 2014 was well below the 0.196 average for all QBs in college football in 2014. Whereas Brin's 0.267 in 2021 was just above the average of 0.264 for the season. And against a more competitive schedule to boot.
 
 According to Sports Reference's Strength of Schedule (SOS) rating, in 2014 Tulsa had a SOS of -2.56 which was 84th in the country and they finished 3-9. And in 2021 the SOS was -0.29 which was 68th in the country. By that metric, Brin was putting up better numbers against a harder schedule than Evans and finished 7-6. 
 
-Brin played Oklahoma State (who almost won the Big 12 and made the playoffs), Ohio State (winners of the Rose Bowl), and Cincinatti (the first non-Power 5 program to make the playoffs). And for the most part he kept Tulsa in those games.
+Brin played Oklahoma State (who almost won the Big 12 and made the playoff), Ohio State (winners of the Rose Bowl), and Cincinatti (the first non-Power 5 program to make the playoff). And for the most part he kept Tulsa in those games.
 
-The best team Tulsa played in 2014 was an Oklahoma team that came into the season ranked fourth, but finished a very meh season 8-5.
+The best team Tulsa played in 2014 was an Oklahoma team that came into the season ranked fourth, but finished with a very meh season at 8-5.
 
-In his second full year as a starter Evans exploded - and set him up to be the all-time leader in passing yards in the American.
+In his second full year as a starter, Evans exploded - and he became the all-time leader in passing yards in the American.
 
 <br />
 
@@ -210,6 +216,8 @@ In his second full year as a starter Evans exploded - and set him up to be the a
 
 <br />
 
-Most of those stats led the America in 2015 and Tulsa went from scoring 24.7 points a game to 37.2. And that was an exciting year for Tulsa - capped off by a bowl game against Virginia Tech that featured four touchdown within the first three and a half minutes. The momentum from that season carried forward to 2016 as Tulsa set an FBS record with two thousand yard rushers, two thousand yard receivers and a three thousand yard passer. 
+Most of those stats led the American in 2015, and Tulsa went from scoring 24.7 points per game to 37.2. That was an exciting year for Tulsa - capped off by a bowl game against Virginia Tech that featured four touchdowns within the first three and a half minutes.
 
-When Monty finds ***his*** QB he can win. And comparing Brin's latest season to Evans' first, it looks like he found his man.
+The momentum from that season carried forward to 2016 as Tulsa became the first team in college football history to have a 3,000-yard passer (Dane Evans), two 1,000-yard receivers (Keevan Lucas & Josh Atkinson), and two 1,000-yard rushers (D'Angelo Brewer & James Flanders).
+
+When Monty finds ***his*** QB he can win. And comparing Brin's first full season to Evans' first, it looks like he's found his man.
