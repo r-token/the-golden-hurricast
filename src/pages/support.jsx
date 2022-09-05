@@ -41,21 +41,11 @@ const SupportLayout = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://anchor.fm/thegoldenhurricast"
+                href="https://anchor.fm/thegoldenhurricast/support"
               >
                 recurring monthly donation
             </a>
-            . You can do
-          that by clicking{" "}
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://anchor.fm/thegoldenhurricast"
-            >
-              here
-          </a>{" "}
-            and then clicking the 'Support' button. From there, you can choose to
-            contribute $0.99/month, $4.99/month, or $9.99/month.
+            .
           </p>
           
           <br />
