@@ -89,7 +89,7 @@ To get a general sense of Davis Brin’s 2021 campaign lets just look at his ove
 
 <center>
 
-| **Completions** | **Attempts** | **Percentage** | **Yards** | **Yards / Attempt** | **Touchdowns** | **Interceptions** |
+| **Comp** | **Att** | **%** | **Yds** | **Yds/Att** | **TDs** | **INTs** |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 244 | 411 | 59.4 | 3,269 | 8.0 | 18 | 16 |
 
@@ -159,7 +159,7 @@ Of course, I'm talking about Dane Evans. The TU quarterback from 2013-2016 who s
 
 <center>
 
-| **Completions** | **Attempts** | **Percentage** | **Yards** | **Yards / Attempt** | **Touchdowns** | **Interceptions** |
+| **Comp** | **Att** | **%** | **Yds** | **Yds/Att** | **TDs** | **INTs** |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 256 | 462 | 55.4 | 3,102 | 6.7 | 23 | 17 |
 
@@ -208,7 +208,7 @@ In his second full year as a starter, Evans exploded - and he became the all-tim
 
 <center>
 
-| **Completions** | **Attempts** | **Percentage** | **Yards** | **Yards / Attempt** | **Touchdowns** | **Interceptions** |
+| **Comp** | **Att** | **%** | **Yds** | **Yds/Att** | **TDs** | **INTs** |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 305 | 485 | 62.9 | 4,332 | 8.9 | 25 | 8 |
 

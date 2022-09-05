@@ -10,6 +10,14 @@ hr {
   color: grey !important;
 }
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid lightgray;
+  text-align:center;
+  width:100%;
+}
+
 /* basically anything bigger than a smartphone */
 @media screen and (min-width: 680px) {
   .blogpost {
@@ -39,6 +47,12 @@ hr {
   #supportus {
     width: 75% !important;
   }
+  
+  table td {
+    border: solid 1px lightgray;
+    border-style: none solid solid none;
+    padding: 10px;
+  }
 }
 
 /* smartphone size and down */
@@ -54,6 +68,12 @@ hr {
 
   #blogAlignment {
     text-align: left;
+  }
+  
+  table td {
+    border: solid 1px lightgray;
+    border-style: none solid solid none;
+    padding: 3px;
   }
 }
 
