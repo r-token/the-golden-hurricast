@@ -73,7 +73,7 @@ table {
   table td {
     border: solid 1px lightgray;
     border-style: none solid solid none;
-    padding: 3px;
+    padding: 1px;
   }
 }
 
