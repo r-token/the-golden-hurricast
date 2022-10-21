@@ -150,13 +150,11 @@ const HomeLayout = ({data}) => {
               </Row>
               <br />
               <Row style={{ margin: '0px'}}>
-                <div className="floating_still_object">
-                  <TwitterTimelineEmbed
-                    sourceType="profile"
-                    screenName="GoldenHurricast"
-                    options={{ height: 500, width: 400 }}
-                  />
-                </div>
+                <TwitterTimelineEmbed
+                  sourceType="profile"
+                  screenName="GoldenHurricast"
+                  options={{ height: 500, width: 500 }}
+                />
               </Row>
             </Col>
           </Row>
