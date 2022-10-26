@@ -4,13 +4,23 @@ date: "10/25/2022"
 sortDate: "2022/10/25"
 title: "Homecoming Preview vs SMU"
 authors: "Ryan Token"
-excerpt: "Previewing Tulsa's 2022 Homecoming game vs SMU"
+excerpt: "The Boomtown Showdown is back for Tulsa's 2022 Homecoming game vs SMU"
 tags: ['football', 'behind-enemy-lines', 'smu']
 ---
 
-After two straight road games separated by the bye week, Tulsa football returns home this Saturday for the first time in nearly a month. Knocking on the door are the 3-4 SMU Mustangs, who have had nearly as much of an up-and-down season as the Hurricane.
+It's BOOMTOWN SHOWDOWN time baby. And for Homecoming nonetheless. I love it. I am never letting this rivalry name die even though it's clear that neither Tulsa nor SMU want anything to do with it anymore.
 
-Let's get into what the Mustangs are all about before the game kicks off at 2:30pm central on Saturday.
+For posterity, here is the final official reference to that rivalry name that I've been able to find. All the way back from 2016. Tulsa won this game 43-40 in overtime.
+
+<br />
+
+![Tweet Two](/blog_images/rivalries/rivalries-tweet-2.png)
+
+<br />
+
+Regardless, after two straight road games separated by the bye week, Tulsa football returns home this Saturday for the first time in nearly a month sitting at 3-4 after a win at Temple. Knocking on the door are the 3-4 SMU Mustangs, who have had nearly as much of an up-and-down season as the Hurricane.
+
+Let's get into what the Mustangs are all about before the Homecoming game kicks off at H.A. Chapman Stadium on Saturday at 2:30pm central.
 
 <br />
 
@@ -135,4 +145,14 @@ Unlike in 2019 when we <a href="https://sports.yahoo.com/tulsa-kicks-off-to-smu-
 * Special Teams: #51
 * Overall: #58
 
+## Final Thoughts
 
+Tulsa and SMU always play each other close. The two teams have played each other every year since 2014, and it's been a one-score game in every matchup but two (Tulsa won by 10 in 2014 and by 9 in 2015).
+
+Tulsa has won the last two matchups by a combined seven points, and the last seven games total have had a combined score of Tulsa: 203, SMU: 200. It's gone into overtime twice since 2016, and I've already mentioned that triple OT loss (the worst game of my life).
+
+It's going to be a close game. These two teams can't avoid it. They're both 3-4, they both have much better offenses than defenses, and both have had very up-and-down seasons. The difference is that Tulsa is at home, on Homecoming, with an experienced coaching staff and a revamped home atmosphere. SMU is favored by two points on the road, and I think that's a fair spread.
+
+It's going to come down to the wire, but I think the combination of Deneric Prince's continued burst onto the scene, the uncertainty at QB for SMU, and the home atmosphere for Tulsa on Homecoming ultimately gives us the edge in a nailbiter.
+
+Final score: 31-28 Tulsa
