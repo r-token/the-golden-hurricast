@@ -1,7 +1,7 @@
 ---
 path: "/homecoming-preview-smu"
-date: "10/25/2022"
-sortDate: "2022/10/25"
+date: "10/27/2022"
+sortDate: "2022/10/27"
 title: "Homecoming Preview vs SMU"
 authors: "Ryan Token"
 excerpt: "The Boomtown Showdown is back for Tulsa's 2022 Homecoming game vs SMU"
@@ -210,4 +210,4 @@ SMU, however, is favored by two points on the road. I honestly think that's a pr
 
 It's going to come down to the wire, but I think the combination of Deneric Prince's continued burst onto the scene against SMU's poor rushing defense, the uncertainty at QB for SMU, and the home atmosphere for Tulsa on Homecoming ultimately gives the Hurricane the edge in a nailbiter.
 
-**Final score**: Tulsa wins it 31-28 over SMU on Homecoming
+**Final score**: Tulsa wins 31-28 over SMU on Homecoming
