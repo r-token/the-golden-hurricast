@@ -66,17 +66,17 @@ The twist though is that Moredecai is coming off a concussion against Cincinnati
 
 Nipping on Mordecai's heels is freshman QB Preston Stone, a 4-star high school recruit from Dallas and the <a href="https://247sports.com/college/smu/Sport/Football/AllTimeRecruits/" target="_blank">highest-rated commit ever</a> for SMU.
 
-Stone is a true freshman and has primarily been behind Tanner Mordecai so far this season, so we haven't seen many true game reps from him so far. He's currently completing 55% of his passes for 169 yards, 1 TD, and 1 INT.
+Stone is a redshirt freshman and has primarily been behind Tanner Mordecai so far this season, so we haven't seen many true game reps from him so far. He's currently completing 55% of his passes for 169 yards, 1 TD, and 1 INT.
 
 Who starts at QB on Saturday may come down to a game-time decision, but whoever it is will have a true game-breaker at wide receiver to throw to.
 
 #### Receiving
 
-Rashee Rice is the leading receiver for the Ponies, and it isn't close. Rice has 37 *more* receptions than the 2nd leading receiver on the team (Moochie Dixon), and his 53 total receptions are good for 3rd in the country in receptions per game.
+Rashee Rice is the leading receiver for the Ponies, and it isn't close. Rice has 37 *more* receptions than the 2nd leading receiver on the team (Moochie Dixon), and his 53 total receptions are good for 3rd in the country in receptions per game. However, Rice has been battling turf toe since the TCU game - so he may be a bit hobbled on Saturday. He certainly looked that way in their most recent game against Cincinnati.
 
 After watching a few SMU games, though, it's clear that Mordecai has a bad habit of only looking Rice's way in many of the games this year. Rice is clearly the best receiver on that roster, but SMU would probably be smart to spread the ball around a bit more.
 
-SMU has *22* wide receivers on their roster this year. Tulsa has 15. There are a ton of receivers on this roster. 9 of them have multiple receptions on the year. The biggest names outside of Rashee Rice are sophomore Texas transfer Moochie Dixon, freshman RJ Maryland, senior Rice transfer Jake Bailey, junior Jordan Kerley, and senior UNC transfer Beau Corrales. Again, though, the strength has not come from their numbers. It's been the Rashee Rice show all season.
+SMU has *22* wide receivers on their roster this year. Tulsa has 15. There are a ton of receivers on this roster. 9 of them have multiple receptions on the year. The biggest names outside of Rashee Rice are sophomore Texas transfer Moochie Dixon, freshman RJ Maryland, senior Rice transfer Jake Bailey (apparently out for the season), junior Jordan Kerley, and senior UNC transfer Beau Corrales (also may be out for the season). Again, though, the strength has not come from their numbers. It's been the Rashee Rice show all season.
 
 
 #### Rushing
