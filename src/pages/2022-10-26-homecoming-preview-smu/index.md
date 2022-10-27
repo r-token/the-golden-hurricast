@@ -211,3 +211,7 @@ SMU, however, is favored by two points on the road. I honestly think that's a pr
 It's going to come down to the wire, but I think the combination of Deneric Prince's continued burst onto the scene against SMU's poor rushing defense, the uncertainty at QB for SMU, and the home atmosphere for Tulsa on Homecoming ultimately gives the Hurricane the edge in a nailbiter.
 
 **Final score**: Tulsa wins 31-28 over SMU on Homecoming
+
+<br /> <br />
+
+*Side note*: Matt and I will both be "celebrity judges" for <a href="https://twitter.com/TUTailgators" target="_blank">TUTailgators</a>' annual Chili Cook-Off for the Homecoming game! Former TU DE <a href="https://tulsahurricane.com/sports/football/roster/kolton-shindelar/5926" target="_blank">Kolton Schindelar</a> will be there as a celebrity judge as well. It starts at about noon over at The Wesley Foundation on campus at 4th/Florence. You can see the full timeline for the cook-off <a href="https://twitter.com/TUTailgators/status/1584579247674634240?s=20&t=fTvk8NNqkptCSA5dfXC4mQ" target="_blank">here</a>. Come hang out, try some tasty chili, and say hey!
