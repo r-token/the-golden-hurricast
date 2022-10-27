@@ -12,13 +12,13 @@ It's BOOMTOWN SHOWDOWN time baby. And for Homecoming nonetheless. I love it. I a
 
 For posterity, here is the final official reference to that rivalry name. All the way back from 2016. Tulsa won this game 43-40 in overtime.
 
-If anything killed this rivalry name, it's the fact that TU put SMU's 2-10 record from 2015 on the graphic. Absolute savages on that social media team.
-
 <br />
 
 ![Tweet Two](/blog_images/rivalries/rivalries-tweet-2.png)
 
 <br />
+
+If anything killed this rivalry name, it's the fact that TU put SMU's 2-10 record from 2015 on the graphic. Absolute savages on that social media team.
 
 Regardless, after two straight road games separated by the bye week, Tulsa football returns home this Saturday for the first time in nearly a month sitting at 3-4 after a win at Temple. Knocking on the door are the 3-4 SMU Mustangs, who have had nearly as much of an up-and-down season as the Hurricane.
 
@@ -214,6 +214,8 @@ It's going to be a close game. These two teams can't avoid it. They're both 3-4,
 SMU, however, is favored by two points on the road. I honestly think that's a pretty fair spread based on how each team has looked so far this season.
 
 It's going to come down to the wire, but I think the combination of Deneric Prince's continued burst onto the scene against SMU's poor rushing defense, the uncertainty at QB for SMU, and the home atmosphere for Tulsa on Homecoming ultimately gives the Hurricane the edge in a nailbiter.
+
+SMU owns the all-time series lead 15-13, but I think we inch one closer after this one.
 
 **Final score**: Tulsa wins 31-28 over SMU on Homecoming
 
