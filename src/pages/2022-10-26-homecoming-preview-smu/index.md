@@ -202,7 +202,12 @@ Let's cap off this comparison with some SP+ rankings:
 
 Tulsa and SMU always play each other close. The two teams have played every year since 2014, and it's been a one-score game in every matchup but two (TU won by 10 in 2014 and by 9 in 2015).
 
-Tulsa has won the last two matchups by a combined seven points, and the last seven games total have had a combined score of Tulsa: 203, SMU: 200. It's gone into overtime twice since 2016, and I've already mentioned that triple OT loss (the worst game of my life).
+Tulsa has won the last two matchups by a combined seven points, and the last seven games total have had a combined score of Tulsa: 203, SMU: 200.
+
+In the last three years, it's looked like this (shouts to <a href="https://twitter.com/PonyHype/status/1585663000010178560?s=20&t=msNQcfkRgIeTCMUeL2DE1g" target="_blank">@PonyHype</a> for the reminder):
+* **2019**: Tulsa's up 30-9 in the fourth quarter. SMU storms back to tie it up, and the Ponies end up winning in triple overtime. Again: the worst game of my life
+* **2020**: SMU's up 21-0 early. Tulsa holds the Mustangs to 0 points in the second half and win it 28-24. Sealed with a Zaven Collins interception on the Ponies' final drive.
+* **2021**: SMU's up 17-0 near halftime. Tulsa rides a 14-0 3rd quarter to a 34-31 victory
 
 It's going to be a close game. These two teams can't avoid it. They're both 3-4, they both have much better offenses than defenses and eerily similar stats, and both have had very up-and-down seasons. The difference is that Tulsa is at home, on Homecoming, with an experienced coaching staff and a revamped home atmosphere.
 
