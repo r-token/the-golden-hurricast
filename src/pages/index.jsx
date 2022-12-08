@@ -165,6 +165,8 @@ const HomeLayout = ({data}) => {
         src="//thegoldenhurricast.disqus.com/count.js"
         async
       ></script>
+      
+      <a rel="me" href="https://indieweb.social/@ryantoken"></a>
     </div>
   );
 };
