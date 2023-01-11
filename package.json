@@ -26,7 +26,7 @@
     "gatsby-plugin-react-helmet": "^5.5.0",
     "gatsby-source-filesystem": "^4.5.1",
     "gatsby-source-stripe": "^4.0.0",
-    "gatsby-transformer-remark": "^5.11.1",
+    "gatsby-transformer-remark": "^5.25.1",
     "react-bootstrap": "^2.1.0",
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
