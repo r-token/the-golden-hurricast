@@ -3,23 +3,12 @@ import NavigationBar from '../components/NavigationBar'
 import BlogJumbotron from '../components/BlogJumbotron'
 import Container from 'react-bootstrap/Container'
 import Seo from '../components/seo'
-import { Helmet } from "react-helmet"
 import { graphql, Link } from 'gatsby'
 
 const BlogLayout = ({data}) => {
     const { edges } = data.allMarkdownRemark
     return (
       <div>
-        <Seo
-        title={"The Golden Hurricast – Blog"}
-        description={"Herc's Corner. The Golden Hurriblog. Whatever you want to call it, we'll use this to dive deeper into stats, explore TU history, and more"}
-        image={"/logo-white.jpg"}
-      />
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>TGH | Blog</title>
-        </Helmet>
-
         <NavigationBar />
         <BlogJumbotron />
 
@@ -96,3 +85,17 @@ export const query = graphql`
        `;
 
 export default BlogLayout
+
+export const Head = () => {
+  return (
+    <>
+      <Seo
+        title={"The Golden Hurricast – Blog"}
+        description={"Herc's Corner. The Golden Hurriblog. Whatever you want to call it, we'll use this to dive deeper into stats, explore TU history, and more"}
+        image={"/logo-white.jpg"}
+      />
+      <meta charSet="utf-8" />
+      <title>TGH | Blog</title>
+    </>
+  )
+}

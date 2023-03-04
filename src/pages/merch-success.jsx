@@ -2,7 +2,6 @@ import React, { useEffect } from "react"
 import Button from 'react-bootstrap/Button'
 import NavigationBar from "../components/NavigationBar"
 import Container from 'react-bootstrap/Container'
-import { Helmet } from "react-helmet"
 import { addOrderToTable } from '../api/merch-api'
 
 const MerchLayout = () => {
@@ -27,11 +26,6 @@ const MerchLayout = () => {
 	
 	return (
 		<div>
-			<Helmet>
-				<meta charSet="utf-8" />
-				<title>TGH | Merch Success!</title>
-			</Helmet>
-	
 			<NavigationBar />
 	
 			<div
@@ -78,4 +72,13 @@ const MerchLayout = () => {
 	)
 }
 
-export default MerchLayout;
+export default MerchLayout
+
+export const Head = () => {
+	return (
+		<>
+			<meta charSet="utf-8" />
+			<title>TGH | Merch Success!</title>
+		</>
+	)
+}

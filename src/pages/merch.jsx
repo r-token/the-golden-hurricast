@@ -5,21 +5,10 @@ import MerchJumbotron from '../components/MerchJumbotron'
 import Table from 'react-bootstrap/Table'
 import Seo from '../components/seo'
 import Products from "../components/products/Products"
-import { Helmet } from "react-helmet"
 
 const MerchLayout = () => {
 	return (
 		<div>
-			<Seo
-				title={"Hurricast Merch"}
-				description={"Buy some Hurricast merchandise!"}
-				image={"/logo-white.jpg"}
-			/>
-			<Helmet>
-				<meta charSet="utf-8" />
-				<title>TGH | Merch</title>
-			</Helmet>
-
 			<NavigationBar />
 			<MerchJumbotron />
 
@@ -226,4 +215,18 @@ const MerchLayout = () => {
 	);
 };
 
-export default MerchLayout;
+export default MerchLayout
+
+export const Head = () => {
+	return (
+		<>
+			<Seo
+				title={"Hurricast Merch"}
+				description={"Buy some Hurricast merchandise!"}
+				image={"/logo-white.jpg"}
+			/>
+			<meta charSet="utf-8" />
+			<title>TGH | Merch</title>
+		</>
+	)
+}

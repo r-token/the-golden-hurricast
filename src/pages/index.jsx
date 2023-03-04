@@ -7,7 +7,6 @@ import Col from "react-bootstrap/Col";
 import NavigationBar from "../components/NavigationBar"
 import HomeJumbotron from "../components/HomeJumbotron"
 import Seo from '../components/seo'
-import { Helmet } from "react-helmet"
 import { TwitterTimelineEmbed, TwitterFollowButton } from "react-twitter-embed";
 
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -19,11 +18,6 @@ const HomeLayout = ({data}) => {
   
   return (
     <div>
-      <Seo
-        title={"The Golden Hurricast"}
-        description={"The leading independent podcast and blog covering Golden Hurricane athletics at The University of Tulsa"}
-        image={"/logo-white.jpg"}
-      />
       <NavigationBar />
       <HomeJumbotron />
       <div
@@ -36,10 +30,6 @@ const HomeLayout = ({data}) => {
           alignItems: "center",
         }}
       >
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>The Golden Hurricast</title>
-        </Helmet>
 
         <Container>
           <Row>
@@ -78,7 +68,7 @@ const HomeLayout = ({data}) => {
                 </picture>
               </Row> */}
               <Row>
-                <iframe title="Apple Podcasts Embed" src="https://embed.podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=light" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style={{display: "flex", marginLeft: "auto", marginRight: "auto", width: "100%", maxWidth: "660px", overflow: "hidden", borderRadius: "10px", backgroundColor: "transparent"}}></iframe>
+                <iframe title="Apple Podcasts Embed" src="https://embed.podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=light" height="450px" frameBorder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style={{display: "flex", marginLeft: "auto", marginRight: "auto", width: "100%", maxWidth: "660px", overflow: "hidden", borderRadius: "10px", backgroundColor: "transparent"}}></iframe>
               </Row>
               <br /> <br />
               <Row>
@@ -191,3 +181,17 @@ export const query = graphql`
  `;
 
 export default HomeLayout;
+
+export const Head = () => {
+  return (
+    <>
+      <Seo
+        title={"The Golden Hurricast"}
+        description={"The leading independent podcast and blog covering Golden Hurricane athletics at The University of Tulsa"}
+        image={"/logo-white.jpg"}
+      />
+      <meta charSet="utf-8" />
+      <title>The Golden Hurricast</title> 
+    </>
+  )
+}

@@ -3,21 +3,10 @@ import NavigationBar from "../components/NavigationBar"
 import AboutJumbotron from '../components/AboutJumbotron'
 import Container from 'react-bootstrap/Container'
 import Seo from '../components/seo'
-import { Helmet } from "react-helmet"
 
 const AboutLayout = () => {
   return (
     <div>
-      <Seo
-        title={"About The Golden Hurricast"}
-        description={"We're an independent podcast and blog that covers all things Golden Hurricane athletics"}
-        image={"/logo-white.jpg"}
-      />
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>TGH | About Us</title>
-      </Helmet>
-
       <NavigationBar />
       <AboutJumbotron />
       
@@ -126,3 +115,17 @@ const AboutLayout = () => {
 };
 
 export default AboutLayout;
+
+export const Head = () => {
+  return (
+    <>
+      <Seo
+        title={"About The Golden Hurricast"}
+        description={"We're an independent podcast and blog that covers all things Golden Hurricane athletics"}
+        image={"/logo-white.jpg"}
+      />
+      <meta charSet="utf-8" />
+      <title>TGH | About Us</title>
+    </>
+  )
+}

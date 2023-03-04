@@ -1,5 +1,4 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import { DiscussionEmbed } from 'disqus-react'
 import Navbar from "react-bootstrap/Navbar";
@@ -15,8 +14,6 @@ const Template = ({data, pageContext}) => {
     const authors = markdownRemark.frontmatter.authors
     const date = markdownRemark.frontmatter.date
     const html = markdownRemark.html
-    const excerpt = markdownRemark.frontmatter.excerpt
-    const path = markdownRemark.frontmatter.path
 
     const disqusConfig = {
       shortname: "thegoldenhurricast",
@@ -25,20 +22,8 @@ const Template = ({data, pageContext}) => {
 
     return (
       <div>
-        <Seo
-          title={title}
-          description={excerpt || ''}
-          image={"/logo-white.jpg"}
-          pathname={path}
-          article
-        />
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>{title}</title>
-        </Helmet>
-
         <NavigationBar />
-
+        
         <div id="blogAlignment">
 
           <div
@@ -101,3 +86,19 @@ export const query = graphql `
 `
 
 export default Template
+
+export const Head = (props) => {
+  return (
+    <>
+      <Seo
+          title={props.data.markdownRemark.frontmatter.title}
+          description={props.data.markdownRemark.frontmatter.excerpt || ''}
+          image={"/logo-white.jpg"}
+          pathname={props.location.pathname}
+          article
+        />
+      <meta charSet="utf-8" />
+      <title>{props.data.markdownRemark.frontmatter.title}</title>
+    </>
+  )
+}
