@@ -11,7 +11,7 @@ const AboutJumbotron = () => {
                 The Golden Hurricast is an independent podcast and blog that covers all things Golden Hurricane athletics by Ryan Token and Matt Rechtien.
             </p>
             <p style={{ fontSize: "18px" }}>
-                We’re two TU alums, friends, and die-hard fans who love talking TU sports. Not affiliated with The University of Tulsa.
+                We’re two TU alums, friends, and die-hard fans who love talking TU sports. Our content is not affiliated with The University of Tulsa.
             </p>
           </Container>
         </div>

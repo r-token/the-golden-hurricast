@@ -7,7 +7,7 @@ const PodcastJumbotron = () => {
     return ( 
       <div className="jumbotron">
         <Container className="container_style">
-            <h1>Podcast</h1>
+            <h1>The Golden Hurricast</h1>
             <p style={{ fontSize: "18px" }}>
                 A weekly podcast covering Golden Hurricane athletics at The University of Tulsa.
             </p>

@@ -45,7 +45,8 @@ const SupportLayout = () => {
               >
                 recurring monthly donation
             </a>
-            .
+            {" "}
+            on Anchor (our podcast host).
           </p>
           
           <br />
@@ -56,7 +57,7 @@ const SupportLayout = () => {
             <a href="/merch">
               merchandise
             </a>
-            !
+            .
           </p>
           
           <br />

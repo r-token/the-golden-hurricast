@@ -1,12 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
-import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
 const Seo = ({ title, description, image, article }) => {
-  const { pathname } = useLocation()
   const { site } = useStaticQuery(query)
+  const url = typeof window !== 'undefined' ? window.location.href : ''
+  console.log("url:", url)
 
   const {
     defaultTitle,
@@ -22,7 +22,7 @@ const Seo = ({ title, description, image, article }) => {
     title: title || defaultTitle,
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
-    url: `${siteUrl}${pathname}`,
+    url: url,
   }
 
   return (
