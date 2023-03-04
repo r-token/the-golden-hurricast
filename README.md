@@ -49,6 +49,6 @@ tags: ['basketball', 'coaching']
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2ade9082-ccc8-41ed-b7ff-9964c6be1706/deploy-status)](https://app.netlify.com/sites/thegoldenhurricast/deploys)
 
 - **Hosted on Netlify**
-- Built with [React](https://reactjs.org/) and [Gatsby](https://www.gatsbyjs.com/)
+- Built with [Gatsby](https://www.gatsbyjs.com/) [5](https://www.gatsbyjs.com/gatsby-5/)
 - **Commits to Main will trigger a 'Gatsby Build' command on Netlify, and Netlify will serve up the results**
 - goldenhurricast.com redirects to thegoldenhurricast.com

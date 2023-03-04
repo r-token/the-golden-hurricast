@@ -1,23 +1,12 @@
-import React from "react";
-import NavigationBar from "../components/NavigationBar";
-import Container from 'react-bootstrap/Container';
+import React from "react"
+import NavigationBar from "../components/NavigationBar"
+import Container from 'react-bootstrap/Container'
 import SupportJumbotron from '../components/SupportJumbotron'
 import Seo from '../components/seo'
-import { Helmet } from "react-helmet";
 
 const SupportLayout = () => {
   return (
     <div>
-      <Seo
-        title={"Support The Golden Hurricast"}
-        description={"We do all of this for free and for the love of TU athletics"}
-        image={"/logo-white.jpg"}
-      />
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>TGH | Support Us</title>
-      </Helmet>
-
       <NavigationBar />
       <SupportJumbotron />
 
@@ -45,7 +34,8 @@ const SupportLayout = () => {
               >
                 recurring monthly donation
             </a>
-            .
+            {" "}
+            on Anchor (our podcast host).
           </p>
           
           <br />
@@ -56,7 +46,7 @@ const SupportLayout = () => {
             <a href="/merch">
               merchandise
             </a>
-            !
+            .
           </p>
           
           <br />
@@ -92,7 +82,21 @@ const SupportLayout = () => {
         </Container>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default SupportLayout;
+export default SupportLayout
+
+export const Head = () => {
+  return (
+    <>
+      <Seo
+        title={"Support The Golden Hurricast"}
+        description={"We do all of this for free and for the love of TU athletics"}
+        image={"/logo-white.jpg"}
+      />
+      <meta charSet="utf-8" />
+      <title>TGH | Support Us</title>
+    </>
+  )
+}

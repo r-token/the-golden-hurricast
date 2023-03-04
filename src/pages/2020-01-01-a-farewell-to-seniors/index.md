@@ -24,9 +24,7 @@ As the calendar moves from 2019 into 2020, everyone is already thinking about th
 
 **Keenen Johnson**
 - Years Played: 4, Games: 41, Rec: 154, Yards: 1,850, TDs: 9, Passer Rating: 115.1
-<br /> <br />
 - First Career Game (10/15/16): 94 yards on 8 receptions in loss to Houston as a true freshman
-<br /> <br />
 - Best Game (10/7/19): 131 yards on 6 receptions in loss to Tulane – 21.8 yards / reception
 
 ![Keenen Johnson](/blog_images/farewell-seniors/Keenen.jpeg)
@@ -47,7 +45,7 @@ Keenen’s been that dude for us for four years straight. Our go-to guy when we 
 
 **Thomas Bennett**
 - Years Played: 3, Games: 36, Punts: 175, Yards: 7676, Avg: 43.9
-<br /> <br />
+
 - Finishes as number two in American for punting yards per punt for career. Best season was 2018 when he finished second in the NCAA with 46.6 yards per punt.
 
 ![Thomas Bennett](/blog_images/farewell-seniors/Bennett.jpeg)
@@ -78,9 +76,9 @@ Chris led a very young group consisting of new centers Gerard Wheeler and Dylan 
 
 **Jarion Anderson**
 - Years Played: 3, Games: 18, Rec: 28, Yards: 288, Punt Returns: 19, Avg. Punt Return Yards: 8.4
-<br /> <br />
+
 - First Career Game (9/10/16): Returned a kick for six yards in loss to Ohio State
-<br /> <br />
+
 - Best Game (11/17/18): 65 yards on 5 receptions in loss to Navy
 
 ![Jarion Anderson](/blog_images/farewell-seniors/Jarion.jpg)
@@ -146,11 +144,11 @@ Judge transferred to Tulsa from Northeastern Oklahoma A&M Community College in 2
 
 **Trevis Gipson**
 - Years Played: 4, Games: 39, Solo Tackles: 63, Total Tackles: 114, TFLs, 25.5, Sacks: 13.0, FF: 8, PD: 3
-<br /> <br />
+
 - Has the second most forced fumbles in the American and led with 5 in 2018.
-<br /> <br />
+
 - Finished #11 all-time in tackles for loss in Tulsa history.
-- <br /> <br />
+- 
 - Best Career Game (11/24/18): Had 7 total tackles, including 3.5 for loss and 2.0 sacks. Led Tulsa to a win over Southern Methodist to end the 2018 season on a high note.
 
 ![Trevis Gipson](/blog_images/farewell-seniors/Gipson.jpeg)
@@ -171,9 +169,9 @@ NFL teams: Take notice. This guy will give you his all and then some.
 
 **Cooper Edmiston**
 - Years Played: 4, Games: 43, Solo Tackles: 158, Total Tackles: 343, TFLs: 13.0, INT: 5, FF: 4, FR: 5
-<br /> <br />
+
 - Finished in the top five for total tackles in the American in the last three years. Finishes in as #5 all time in the conference. Only third Tulsa player to have 3 100+ tackle season.
-<br /> <br />
+
 - Best Career Game (9/21/19): Had 9 total tackles (6 solo) but most importantly forced a fumble on the goal line to seal the win for the Golden Hurricane over Wyoming.
 
 ![Cooper Edmiston](/blog_images/farewell-seniors/Coop.jpeg)
@@ -196,9 +194,9 @@ Tulsa has quietly been churning out big-time playmakers at linebacker for a long
 
 **Manny Bunch**
 - Years Played: 4, Games: 37, Solo Tackles: 104, Total Tackles: 193, TFLs: 4.5, INT: 1, PD: 11, FR:1
-<br /> <br />
+
 - First Career Game (9/17/16): Had two tackles in win against North Carolina A&T
-<br /> <br />
+
 - Best Career Game (9/9/17): Had 13 total tackles (8 solo) and an interception in a win against Louisiana.
 
 ![Manny Bunch](/blog_images/farewell-seniors/Manny.jpeg)
@@ -217,9 +215,9 @@ Bunch has good size at 6’1’’, 201 lbs, and has been fun to watch for four 
 
 **Reggie Robinson III**
 - Years Played: 4, Games: 41, Solo Tackles: 101, Total Tackles: 132, TFLs: 4, INTs: 4, PD: 34, FF: 1
-<br /> <br />
+
 - His three interceptions all happened in his senior season and was third in the American in 2019. The 13 passes deflected led the conference in 2019.
-<br /> <br />
+
 - Best Career Game (11/8/19): Had five tackles, three passes deflected and an interception that he returned for 24 yards in the win over Central Florida.
 
 ![Reggie Robinson III](/blog_images/farewell-seniors/Reg.jpg)
@@ -240,9 +238,9 @@ Reggie certainly left his mark on The University of Tulsa. The 2019 season was u
 
 **Diamon Cannon**
 - Years Played: 4, Games: 39, Solo Tackles: 71, Total Tackles: 157, TFLs: 12.5, Sack(s): 1, INT: 1, FF: 1
-<br /> <br />
+
 - First Career Game (9/3/16): Had one solo tackle in a win over San Jose State
-<br /> <br />
+
 - Best Career Game (9/9/17): Only had four tackles, but two of them were for a loss and deflected a pass in a win against Louisiana
 
 ![Diamon Cannon](/blog_images/farewell-seniors/Diamon.jpg)
@@ -259,9 +257,9 @@ We’ll miss Diamon and all of his production over the years. Best of luck to hi
 
 **Shemarr Robinson**
 - Years Played: 4, Games: 38, Solo Tackles: 33, Total Tackles: 92, TFLs: 6, Sacks: 2, FR: 3
-<br /> <br />
+
 - First Career Game (9/3/16): Had one tackle in a win over San Jose State
-<br /> <br />
+
 - Best Career Game (9/15/18): Had eight tackles, a tackle for a loss, and a fumble recovery in a loss against Arkansas State
 
 ![Shemarr Robinson](/blog_images/farewell-seniors/Shemarr.jpg)
@@ -278,9 +276,9 @@ His senior year was undoubtedly his best year. He started every game in 2019, ta
 
 **Brandon Johnson**
 - Years Played: 2, Games: 17, Solo Tackles: 51, Total Tackles: 76, TFLs: 2.5, PD: 5
-<br /> <br />
+
 - First Career Game (9/8/18): Had one tackle in a loss to Texas
-<br /> <br />
+
 - Best Career Game (10/5/19): Had nine solo tackles, 12 total tackles and deflected a pass in the spiritually crushing loss to Southern Methodist
 
 ![Brandon Johnson](/blog_images/farewell-seniors/BJ.jpg)
@@ -297,9 +295,9 @@ Brandon primarily filled McKinley Whitfield’s very large shoes at the safety s
 
 **Keidrien Wadley**
 - Years Played: 2, Games: 15, Total Tackles: 20, INT: 1, Punt Returns: 17, Average Return Yards: 9.3
-<br /> <br />
+
 - First Career Game (9/3/16): Had two punt returns for 16 yards in the win over San Jose State
-<br /> <br />
+
 - Best Career Game (9/17/16): Returned four punts for 105 yards (26.3 average!) and recorded two tackles in Tulsa’s blowout win over North Carolina A&T.
 
 ![Keidrien Wadley](/blog_images/farewell-seniors/Keidrien.jpg)

@@ -25,9 +25,7 @@ Just a note before we get started, two games is a very small sample size so resu
 If you listened to our [season preview](https://anchor.fm/thegoldenhurricast/episodes/2-3-Meet-the-Spartans-e54kh2) (36:35) episode before the Michigan State game you may remember that Pat, Ryan and I each picked a stat that we think will be the key to our success or lack thereof this season. If you forgot, or didn’t get a chance to listen here’s a refresher:
 
 - **Pat:** Yards Per Passing Attempt. (YDs / Att) Zach Smith is strong on the deep ball, so him throwing deep more often than we did last year is essential to our success.
-<br /> <br />
 - **Ryan:** Total Quarterback Rating. (QBR) 29.4 QBR rating last season, and our quarterback play is a big contributor to how our offense is rolling.
-<br /> <br />
 - **Matt:** Average Third Down Distance. We were shooting ourselves in the foot by not having successful first and second down plays, making it harder overall to convert and also taking away potential options for play-calling.
 
 After the quarterback search that Tulsa went through after the 2016 season it might not be a surprise that these three are all connected how well Zach Smith plays. We at the Golden Hurricast have a lot of confidence in the skill of our football team and if the QB plays well then our view is that the overall success of the team will follow.
@@ -53,11 +51,9 @@ It’s nice to see improvement, there is still room for more, particularly when 
 [Football Outsiders](https://www.footballoutsiders.com/stats/ncaaol/2019) is one resource I use and has a lot of great stats for college football. It is without a doubt the best resource I’ve found to get statistical breakdowns of offensive line play. Using their data, I want to focus on four run-blocking stats in particular.
 
 - ***Line Yards*** – The number of yards that the offensive line can be credited with per carry. The line gets credited with 100-percent of yards for 0–3 yards, 50-percent for yards 4–8, and none for yards after 8 (max of six yards per carry). Lost yardage counts for 125-percent.
-<br /> <br />
 
 - ***Opportunity Rate*** – The percentage of carries that get four yards (when four yards are available).
 Stuff Rate – The percentage of carries that are stopped at or behind the line of scrimmage.
-<br /> <br />
 
 - ***Power Success Rate*** – The percentage of runs on third and fourth down, when you needed two or fewer yards, that resulted in either a first down or touchdown.
 

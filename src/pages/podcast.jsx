@@ -3,23 +3,10 @@ import Container from 'react-bootstrap/Container'
 import NavigationBar from "../components/NavigationBar"
 import PodcastJumbotron from "../components/PodcastJumbotron"
 import Seo from '../components/seo'
-import { Helmet } from "react-helmet"
 
 const PodcastLayout = () => {
   return (
     <div>
-      <Seo
-        title={"The Golden Hurricast – Podcast"}
-        description={
-          "A weekly podcast covering Golden Hurricane athletics at The University of Tulsa"
-        }
-        image={"/logo-white.jpg"}
-      />
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>TGH | Podcast</title>
-      </Helmet>
-
       <NavigationBar />
       <PodcastJumbotron />
 
@@ -65,13 +52,29 @@ const PodcastLayout = () => {
             <h4>Listen to the Show</h4>
             <hr />
             
-            <iframe title="Apple Podcasts Embed" src="https://embed.podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=auto" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style={{display: "flex", marginLeft: "auto", marginRight: "auto", width: "100%", maxWidth: "auto", overflow: "hidden", borderRadius: "10px", backgroundColor: "transparent"}}></iframe>
+            <iframe title="Apple Podcasts Embed" src="https://embed.podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=auto" height="450px" frameBorder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style={{display: "flex", marginLeft: "auto", marginRight: "auto", width: "100%", maxWidth: "auto", overflow: "hidden", borderRadius: "10px", backgroundColor: "transparent"}}></iframe>
           </Container>
         </div>
         <br />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default PodcastLayout;
+export default PodcastLayout
+
+export const Head = () => {
+  return (
+    <>
+      <Seo
+        title={"The Golden Hurricast – Podcast"}
+        description={
+          "A weekly podcast covering Golden Hurricane athletics at The University of Tulsa"
+        }
+        image={"/logo-white.jpg"}
+      />
+      <meta charSet="utf-8" />
+      <title>TGH | Podcast</title>
+    </>
+  )
+}
