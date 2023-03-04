@@ -58,8 +58,8 @@ const PodcastLayout = () => {
         <br />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default PodcastLayout
 

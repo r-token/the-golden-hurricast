@@ -1,8 +1,8 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import { DiscussionEmbed } from 'disqus-react'
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar"
+import Nav from "react-bootstrap/Nav"
 import NavigationBar from '../components/NavigationBar'
 import Seo from '../components/seo'
 
@@ -18,7 +18,7 @@ const Template = ({data, pageContext}) => {
     const disqusConfig = {
       shortname: "thegoldenhurricast",
       config: { identifier: title },
-    };
+    }
 
     return (
       <div>
@@ -68,7 +68,7 @@ const Template = ({data, pageContext}) => {
           </div>
         </div>
       </div>
-    );
+    )
 }
 
 export const query = graphql `

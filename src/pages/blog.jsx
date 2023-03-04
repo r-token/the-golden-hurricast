@@ -28,7 +28,7 @@ const BlogLayout = ({data}) => {
           </div>
 
           {edges.map(edge => {
-            const { frontmatter } = edge.node;
+            const { frontmatter } = edge.node
             return (
               <div key={Math.random()} style={{display: "flex", alignItems: "center"}}>
                 <Container className="blogedge">
@@ -57,11 +57,11 @@ const BlogLayout = ({data}) => {
                     </Link>
                 </Container>
               </div>
-            );
+            )
           })}
         </div>
       </div>
-    );
+    )
 }
 
 export const query = graphql`
@@ -82,7 +82,7 @@ export const query = graphql`
              }
            }
          }
-       `;
+       `
 
 export default BlogLayout
 

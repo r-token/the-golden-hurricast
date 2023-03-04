@@ -14,7 +14,7 @@ const BlogJumbotron = () => {
             You can <Link to="/tags">browse posts by tag</Link>, or view all of our posts below.
           </Container>
       </div>
-    );
+    )
 }
 
-export default BlogJumbotron;
+export default BlogJumbotron

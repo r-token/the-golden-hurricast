@@ -11,7 +11,7 @@ const MerchJumbotron = () => {
 						</p>
 					</Container>
 			</div>
-		);
+		)
 }
 
-export default MerchJumbotron;
+export default MerchJumbotron

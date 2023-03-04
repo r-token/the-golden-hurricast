@@ -13,7 +13,7 @@ const SupportJumbotron = () => {
             </p>
           </Container>
       </div>
-    );
+    )
 }
 
-export default SupportJumbotron;
+export default SupportJumbotron

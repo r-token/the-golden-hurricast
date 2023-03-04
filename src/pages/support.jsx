@@ -1,6 +1,6 @@
-import React from "react";
-import NavigationBar from "../components/NavigationBar";
-import Container from 'react-bootstrap/Container';
+import React from "react"
+import NavigationBar from "../components/NavigationBar"
+import Container from 'react-bootstrap/Container'
 import SupportJumbotron from '../components/SupportJumbotron'
 import Seo from '../components/seo'
 
@@ -82,8 +82,8 @@ const SupportLayout = () => {
         </Container>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default SupportLayout
 

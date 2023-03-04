@@ -1,6 +1,6 @@
-import React from "react";
-import NavigationBar from "../components/NavigationBar";
-import Container from 'react-bootstrap/Container';
+import React from "react"
+import NavigationBar from "../components/NavigationBar"
+import Container from 'react-bootstrap/Container'
 import MerchJumbotron from '../components/MerchJumbotron'
 import Table from 'react-bootstrap/Table'
 import Seo from '../components/seo'
@@ -212,8 +212,8 @@ const MerchLayout = () => {
 				</Container>
 			</div>
 		</div>
-	);
-};
+	)
+}
 
 export default MerchLayout
 

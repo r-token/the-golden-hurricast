@@ -51,7 +51,7 @@ const PodcastJumbotron = () => {
             </Row>
         </Container>
       </div>
-    );
+    )
 }
 
-export default PodcastJumbotron;
+export default PodcastJumbotron

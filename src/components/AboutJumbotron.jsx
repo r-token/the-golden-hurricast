@@ -15,7 +15,7 @@ const AboutJumbotron = () => {
             </p>
           </Container>
         </div>
-    );
+    )
 }
 
-export default AboutJumbotron;
+export default AboutJumbotron

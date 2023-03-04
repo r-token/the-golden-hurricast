@@ -1,13 +1,13 @@
 import React from "react"
 import Button from 'react-bootstrap/Button'
 import { graphql, Link } from 'gatsby'
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 import NavigationBar from "../components/NavigationBar"
 import HomeJumbotron from "../components/HomeJumbotron"
 import Seo from '../components/seo'
-import { TwitterTimelineEmbed, TwitterFollowButton } from "react-twitter-embed";
+import { TwitterTimelineEmbed, TwitterFollowButton } from "react-twitter-embed"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 
@@ -158,8 +158,8 @@ const HomeLayout = ({data}) => {
       
       <a rel="me" href="https://indieweb.social/@ryantoken"></a>
     </div>
-  );
-};
+  )
+}
 
 export const query = graphql`
    query LatestBlogQuery {
@@ -178,9 +178,9 @@ export const query = graphql`
        }
      }
    }
- `;
+ `
 
-export default HomeLayout;
+export default HomeLayout
 
 export const Head = () => {
   return (

@@ -111,10 +111,10 @@ const AboutLayout = () => {
         </Container>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AboutLayout;
+export default AboutLayout
 
 export const Head = () => {
   return (

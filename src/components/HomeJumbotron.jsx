@@ -74,7 +74,7 @@ const HomeJumbotron = () => {
             </ButtonToolbar>
           </Container>
       </div>
-    );
+    )
 }
 
-export default HomeJumbotron;
+export default HomeJumbotron
