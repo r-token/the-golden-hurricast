@@ -1,8 +1,8 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import { DiscussionEmbed } from 'disqus-react'
-import Navbar from "react-bootstrap/Navbar"
-import Nav from "react-bootstrap/Nav"
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 import NavigationBar from '../components/NavigationBar'
 import Seo from '../components/seo'
 
@@ -16,7 +16,7 @@ const Template = ({data, pageContext}) => {
     const html = markdownRemark.html
 
     const disqusConfig = {
-      shortname: "thegoldenhurricast",
+      shortname: 'thegoldenhurricast',
       config: { identifier: title },
     }
 
@@ -24,29 +24,29 @@ const Template = ({data, pageContext}) => {
       <div>
         <NavigationBar />
         
-        <div id="blogAlignment">
+        <div id='blogAlignment'>
 
           <div
-            className="blogpost"
+            className='blogpost'
             style={{
-              marginTop: "55px",
+              marginTop: '55px',
             }}
           >
-            <h2 style={{ fontSize: "40px", fontWeight: "bold" }}>{title}</h2>
-            <p style={{ fontSize: "16px", color: "grey" }}>
+            <h2 style={{ fontSize: '40px', fontWeight: 'bold' }}>{title}</h2>
+            <p style={{ fontSize: '16px', color: 'grey' }}>
               By: {authors}
               <br />
-              Date: {date}{" "}
+              Date: {date}{' '}
             </p>
           </div>
 
           <br />
 
           <div
-            className="blogpost"
+            className='blogpost'
             style={{
-              marginBottom: "60px",
-              fontSize: "18px",
+              marginBottom: '60px',
+              fontSize: '18px',
             }}
             dangerouslySetInnerHTML={{ __html: html }}
           />
@@ -57,11 +57,11 @@ const Template = ({data, pageContext}) => {
 
           {/*footer*/}
           <div>
-            <Navbar fixed="bottom" expand="lg" bg="light" variant="light">
-              <Nav className="mr-auto" style={{paddingLeft: '10px'}}>
+            <Navbar fixed='bottom' expand='lg' bg='light' variant='light'>
+              <Nav className='mr-auto' style={{paddingLeft: '10px'}}>
                 {prev && <Link to={prev.frontmatter.path}>Previous</Link>}
               </Nav>
-              <Nav className="ms-auto" style={{paddingRight: '10px'}}>
+              <Nav className='ms-auto' style={{paddingRight: '10px'}}>
                 {next && <Link to={next.frontmatter.path}>Next</Link>}
               </Nav>
             </Navbar>
@@ -93,11 +93,11 @@ export const Head = (props) => {
       <Seo
           title={props.data.markdownRemark.frontmatter.title}
           description={props.data.markdownRemark.frontmatter.excerpt || ''}
-          image={"/logo-white.jpg"}
+          image={'/logo-white.jpg'}
           pathname={props.location.pathname}
           article
         />
-      <meta charSet="utf-8" />
+      <meta charSet='utf-8' />
       <title>{props.data.markdownRemark.frontmatter.title}</title>
     </>
   )

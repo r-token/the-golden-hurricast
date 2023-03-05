@@ -149,9 +149,9 @@ const addOrderToTable = async (event, context) => {
   }
   
   const orderObject = {
-    "productId": productId,
-    "orderId": orderId,
-    "quantity": quantity
+    'productId': productId,
+    'orderId': orderId,
+    'quantity': quantity
   }
   
   try {

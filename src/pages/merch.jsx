@@ -1,10 +1,10 @@
-import React from "react"
-import NavigationBar from "../components/NavigationBar"
+import React from 'react'
+import NavigationBar from '../components/NavigationBar'
 import Container from 'react-bootstrap/Container'
 import MerchJumbotron from '../components/MerchJumbotron'
 import Table from 'react-bootstrap/Table'
 import Seo from '../components/seo'
-import Products from "../components/products/Products"
+import Products from '../components/products/Products'
 
 const MerchLayout = () => {
 	return (
@@ -14,37 +14,37 @@ const MerchLayout = () => {
 
 			<div
 				style={{
-					marginTop: "110px",
-					marginBottom: "30px",
-					marginLeft: "30px",
-					marginRight: "30px",
-					display: "flex",
-					alignItems: "center"
+					marginTop: '110px',
+					marginBottom: '30px',
+					marginLeft: '30px',
+					marginRight: '30px',
+					display: 'flex',
+					alignItems: 'center'
 				}}
 			>
-				<Container id="supportus" style={{marginTop: '-75px'}}>
+				<Container id='supportus' style={{marginTop: '-75px'}}>
 
-					<p style={{ marginBottom: "15px" }}>
-						We've teamed up with <a href="https://www.mythic.press/" rel="noopener noreferrer"
-						target="_blank">
+					<p style={{ marginBottom: '15px' }}>
+						We've teamed up with <a href='https://www.mythic.press/' rel='noopener noreferrer'
+						target='_blank'>
 						Mythic
 						</a>
-						{" "}
-						here in Tulsa to design and create the clothing. We use <a href="https://stripe.com/" rel="noopener noreferrer"
-						target="_blank">
+						{' '}
+						here in Tulsa to design and create the clothing. We use <a href='https://stripe.com/' rel='noopener noreferrer'
+						target='_blank'>
 						Stripe
 						</a>
-						{" "}
+						{' '}
 						to handle payments and orders.
 					</p>
 					
-					<p style={{ marginBottom: "30px" }}> The t-shirts and hoodies are unisex. View the <a href="#size-charts">size charts</a> at the bottom of the page for specific item dimensions. </p>
+					<p style={{ marginBottom: '30px' }}> The t-shirts and hoodies are unisex. View the <a href='#size-charts'>size charts</a> at the bottom of the page for specific item dimensions. </p>
 
 					<h4> Hurricast Merchandise </h4>
 					<hr />
 					
 					<div>
-						{" "}
+						{' '}
 						<Products />
 					</div>
 					
@@ -53,14 +53,14 @@ const MerchLayout = () => {
 					<br />
 
 					<div>
-						<h5 id="size-charts">Size Charts</h5>
+						<h5 id='size-charts'>Size Charts</h5>
 						<p style={{ color: 'grey' }}>For reference, Ryan is 6′ 1″ and is wearing a <b>large</b> t-shirt and hoodie in the photos</p>
 						
 						<br />
 						
 						<h6>T-Shirt Size Chart</h6>
 						
-						<Table striped bordered hover size="sm">
+						<Table striped bordered hover size='sm'>
 							<thead>
 								<tr>
 									<th>Points of Measurement (inches)</th>
@@ -145,7 +145,7 @@ const MerchLayout = () => {
 					<div>
 						<h6>Hoodie Size Chart</h6>
 						
-						<Table striped bordered hover size="sm">
+						<Table striped bordered hover size='sm'>
 							<thead>
 								<tr>
 									<th>Points of Measurement (inches)</th>
@@ -221,11 +221,11 @@ export const Head = () => {
 	return (
 		<>
 			<Seo
-				title={"Hurricast Merch"}
-				description={"Buy some Hurricast merchandise!"}
-				image={"/logo-white.jpg"}
+				title={'Hurricast Merch'}
+				description={'Buy some Hurricast merchandise!'}
+				image={'/logo-white.jpg'}
 			/>
-			<meta charSet="utf-8" />
+			<meta charSet='utf-8' />
 			<title>TGH | Merch</title>
 		</>
 	)

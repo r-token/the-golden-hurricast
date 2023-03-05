@@ -37,7 +37,7 @@ provider:
   iam:
     role:
       statements:
-        - Effect: "Allow"
+        - Effect: 'Allow'
           Action:
             - dynamodb:GetItem
             - dynamodb:PutItem
