@@ -59,11 +59,11 @@ const AskAQuestionButton = () => {
 							controlId='form.ControlTextarea'
 							onChange={(event) => {setQuestion(event.target.value)}}
 						>
-							<Form.Label>What is your question for us?</Form.Label>
+							<Form.Label><strong>What is your question for us?</strong></Form.Label>
 							<Form.Control required as='textarea' rows={3}>{question}</Form.Control>
 						</Form.Group>
 						<Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
-							<Form.Label>What is your name?</Form.Label>
+							<Form.Label><strong>What is your name?</strong></Form.Label>
 							<Form.Control
 								type='text'
 								controlId='form.NameTextArea'
@@ -88,7 +88,7 @@ const AskAQuestionButton = () => {
 							<strong className='me-auto'>Invalid Question</strong>
 						</Toast.Header>
 						<Toast.Body>
-							Your question must not be empty, and the following characters are not supported: {'<'}, {'>'}, &, and '
+							Your question must not be empty, and the following characters are not supported: {'<'}, {'>'}, ', and &
 						</Toast.Body>
 					</Toast>
 					
