@@ -13,7 +13,7 @@ const HomeJumbotron = () => {
               athletics at The University of Tulsa.
             </p>
             
-            <AskAQuestionButton/>
+            <AskAQuestionButton />
             
             <br />
             

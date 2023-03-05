@@ -20,6 +20,7 @@ const AskAQuestionButton = () => {
 		setShowSubmittedQuestionToast(false)
 		setShowInvalidQuestionToast(false)
 		setShowModal(false)
+		setShowSubmitButton(true)
 	}
 	
 	const handleSubmitQuestion = async () => {
@@ -97,7 +98,7 @@ const AskAQuestionButton = () => {
 						</Form.Group>
 					</Form>
 					
-					<Toast onClose={() => setShowSubmittedQuestionToast(false)} show={showSubmittedQuestionToast} delay={4000} autohide>
+					<Toast onClose={() => setShowSubmittedQuestionToast(false)} show={showSubmittedQuestionToast} delay={6000} autohide>
 						<Toast.Header>
 							<strong className='me-auto'>Question Submitted!</strong>
 						</Toast.Header>
@@ -106,12 +107,14 @@ const AskAQuestionButton = () => {
 						</Toast.Body>
 					</Toast>
 					
-					<Toast onClose={() => setShowInvalidQuestionToast(false)} show={showInvalidQuestionToast} delay={6000} autohide>
+					<Toast onClose={() => setShowInvalidQuestionToast(false)} show={showInvalidQuestionToast}>
 						<Toast.Header>
 							<strong className='me-auto'>Invalid Question</strong>
 						</Toast.Header>
 						<Toast.Body>
-							⚠️ Your question must not be empty, and the following characters are not supported: {'<'}, {'>'}, ', and &
+							⚠️ Your question must not be empty, and the following characters are not allowed in the question: {'<'}, {'>'}, ", and &
+							<br /> <br />
+							⚠️ Also ensure your name is formatted properly. For security reasons, the only special characters we allow in the name field are an apostrophe, a comma, a period, and a hyphen
 						</Toast.Body>
 					</Toast>
 					

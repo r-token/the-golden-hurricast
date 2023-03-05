@@ -2,6 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import AskAQuestionButton from '../components/AskAQuestionButton'
 
 const PodcastJumbotron = () => {
     return ( 
@@ -11,6 +12,9 @@ const PodcastJumbotron = () => {
             <p style={{ fontSize: '18px' }}>
                 A weekly podcast covering Golden Hurricane athletics at The University of Tulsa.
             </p>
+            
+            <AskAQuestionButton />
+            
             <br />
             <Row md={12}>
                 <Col xs={6} xl={2}>
