@@ -8,9 +8,13 @@ const forwardQuestionToSlack = async (event, context) => {
 	const webhookUrl = process.env.WEBHOOK_URL
 	console.log('webhookUrl:', webhookUrl)
 	
-	const dynamoRecords = event.Records
 	let unmarshalledRecords = []
+	const dynamoRecords = event.Records
 	for (const record of dynamoRecords) {
+		if (record.eventName === 'REMOVE') {
+			console.log('this is a removal from the table; ignore')
+			return
+		}
 		const unmarshalledRecord = unmarshall(record.dynamodb?.NewImage)
 		unmarshalledRecords.push(unmarshalledRecord)
 	}
