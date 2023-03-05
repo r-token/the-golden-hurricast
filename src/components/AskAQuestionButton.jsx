@@ -24,12 +24,9 @@ const AskAQuestionButton = () => {
 	}
 	
 	const handleSubmitQuestion = async () => {
-		console.log('question:', question)
-		console.log('name:', name)
 		const textareaRegex = /^(?!.*(<|>|&|")).{1,5000}$/
 		const nameRegex = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/
 		if (textareaRegex.test(question) && (name === '' || nameRegex.test(name))) {
-			console.log('question and name are valid, submitting question...')
 			const questionData = {
 				question: question,
 				name: name
@@ -44,8 +41,6 @@ const AskAQuestionButton = () => {
 			}
 			
 			if (response && !('error' in JSON.parse(JSON.stringify(response)))) {
-				console.log('Successfully submitted question:', response)
-				
 				setShowSubmitButton(false)
 				setQuestion('')
 				setName('')
@@ -55,11 +50,9 @@ const AskAQuestionButton = () => {
 					handleCloseModal()
 				}, 6000)
 			} else {
-				console.error('Question submission error:', response)
 				setShowSubmissionErrorToast(true)
 			}
 		} else {
-			console.log('Question is invalid')
 			setShowInvalidQuestionToast(true)
 		}
 	}
@@ -80,17 +73,23 @@ const AskAQuestionButton = () => {
 					<Form>
 						<Form.Group
 							className='mb-3'
-							controlId='form.ControlTextarea'
-							onChange={(event) => {setQuestion(event.target.value)}}
+							controlid='form.ControlTextarea'
 						>
 							<Form.Label><strong>What is your question for us?</strong></Form.Label>
-							<Form.Control required as='textarea' rows={3}>{question}</Form.Control>
+							<Form.Control 
+								required
+								as='textarea'
+								rows={3}
+								value={question}
+								onChange={(event) => {setQuestion(event.target.value)}}
+							/>
 						</Form.Group>
-						<Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
+						
+						<Form.Group className='mb-3' controlid='exampleForm.ControlInput1'>
 							<Form.Label><strong>What is your name?</strong></Form.Label>
 							<Form.Control
 								type='text'
-								controlId='form.NameTextArea'
+								controlid='form.NameTextArea'
 								value={name}
 								placeholder='Your Name'
 								onChange={(event) => {setName(event.target.value)}}
@@ -112,7 +111,7 @@ const AskAQuestionButton = () => {
 							<strong className='me-auto'>Invalid Question</strong>
 						</Toast.Header>
 						<Toast.Body>
-							⚠️ Your question must not be empty, and the following characters are not allowed in the question: {'<'}, {'>'}, ", and &
+							⚠️ Your question must not be empty, and the following characters are not allowed in the question: {'<'}, {'>'}, " (straight quotes), and &
 							<br /> <br />
 							⚠️ Also ensure your name is formatted properly. For security reasons, the only special characters we allow in the name field are an apostrophe, a comma, a period, and a hyphen
 						</Toast.Body>
