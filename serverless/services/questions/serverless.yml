@@ -20,6 +20,7 @@ provider:
       allowedOrigins:
         - https://thegoldenhurricast.com
         - https://www.thegoldenhurricast.com
+        - https://deploy-preview-28--thegoldenhurricast.netlify.app
       allowedHeaders:
         - Content-Type
         - Authorization

@@ -5,7 +5,6 @@ import { useStaticQuery, graphql } from 'gatsby'
 const Seo = ({ title, description, image, article }) => {
   const { site } = useStaticQuery(query)
   const url = typeof window !== 'undefined' ? window.location.href : ''
-  console.log('url:', url)
 
   const {
     defaultTitle,
