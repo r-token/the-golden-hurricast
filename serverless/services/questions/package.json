@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ksuid": "^3.0.0"
+    "@aws-sdk/util-dynamodb": "^3.284.0",
+    "ksuid": "^3.0.0",
+    "node-fetch": "^2.6.9"
   }
 }

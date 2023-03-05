@@ -45,8 +45,10 @@ params:
   default:
     questionsTable: Questions-${opt:stage, self:provider.stage}
   prod:
+    slackWebhookUrl: https://hooks.slack.com/services/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
     shouldMinifyCode: true
   dev:
+    slackWebhookUrl: https://hooks.slack.com/services/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
     shouldMinifyCode: false
 
 custom:
@@ -76,6 +78,16 @@ functions:
     warmup:
       default:
         enabled: prod
+  
+  forwardQuestionToSlack:
+    handler: stream.forwardQuestionToSlack
+    events:
+      - stream:
+          type: dynamodb
+          arn:
+            Fn::GetAtt: [QuestionsTable, StreamArn]
+    environment:
+      WEBHOOK_URL: ${param:slackWebhookUrl}
 
 resources:
   Resources:
@@ -90,6 +102,8 @@ resources:
         KeySchema:
           - AttributeName: questionId
             KeyType: HASH
+        StreamSpecification:
+          StreamViewType: NEW_IMAGE
         PointInTimeRecoverySpecification:
           PointInTimeRecoveryEnabled: true
         BillingMode: PAY_PER_REQUEST
