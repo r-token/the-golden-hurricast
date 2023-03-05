@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 import NavigationBar from '../components/NavigationBar'
 import BlogJumbotron from '../components/BlogJumbotron'
 import Container from 'react-bootstrap/Container'
@@ -14,43 +14,43 @@ const BlogLayout = ({data}) => {
 
         <div
           style={{
-            marginLeft: "30px",
-            marginRight: "30px",
-            marginBottom: "30px",
+            marginLeft: '30px',
+            marginRight: '30px',
+            marginBottom: '30px',
           }}
         >
 
-          <div style={{display: "flex", alignItems: "center"}}>
-            <Container className="blogedge">
+          <div style={{display: 'flex', alignItems: 'center'}}>
+            <Container className='blogedge'>
               <h4>All Posts</h4>
-              <hr style={{width: "100%"}} />
+              <hr style={{width: '100%'}} />
             </Container>
           </div>
 
           {edges.map(edge => {
             const { frontmatter } = edge.node
             return (
-              <div key={Math.random()} style={{display: "flex", alignItems: "center"}}>
-                <Container className="blogedge">
+              <div key={Math.random()} style={{display: 'flex', alignItems: 'center'}}>
+                <Container className='blogedge'>
                     <Link
                       style={{
-                        textDecoration: "none"
+                        textDecoration: 'none'
                       }}
                       
                       to={`${frontmatter.path}`}
                     >
                       <div
                         key={frontmatter.path}
-                        className="floating_still_blog"
+                        className='floating_still_blog'
                       >
-                        <p className="blog_title">
+                        <p className='blog_title'>
                           {frontmatter.title}
                         </p>
 
-                        <p className="blog_bylines">
+                        <p className='blog_bylines'>
                           {frontmatter.date}
                         </p>
-                        <p className="blog_bylines">
+                        <p className='blog_bylines'>
                           {frontmatter.excerpt}
                         </p>
                       </div>
@@ -90,11 +90,11 @@ export const Head = () => {
   return (
     <>
       <Seo
-        title={"The Golden Hurricast – Blog"}
+        title={'The Golden Hurricast – Blog'}
         description={"Herc's Corner. The Golden Hurriblog. Whatever you want to call it, we'll use this to dive deeper into stats, explore TU history, and more"}
-        image={"/logo-white.jpg"}
+        image={'/logo-white.jpg'}
       />
-      <meta charSet="utf-8" />
+      <meta charSet='utf-8' />
       <title>TGH | Blog</title>
     </>
   )

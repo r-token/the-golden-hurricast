@@ -1,5 +1,5 @@
-import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
 
 const TitleAndDescription = ({ data }) => {
   const title = data.site.siteMetadata.title
@@ -8,9 +8,9 @@ const TitleAndDescription = ({ data }) => {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
       }}
     >
       <h2 style={{ marginBottom: 0 }}>{title}</h2>

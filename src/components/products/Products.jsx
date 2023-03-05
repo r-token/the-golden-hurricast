@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from "react"
-import { graphql, StaticQuery } from "gatsby"
-import ProductCard from "./ProductCard"
+import React, { useEffect, useState } from 'react'
+import { graphql, StaticQuery } from 'gatsby'
+import ProductCard from './ProductCard'
 import { calculateRemainingItems } from '../../api/merch-api'
 
 const containerStyles = {
-	display: "flex",
-	flexDirection: "row",
-	flexWrap: "wrap",
-	justifyContent: "space-between",
-	padding: "1rem 0 1rem 0",
+	display: 'flex',
+	flexDirection: 'row',
+	flexWrap: 'wrap',
+	justifyContent: 'space-between',
+	padding: '1rem 0 1rem 0',
 }
 
 const Products = () => {

@@ -11,18 +11,20 @@ useDotenv: true
 provider:
   name: aws
   runtime: nodejs16.x
-
   stage: dev
   region: us-east-2
   profile: tgh-ryan
+  environment:
+    STAGE: ${opt:stage, self:provider.stage}
+    ORDERS_TABLE: ${param:ordersTable}
   
   httpApi:
     shouldStartNameWithService: true
-    
     cors:
       allowedOrigins:
         - https://thegoldenhurricast.com
         - https://www.thegoldenhurricast.com
+        - https://deploy-preview-28--thegoldenhurricast.netlify.app
       allowedHeaders:
         - Content-Type
         - Authorization
@@ -37,7 +39,7 @@ provider:
   iam:
     role:
       statements:
-        - Effect: "Allow"
+        - Effect: 'Allow'
           Action:
             - dynamodb:GetItem
             - dynamodb:PutItem

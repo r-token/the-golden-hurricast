@@ -1,0 +1,109 @@
+org: thegoldenhurricast
+app: questions
+service: questions
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  stage: dev
+  region: us-east-2
+  profile: tgh-ryan
+  environment:
+    STAGE: ${opt:stage, self:provider.stage}
+    QUESTIONS_TABLE: ${param:questionsTable}
+
+  httpApi:
+    shouldStartNameWithService: true
+    cors:
+      allowedOrigins:
+        - https://thegoldenhurricast.com
+        - https://www.thegoldenhurricast.com
+        - https://deploy-preview-28--thegoldenhurricast.netlify.app
+      allowedHeaders:
+        - Content-Type
+        - Authorization
+      allowedMethods:
+        - POST
+      allowCredentials: true
+      exposedResponseHeaders:
+        - Special-Response-Header
+      maxAge: 6000 # seconds
+  
+  iam:
+    role:
+      statements:
+        - Effect: 'Allow'
+          Action:
+            - dynamodb:PutItem
+            - dynamodb:Query
+            - dynamodb:Scan
+          Resource:
+            - Fn::GetAtt: [ QuestionsTable, Arn ]
+
+params:
+  default:
+    questionsTable: Questions-${opt:stage, self:provider.stage}
+    slackWebhookUrl: ${ssm:slackWebhookUrl-${opt:stage, self:provider.stage}}
+  prod:
+    shouldMinifyCode: true
+  dev:
+    shouldMinifyCode: false
+
+custom:
+  warmup:
+    default:
+      enabled: false
+  esbuild:
+    bundle: true
+    minify: ${param:shouldMinifyCode}
+
+package:
+  individually: true
+  excludeDevDependencies: true
+  
+plugins:
+  - serverless-plugin-common-excludes
+  - serverless-plugin-warmup
+  - serverless-esbuild
+  
+functions:
+  submitQuestion:
+    handler: api.submitQuestion
+    events:
+      - httpApi:
+          path: /question
+          method: POST
+    warmup:
+      default:
+        enabled: prod
+  
+  forwardQuestionToSlack:
+    handler: stream.forwardQuestionToSlack
+    events:
+      - stream:
+          type: dynamodb
+          arn:
+            Fn::GetAtt: [QuestionsTable, StreamArn]
+    environment:
+      WEBHOOK_URL: ${param:slackWebhookUrl}
+
+resources:
+  Resources:
+    QuestionsTable:
+      Type: AWS::DynamoDB::Table
+      DeletionPolicy: Retain
+      Properties:
+        TableName: ${param:questionsTable}
+        AttributeDefinitions:
+          - AttributeName: questionId
+            AttributeType: S
+        KeySchema:
+          - AttributeName: questionId
+            KeyType: HASH
+        StreamSpecification:
+          StreamViewType: NEW_IMAGE
+        PointInTimeRecoverySpecification:
+          PointInTimeRecoveryEnabled: true
+        BillingMode: PAY_PER_REQUEST

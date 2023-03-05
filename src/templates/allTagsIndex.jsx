@@ -1,6 +1,6 @@
-import React from "react"
+import React from 'react'
 import { Link } from 'gatsby'
-import NavigationBar from "../components/NavigationBar";
+import NavigationBar from '../components/NavigationBar';
 
 const AllTagsTemplate = ({pageContext}) => {
     const { tags } = pageContext
@@ -9,11 +9,11 @@ const AllTagsTemplate = ({pageContext}) => {
         <NavigationBar />
         <div
           style={{
-            marginTop: "130px",
-            marginLeft: "30px",
-            marginRight: "30px",
-            flexDirection: "column",
-            alignItems: "center",
+            marginTop: '130px',
+            marginLeft: '30px',
+            marginRight: '30px',
+            flexDirection: 'column',
+            alignItems: 'center',
           }}
         >
           <h2>Tags</h2>
@@ -29,7 +29,7 @@ const AllTagsTemplate = ({pageContext}) => {
             {tags.map((tagName, index) => {
               return (
                 <li key={index}>
-                  <Link style={{ textDecoration: "none" }} className="blog_title"
+                  <Link style={{ textDecoration: 'none' }} className='blog_title'
                     to={`${tagName}`}
                   >
                     {tagName}

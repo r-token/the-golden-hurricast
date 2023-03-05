@@ -1,6 +1,6 @@
-import React from "react";
-import NavigationBar from "../components/NavigationBar";
-import { Link } from "gatsby";
+import React from 'react';
+import NavigationBar from '../components/NavigationBar';
+import { Link } from 'gatsby';
 
 const SingleTagTemplate = ({ pageContext }) => {
     const { posts, tagName } = pageContext
@@ -9,17 +9,17 @@ const SingleTagTemplate = ({ pageContext }) => {
       <NavigationBar />
       <div
         style={{
-          marginTop: "130px",
-          marginLeft: "30px",
-          marginRight: "30px",
-          flexDirection: "column",
-          alignItems: "center",
+          marginTop: '130px',
+          marginLeft: '30px',
+          marginRight: '30px',
+          flexDirection: 'column',
+          alignItems: 'center',
         }}
       >
         <h2>Posts about {`${tagName}`}</h2>
         <br />
         <p>
-          These are all of the posts we've ever written that relate to{" "}
+          These are all of the posts we've ever written that relate to{' '}
           {`${tagName}`}:
         </p>
 
@@ -29,7 +29,7 @@ const SingleTagTemplate = ({ pageContext }) => {
           {posts.map((post, index) => {
             return (
               <li key={index}>
-                <Link style={{textDecoration: "none"}} className="blog_title"
+                <Link style={{textDecoration: 'none'}} className='blog_title'
                   to={post.frontmatter.path}
                 >
                   {post.frontmatter.title}

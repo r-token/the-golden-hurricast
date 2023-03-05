@@ -2,16 +2,17 @@
 
 require('dotenv').config()
 
-const eventWasWarmup = require('./utils').eventWasWarmup
+const eventWasWarmup = require('../../shared/utils').eventWasWarmup
 
 const calculateRemainingItems = async (event, context) => {
   const setupBaseVarsForGetRemaining = require('./utils').setupBaseVarsForGetRemaining
-  const getAllItemsFromTable = require('./utils').getAllItemsFromTable
+  const getAllItemsFromTable = require('../../shared/utils').getAllItemsFromTable
   
-  console.log('event:', JSON.stringify(event, null, 4))
+  console.log('event:', JSON.stringify(event, null, 2))
   if (eventWasWarmup(event)) { return 'Lambda is warm!' }
   
-  const { stage, ordersTable } = setupBaseVarsForGetRemaining(event)
+  const stage = process.env.STAGE
+  const ordersTable = process.env.ORDERS_TABLE
   
   var productIds
   
@@ -73,7 +74,7 @@ const calculateRemainingItems = async (event, context) => {
     [productIds[11]]: 98   // stickers
   }
   
-  var response = {
+  const response = {
     statusCode: 200,
     body: {}
   }
@@ -136,22 +137,22 @@ const calculateRemainingItems = async (event, context) => {
 
 const addOrderToTable = async (event, context) => {
   const setupBaseVarsForAddOrder = require('./utils').setupBaseVarsForAddOrder
-  const uploadToDynamo = require('./utils').uploadToDynamo
+  const uploadToDynamo = require('../../shared/utils').uploadToDynamo
   
-  console.log('event:', JSON.stringify(event, null, 4))
+  console.log('event:', JSON.stringify(event, null, 2))
   if (eventWasWarmup(event)) { return 'Lambda is warm!' }
   
   const { productId, orderId, quantity, ordersTable } = setupBaseVarsForAddOrder(event)
   
-  var response = {
+  const response = {
     statusCode: 200,
     body: {}
   }
   
   const orderObject = {
-    "productId": productId,
-    "orderId": orderId,
-    "quantity": quantity
+    'productId': productId,
+    'orderId': orderId,
+    'quantity': quantity
   }
   
   try {
