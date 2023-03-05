@@ -24,7 +24,7 @@ const forwardQuestionToSlack = async (event, context) => {
 		const name = record.name !== '' ? record.name : 'Anonymous'
 		const question = record.question
 		const slackObject = {
-			text: `*New question from ${name}*:\n\n ${question}`
+			text: `*New question from ${name}*:\n\n${question}`
 		}
 		
 		try {
