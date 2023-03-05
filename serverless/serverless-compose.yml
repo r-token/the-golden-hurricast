@@ -1,0 +1,6 @@
+services:
+  merch-api:
+    path: services/merch-api
+
+  questions:
+    path: services/questions

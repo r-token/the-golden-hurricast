@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
 import Form from 'react-bootstrap/Form'
 import Toast from 'react-bootstrap/Toast'
+import { submitQuestionToTable } from '../api/questions-api'
 
 const AskAQuestionButton = () => {
 	const [showModal, setShowModal] = useState(false)
@@ -19,21 +20,38 @@ const AskAQuestionButton = () => {
 			setShowModal(false)
 	}
 	
-	const handleSubmitQuestion = () => {
+	const handleSubmitQuestion = async () => {
 		console.log('question:', question)
 		console.log('name:', name)
 		const textareaRegex = /^(?!.*(<|>|&|")).{1,5000}$/
 		if (textareaRegex.test(question)) {
-			console.log('question is valid')
-			// make http post here
+			console.log('question is valid, submitting question...')
+			const questionData = {
+				question: question,
+				name: name
+			}
 			
-			setQuestion('')
-			setName('')
-			setShowInvalidQuestionToast(false)
-			setShowSubmittedQuestionToast(true)
-			setTimeout(() => {
-				handleCloseModal()
-			}, 6000)
+			// make http post here
+			let response
+			try {
+				response = await submitQuestionToTable(questionData)
+			} catch(err) {
+				console.error('Error submitting question:', err)
+			}
+			
+			if (response && !('error' in JSON.parse(JSON.stringify(response)))) {
+				console.log('Successfully submitted question:', response)
+				
+				setQuestion('')
+				setName('')
+				setShowInvalidQuestionToast(false)
+				setShowSubmittedQuestionToast(true)
+				setTimeout(() => {
+					handleCloseModal()
+				}, 6000)
+			} else {
+				console.error('Question submission error:', response)
+			}
 		} else {
 			console.log('question is invalid')
 			setShowInvalidQuestionToast(true)
