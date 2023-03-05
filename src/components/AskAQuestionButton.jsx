@@ -9,23 +9,26 @@ const AskAQuestionButton = () => {
 	const [showModal, setShowModal] = useState(false)
 	const [question, setQuestion] = useState('')
 	const [name, setName] = useState('')
+	const [showSubmitButton, setShowSubmitButton] = useState(true)
 	const [showSubmittedQuestionToast, setShowSubmittedQuestionToast] = useState(false)
 	const [showInvalidQuestionToast, setShowInvalidQuestionToast] = useState(false)
+	const [showSubmissionErrorToast, setShowSubmissionErrorToast] = useState(false)
 	
 	const handleShowModal = () => setShowModal(true)
 	
 	const handleCloseModal = () => {
-			setShowSubmittedQuestionToast(false)
-			setShowInvalidQuestionToast(false)
-			setShowModal(false)
+		setShowSubmittedQuestionToast(false)
+		setShowInvalidQuestionToast(false)
+		setShowModal(false)
 	}
 	
 	const handleSubmitQuestion = async () => {
 		console.log('question:', question)
 		console.log('name:', name)
 		const textareaRegex = /^(?!.*(<|>|&|")).{1,5000}$/
-		if (textareaRegex.test(question)) {
-			console.log('question is valid, submitting question...')
+		const nameRegex = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/
+		if (textareaRegex.test(question) && (name === '' || nameRegex.test(name))) {
+			console.log('question and name are valid, submitting question...')
 			const questionData = {
 				question: question,
 				name: name
@@ -42,6 +45,7 @@ const AskAQuestionButton = () => {
 			if (response && !('error' in JSON.parse(JSON.stringify(response)))) {
 				console.log('Successfully submitted question:', response)
 				
+				setShowSubmitButton(false)
 				setQuestion('')
 				setName('')
 				setShowInvalidQuestionToast(false)
@@ -51,9 +55,10 @@ const AskAQuestionButton = () => {
 				}, 6000)
 			} else {
 				console.error('Question submission error:', response)
+				setShowSubmissionErrorToast(true)
 			}
 		} else {
-			console.log('question is invalid')
+			console.log('Question is invalid')
 			setShowInvalidQuestionToast(true)
 		}
 	}
@@ -106,7 +111,16 @@ const AskAQuestionButton = () => {
 							<strong className='me-auto'>Invalid Question</strong>
 						</Toast.Header>
 						<Toast.Body>
-							Your question must not be empty, and the following characters are not supported: {'<'}, {'>'}, ', and &
+							⚠️ Your question must not be empty, and the following characters are not supported: {'<'}, {'>'}, ', and &
+						</Toast.Body>
+					</Toast>
+					
+					<Toast onClose={() => setShowSubmissionErrorToast(false)} show={showSubmissionErrorToast}>
+						<Toast.Header>
+							<strong className='me-auto'>Error Submitting Question</strong>
+						</Toast.Header>
+						<Toast.Body>
+							⛔️ There was an error submitting your question. Sorry about that. If you'd like to submit your question over email, send one to <a href="mailto:thegoldenhurricast@gmail.com?subject=Listener Question">thegoldenhurricast.com</a>
 						</Toast.Body>
 					</Toast>
 					
@@ -115,9 +129,11 @@ const AskAQuestionButton = () => {
 					<Button variant='secondary' onClick={handleCloseModal}>
 						Close
 					</Button>
-					<Button variant='primary' onClick={handleSubmitQuestion}>
-						Submit
-					</Button>
+					{showSubmitButton &&
+						<Button variant='primary' onClick={handleSubmitQuestion}>
+							Submit
+						</Button>	
+					}
 				</Modal.Footer>
 			</Modal>
 		</div>
