@@ -30,7 +30,7 @@ const submitQuestion = async (event, context) => {
     'questionId': questionId,
     'question': questionText,
     'name': name,
-    'submissionDate:': submissionDate
+    'submissionDate': submissionDate
   }
   
   try {
