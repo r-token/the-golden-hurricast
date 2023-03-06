@@ -3,7 +3,7 @@
 const { unmarshall } = require('@aws-sdk/util-dynamodb')
 const fetch = require('node-fetch')
 
-const forwardQuestionToSlack = async (event, context) => {
+const forwardQuestionToSlack = async (event) => {
 	console.log('event:', JSON.stringify(event, null, 2))
 	const webhookUrl = process.env.WEBHOOK_URL
 	console.log('webhookUrl:', webhookUrl)

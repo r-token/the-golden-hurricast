@@ -20,6 +20,7 @@ const submitQuestion = async (event, context) => {
   const questionId = ksuidString.replace(/['"]+/g, '')
   const questionText = eventBody.question
   const name = eventBody.name
+  const submissionDate = new Date().toISOString()
   
   console.log('questionId:', questionId)
   console.log('question:', questionText)
@@ -28,7 +29,8 @@ const submitQuestion = async (event, context) => {
   const questionObject = {
     'questionId': questionId,
     'question': questionText,
-    'name': name
+    'name': name,
+    'submissionDate:': submissionDate
   }
   
   try {
