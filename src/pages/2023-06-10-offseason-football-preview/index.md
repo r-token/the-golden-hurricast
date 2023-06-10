@@ -61,7 +61,7 @@ He was never the same after his injury during the Ole Miss game. After more and 
 <br />
 
 - Sophomore RB/WR **Braylin Presley** (Oklahoma State transfer)
-- RS Sophomore **Julien Simon** (USC transfer)
+- RS Sophomore LB **Julien Simon** (USC transfer)
 - RS Freshman WR **Keith Wheeler** (high school)
 
 <br />
