@@ -1,7 +1,7 @@
 ---
 path: "/early-football-preview-2023"
-date: "06/09/2023"
-sortDate: "2023/06/09"
+date: "06/10/2023"
+sortDate: "2023/06/10"
 title: "2023 Tulsa Football Preview - Offseason Edition"
 authors: "Ryan Token"
 excerpt: "An early 2023 Tulsa football preview ft. questions from The Roost"
