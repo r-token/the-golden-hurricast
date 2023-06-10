@@ -28,7 +28,7 @@ And please, let us know what you think in the comment section at the bottom of t
 
 <br />
 
-##### 1. Who will be the three toughest players to replace?:
+##### 1. Who will be the three toughest players to replace?
 
 <br />
 
