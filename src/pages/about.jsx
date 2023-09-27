@@ -99,13 +99,13 @@ const AboutLayout = () => {
               TheGoldenHurricast@gmail.com
             </a>
             <br />
-            Anchor:{' '}
+            Spotify for Podcasters:{' '}
             <a
               rel='noopener noreferrer'
               target='_blank'
-              href='https://anchor.fm/thegoldenhurricast'
+              href='https://podcasters.spotify.com/pod/show/thegoldenhurricast'
             >
-              anchor.fm/TheGoldenHurricast
+              podcasters.spotify.com/pod/show/thegoldenhurricast
           </a>
           </p>
         </Container>

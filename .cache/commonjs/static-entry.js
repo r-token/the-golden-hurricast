@@ -407,7 +407,7 @@ async function staticPage({
     });
 
     // Add page metadata for the current page
-    const windowPageData = `/*<![CDATA[*/window.pagePath="${pagePath}";${process.env.GATSBY_SLICES ? `` : `window.___webpackCompilationHash="${webpackCompilationHash}";`}${inlinePageData ? `window.pageData=${JSON.stringify(pageData)};` : ``}/*]]>*/`;
+    const windowPageData = `/*<![CDATA[*/window.pagePath=${JSON.stringify(pagePath)};${process.env.GATSBY_SLICES ? `` : `window.___webpackCompilationHash="${webpackCompilationHash}";`}${inlinePageData ? `window.pageData=${JSON.stringify(pageData)};` : ``}/*]]>*/`;
     postBodyComponents.push( /*#__PURE__*/React.createElement("script", {
       key: `script-loader`,
       id: `gatsby-script-loader`,

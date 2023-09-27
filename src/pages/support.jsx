@@ -30,12 +30,12 @@ const SupportLayout = () => {
               <a
                 rel='noopener noreferrer'
                 target='_blank'
-                href='https://anchor.fm/thegoldenhurricast/support'
+                href='https://podcasters.spotify.com/pod/show/thegoldenhurricast/support'
               >
                 recurring monthly donation
             </a>
             {' '}
-            on Anchor (our podcast host).
+            on Spotify for Podcasters (our podcast host).
           </p>
           
           <br />

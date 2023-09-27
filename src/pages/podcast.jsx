@@ -25,13 +25,13 @@ const PodcastLayout = () => {
             </p>
             
             <p>
-              All of our episodes are available on the web at{' '}
+              All of our episodes are available on the web via{' '}
               <a
                 rel='noopener noreferrer'
                 target='_blank'
-                href='https://anchor.fm/thegoldenhurricast'
+                href='https://podcasters.spotify.com/pod/show/thegoldenhurricast'
               >
-                Anchor.fm
+                Spotify for Podcasters.
               </a>
             </p>
           </Container>
