@@ -43,6 +43,8 @@ const MerchLayout = () => {
 					<h4> Hurricast Merchandise </h4>
 					<hr />
 					
+					<p style={{ marginBottom: '30px', fontWeight: 'bold', color: '#4964DC', fontSize: 'large' }}> LIVE NOW: All merch is 35% off site-wide through Homecoming! Prices will reset next week. </p>
+					
 					<div>
 						{' '}
 						<Products />
