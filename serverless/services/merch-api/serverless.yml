@@ -10,7 +10,7 @@ useDotenv: true
 
 provider:
   name: aws
-  runtime: nodejs16.x
+  runtime: nodejs20.x
   stage: dev
   region: us-east-2
   profile: tgh-ryan
@@ -60,6 +60,7 @@ custom:
   esbuild:
     bundle: true
     minify: true
+    config: '../../esbuild.config.js'
 
 functions:
   calculateRemainingItems:
@@ -87,9 +88,9 @@ package:
   excludeDevDependencies: true
   
 plugins:
+  - serverless-esbuild
   - serverless-plugin-common-excludes
   - serverless-plugin-warmup
-  - serverless-esbuild
   
 resources:
   Resources:

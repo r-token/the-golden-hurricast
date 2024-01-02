@@ -6,7 +6,7 @@ frameworkVersion: '3'
 
 provider:
   name: aws
-  runtime: nodejs16.x
+  runtime: nodejs20.x
   stage: dev
   region: us-east-2
   profile: tgh-ryan
@@ -58,15 +58,16 @@ custom:
   esbuild:
     bundle: true
     minify: ${param:shouldMinifyCode}
+    config: '../../esbuild.config.js'
 
 package:
   individually: true
   excludeDevDependencies: true
   
 plugins:
+  - serverless-esbuild
   - serverless-plugin-common-excludes
   - serverless-plugin-warmup
-  - serverless-esbuild
   
 functions:
   submitQuestion:
