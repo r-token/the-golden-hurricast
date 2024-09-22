@@ -48,9 +48,12 @@ const PodcastJumbotron = () => {
                 </Col>
                 <br /><br />
                 <Col xs={6} xl={2}>
-                    <a rel='noopener noreferrer' target='_blank' href='https://goodpods.com/podcasts/the-golden-hurricast-185396'>
-                        <img src='/listenOnX/listen-on-goodpods.svg' alt='Listen on Goodpods' width='139px' height='36px'/>
+                    <a href="https://goodpods.com/podcasts/the-golden-hurricast-185396">
+                      <img src="https://storage.googleapis.com/goodpods-images-bucket/badges/generic-badge-4.svg" alt="listen to The  Golden Hurricast podcast on goodpods" width='139px' />
                     </a>
+                    {/* <a rel='noopener noreferrer' target='_blank' href='https://pca.st/DTV0'>
+                        <img src='/listenOnX/listenOn_PocketCasts.svg' alt='Listen on Pocket Casts' width='139px'/>
+                    </a> */}
                 </Col>
             </Row>
         </Container>

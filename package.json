@@ -14,26 +14,26 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@stripe/stripe-js": "^2.2.1",
-    "bootstrap": "^5.3.2",
+    "@stripe/stripe-js": "^4.5.0",
+    "bootstrap": "^5.3.3",
     "disqus-react": "^1.1.5",
-    "dotenv": "^16.3.1",
-    "gatsby": "^5.12.12",
-    "gatsby-cli": "^5.12.4",
-    "gatsby-plugin-image": "^3.12.3",
-    "gatsby-plugin-manifest": "^5.12.3",
-    "gatsby-plugin-sharp": "^5.12.3",
-    "gatsby-source-filesystem": "^5.12.1",
+    "dotenv": "^16.4.5",
+    "gatsby": "^5.13.7",
+    "gatsby-cli": "^5.13.3",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
     "gatsby-source-stripe": "^4.0.0",
-    "gatsby-transformer-remark": "^6.12.3",
-    "gatsby-transformer-sharp": "^5.12.3",
-    "react-bootstrap": "^2.9.1",
-    "react-dom": "^18.2.0",
+    "gatsby-transformer-remark": "^6.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
     "react-twitter-embed": "^4.0.4",
-    "uuid": "^9.0.1"
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
-    "prettier": "^3.1.1"
+    "prettier": "^3.3.3"
   },
   "repository": {
     "type": "git",
