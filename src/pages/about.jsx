@@ -29,13 +29,14 @@ const AboutLayout = () => {
             The Golden Hurricast took up the mantle and officially debuted in
             August of 2018. <br /> <br /> Since then, we've been lucky enough to chat with several TU players, coaches, and administrators including:
               <ul style={{marginTop: '0.5rem'}}>
+                <li><b>Brad Carson</b> - Current President</li>
+                <li><b>Justin Moore</b> - Current Athletic Director</li>
+                <li><b>Rick Dickson</b> - Former Athletic Director</li>
                 <li><b>Eric Konkol</b> - Head Men's Basketball Coach</li>
                 <li><b>Angie Nelp</b> - Head Women's Basketball Coach</li>
                 <li><b>Dane Evans</b> - Former QB</li>
                 <li><b>Steve Gage</b> - Former QB</li>
                 <li><b>Trevis Gipson</b> - Former DE</li>
-                <li><b>Brad Carson</b> - Current President</li>
-                <li><b>Rick Dickson</b> - Current & Former Athletic Director</li>
               </ul>
               
             We've also brought on Tulsa media personalities such as:

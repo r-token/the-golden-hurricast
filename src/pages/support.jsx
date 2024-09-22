@@ -76,7 +76,7 @@ const SupportLayout = () => {
             >
               tip on Twitter
           </a>
-          . Just tap the dollar bills at the top of our profile (mobile devices only).
+          . Just tap the dollar bills icon at the top of our profile.
           </p>
           
         </Container>

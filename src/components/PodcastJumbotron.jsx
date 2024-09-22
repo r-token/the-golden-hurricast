@@ -30,14 +30,14 @@ const PodcastJumbotron = () => {
                 </Col>
                 <br /> <br />
                 <Col xs={6} xl={2}>
-                    <a rel='noopener noreferrer' target='_blank' href='https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy81MzJkN2I0L3BvZGNhc3QvcnNz'>
-                        <img src='/listenOnX/listenOn_Google.svg' alt='Listen on Google Podcasts' width='139px'/>
+                    <a rel='noopener noreferrer' target='_blank' href='https://overcast.fm/itunes1435008302/the-golden-hurricast'>
+                        <img src='/listenOnX/listenOn_Overcast.svg' alt='Listen on Overcast' width='139px'/>
                     </a>
                 </Col>
                 <br /> <br />
                 <Col xs={6} xl={2}>
-                    <a rel='noopener noreferrer' target='_blank' href='https://overcast.fm/itunes1435008302/the-golden-hurricast'>
-                        <img src='/listenOnX/listenOn_Overcast.svg' alt='Listen on Overcast' width='139px'/>
+                    <a rel='noopener noreferrer' target='_blank' href='https://pca.st/podcast/eba6ed30-9102-0136-7b92-27f978dac4db'>
+                        <img src='/listenOnX/listen-on-pocket-casts.svg' alt='Listen on Pocket Casts' width='139px'/>
                     </a>
                 </Col>
                 <br /> <br />
@@ -48,12 +48,9 @@ const PodcastJumbotron = () => {
                 </Col>
                 <br /><br />
                 <Col xs={6} xl={2}>
-                    <a href="https://goodpods.com/podcasts/the-golden-hurricast-185396">
-                      <img src="https://storage.googleapis.com/goodpods-images-bucket/badges/generic-badge-4.svg" alt="listen to The  Golden Hurricast podcast on goodpods" width='139px' />
+                    <a rel='noopener noreferrer' target='_blank' href='https://goodpods.com/podcasts/the-golden-hurricast-185396'>
+                        <img src='/listenOnX/listen-on-goodpods.svg' alt='Listen on Goodpods' width='139px' height='36px'/>
                     </a>
-                    {/* <a rel='noopener noreferrer' target='_blank' href='https://pca.st/DTV0'>
-                        <img src='/listenOnX/listenOn_PocketCasts.svg' alt='Listen on Pocket Casts' width='139px'/>
-                    </a> */}
                 </Col>
             </Row>
         </Container>
