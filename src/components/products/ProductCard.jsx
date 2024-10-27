@@ -77,7 +77,8 @@ const ProductCard = ({ product }) => {
 			lineItems: [{ price: priceId, quantity: Number.parseInt(quantity) }],
 			shippingAddressCollection: {allowedCountries: ['US']},
 			successUrl: `${window.location.origin}/merch-success?productId=${productId}&orderId=${orderId}&quantity=${quantity}`,
-			cancelUrl: `${window.location.origin}/merch`
+			cancelUrl: `${window.location.origin}/merch`,
+			allowPromotionCodes: true
 		})
 
 		if (error) {
