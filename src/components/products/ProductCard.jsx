@@ -74,14 +74,6 @@ const ProductCard = ({ product }) => {
 		const quantity = new FormData(event.target).get('quantitySelect');
 	
 		const stripe = await getStripe();
-		
-		// Log the request to check what we're sending
-		console.log('Sending request with:', {
-		  priceId,
-		  quantity,
-		  productId,
-		  orderId,
-		});
 	
 		const response = await fetch('/api/create-stripe-checkout-session', {
 		  method: 'POST',
@@ -98,7 +90,6 @@ const ProductCard = ({ product }) => {
 	
 		// Log the response to check what we're getting back
 		const data = await response.json();
-		console.log('Received response:', data);
 	
 		if (!data.sessionId) {
 		  throw new Error('No sessionId received from server');
