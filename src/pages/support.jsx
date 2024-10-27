@@ -72,9 +72,9 @@ const SupportLayout = () => {
             <a
               rel='noopener noreferrer'
               target='_blank'
-              href='https://twitter.com/goldenhurricast'
+              href='https://x.com/goldenhurricast'
             >
-              tip on Twitter
+              tip on X
           </a>
           . Just tap the dollar bills icon at the top of our profile.
           </p>

@@ -86,11 +86,11 @@ const AboutLayout = () => {
           <h4> Contact Us </h4>
           <hr />
           <p>
-            Twitter:{' '}
+            X:{' '}
             <a
               rel='noopener noreferrer'
               target='_blank'
-              href='https://twitter.com/goldenhurricast'
+              href='https://x.com/goldenhurricast'
             >
               @GoldenHurricast
           </a>

@@ -58,11 +58,10 @@ const HomeJumbotron = () => {
                   style={{marginRight: '15px'}}
                   rel='noopener noreferrer'
                   target='_blank'
-                  href='https://twitter.com/goldenhurricast'
+                  href='https://x.com/goldenhurricast'
                 >
                   <picture>
-                    <source type='image/webp' srcSet='/brand_icons/twitter.webp' style={{ height: '35px', width: '35px' }} />
-                    <img src='/brand_icons/twitter.png' alt='Twitter icon' style={{ height: '35px', width: '35px' }} />
+                    <img src='/brand_icons/x.png' alt='X icon' style={{ height: '35px', width: '35px' }} />
                   </picture>
                 </a>
     
