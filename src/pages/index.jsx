@@ -132,7 +132,7 @@ const HomeLayout = ({data}) => {
             
             <Col md={{ span: 5, offset: 1 }}>
               <Row>
-                <h4>Twitter</h4>
+                <h4>X Feed</h4>
               </Row>
               <hr />
               <Row>
