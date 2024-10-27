@@ -91,7 +91,7 @@ export const Head = () => {
     <>
       <Seo
         title={'The Golden Hurricast – Blog'}
-        description={"Herc's Corner. The Golden Hurriblog. Whatever you want to call it, we'll use this to dive deeper into stats, explore TU history, and more"}
+        description={"Hurc's Corner. The Golden Hurriblog. Whatever you want to call it, we'll use this to dive deeper into stats, explore TU history, and more"}
         image={'/logo-white.jpg'}
       />
       <meta charSet='utf-8' />

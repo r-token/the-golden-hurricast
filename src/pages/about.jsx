@@ -62,7 +62,7 @@ const AboutLayout = () => {
           <h4> Our Blog </h4>
           <hr />
           <p>
-            In the fall of 2019, we decided to up our game a bit and create a <a href='/blog'>blog</a>. Affectionately known as Herc's Corner, our blog was officially born on September 19, 2019. The name Herc's Corner comes from TU's former mascot Herc the Hurricane (also known as Huffy, but we prefer Herc).
+            In the fall of 2019, we decided to up our game a bit and create a <a href='/blog'>blog</a>. Affectionately known as Hurc's Corner, our blog was officially born on September 19, 2019. The name Hurc's Corner comes from TU's former mascot Hurc the Hurricane (also known as Huffy, but we prefer Hurc).
           </p>
           <p>
             Our goal with this blog is to dive deeper into stats, explore TU history, and write about interesting milestones as Tulsa athletics continues to progress. Matt (former Sports Editor for The Collegian) kicked things off by writing a couple stat-focused articles, and Ryan joined in with {''}

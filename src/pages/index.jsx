@@ -77,7 +77,7 @@ const HomeLayout = ({data}) => {
               <hr />
               <Row>
                 <p>
-                  Affectionately known as Herc's Corner, our goal with this blog
+                  Affectionately known as Hurc's Corner, our goal with this blog
                   is to dive deeper into stats, explore TU history, and write
                   about interesting milestones as Tulsa athletics continues to
                   progress.

@@ -207,7 +207,7 @@ The color combination is one thing, but the colors alone don’t set this unifor
 
 That, dear reader, is a fantastic mascot. Tulane originally came up with this in 1963. However, in the worst decision that university has ever made, they ditched it in 1998. Fast forward to 2016, and Tulane brings it back with a vengeance. 
 
-The Angry Wave is on midfield, and a huge, 3D Angry Wave lives on top of their video board. Or at least it did at some point, I can’t confirm whether it’s still there or not. Just imagine if Tulsa brought back Herc, our cute little popcorn/cloud mascot. We could have the duel of the century. I can see it now.
+The Angry Wave is on midfield, and a huge, 3D Angry Wave lives on top of their video board. Or at least it did at some point, I can’t confirm whether it’s still there or not. Just imagine if Tulsa brought back Hurc, our cute little popcorn/cloud mascot. We could have the duel of the century. I can see it now.
 
 ![Battle](/blog_images/rivalries/rivalries-battle.jpeg)
 
