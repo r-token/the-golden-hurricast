@@ -64,28 +64,59 @@ const ProductCard = ({ product }) => {
 	const remainingItems = product.remainingItems
 
 	const handleSubmit = async event => {
-		event.preventDefault()
-		setLoading(true)
-
-		const productId = product.id
-		const orderId = uuidv4()
-		const priceId = new FormData(event.target).get('priceSelect')
-		const quantity = new FormData(event.target).get('quantitySelect')
-		const stripe = await getStripe()
-		const { error } = await stripe.redirectToCheckout({
-			mode: 'payment',
-			lineItems: [{ price: priceId, quantity: Number.parseInt(quantity) }],
-			shippingAddressCollection: {allowedCountries: ['US']},
-			successUrl: `${window.location.origin}/merch-success?productId=${productId}&orderId=${orderId}&quantity=${quantity}`,
-			cancelUrl: `${window.location.origin}/merch`,
-			allowPromotionCodes: true
-		})
-
-		if (error) {
-			console.warn('Error:', error)
-			setLoading(false)
+	  event.preventDefault();
+	  setLoading(true);
+	
+	  try {
+		const productId = product.id;
+		const orderId = uuidv4();
+		const priceId = new FormData(event.target).get('priceSelect');
+		const quantity = new FormData(event.target).get('quantitySelect');
+	
+		const stripe = await getStripe();
+		
+		// Log the request to check what we're sending
+		console.log('Sending request with:', {
+		  priceId,
+		  quantity,
+		  productId,
+		  orderId,
+		});
+	
+		const response = await fetch('/api/create-stripe-checkout-session', {
+		  method: 'POST',
+		  headers: {
+			'Content-Type': 'application/json'  // Add this header
+		  },
+		  body: JSON.stringify({
+			priceId,
+			quantity,
+			productId,
+			orderId,
+		  }),
+		});
+	
+		// Log the response to check what we're getting back
+		const data = await response.json();
+		console.log('Received response:', data);
+	
+		if (!data.sessionId) {
+		  throw new Error('No sessionId received from server');
 		}
-	}
+	
+		const { error } = await stripe.redirectToCheckout({ 
+		  sessionId: data.sessionId  // Make sure we're using the correct property
+		});
+	
+		if (error) {
+		  console.warn('Redirect Error:', error);
+		  setLoading(false);
+		}
+	  } catch (error) {
+		console.error('Error:', error);
+		setLoading(false);
+	  }
+	};
 
 	if (remainingItems <= 0) {
 		return (
