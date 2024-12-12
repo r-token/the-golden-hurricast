@@ -19,7 +19,7 @@ const HomeJumbotron = () => {
             
             <ButtonToolbar>
               <a
-                style={{ marginRight: '15px' }}
+                style={{ marginRight: '10px' }}
                 rel='noopener noreferrer'
                 target='_blank'
                 href='https://podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?mt=2'
@@ -31,7 +31,7 @@ const HomeJumbotron = () => {
               </a>
     
               <a
-                style={{ marginRight: '15px' }}
+                style={{ marginRight: '10px' }}
                 rel='noopener noreferrer'
                 target='_blank'
                 href='https://open.spotify.com/show/16ik0AuBrpVBfWn73jlJio'
@@ -43,7 +43,7 @@ const HomeJumbotron = () => {
               </a>
     
               <a
-                style={{ marginRight: '15px' }}
+                style={{ marginRight: '10px' }}
                 rel='noopener noreferrer'
                 target='_blank'
                 href='https://overcast.fm/itunes1435008302/the-golden-hurricast'
@@ -55,7 +55,18 @@ const HomeJumbotron = () => {
               </a>
               
               <a
-                  style={{marginRight: '15px'}}
+                  style={{ marginRight: '10px' }}
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  href='https://patreon.com/thegoldenhurricast'
+                >
+                  <picture>
+                    <img src='/brand_icons/patreon.png' alt='Patreon icon' style={{ height: '35px', width: '35px' }} />
+                  </picture>
+                </a>
+              
+              <a
+                  style={{marginRight: '10px'}}
                   rel='noopener noreferrer'
                   target='_blank'
                   href='https://x.com/goldenhurricast'
@@ -66,7 +77,7 @@ const HomeJumbotron = () => {
                 </a>
     
               <a
-                style={{ marginRight: '15px' }}
+                style={{ marginRight: '10px' }}
                 rel='noopener noreferrer'
                 target='_blank'
                 href='mailto:thegoldenhurricast@gmail.com'

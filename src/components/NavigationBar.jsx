@@ -18,10 +18,10 @@ const NavigationBar = () => {
         <Navbar.Collapse id='responsive-navbar-nav' style={{ marginLeft: '17px' }}>
           <Nav className='ms-auto'>
             <Nav.Link href='../podcast'>Podcast</Nav.Link>
-            <Nav.Link href='../blog'>Blog</Nav.Link>
+            <Nav.Link href='https://patreon.com/thegoldenhurricast'>Patreon</Nav.Link>
             <Nav.Link href='../merch'>Merch</Nav.Link>
-            <Nav.Link href='../about'>About Us</Nav.Link>
-            <Nav.Link href='../support'>Support Us</Nav.Link>
+            <Nav.Link href='../about'>About</Nav.Link>
+            <Nav.Link href='../support'>Support</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

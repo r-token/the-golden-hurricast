@@ -23,6 +23,7 @@ const BlogLayout = ({data}) => {
           <div style={{display: 'flex', alignItems: 'center'}}>
             <Container className='blogedge'>
               <h4>All Posts</h4>
+              <p style={{ fontWeight:"bold" }}>This blog has been discontinued. We're primarily writing over on our <a href="https://patreon.com/thegoldenhurricast">Patreon</a> now. Check it out!</p>
               <hr style={{width: '100%'}} />
             </Container>
           </div>

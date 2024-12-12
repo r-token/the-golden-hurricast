@@ -26,14 +26,29 @@ const SupportLayout = () => {
           <hr />
           
           <p>
-            <b>Way #1:</b> Sign up for a {' '}
+            <b>Way #1:</b> Join our {' '}
+              <a
+                rel='noopener noreferrer'
+                target='_blank'
+                href='https://patreon.com/thegoldenhurricast'
+              >
+                Patreon
+              </a>
+            {'! '}
+            Unlock access to our newsletter, advanced stat breakdowns, automatic NIL contributions, and much more.
+          </p>
+          
+          <br />
+          
+          <p>
+            <b>Way #2:</b> Sign up for a {' '}
               <a
                 rel='noopener noreferrer'
                 target='_blank'
                 href='https://podcasters.spotify.com/pod/show/thegoldenhurricast/support'
               >
                 recurring monthly donation
-            </a>
+              </a>
             {' '}
             on Spotify for Podcasters (our podcast host).
           </p>
@@ -42,7 +57,7 @@ const SupportLayout = () => {
           
           <p>
             {' '}
-            <b>Way #2:</b> Buy our{' '}
+            <b>Way #3:</b> Buy our{' '}
             <a href='/merch'>
               merchandise
             </a>
@@ -53,7 +68,7 @@ const SupportLayout = () => {
           
           <p>
             {' '}
-            <b>Way #3:</b> Make a{' '}
+            <b>Way #4:</b> Make a{' '}
             <a
               rel='noopener noreferrer'
               target='_blank'
@@ -68,7 +83,7 @@ const SupportLayout = () => {
           
           <p>
             {' '}
-            <b>Way #4:</b> Leave a{' '}
+            <b>Way #5:</b> Leave a{' '}
             <a
               rel='noopener noreferrer'
               target='_blank'

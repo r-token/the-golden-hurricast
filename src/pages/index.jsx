@@ -51,22 +51,6 @@ const HomeLayout = ({data}) => {
                   </Button>
                 </p>
               </Row>
-              {/* <Row style={{ width: '220px', margin: '0px'}}>
-                <picture style={{padding: '10px'}} className='floating_still_image'>
-                  <a href='/podcast'>
-                    <source
-                      type='image/webp'
-                      srcSet='/logo-300px.webp'
-                      style={{ height: '200px', width: '200px' }}
-                    />
-                    <img
-                      src='/logo-300px.webp'
-                      alt='The Golden Hurricast logo'
-                      style={{ height: '200px', width: '200px' }}
-                    />
-                  </a>
-                </picture>
-              </Row> */}
               <Row>
                 <iframe title='Apple Podcasts Embed' src='https://embed.podcasts.apple.com/us/podcast/the-golden-hurricast/id1435008302?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=light' height='450px' frameBorder='0' sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation' allow='autoplay *; encrypted-media *; clipboard-write' style={{display: 'flex', marginLeft: 'auto', marginRight: 'auto', width: '100%', maxWidth: '660px', overflow: 'hidden', borderRadius: '10px', backgroundColor: 'transparent'}}></iframe>
               </Row>
@@ -131,6 +115,38 @@ const HomeLayout = ({data}) => {
             </Col>
             
             <Col md={{ span: 5, offset: 1 }}>
+              <Row>
+                <h4>Patreon</h4>
+              </Row>
+              <hr />
+              <Row>
+                <p>
+                  Unlock access to our newsletter, advanced stat breakdowns, a private Discord, automatic NIL contributions, and more.
+                </p>
+              </Row>
+              <Row>
+                <p>
+                  <Button variant='outline-dark' href='https://patreon.com/thegoldenhurricast'>
+                    Join our Patreon
+                  </Button>
+                </p>
+              </Row>
+              
+              <Row>
+                <picture>
+                  <a href="https://patreon.com/thegoldenhurricast">
+                    <img 
+                      src="/patreon.png" 
+                      alt="Patreon membership tiers screenshot" 
+                      className="img-fluid w-100 rounded"
+                      style={{ maxWidth: '100%' }}
+                    />
+                  </a>
+                </picture>
+              </Row>
+              
+              <br /> <br />
+            
               <Row>
                 <h4>X Feed</h4>
               </Row>
