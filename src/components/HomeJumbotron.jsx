@@ -41,18 +41,6 @@ const HomeJumbotron = () => {
                   <img src='/brand_icons/spotify.png' alt='Spotify icon' style={{ height: '35px', width: '35px' }} />
                 </picture>
               </a>
-    
-              <a
-                style={{ marginRight: '10px' }}
-                rel='noopener noreferrer'
-                target='_blank'
-                href='https://overcast.fm/itunes1435008302/the-golden-hurricast'
-              >
-                <picture>
-                  <source type='image/webp' srcSet='/brand_icons/overcast.webp' style={{ height: '35px', width: '35px' }} />
-                  <img src='/brand_icons/overcast.png' alt='Overcast icon' style={{ height: '35px', width: '35px' }} />
-                </picture>
-              </a>
               
               <a
                   style={{ marginRight: '10px' }}
@@ -64,17 +52,28 @@ const HomeJumbotron = () => {
                     <img src='/brand_icons/patreon.png' alt='Patreon icon' style={{ height: '35px', width: '35px' }} />
                   </picture>
                 </a>
+                
+              <a
+                style={{ marginRight: '10px', paddingTop: '3px' }}
+                rel='noopener noreferrer'
+                target='_blank'
+                href='https://discord.gg/xkPegtBjVD'
+              >
+                <picture>
+                  <img src='/brand_icons/discord.png' alt='Discord icon' style={{ height: '26px', width: '35px' }} />
+                </picture>
+              </a>
               
               <a
-                  style={{marginRight: '10px'}}
-                  rel='noopener noreferrer'
-                  target='_blank'
-                  href='https://x.com/goldenhurricast'
-                >
-                  <picture>
-                    <img src='/brand_icons/x.png' alt='X icon' style={{ height: '35px', width: '35px' }} />
+                style={{marginRight: '10px'}}
+                rel='noopener noreferrer'
+                target='_blank'
+                href='https://x.com/goldenhurricast'
+              >
+                <picture>
+                  <img src='/brand_icons/x.png' alt='X icon' style={{ height: '35px', width: '35px' }} />
                   </picture>
-                </a>
+              </a>
     
               <a
                 style={{ marginRight: '10px' }}

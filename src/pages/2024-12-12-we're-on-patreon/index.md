@@ -22,7 +22,7 @@ It comes in three tiers:
 
 * 10% goes directly to the Hurricane Impact NIL collective every month
 * Access to our newsletter
-* Access to a private Discord chat with us & other TGH patrons
+* Access to a private <a href="https://discord.gg/xkPegtBjVD">Discord</a> chat with us & other TGH patrons
 * Premium content
 * 20% off all Hurricast merch
 
@@ -77,7 +77,7 @@ We're offering quite a bit of new content as part of this plan, and the paid mem
 
 <br />
 
-So that's the paid membership program through Patreon. Access to our newsletter, advanced stat breakdowns, automatic NIL contributions, a private Discord, and a bunch more.
+So that's the paid membership program through Patreon. Access to our newsletter, advanced stat breakdowns, automatic NIL contributions, a private <a href="https://discord.gg/xkPegtBjVD">Discord</a>, and a bunch more.
 
 Our first newsletter (<a href="https://www.patreon.com/posts/tre-lamb-deep-117801410?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link">The Tre Lamb Deep Dive</a>) and advanced stat breakdown (<a href="https://www.patreon.com/posts/tre-lamb-by-117770880?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link">Tre Lamb by the Numbers</a>) are already out.
 
