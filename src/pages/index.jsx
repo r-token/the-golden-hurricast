@@ -61,10 +61,7 @@ const HomeLayout = ({data}) => {
               <hr />
               <Row>
                 <p>
-                  Affectionately known as Hurc's Corner, our goal with this blog
-                  is to dive deeper into stats, explore TU history, and write
-                  about interesting milestones as Tulsa athletics continues to
-                  progress.
+                  We've discontinued this blog. We're writing much more often over on our <a href="https://patreon.com/thegoldenhurricast" rel='noopener noreferrer' target='_blank'>Patreon</a> now. Check it out!
                 </p>
               </Row>
               
