@@ -45,12 +45,12 @@ const SupportLayout = () => {
               <a
                 rel='noopener noreferrer'
                 target='_blank'
-                href='https://podcasters.spotify.com/pod/show/thegoldenhurricast/support'
+                href='https://creators.spotify.com/pod/show/thegoldenhurricast/support'
               >
                 recurring monthly donation
               </a>
             {' '}
-            on Spotify for Podcasters (our podcast host).
+            on Spotify for Creators (our podcast host).
           </p>
           
           <br />

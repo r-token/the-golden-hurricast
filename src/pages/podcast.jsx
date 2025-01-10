@@ -21,7 +21,7 @@ const PodcastLayout = () => {
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <Container className='podstyle'>
             <p>
-              Tune in as we discuss Tulsa athletics with TU figures including <a href='https://utulsa.edu/president/brad-carson/' target='_blank' rel='noreferrer'>President Brad Carson</a>, <a href='https://utulsa.edu/about/leadership/executive-staff/justin-moore/' target='_blank' rel='noreferrer'>AD Justin Moore</a>, <a href='https://tulsahurricane.com/staff-directory/tre-lamb/2657' target='_blank' rel='noreferrer'>Head Football Coach Tre Lamb</a>, <a href='https://tulsahurricane.com/staff-directory/eric-konkol/2458' target='_blank' rel='noreferrer'>Head Men's Basketball Coach Eric Konkol</a>, <a href='https://tulsahurricane.com/sports/womens-basketball/roster/coaches/angie-nelp/1685' target='_blank' rel='noreferrer'>Head Women's Basketball Coach Angie Nelp</a>, <a href='https://tulsahurricane.com/sports/football/roster/dane-evans/5365' target='_blank' rel='noreferrer'>QB Dane Evans</a>, and <a href='https://tulsahurricane.com/sports/football/roster/trevis-gipson/8011' target='_blank' rel='noreferrer'>DE Trevis Gipson</a>, media personalities such as <a href='https://tulsahurricane.com/staff-directory/bruce-howard/25' target='_blank' rel='noreferrer'>Bruce Howard</a>, <a href='https://www.kjrh.com/cayden-mcfarland' target='_blank' rel='noreferrer'>Cayden McFarland</a>, and <a href='https://tulsaworld.com/users/profile/kelly%20hines/' target='_blank' rel='noreferrer'>Kelly Hines</a>, and conference foes like Tulane's <a href='https://twitter.com/FearTheWaveBlog' target='_blank' rel='noreferrer'>Fear the Wave</a>, ECU's <a href='https://twitter.com/BoneyardPodcast' target='_blank' rel='noreferrer'>Boneyard Podcast</a>, and USF's <a href='https://x.com/SteegLife' target='_blank' rel='noreferrer'>Bay Area Examiner</a>.
+              Tune in as we discuss Tulsa athletics with TU figures including <a href='https://utulsa.edu/about/leadership/president/brad-carson/' target='_blank' rel='noreferrer'>President Brad Carson</a>, <a href='https://utulsa.edu/about/leadership/executive-staff/justin-moore/' target='_blank' rel='noreferrer'>AD Justin Moore</a>, <a href='https://tulsahurricane.com/staff-directory/tre-lamb/2657' target='_blank' rel='noreferrer'>Head Football Coach Tre Lamb</a>, <a href='https://tulsahurricane.com/staff-directory/eric-konkol/2458' target='_blank' rel='noreferrer'>Head Men's Basketball Coach Eric Konkol</a>, <a href='https://tulsahurricane.com/sports/womens-basketball/roster/coaches/angie-nelp/1685' target='_blank' rel='noreferrer'>Head Women's Basketball Coach Angie Nelp</a>, <a href='https://tulsahurricane.com/sports/football/roster/dane-evans/5365' target='_blank' rel='noreferrer'>QB Dane Evans</a>, and <a href='https://tulsahurricane.com/sports/football/roster/trevis-gipson/8011' target='_blank' rel='noreferrer'>DE Trevis Gipson</a>, media personalities such as <a href='https://tulsahurricane.com/staff-directory/bruce-howard/25' target='_blank' rel='noreferrer'>Bruce Howard</a>, <a href='https://www.kjrh.com/cayden-mcfarland' target='_blank' rel='noreferrer'>Cayden McFarland</a>, and <a href='https://tulsaworld.com/users/profile/kelly%20hines/' target='_blank' rel='noreferrer'>Kelly Hines</a>, and conference foes like Tulane's <a href='https://twitter.com/FearTheWaveBlog' target='_blank' rel='noreferrer'>Fear the Wave</a>, ECU's <a href='https://twitter.com/BoneyardPodcast' target='_blank' rel='noreferrer'>Boneyard Podcast</a>, and USF's <a href='https://x.com/SteegLife' target='_blank' rel='noreferrer'>Bay Area Examiner</a>.
             </p>
             
             <p>
@@ -29,9 +29,9 @@ const PodcastLayout = () => {
               <a
                 rel='noopener noreferrer'
                 target='_blank'
-                href='https://podcasters.spotify.com/pod/show/thegoldenhurricast'
+                href='https://creators.spotify.com/pod/show/thegoldenhurricast'
               >
-                Spotify for Podcasters.
+                Spotify for Creators.
               </a>
             </p>
           </Container>
