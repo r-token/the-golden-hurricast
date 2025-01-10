@@ -32,6 +32,7 @@ const AboutLayout = () => {
                 <li><b>Brad Carson</b> - Current President</li>
                 <li><b>Justin Moore</b> - Current Athletic Director</li>
                 <li><b>Rick Dickson</b> - Former Athletic Director</li>
+                <li><b>Tre Lamb</b> - Head Football Coach</li>
                 <li><b>Eric Konkol</b> - Head Men's Basketball Coach</li>
                 <li><b>Angie Nelp</b> - Head Women's Basketball Coach</li>
                 <li><b>Dane Evans</b> - Former QB</li>
