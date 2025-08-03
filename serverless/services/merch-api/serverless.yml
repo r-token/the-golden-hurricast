@@ -5,12 +5,11 @@ service: merch-api
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
-frameworkVersion: '3'
 useDotenv: true
 
 provider:
   name: aws
-  runtime: nodejs20.x
+  runtime: nodejs22.x
   stage: dev
   region: us-east-2
   profile: tgh-ryan
@@ -57,10 +56,6 @@ custom:
   warmup:
     default:
       enabled: false
-  esbuild:
-    bundle: true
-    minify: true
-    config: '../../esbuild.config.js'
 
 functions:
   calculateRemainingItems:
@@ -86,9 +81,10 @@ functions:
 package:
   individually: true
   excludeDevDependencies: true
+  patterns:
+    - '../../shared/**'
   
 plugins:
-  - serverless-esbuild
   - serverless-plugin-common-excludes
   - serverless-plugin-warmup
   

@@ -2,11 +2,11 @@
 
 require('dotenv').config()
 
-const eventWasWarmup = require('../../shared/utils').eventWasWarmup
+const eventWasWarmup = require('./shared/utils').eventWasWarmup
 
 const calculateRemainingItems = async (event, context) => {
   const setupBaseVarsForGetRemaining = require('./utils').setupBaseVarsForGetRemaining
-  const getAllItemsFromTable = require('../../shared/utils').getAllItemsFromTable
+  const getAllItemsFromTable = require('./shared/utils').getAllItemsFromTable
   
   console.log('event:', JSON.stringify(event, null, 2))
   if (eventWasWarmup(event)) { return 'Lambda is warm!' }
@@ -137,7 +137,7 @@ const calculateRemainingItems = async (event, context) => {
 
 const addOrderToTable = async (event, context) => {
   const setupBaseVarsForAddOrder = require('./utils').setupBaseVarsForAddOrder
-  const uploadToDynamo = require('../../shared/utils').uploadToDynamo
+  const uploadToDynamo = require('./shared/utils').uploadToDynamo
   
   console.log('event:', JSON.stringify(event, null, 2))
   if (eventWasWarmup(event)) { return 'Lambda is warm!' }

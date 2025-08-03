@@ -1,8 +1,8 @@
 'use strict'
 
 const KSUID = require('ksuid')
-const eventWasWarmup = require('../../shared/utils').eventWasWarmup
-const uploadToDynamo = require('../../shared/utils').uploadToDynamo
+const eventWasWarmup = require('./shared/utils').eventWasWarmup
+const uploadToDynamo = require('./shared/utils').uploadToDynamo
 const questionsTable = process.env.QUESTIONS_TABLE
 
 const submitQuestion = async (event, context) => {
