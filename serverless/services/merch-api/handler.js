@@ -2,14 +2,11 @@
 
 require('dotenv').config()
 
-const eventWasWarmup = require('./shared/utils').eventWasWarmup
-
 const calculateRemainingItems = async (event, context) => {
   const setupBaseVarsForGetRemaining = require('./utils').setupBaseVarsForGetRemaining
   const getAllItemsFromTable = require('./shared/utils').getAllItemsFromTable
   
   console.log('event:', JSON.stringify(event, null, 2))
-  if (eventWasWarmup(event)) { return 'Lambda is warm!' }
   
   const stage = process.env.STAGE
   const ordersTable = process.env.ORDERS_TABLE
@@ -140,7 +137,6 @@ const addOrderToTable = async (event, context) => {
   const uploadToDynamo = require('./shared/utils').uploadToDynamo
   
   console.log('event:', JSON.stringify(event, null, 2))
-  if (eventWasWarmup(event)) { return 'Lambda is warm!' }
   
   const { productId, orderId, quantity, ordersTable } = setupBaseVarsForAddOrder(event)
   

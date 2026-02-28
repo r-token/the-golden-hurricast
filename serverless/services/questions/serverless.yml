@@ -4,7 +4,7 @@ service: questions
 
 provider:
   name: aws
-  runtime: nodejs22.x
+  runtime: nodejs24.x
   stage: dev
   region: us-east-2
   profile: tgh-ryan
@@ -49,11 +49,6 @@ params:
   dev:
     shouldMinifyCode: false
 
-custom:
-  warmup:
-    default:
-      enabled: false
-
 package:
   individually: true
   excludeDevDependencies: true
@@ -62,7 +57,6 @@ package:
   
 plugins:
   - serverless-plugin-common-excludes
-  - serverless-plugin-warmup
   
 functions:
   submitQuestion:
@@ -71,9 +65,6 @@ functions:
       - httpApi:
           path: /question
           method: POST
-    warmup:
-      default:
-        enabled: prod
   
   forwardQuestionToSlack:
     handler: stream.forwardQuestionToSlack

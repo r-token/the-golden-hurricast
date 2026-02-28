@@ -1,13 +1,11 @@
 'use strict'
 
 const KSUID = require('ksuid')
-const eventWasWarmup = require('./shared/utils').eventWasWarmup
 const uploadToDynamo = require('./shared/utils').uploadToDynamo
 const questionsTable = process.env.QUESTIONS_TABLE
 
 const submitQuestion = async (event, context) => {
   console.log('event:', JSON.stringify(event, null, 2))
-  if (eventWasWarmup(event)) { return 'Lambda is warm!' }
   
   const eventBody = JSON.parse(event.body)
   

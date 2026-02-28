@@ -9,7 +9,7 @@ useDotenv: true
 
 provider:
   name: aws
-  runtime: nodejs22.x
+  runtime: nodejs24.x
   stage: dev
   region: us-east-2
   profile: tgh-ryan
@@ -52,17 +52,9 @@ params:
   dev:
     ordersTable: Orders-dev
 
-custom:
-  warmup:
-    default:
-      enabled: false
-
 functions:
   calculateRemainingItems:
     handler: handler.calculateRemainingItems
-    warmup:
-      default:
-        enabled: prod
     events:
       - httpApi:
           method: GET
@@ -70,9 +62,6 @@ functions:
     
   addOrderToTable:
     handler: handler.addOrderToTable
-    warmup:
-      default:
-        enabled: prod
     events:
       - httpApi:
           method: POST
@@ -86,7 +75,6 @@ package:
   
 plugins:
   - serverless-plugin-common-excludes
-  - serverless-plugin-warmup
   
 resources:
   Resources:

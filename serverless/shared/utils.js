@@ -6,15 +6,6 @@ const { DynamoDBDocumentClient, PutCommand, ScanCommand } = require('@aws-sdk/li
 const client = new DynamoDBClient({})
 const ddbDocClient = DynamoDBDocumentClient.from(client)
 
-const eventWasWarmup = (event) => {
-	if (event.source === 'serverless-plugin-warmup') {
-		console.log('WarmUp - Lambda is warm!')
-		return true
-	} else {
-		return false
-	}
-}
-
 const uploadToDynamo = async (tableName, itemObject) => {
 	const params = {
 		TableName: tableName,
@@ -42,7 +33,6 @@ const getAllItemsFromTable = async (table) => {
 }
 
 module.exports = {
-	eventWasWarmup,
 	uploadToDynamo,
 	getAllItemsFromTable
 }
