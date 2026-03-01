@@ -6,10 +6,11 @@ exports.default = exports.ProdLoader = exports.PageResourceStatus = exports.Base
 exports.getSliceResults = getSliceResults;
 exports.getStaticQueryResults = getStaticQueryResults;
 exports.setLoader = exports.publicLoader = void 0;
-var _reactServerDomWebpack = require("react-server-dom-webpack");
 var _prefetch = _interopRequireDefault(require("./prefetch"));
 var _emitter = _interopRequireDefault(require("./emitter"));
 var _findPath = require("./find-path");
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 /**
  * Available resource loading statuses
  */
@@ -459,7 +460,11 @@ class BaseLoader {
                 },
                 cancel() {}
               });
-              return waitForResponse((0, _reactServerDomWebpack.createFromReadableStream)(readableStream)).then(result => {
+
+              // Only load this experimental module if opting in to experimental Partial Hydration
+              return Promise.resolve().then(() => _interopRequireWildcard(require(`react-server-dom-webpack`))).then(({
+                createFromReadableStream
+              }) => waitForResponse(createFromReadableStream(readableStream))).then(result => {
                 pageResources.partialHydration = result;
                 return pageResources;
               });
