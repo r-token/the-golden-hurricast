@@ -244,6 +244,17 @@ export const GUEST_GROUPS: GuestGroup[] = [
 				]
 			},
 			{
+				name: 'Rice',
+				guests: [
+					{
+						name: 'Matthew Bartlett',
+						role: 'The Roost',
+						url: 'https://attheroost.com/',
+						appearances: ['9-8']
+					}
+				]
+			},
+			{
 				name: 'South Florida',
 				guests: [
 					{
